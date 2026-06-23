@@ -1,0 +1,39 @@
+{
+  "$schema": "achatai-docs-content-tracker-v1",
+  "description": "Content + build tracker for the AChat (Anonymous Chat AI) documentation site. Resumable across sessions: the first section with status != 'complete' is the next thing to work on.",
+  "project": "achatai-docs",
+  "appRepo": "github.com/aoneahsan/anonymous-chat-ai-achatai (PRIVATE)",
+  "docsRepo": "github.com/aoneahsan/achatai-docs (PUBLIC)",
+  "appLive": "https://achat.aoneahsan.com",
+  "docsLive": "https://achatai-docs.aoneahsan.com",
+  "stack": "Docusaurus 3 (classic preset + Mermaid), React 19, TypeScript",
+  "createdAt": "2026-06-23",
+  "lastUpdated": "2026-06-23",
+  "sourceOfTruth": "AChat app source + README + CLAUDE.md (../achatai). Every fact must come from the real app — no invented features.",
+  "honestFraming": "AChat has NO AI/LLM feature despite its brand name; open chats are not private; file bytes are not encrypted at rest; deletion is ~10 days not instant. These limits are documented explicitly.",
+  "buildGates": {
+    "date": "2026-06-23",
+    "install": "yarn install",
+    "build": "yarn build (docusaurus build -> ./build)",
+    "typecheck": "yarn typecheck (tsc --noEmit)"
+  },
+  "sections": [
+    { "id": "intro", "title": "Introduction (definition-first)", "file": "docs/intro.md", "status": "complete" },
+    { "id": "getting-started", "title": "Installation + Quick Start", "files": ["docs/getting-started/installation.md", "docs/getting-started/quick-start.md"], "status": "complete" },
+    { "id": "features", "title": "8 feature pages", "files": ["docs/features/anonymous-chats.md", "docs/features/passwords-and-encryption.md", "docs/features/file-sharing.md", "docs/features/threads-and-replies.md", "docs/features/groups-and-communities.md", "docs/features/embeddable-widget.md", "docs/features/keep-chats-and-accounts.md", "docs/features/themes-and-accessibility.md"], "status": "complete" },
+    { "id": "concepts", "title": "3 concept pages (how-it-works, security, data/privacy)", "files": ["docs/concepts/how-it-works.md", "docs/concepts/security-and-encryption.md", "docs/concepts/data-privacy-and-deletion.md"], "status": "complete" },
+    { "id": "faq", "title": "FAQ", "file": "docs/faq.md", "status": "complete" },
+    { "id": "changelog", "title": "Changelog", "file": "docs/changelog.md", "status": "complete" },
+    { "id": "about", "title": "About the Author", "file": "docs/about-the-author.md", "status": "complete" },
+    { "id": "seo-infra", "title": "robots.txt + llms.txt + sitemap + JSON-LD + OG card", "status": "complete" }
+  ],
+  "pageCount": 17,
+  "runHistory": [
+    {
+      "date": "2026-06-23",
+      "summary": "Created the site from the native-update-docs template structure. Wrote all 17 doc pages (intro, getting-started x2, features x8, concepts x3, faq, changelog, about) documenting every real AChat feature with honest limits. SEO/AEO infra: AI-bot-allowlist robots.txt, llms.txt, sitemap (Docusaurus), WebSite+Organization+SoftwareApplication JSON-LD, 1200x630 OG card. Dual hosting (Firebase + GitHub Pages). yarn install + yarn build verified.",
+      "commit": "see git log"
+    }
+  ],
+  "resumeInstructions": "1) cd achatai-docs. 2) yarn install. 3) yarn build (must exit 0). 4) To extend: add a section to sidebars.ts + a docs/*.md page sourced from the real app; keep honest framing; bump lastUpdated; ONE commit. Re-emit sitemap on build (Docusaurus does this automatically)."
+}

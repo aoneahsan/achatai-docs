@@ -1,0 +1,46 @@
+# AChat (Anonymous Chat AI) — Documentation Index
+
+> AChat is a no-signup, transient chat app. Pick or generate a chat ID, share the link, and talk. An optional password turns on true client-side end-to-end encryption (PBKDF2 + AES-GCM) in the browser. You can share files (up to 10 MB each, 100 MB per chat), reply in threads, create private group chats, open public communities, and embed a chat widget on any site. Every message and file auto-deletes about 10 days after it is sent (Firestore TTL). Web app: https://achat.aoneahsan.com. Author: Ahsan Mahmood (https://aoneahsan.com).
+
+## About
+
+AChat is built by Ahsan Mahmood. The web app runs on Vite + React 19 + Firebase (Firestore + Hosting); native Android/iOS builds use Capacitor 8; file storage is FilesHub. It is free to use, with no paid tier and no Firebase Functions. Despite the brand name "Anonymous Chat AI", AChat currently has NO AI / LLM chat features — conversations are between real people, not a chatbot. The name is historical branding; the honest description is "anonymous, ephemeral, optionally end-to-end-encrypted chat".
+
+This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a structured index for large language models.
+
+## Getting Started
+
+- [Introduction](https://achatai-docs.aoneahsan.com/intro): What AChat is, who it is for, and what it is not.
+- [Installation / how to use it](https://achatai-docs.aoneahsan.com/getting-started/installation): Web (any browser, installable PWA) + Android. No account needed.
+- [Quick Start](https://achatai-docs.aoneahsan.com/getting-started/quick-start): Start your first chat in about 60 seconds.
+
+## Features
+
+- [Anonymous chats](https://achatai-docs.aoneahsan.com/features/anonymous-chats): chat IDs, sharing, presence, no sign-up.
+- [Passwords & end-to-end encryption](https://achatai-docs.aoneahsan.com/features/passwords-and-encryption): how the optional PBKDF2 + AES-GCM encryption works and its honest limits.
+- [File sharing](https://achatai-docs.aoneahsan.com/features/file-sharing): 10 MB per file, 100 MB per chat, FilesHub storage, previews.
+- [Threads & replies](https://achatai-docs.aoneahsan.com/features/threads-and-replies): quote replies and threaded conversations.
+- [Groups & communities](https://achatai-docs.aoneahsan.com/features/groups-and-communities): private named groups and public discoverable communities with client-side moderation.
+- [Embeddable widget](https://achatai-docs.aoneahsan.com/features/embeddable-widget): inline iframe + floating launcher.
+- [Keep chats & accounts](https://achatai-docs.aoneahsan.com/features/keep-chats-and-accounts): the optional Google sign-in that lets you reserve chats past the 10-day delete.
+- [Themes & accessibility](https://achatai-docs.aoneahsan.com/features/themes-and-accessibility): full theme customizer, dyslexia/colorblind options, keyboard support.
+
+## Concepts
+
+- [How AChat works](https://achatai-docs.aoneahsan.com/concepts/how-it-works): the transient data model and the 10-day TTL lifecycle.
+- [Security & encryption model](https://achatai-docs.aoneahsan.com/concepts/security-and-encryption): the threat model, what is protected, and what is not.
+- [Data, privacy & deletion](https://achatai-docs.aoneahsan.com/concepts/data-privacy-and-deletion): what is stored, third-party processors, and how deletion works.
+
+## Reference
+
+- [FAQ](https://achatai-docs.aoneahsan.com/faq): common questions with direct answers.
+- [Changelog](https://achatai-docs.aoneahsan.com/changelog): release history.
+- [About the Author](https://achatai-docs.aoneahsan.com/about-the-author): Ahsan Mahmood's developer profile, links, contact.
+
+## Links
+
+- Web app: https://achat.aoneahsan.com
+- Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat
+- Privacy: https://achat.aoneahsan.com/privacy
+- Terms: https://achat.aoneahsan.com/terms
+- Author: https://aoneahsan.com

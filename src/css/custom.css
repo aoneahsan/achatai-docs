@@ -1,0 +1,77 @@
+/**
+ * AChat (Anonymous Chat AI) — docs brand palette
+ * Primary: violet (matches the app accent #7c3aed)
+ * Accent: fuchsia (decorative; hover/focus rings)
+ */
+
+:root {
+  --ifm-color-primary: #7c3aed;
+  --ifm-color-primary-dark: #6d28d9;
+  --ifm-color-primary-darker: #6526cf;
+  --ifm-color-primary-darkest: #5320ab;
+  --ifm-color-primary-light: #8b53f0;
+  --ifm-color-primary-lighter: #945ff1;
+  --ifm-color-primary-lightest: #ab82f4;
+
+  --ifm-color-secondary: #d946ef;
+  --ifm-color-success: #10b981;
+  --ifm-color-info: #a855f7;
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-danger: #ef4444;
+
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-weight: 700;
+
+  --docusaurus-highlighted-code-line-bg: rgba(124, 58, 237, 0.1);
+
+  /* Soft accent surfaces used by callouts + hero */
+  --ac-surface-accent: rgba(217, 70, 239, 0.06);
+  --ac-surface-brand: rgba(124, 58, 237, 0.07);
+}
+
+/* Dark mode — keep brand recognisable, raise contrast on accent */
+[data-theme='dark'] {
+  --ifm-color-primary: #a855f7;
+  --ifm-color-primary-dark: #9a3df5;
+  --ifm-color-primary-darker: #9333f4;
+  --ifm-color-primary-darkest: #7c1fe0;
+  --ifm-color-primary-light: #b66ff9;
+  --ifm-color-primary-lighter: #c084fc;
+  --ifm-color-primary-lightest: #cfa6fd;
+
+  --ifm-background-color: #0a0a0a;
+  --ifm-background-surface-color: #14101f;
+
+  --docusaurus-highlighted-code-line-bg: rgba(168, 85, 247, 0.18);
+}
+
+/* ---------------------------------------------------------------------------
+ * Subtle entrance animation on body headings (CSS-only, reduced-motion safe)
+ * ------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {
+  .markdown > h1,
+  .markdown > h2 {
+    animation: ac-fade-up 420ms ease-out both;
+  }
+  @keyframes ac-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Brand-tinted callouts feel native to the violet palette */
+.theme-admonition {
+  border-radius: 10px;
+}
+
+/* Navbar logo spacing polish */
+.navbar__logo {
+  margin-right: 0.5rem;
+}
