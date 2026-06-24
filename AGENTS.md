@@ -34,6 +34,11 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 
 `npx -y npm-check-updates -u && yarn install` (latest STABLE), then `yarn build`. Not `yarn upgrade --latest`.
 
+## Gitignore Hygiene (IRON-SOLID)
+`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo -> secrets/`.env`/keystores are NEVER tracked.
+Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
+Gitignore Last Verified: 2026-06-24
+
 ## Last Updated
 
 2026-06-23
