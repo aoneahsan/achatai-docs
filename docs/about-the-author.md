@@ -4,7 +4,7 @@ title: About the Author
 description: AChat (Anonymous Chat AI) is built and maintained by Ahsan Mahmood, a senior full-stack and mobile developer. Links, contact, and other projects.
 keywords: [Ahsan Mahmood, aoneahsan, Zaions, AChat author, full-stack developer]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -27,9 +27,10 @@ last_update:
 AChat started as an answer to a simple question: *what would a chat app look like if it kept nothing?* The result is a no-signup, transient chat where every message and file auto-deletes in about 10 days, an optional password gives you true in-browser end-to-end encryption, and the whole thing runs on free-tier infrastructure with no server-side functions.
 
 - **Web app:** [achat.aoneahsan.com](https://achat.aoneahsan.com)
-- **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat)
-- **Stack:** Vite · React 19 · TypeScript · Tailwind CSS · Radix UI · TanStack Router & Query · Firebase (Firestore + Hosting) · FilesHub · Capacitor 8.
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat)
+- **Contact:** [achat.aoneahsan.com/contact](https://achat.aoneahsan.com/contact)
+- **Stack:** Vite · React 19 · TypeScript · Tailwind CSS · Radix UI · TanStack Router & Query · Firebase (Firestore + Hosting) · FilesHub · Capacitor 8 (Android + web).
 
 ## Support the work
 
-AChat is free. If it is useful to you and you would like to support continued development, you can do so at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=achatai&project-identifier=com.aoneahsan.achatachat). No pressure — sharing the app with someone who needs an ephemeral chat helps just as much.
+AChat is free. If it is useful to you and you would like to support continued development, you can do so at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=achatai&project-identifier=com.aoneahsan.achat). No pressure — sharing the app with someone who needs an ephemeral chat helps just as much.

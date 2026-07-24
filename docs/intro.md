@@ -4,7 +4,7 @@ title: Introduction
 description: AChat (Anonymous Chat AI) is a no-signup, transient chat app with optional in-browser end-to-end encryption, file sharing, threads, communities, an embeddable widget, and 10-day auto-delete.
 keywords: [anonymous chat, no signup chat, ephemeral chat, end-to-end encrypted chat, disappearing messages, temporary chat room, AChat]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -12,7 +12,7 @@ last_update:
 
 **AChat (Anonymous Chat AI) is a no-signup, transient chat app: you pick or generate a chat ID, share the link, and talk — and every message and file auto-deletes about 10 days after it is sent.** An optional password turns on true end-to-end encryption performed entirely in your browser. There is no registration, no email, and no phone number; opening the link puts you in the room.
 
-The web app lives at [achat.aoneahsan.com](https://achat.aoneahsan.com), is free to use, and is built and maintained by [Ahsan Mahmood](https://aoneahsan.com). An Android build is available on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat).
+The web app lives at [achat.aoneahsan.com](https://achat.aoneahsan.com), is free to use, and is built and maintained by [Ahsan Mahmood](https://aoneahsan.com). An Android build is available on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat).
 
 ## What it does
 
@@ -24,6 +24,8 @@ The web app lives at [achat.aoneahsan.com](https://achat.aoneahsan.com), is free
 | **Threads & replies** | Quote a message or branch a threaded conversation off any message. |
 | **Groups & communities** | Named private group chats, plus public, discoverable communities with best-effort client-side moderation. |
 | **Embeddable widget** | Drop a sandboxed chat into any website as an inline iframe or a floating launcher. |
+| **Search your chats** | Search across the chats you have opened, done entirely on your device — search terms never leave the browser. |
+| **Delete & archive** | Soft-delete messages to a per-chat 30-day Trash, or privately archive a whole chat to your signed-in account. |
 | **10-day auto-delete** | Firestore TTL removes messages and files about 10 days after they are sent, with lazy file cleanup. |
 
 ## Who it is for
@@ -41,6 +43,7 @@ Honesty matters more than marketing. Some explicit non-claims:
 - **Open chats are not private.** A chat without a password is readable by anyone who has the chat ID. Privacy comes from the optional password, not from secrecy of the link alone.
 - **File bytes are not encrypted at rest.** On passworded chats only the file URL/metadata is encrypted; the file contents on FilesHub are not. See [Security & encryption](/concepts/security-and-encryption).
 - **It is not anonymous against legal process.** Standard infrastructure telemetry (IP address, user agent) is processed by Firebase. AChat hides your identity from other participants, not from a court order.
+- **A built-in admin can moderate open chats.** For safety and moderation, an administrator role can enumerate chats and read open ones — but passworded chats stay end-to-end encrypted with no key escrow, and every admin action is logged. See [Admin oversight](/concepts/admin-oversight).
 - **Deletion is "about 10 days", not instant or guaranteed-to-the-minute.** Firestore TTL typically removes expired documents within ~24 hours of expiry; FilesHub cleanup is lazy.
 
 ## How it works in 60 seconds

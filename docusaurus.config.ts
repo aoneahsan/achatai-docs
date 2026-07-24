@@ -5,13 +5,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 // ---------------------------------------------------------------------------
 // AChat (Anonymous Chat AI) — Documentation site config
 // Author: Ahsan Mahmood (https://aoneahsan.com)
-// App: https://achat.aoneahsan.com  ·  Play: id=com.aoneahsan.achatachat
+// App: https://achat.aoneahsan.com  ·  Play: id=com.aoneahsan.achat
 // ---------------------------------------------------------------------------
 
 const SITE_URL = 'https://achatai-docs.aoneahsan.com';
 const APP_URL = 'https://achat.aoneahsan.com';
 const PLAY_URL =
-  'https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat';
+  'https://play.google.com/store/apps/details?id=com.aoneahsan.achat';
 const DOCS_REPO = 'https://github.com/aoneahsan/achatai-docs';
 
 const config: Config = {
@@ -96,7 +96,7 @@ const config: Config = {
         name: 'Anonymous Chat AI',
         alternateName: 'AChat',
         applicationCategory: 'CommunicationApplication',
-        operatingSystem: 'Android, iOS, Web',
+        operatingSystem: 'Android, Web',
         offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         url: APP_URL,
         sameAs: [APP_URL, PLAY_URL],
@@ -244,6 +244,7 @@ const config: Config = {
           items: [
             { label: 'Open the app', href: APP_URL },
             { label: 'Get it on Google Play', href: PLAY_URL },
+            { label: 'Contact', href: `${APP_URL}/contact` },
             { label: 'Privacy policy', href: `${APP_URL}/privacy` },
             { label: 'Terms', href: `${APP_URL}/terms` },
           ],

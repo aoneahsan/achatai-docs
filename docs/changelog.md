@@ -4,7 +4,7 @@ title: Changelog
 description: Release history for AChat (Anonymous Chat AI) — major milestones from the first transient-chat release through Play Store finalization.
 keywords: [AChat changelog, release notes, version history, anonymous chat updates]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -13,8 +13,23 @@ last_update:
 Release history for AChat (Anonymous Chat AI). The app's in-product changelog at [achat.aoneahsan.com/feed](https://achat.aoneahsan.com/feed) is the live, authoritative source; this page summarizes the major milestones.
 
 :::info
-Current version: **0.2.0**. Dates reflect when work shipped to the repository.
+Current version: **0.4.0**. Dates reflect when work shipped to the repository.
 :::
+
+## 0.4.0 — First Google Play release (2026-07-24)
+
+- **First release on Google Play** — the no-signup anonymous chat from the web, now an Android app. No ads, no in-app purchases.
+- **Load-earlier messages:** long chats load the 200 newest messages instantly, with a **Load earlier** button for older ones; search reports how far back it has looked and can load more.
+- **Privacy-respecting analytics + error reporting:** product analytics (Firebase Analytics / GA4, Amplitude, Microsoft Clarity) and Sentry error reporting were added — they never receive chat IDs, message contents, passwords, or files, and no advertising ID is collected. See [Data, privacy & deletion](/concepts/data-privacy-and-deletion).
+- **Optional email + push:** transactional emails via FilesHub (welcome, account-deletion confirmation, reserved-chat expiry reminder), a contact page, and opt-in push notifications via OneSignal (off by default). See [Notifications & email](/features/notifications-and-email).
+- iOS was removed from the project — AChat is Android + web only.
+
+## 0.3.0 — Manage, search, and lock (2026-06)
+
+- **Cross-chat search**, done entirely on your device over a local cache of the chats you have opened. See [Search & message history](/features/search-and-history).
+- **Delete, archive & forward:** a per-chat 30-day **Trash** (restore / permanently delete), a login-gated **private archive** that locks a chat to your account, and message forwarding. See [Delete, archive & forward](/features/manage-messages).
+- **Add a password to an open chat later** — from then on new messages and files are end-to-end encrypted in the browser; messages already sent while the chat was open are not retroactively encrypted. See [Passwords & encryption](/features/passwords-and-encryption).
+- **Built-in administrator role** for safety and moderation, with an immutable audit log; passworded chats stay end-to-end encrypted (metadata only, no key escrow). See [Admin oversight](/concepts/admin-oversight).
 
 ## 0.2.0 — Play-Store-ready release (2026-06)
 

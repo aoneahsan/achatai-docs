@@ -8,7 +8,7 @@
   "docsLive": "https://achatai-docs.aoneahsan.com",
   "stack": "Docusaurus 3 (classic preset + Mermaid), React 19, TypeScript",
   "createdAt": "2026-06-23",
-  "lastUpdated": "2026-06-23",
+  "lastUpdated": "2026-07-24",
   "sourceOfTruth": "AChat app source + README + CLAUDE.md (../achatai). Every fact must come from the real app — no invented features.",
   "honestFraming": "AChat has NO AI/LLM feature despite its brand name; open chats are not private; file bytes are not encrypted at rest; deletion is ~10 days not instant. These limits are documented explicitly.",
   "buildGates": {
@@ -20,19 +20,24 @@
   "sections": [
     { "id": "intro", "title": "Introduction (definition-first)", "file": "docs/intro.md", "status": "complete" },
     { "id": "getting-started", "title": "Installation + Quick Start", "files": ["docs/getting-started/installation.md", "docs/getting-started/quick-start.md"], "status": "complete" },
-    { "id": "features", "title": "8 feature pages", "files": ["docs/features/anonymous-chats.md", "docs/features/passwords-and-encryption.md", "docs/features/file-sharing.md", "docs/features/threads-and-replies.md", "docs/features/groups-and-communities.md", "docs/features/embeddable-widget.md", "docs/features/keep-chats-and-accounts.md", "docs/features/themes-and-accessibility.md"], "status": "complete" },
-    { "id": "concepts", "title": "3 concept pages (how-it-works, security, data/privacy)", "files": ["docs/concepts/how-it-works.md", "docs/concepts/security-and-encryption.md", "docs/concepts/data-privacy-and-deletion.md"], "status": "complete" },
+    { "id": "features", "title": "11 feature pages", "files": ["docs/features/anonymous-chats.md", "docs/features/passwords-and-encryption.md", "docs/features/file-sharing.md", "docs/features/threads-and-replies.md", "docs/features/groups-and-communities.md", "docs/features/search-and-history.md", "docs/features/manage-messages.md", "docs/features/embeddable-widget.md", "docs/features/keep-chats-and-accounts.md", "docs/features/notifications-and-email.md", "docs/features/themes-and-accessibility.md"], "status": "complete" },
+    { "id": "concepts", "title": "4 concept pages (how-it-works, security, admin-oversight, data/privacy)", "files": ["docs/concepts/how-it-works.md", "docs/concepts/security-and-encryption.md", "docs/concepts/admin-oversight.md", "docs/concepts/data-privacy-and-deletion.md"], "status": "complete" },
     { "id": "faq", "title": "FAQ", "file": "docs/faq.md", "status": "complete" },
     { "id": "changelog", "title": "Changelog", "file": "docs/changelog.md", "status": "complete" },
     { "id": "about", "title": "About the Author", "file": "docs/about-the-author.md", "status": "complete" },
     { "id": "seo-infra", "title": "robots.txt + llms.txt + sitemap + JSON-LD + OG card", "status": "complete" }
   ],
-  "pageCount": 17,
+  "pageCount": 21,
   "runHistory": [
     {
       "date": "2026-06-23",
       "summary": "Created the site from the native-update-docs template structure. Wrote all 17 doc pages (intro, getting-started x2, features x8, concepts x3, faq, changelog, about) documenting every real AChat feature with honest limits. SEO/AEO infra: AI-bot-allowlist robots.txt, llms.txt, sitemap (Docusaurus), WebSite+Organization+SoftwareApplication JSON-LD, 1200x630 OG card. Dual hosting (Firebase + GitHub Pages). yarn install + yarn build verified.",
       "commit": "see git log"
+    },
+    {
+      "date": "2026-07-24",
+      "summary": "Refreshed the site to match app v0.4.0 (was a full release behind at v0.2.0). Added 4 pages: features/search-and-history, features/manage-messages, features/notifications-and-email, concepts/admin-oversight (all wired into sidebars.ts). Documented cross-chat on-device search + load-earlier, Trash/private-archive/forward, add-password-to-open-chat (non-retroactive), admin oversight (no key escrow, immutable audit), analytics (GA4/Amplitude/Clarity/Sentry, chat-id stripped) and opt-in OneSignal push + FilesHub transactional email + contact page. Removed all iOS/App-Store claims (Android + web only) and fixed the stale Play appId com.aoneahsan.achatachat -> com.aoneahsan.achat across config, llms.txt, humans.txt, intro, faq, installation, about. Changelog now leads with v0.4.0 (2026-07-24) + v0.3.0. yarn build verified exit 0.",
+      "commit": "pending (main session commits)"
     }
   ],
   "resumeInstructions": "1) cd achatai-docs. 2) yarn install. 3) yarn build (must exit 0). 4) To extend: add a section to sidebars.ts + a docs/*.md page sourced from the real app; keep honest framing; bump lastUpdated; ONE commit. Re-emit sitemap on build (Docusaurus does this automatically)."

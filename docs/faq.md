@@ -4,7 +4,7 @@ title: FAQ
 description: Frequently asked questions about AChat (Anonymous Chat AI) — sign-up, encryption, AI, file sharing, deletion, communities, and the embeddable widget.
 keywords: [AChat FAQ, anonymous chat questions, is achat private, does achat use ai, ephemeral chat faq]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -56,6 +56,30 @@ No. AChat hides your identity from **other participants** — there is no accoun
 
 If you signed in: **Account → Delete account** in the app (or the public [/delete-account](https://achat.aoneahsan.com/delete-account) page). It releases your reservations, deletes your profile, and removes your Firebase Auth record. After that, reserved chats return to the normal 10-day expiry.
 
+## Can I search my chats?
+
+Yes — you can search across the chats you have opened, and the search runs **entirely on your device**. AChat keeps a small local cache of your recent chats (5 when anonymous, 10 when signed in) in this browser and searches that; your search terms never leave the browser. A passworded chat is searchable only when its password is saved on this device. See [Search & message history](/features/search-and-history).
+
+## Can I delete a message, or keep a chat just for myself?
+
+Yes. Deleting a message sends it to a per-chat **Trash** you can restore from (kept up to 30 days, never past the chat's own expiry). If you sign in, you can also **privately archive** a chat so only you — signed in — can read it; a password alone will not unlock an archived chat. You can also forward a message into another chat. See [Delete, archive & forward](/features/manage-messages).
+
+## Who can read my chats — can an admin see them?
+
+A built-in administrator role exists for safety and moderation. It can find and read **open** (unpassworded) chats, which were already readable by anyone with the ID. It **cannot** read passworded chats — those stay end-to-end encrypted and there is no key escrow — and every admin action is logged to an immutable audit trail. See [Admin oversight](/concepts/admin-oversight).
+
+## Does AChat track me with analytics?
+
+AChat uses product analytics (Firebase Analytics / GA4, Amplitude, Microsoft Clarity) and Sentry error reporting to improve the app and fix problems. They **never receive chat IDs, message contents, passwords, or files** — the chat ID is stripped from the URL first — and **no advertising ID is collected**. Clarity records anonymised session replays of interface usage. See [Data, privacy & deletion](/concepts/data-privacy-and-deletion).
+
+## Will AChat email me or send notifications?
+
+Only if you choose. Push notifications (via OneSignal) are **off by default** and opt-in. A few transactional emails (welcome on first sign-in, account-deletion confirmation, a reserved-chat expiry reminder) go out via FilesHub if they apply to you. Anonymous use sends no email. See [Notifications & email](/features/notifications-and-email).
+
+## How do I contact the developer?
+
+Use the [contact page](https://achat.aoneahsan.com/contact), or email [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com).
+
 ## Which platforms does AChat run on?
 
-The web app runs in any modern browser (and installs as a PWA). There is an Android app on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat). An iOS build exists in the codebase but is not yet published — on iPhone/iPad, use the web app and add it to your home screen.
+The web app runs in any modern browser (and installs as a PWA). There is an Android app on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat). There is no iOS app — on iPhone and iPad, use the web app and add it to your home screen; it works in mobile Safari.

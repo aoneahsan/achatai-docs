@@ -4,7 +4,7 @@ title: Passwords & encryption
 description: How AChat's optional password turns on true client-side end-to-end encryption with PBKDF2 + AES-GCM — and exactly what it does and does not protect.
 keywords: [end-to-end encrypted chat, client-side encryption, PBKDF2, AES-GCM, password protected chat, web crypto chat]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -30,6 +30,16 @@ flowchart LR
 ```
 
 The key is held only in memory for the session and is never persisted. There is an optional "remember password" convenience for the current device, scoped locally.
+
+## Adding a password to an open chat later
+
+You do not have to decide up front. Any open (unpassworded) chat can be locked later:
+
+- From then on, **new messages and files are end-to-end encrypted** in the browser exactly as a chat created with a password.
+- **Messages already sent while the chat was open are not retroactively encrypted** — they stay as they were, plaintext and visible. AChat is honest about this rather than pretending to re-secure history it cannot.
+- The switch is one-way: an open chat can be locked, but AChat never quietly removes a chat's protection.
+
+If you know a chat holds anything sensitive, set the password before the sensitive part — not after.
 
 ## What encryption protects
 

@@ -4,7 +4,7 @@ title: Installation & access
 description: How to use AChat on the web, install it as a PWA, or get the Android app. No account, email, or phone number required.
 keywords: [AChat install, anonymous chat web app, install chat PWA, anonymous chat android, no account chat]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -30,12 +30,12 @@ Installing does not create an account and does not change how data is stored —
 
 The Android build wraps the same web experience with Capacitor and adds native niceties (share sheet, clipboard, haptics, keyboard handling).
 
-- Get it on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat).
-- The app ships with **only the INTERNET and VIBRATE permissions** — no camera, microphone, location, contacts, or storage permissions.
+- Get it on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat).
+- The app ships with a minimal permission set: **INTERNET**, **VIBRATE**, and — only if you opt in to push — **notifications** (`POST_NOTIFICATIONS`). No camera, microphone, location, contacts, or storage permissions, and no advertising ID.
 
-## 4. iOS
+## 4. iPhone & iPad
 
-An iOS build exists in the codebase (Capacitor) but is not yet published to the App Store. On iPhone and iPad, use the web app and add it to your home screen (step 2).
+There is no iOS app — AChat is Android and web only. On iPhone and iPad, use the web app and add it to your home screen (step 2); everything works in mobile Safari.
 
 ## Requirements
 

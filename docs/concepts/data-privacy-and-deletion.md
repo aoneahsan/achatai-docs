@@ -4,7 +4,7 @@ title: Data, privacy & deletion
 description: What AChat stores, which third-party processors are involved, and how the 10-day auto-delete and account deletion actually work — with honest framing throughout.
 keywords: [chat data retention, message deletion, privacy policy, third-party processors, account deletion, ephemeral data]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -23,16 +23,25 @@ last_update:
 | Account (uid, email, name, photo) — **optional** | Firestore + Firebase Auth | until you delete it |
 | Community discovery records | Firestore | persistent (messages inside still TTL) |
 | Theme/recents preferences | On your device (Capacitor Preferences) | until you clear them |
+| Search cache (recent chats you opened) | On your device (IndexedDB) | until sign-out / a wipe / you clear it |
 
 ## Third-party processors
 
 AChat uses a small set of processors to function:
 
 - **Firebase (Google)** — Firestore database, Hosting, optional Auth and App Check. Processes standard telemetry (IP, user agent).
-- **FilesHub** — stores uploaded file bytes (public visibility so previews load).
+- **FilesHub** — stores uploaded file bytes (public visibility so previews load) and sends AChat's transactional emails (welcome, account-deletion confirmation, reserved-chat reminder, contact form).
 - **Google Sign-In** — only if you *optionally* sign in; provides your uid/email/name/photo.
+- **Firebase Analytics (GA4) & Amplitude** — product analytics: page views (route pattern only, e.g. `/c/:chatId`) and feature actions, plus standard web telemetry.
+- **Microsoft Clarity** — anonymised session replays and heatmaps of interface usage. Clarity is an independent controller, so this data counts as **shared**.
+- **Sentry** — crash and error reports (stack traces, browser), with no session replay.
+- **OneSignal** — only if you opt in to push; receives a push token and delivery metadata to route notifications.
 
-These are documented in the app's privacy policy, which is kept consistent with the Google Play Data Safety declaration.
+**None of the analytics, error, or push services ever receive chat IDs, message contents, passwords, or file contents** — the chat ID is stripped from the URL to its route pattern before anything is sent, and no message text is transmitted. **No advertising ID is collected** and none of this is used for ad targeting. These are documented in the app's privacy policy, which is kept consistent with the Google Play Data Safety declaration.
+
+## Admin oversight
+
+A built-in administrator role can enumerate all chats and accounts and read **open** chats for safety and moderation; **passworded chats stay end-to-end encrypted with no key escrow**, and every admin action is logged to an immutable audit trail. Full boundary: [Admin oversight](/concepts/admin-oversight).
 
 ## How deletion works
 
@@ -44,6 +53,7 @@ These are documented in the app's privacy policy, which is kept consistent with 
 
 - **"~10 days," not to-the-second.** TTL is asynchronous; expired data can linger briefly past the window, and an un-revisited chat's files may persist until someone loads the chat.
 - **Open chats and communities are public.** Anyone with the ID (open chats) or anyone at all (communities) can read them before they expire.
+- **Analytics are on, but scoped.** Product analytics run by default so the app can be improved, and Clarity records anonymised session replays of interface usage — but the chat ID is stripped before anything is sent, and no message content ever is. Nothing here identifies you or reads your conversations.
 - **Not anonymous against legal process.** Infrastructure telemetry exists; AChat protects you from other participants, not from lawful demands to the providers.
 
 ## Related

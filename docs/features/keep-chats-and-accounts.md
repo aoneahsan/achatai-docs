@@ -4,7 +4,7 @@ title: Keep chats & accounts
 description: An optional Google sign-in lets you reserve AChat rooms past the 10-day auto-delete — anonymous chat still works with zero sign-in, and your account is never linked to message authorship.
 keywords: [keep chat, reserve chat, optional account, google sign-in chat, persistent anonymous chat, account deletion]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -26,7 +26,7 @@ When signed in, you can reserve a chat to extend its lifetime:
 - A reserved chat gets a **base retention of about 3 months**, extendable up to about **1 year** through achievements (see below).
 - Reservations are managed from your account / "kept" area; releasing a reservation lets the chat return to the normal expiry schedule.
 
-A reserved chat's retention is implemented by extending its `expiresAt`, so it simply lives longer rather than being special-cased out of the deletion system.
+A reserved chat's retention is implemented by extending its `expiresAt`, so it simply lives longer rather than being special-cased out of the deletion system. If you signed in with an email, AChat can send an optional reminder before a reserved chat is due to expire — see [Notifications & email](/features/notifications-and-email).
 
 ## Achievements & referrals (honest framing)
 

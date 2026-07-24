@@ -4,7 +4,7 @@ title: Security & encryption model
 description: AChat's honest threat model — what client-side PBKDF2 + AES-GCM encryption protects, what it does not, and what to assume about open chats, files, and infrastructure telemetry.
 keywords: [chat threat model, end-to-end encryption limits, AES-GCM, PBKDF2, secure chat, encryption honest framing]
 last_update:
-  date: 2026-06-23
+  date: 2026-07-24
   author: Ahsan Mahmood
 ---
 
@@ -49,7 +49,7 @@ Beyond message encryption, the web app ships standard production hardening:
 
 - A strict **Content-Security-Policy**, plus HSTS, `X-Content-Type-Options`, a restrictive `Referrer-Policy`, and a `Permissions-Policy` that denies unused device APIs.
 - Optional **Firebase App Check** (reCAPTCHA v3) support — currently **off** by default, and documented as such rather than claimed as enforced.
-- The Android app ships with **only INTERNET + VIBRATE** permissions — no camera, microphone, location, contacts, or storage.
+- The Android app requests a minimal permission set — **INTERNET**, **VIBRATE**, and, only if you opt in to push, **notifications** (`POST_NOTIFICATIONS`) — with no camera, microphone, location, contacts, or storage permission, and no advertising ID.
 
 ## Practical guidance
 
@@ -57,7 +57,12 @@ Beyond message encryption, the web app ships standard production hardening:
 - Treat **files** as semi-public; do not upload secrets.
 - Treat **communities** and **open chats** as fully public.
 
+## A note on admin oversight
+
+A built-in administrator role can enumerate chats and read **open** ones for moderation. It does **not** weaken this model: passworded chats stay end-to-end encrypted, there is **no key escrow**, and every admin action is logged. See [Admin oversight](/concepts/admin-oversight).
+
 ## Related
 
 - [Passwords & encryption](/features/passwords-and-encryption)
+- [Admin oversight](/concepts/admin-oversight)
 - [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
