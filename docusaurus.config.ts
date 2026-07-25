@@ -8,7 +8,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // App: https://achat.aoneahsan.com  ·  Play: id=com.aoneahsan.achat
 // ---------------------------------------------------------------------------
 
-const SITE_URL = 'https://achatai-docs.aoneahsan.com';
+const SITE_URL = 'https://achat-docs.aoneahsan.com';
 const APP_URL = 'https://achat.aoneahsan.com';
 const PLAY_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.achat';
@@ -20,8 +20,9 @@ const config: Config = {
     'No-signup anonymous chat: optional in-browser end-to-end encryption, file sharing, and 10-day auto-delete.',
   favicon: 'img/favicon.svg',
 
-  // Production URL — served from Firebase Hosting site `achatai-docs` and/or
-  // GitHub Pages (static/CNAME). baseUrl stays '/' because of the custom domain.
+  // Production URL — GitHub Pages, custom domain pinned by static/CNAME.
+  // Derived from the app's deployed subdomain achat.aoneahsan.com (NOT the repo
+  // folder name) per ~/.claude/rules/docs-sites.md. baseUrl stays '/'.
   url: SITE_URL,
   baseUrl: '/',
 
@@ -159,6 +160,17 @@ const config: Config = {
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           breadcrumbs: true,
+          // `docs/` is BOTH the published content dir and the home of the
+          // fixed-path internal file docs/MANUAL-TASKS.md. Keep the path (the
+          // global rule fixes it) but never publish it — this repo is public.
+          // NOTE: `exclude` REPLACES the plugin defaults, so they are restated.
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+            'MANUAL-TASKS.md',
+          ],
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
