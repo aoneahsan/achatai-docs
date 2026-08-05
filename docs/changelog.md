@@ -4,7 +4,7 @@ title: Changelog
 description: Release history for AChat (Anonymous Chat AI) — major milestones from the first transient-chat release through Play Store finalization.
 keywords: [AChat changelog, release notes, version history, anonymous chat updates]
 last_update:
-  date: 2026-07-24
+  date: 2026-08-05
   author: Ahsan Mahmood
 ---
 
@@ -15,6 +15,10 @@ Release history for AChat (Anonymous Chat AI). The app's in-product changelog at
 :::info
 Current version: **0.4.0**. Dates reflect when work shipped to the repository.
 :::
+
+## Thread deletion fix (2026-08-05)
+
+- **Delete is now available inside threads.** Delete one reply on its own, or delete the parent to move the parent and every reply to the per-chat Trash together — including replies older than the visible message window.
 
 ## 0.4.0 — First Google Play release (2026-07-24)
 

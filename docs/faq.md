@@ -62,7 +62,7 @@ Yes — you can search across the chats you have opened, and the search runs **e
 
 ## Can I delete a message, or keep a chat just for myself?
 
-Yes. Deleting a message sends it to a per-chat **Trash** you can restore from (kept up to 30 days, never past the chat's own expiry). If you sign in, you can also **privately archive** a chat so only you — signed in — can read it; a password alone will not unlock an archived chat. You can also forward a message into another chat. See [Delete, archive & forward](/features/manage-messages).
+Yes. Deleting a message sends it to a per-chat **Trash** you can restore from (kept up to 30 days, never past the chat's own expiry). You can delete one thread reply by itself, while deleting its parent moves every reply in that thread to Trash too. If you sign in, you can also **privately archive** a chat so only you — signed in — can read it; a password alone will not unlock an archived chat. You can also forward a message into another chat. See [Delete, archive & forward](/features/manage-messages).
 
 ## Who can read my chats — can an admin see them?
 

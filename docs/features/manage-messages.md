@@ -4,7 +4,7 @@ title: Delete, archive & forward
 description: Soft-delete messages to a per-chat 30-day Trash, lock a chat to your account with a login-gated private archive, or forward a message to another chat.
 keywords: [delete chat message, message trash, restore deleted message, private chat archive, forward message, lock chat to account]
 last_update:
-  date: 2026-07-24
+  date: 2026-08-05
   author: Ahsan Mahmood
 ---
 
@@ -18,6 +18,7 @@ Delete a message and it goes to that chat's **Trash** rather than vanishing:
 
 - **Restore** it, **delete it permanently**, or **Clear all** trashed messages.
 - Trash retention is capped by the chat's own lifetime — a Trash entry never outlives the chat, and deleting only ever pulls its expiry **earlier**, never later.
+- Delete an individual thread reply on its own. Delete the thread's parent and every reply in that thread moves to Trash with it, including older replies outside the chat's live message window.
 - Deletion is best-effort and owner-oriented, consistent with how AChat's other edits work: the rules constrain the shape of the change, not who may make it.
 
 You can also delete a whole chat from your view.

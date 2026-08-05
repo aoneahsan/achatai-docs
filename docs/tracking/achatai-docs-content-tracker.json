@@ -8,7 +8,7 @@
   "docsLive": "https://achatai-docs.aoneahsan.com",
   "stack": "Docusaurus 3 (classic preset + Mermaid), React 19, TypeScript",
   "createdAt": "2026-06-23",
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-08-05",
   "sourceOfTruth": "AChat app source + README + CLAUDE.md (../achatai). Every fact must come from the real app — no invented features.",
   "honestFraming": "AChat has NO AI/LLM feature despite its brand name; open chats are not private; file bytes are not encrypted at rest; deletion is ~10 days not instant. These limits are documented explicitly.",
   "buildGates": {
@@ -29,6 +29,11 @@
   ],
   "pageCount": 21,
   "runHistory": [
+    {
+      "date": "2026-08-05",
+      "summary": "Documented thread deletion: an individual reply can be deleted, while deleting a thread parent moves every reply to the per-chat Trash, including replies older than the visible live-message window. Updated the message-management page, threads page, FAQ, and changelog.",
+      "commit": "see git log"
+    },
     {
       "date": "2026-06-23",
       "summary": "Created the site from the native-update-docs template structure. Wrote all 17 doc pages (intro, getting-started x2, features x8, concepts x3, faq, changelog, about) documenting every real AChat feature with honest limits. SEO/AEO infra: AI-bot-allowlist robots.txt, llms.txt, sitemap (Docusaurus), WebSite+Organization+SoftwareApplication JSON-LD, 1200x630 OG card. Dual hosting (Firebase + GitHub Pages). yarn install + yarn build verified.",
