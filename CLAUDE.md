@@ -1,98 +1,69 @@
-# CLAUDE.md — achatai-docs
+# AChat documentation
 
-Public Docusaurus documentation site for **AChat (Anonymous Chat AI)** — the no-signup, transient, optionally end-to-end-encrypted, 10-day auto-deleting chat at [achat.aoneahsan.com](https://achat.aoneahsan.com).
+**Last Updated:** 2026-09-15
 
-> Mirror of `AGENTS.md`. Per the global sync rule, every important rule lives in BOTH files — update one → update both.
-
-## Task Speed Over Docs (IRON-SOLID — BEHAVIORAL)
-
-Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (≤~20% of effort) — never let recording outpace the fix. HARD STOP when doc work outpaces the change → ship, then ONE line if anything. No new summary/status/completion files unless asked; edit/delete over add; delete stale docs. Full rule: `~/.claude/CLAUDE.md`. (Est. 2026-06-19)
-
-## Identity
-
-| Key | Value |
+| Context | Value |
 |---|---|
-| Repo | `achatai-docs` — **PUBLIC** (free GitHub Pages; docs-repo exception to always-private) |
-| App repo | `anonymous-chat-ai-achatai` — **PRIVATE** (sibling, the app itself) |
-| Type | Docusaurus 3 documentation site (classic preset + Mermaid) |
-| Package manager | yarn only (NEVER npm/pnpm) |
-| Node | >=18 |
-| Author | Ahsan Mahmood ([aoneahsan@gmail.com](mailto:aoneahsan@gmail.com)) |
-| Docs URL | https://achatai-docs.aoneahsan.com (Firebase Hosting target `achatai-docs` + GitHub Pages) |
-| App URL | https://achat.aoneahsan.com |
-| Play Store | https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat |
-| Sibling app | `/home/ahsan/Documents/01-code/projects/achatai/` |
-| Content tracker | `docs/tracking/achatai-docs-content-tracker.json` |
-| Build gates (2026-06-23) | `yarn build` exit 0 (docusaurus → `./build`); `yarn typecheck` exit 0 |
+| Repository | Public `aoneahsan/achatai-docs` · branch `main` · remote `origin` |
+| Product source | Private sibling app at `../achat` |
+| Stack | Docusaurus 3 · TypeScript · Node 18+ · yarn only (`yarn.lock`) |
+| Context Budget Last Verified | 2026-09-15 — CLAUDE.md 3,471 B / no PENDING-TASKS.md; re-check due 2026-10-15 |
+| Context design | Compact root; page evidence loads on demand. |
+| Mirror | `AGENTS.md` differs only in its H1 and mirror label. |
+| Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |
 
-## Critical rules
+## Purpose and hard boundaries
 
-| Rule | Detail |
+This is the public product documentation for **AChat: Anonymous Chat**. AChat is a no-signup, transient chat
+application; it is not an AI or LLM chatbot.
+
+- Every product claim must be verified against `../achat` source, its project context, or deployed behavior.
+- State the limits with the features: open chats are public, passworded message bodies and file metadata are
+  client-encrypted, file bytes are not encrypted at rest, and normal deletion is about 10 days.
+- This repository is public. Never add an environment file, credential, private identifier, app secret,
+  keystore, internal audit record, or unpublished private-app material.
+- App behavior changes belong in `../achat`; current global workflow rules auto-load and are never copied here.
+
+## Project map
+
+| Path | Role |
 |---|---|
-| Yarn only | Never `npm install` / `pnpm add`. Only `yarn.lock`. |
-| No dev server in agent runs | Per global rule, the agent does NOT run `yarn start`. Verify with `yarn build` + `yarn typecheck` only. |
-| Single source of truth | Every documented fact MUST come from the sibling AChat app (`../achatai` source + README + CLAUDE.md). No invented features, no hallucinated limits. |
-| Honest framing | AChat has **NO AI/LLM chatbot** despite its brand name; open chats are not private; file bytes are not encrypted at rest; deletion is "~10 days" not instant. State limits as clearly as features. No fabricated stats. |
-| No secrets | This repo is PUBLIC — never commit any `.env`, key, or Firebase secret. App secrets live in the private app repo. |
-| One commit per task | ONE descriptive commit per session; push to the `o` remote (PUBLIC repo). |
+| `docs/` | Published Markdown content; read or edit only the requested page and direct links |
+| `sidebars.ts` | Navigation |
+| `docusaurus.config.ts` | URL, metadata, structured data, theme, and plugins |
+| `src/` | Documentation-site React/CSS customization |
+| `static/` | `CNAME`, `static/llms.txt`, `static/img/social-card.svg`, robots, and other published files |
+| `.github/workflows/deploy-pages.yml` | GitHub Pages build and deployment |
+| `docs/tracking/achatai-docs-content-tracker.json` | Content state; read only the relevant entry |
+| `docs/MANUAL-TASKS.md` | Owner-only setup |
 
-## Deploy (dual hosting)
+The canonical host is defined by `static/CNAME` and `docusaurus.config.ts`; Docusaurus emits `sitemap.xml`.
+The sibling app proves the Android/Play identifier is `com.aoneahsan.achat`.
+
+## Read and edit efficiently
+
+1. Read this guide, the requested page, its sidebar entry, and only directly linked source evidence.
+2. Do not load all docs, the full sibling app, generated `build/`, `.docusaurus/`, `node_modules/`, assets, or
+   the whole content tracker for orientation.
+3. Preserve established front matter. Never fabricate features, statistics, testimonials, security
+   guarantees, legal compliance, or deletion precision.
+4. Update `CLAUDE.md` and `AGENTS.md` together. Move future operational depth to an on-demand document and
+   leave a pointer.
+5. Context optimization is ineligible before 2026-10-15 unless the owner requests it, topology changes, a hard
+   cap is breached, or a proven stale instruction risks incorrect work.
+
+## Commands and release
 
 ```bash
-# Firebase Hosting (primary)
+yarn typecheck
 yarn build
-npx -y firebase-tools@latest deploy --only hosting --project achatai-docs
-
-# GitHub Pages (free fallback) — auto on push to main via .github/workflows/deploy-pages.yml
-# Custom domain in static/CNAME. Point DNS at ONE host at a time.
 ```
 
-## SEO + AEO
+Do not run `yarn start` or another dev server. A push to `main` drives the GitHub Pages workflow; the custom
+host is pinned by `static/CNAME`. There is no tracked Firebase deployment configuration in this repository.
 
-robots.txt allowlists every major search + AI bot; `static/llms.txt` indexes the site; Docusaurus emits `sitemap.xml`; `docusaurus.config.ts` injects WebSite + Organization + SoftwareApplication JSON-LD; `static/img/social-card.svg` is the 1200×630 OG card. Keep all of these in sync on content changes.
+## Links
 
-## Package Manager Hierarchy: nvm → npm (global) → yarn (local) (IRON-SOLID)
-
-- **`nvm`** → install/update Node + npm (`nvm install --lts`).
-- **`npm`** → ALL global installs (incl. yarn itself).
-- **`yarn`** → ALL local project work.
-❌ Never `npm`/`pnpm` for local installs. ✅ Only `yarn.lock`.
-
-## Package Upgrades: Use `npm-check-updates`
-
-`npx -y npm-check-updates -u && yarn install` (latest STABLE only), then `yarn build`. Not `yarn upgrade --latest`.
-
-## Gitignore Hygiene (IRON-SOLID)
-`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo -> secrets/`.env`/keystores are NEVER tracked.
-Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
-Gitignore Last Verified: 2026-06-24
-
-## Last Updated
-
-2026-06-23
-
-
-## Sub-agents & Skills — Main-Context-First (IRON-SOLID)
-Default/built-in sub-agents (`general-purpose`, `Explore`, `Plan`, `claude`, `fork`, …) do NOT have
-access to `/skills`, so delegating to them silently SKIPS the skills RULE #0 requires. Do all
-skill-relevant work in the **MAIN context**; use a sub-agent ONLY when a **custom** agent exists in
-`.claude/agents/` for that job; a default `Explore`/`Plan` agent is allowed ONLY for read-only,
-no-skill search/exploration. When a relevant skill is missing, **install/enable it** rather than
-proceeding skill-less. (Owner directive 2026-07-11; full text in `~/.claude/CLAUDE.md`.)
-
-<!-- RULE:main-context-model-workflow v2026-07-16 -->
-## Main-Context + Skills + Model Workflow (IRON-SOLID — CRITICAL)
-1. **NO default/built-in sub-agents** (`general-purpose`, `Explore`, `Plan`, `claude`, `fork`, …) for ANY work in
-   this project — they cannot invoke /skills, which RULE #0 makes mandatory. Do ALL work (planning, implementation,
-   review, exploration) in the MAIN context. A sub-agent is allowed ONLY when a CUSTOM agent exists in
-   `.claude/agents/` for that exact job.
-2. **Skills always:** before any task, scan the available-skills list and invoke EVERY relevant skill; if a needed
-   skill is missing, download/enable/install it (or use the nearest installed equivalent and say so) — never
-   proceed skill-less.
-3. **Model workflow:** PLAN and REVIEW on **Fable 5**; EXECUTE the approved plan on **Opus 4.8**. Plans in
-   `~/.claude/plans/`; multi-phase features keep a resumable tracker (`docs/features/<slug>/00-tracker.json`),
-   resumed rather than re-planned from zero.
-
-Global records (rules, policy, audit reports) live in the `ahsan-notebook` repo at
-`static/assets/claude-code/`; the `~/.claude/…` paths are symlinks into it. Full text: `~/.claude/CLAUDE.md`.
-(Owner directives 2026-07-11 / 2026-07-14; fleet-rolled 2026-07-16.)
+- Docs: https://achat-docs.aoneahsan.com
+- App: https://achat.aoneahsan.com
+- Play Store: https://play.google.com/store/apps/details?id=com.aoneahsan.achat

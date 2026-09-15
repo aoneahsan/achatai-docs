@@ -1,70 +1,69 @@
-# AGENTS.md — achatai-docs
+# AChat documentation — agents
 
-Mirror of `CLAUDE.md` for non-Claude AI agents. See `CLAUDE.md` for the canonical version. Both files MUST be kept in sync.
+**Last Updated:** 2026-09-15
 
-## Task Speed Over Docs (IRON-SOLID — BEHAVIORAL)
+| Context | Value |
+|---|---|
+| Repository | Public `aoneahsan/achatai-docs` · branch `main` · remote `origin` |
+| Product source | Private sibling app at `../achat` |
+| Stack | Docusaurus 3 · TypeScript · Node 18+ · yarn only (`yarn.lock`) |
+| Context Budget Last Verified | 2026-09-15 — CLAUDE.md 3,471 B / no PENDING-TASKS.md; re-check due 2026-10-15 |
+| Context design | Compact root; page evidence loads on demand. |
+| Mirror | `CLAUDE.md` differs only in its H1 and mirror label. |
+| Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |
 
-Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (≤~20% of effort) — never let recording outpace the fix. HARD STOP when doc work outpaces the change → ship, then ONE line if anything. No new summary/status/completion files unless asked; edit/delete over add; delete stale docs. Full rule: `~/.claude/CLAUDE.md`. (Est. 2026-06-19)
+## Purpose and hard boundaries
 
-## TL;DR
+This is the public product documentation for **AChat: Anonymous Chat**. AChat is a no-signup, transient chat
+application; it is not an AI or LLM chatbot.
 
-- Docusaurus 3 docs site for **AChat (Anonymous Chat AI)** — https://achat.aoneahsan.com.
-- This docs repo `achatai-docs` is **PUBLIC** (free GitHub Pages); the sibling app repo `anonymous-chat-ai-achatai` is **PRIVATE**.
-- yarn only. Node >=18.
-- Docs URL: https://achatai-docs.aoneahsan.com (Firebase Hosting target `achatai-docs` + GitHub Pages fallback via `.github/workflows/deploy-pages.yml`, custom domain `static/CNAME`).
-- Content tracker: `docs/tracking/achatai-docs-content-tracker.json`.
-- Honest framing: AChat has NO AI/LLM chatbot despite its name; open chats are not private; file bytes are not encrypted at rest; deletion is ~10 days. No fabricated stats.
-- Every documented fact comes from the sibling app `../achatai` (source + README + CLAUDE.md). No invented features.
-- No secrets in this PUBLIC repo. ONE commit per task; push to the `o` remote.
-- Build gates (2026-06-23): `yarn build` exit 0 · `yarn typecheck` exit 0.
+- Every product claim must be verified against `../achat` source, its project context, or deployed behavior.
+- State the limits with the features: open chats are public, passworded message bodies and file metadata are
+  client-encrypted, file bytes are not encrypted at rest, and normal deletion is about 10 days.
+- This repository is public. Never add an environment file, credential, private identifier, app secret,
+  keystore, internal audit record, or unpublished private-app material.
+- App behavior changes belong in `../achat`; current global workflow rules auto-load and are never copied here.
 
-## Hard checks before editing
+## Project map
 
-1. Is the claim you are about to document actually true of the real AChat app? Read `../achatai` (README / CLAUDE.md / src) first.
-2. Did you keep the honest limits visible (no AI, open chats public, files not encrypted at rest, ~10-day deletion)?
-3. Are you about to commit a secret to this PUBLIC repo? Do not. App secrets live in the private app repo only.
-4. Did you run `yarn build` (never `yarn start`) to verify?
+| Path | Role |
+|---|---|
+| `docs/` | Published Markdown content; read or edit only the requested page and direct links |
+| `sidebars.ts` | Navigation |
+| `docusaurus.config.ts` | URL, metadata, structured data, theme, and plugins |
+| `src/` | Documentation-site React/CSS customization |
+| `static/` | `CNAME`, `static/llms.txt`, `static/img/social-card.svg`, robots, and other published files |
+| `.github/workflows/deploy-pages.yml` | GitHub Pages build and deployment |
+| `docs/tracking/achatai-docs-content-tracker.json` | Content state; read only the relevant entry |
+| `docs/MANUAL-TASKS.md` | Owner-only setup |
 
-## Package Manager Hierarchy: nvm → npm (global) → yarn (local) (IRON-SOLID)
+The canonical host is defined by `static/CNAME` and `docusaurus.config.ts`; Docusaurus emits `sitemap.xml`.
+The sibling app proves the Android/Play identifier is `com.aoneahsan.achat`.
 
-- **`nvm`** → install/update Node + npm. **`npm`** → ALL global installs (incl. yarn). **`yarn`** → ALL local work.
-- ❌ Never `npm`/`pnpm` for local installs. ✅ Only `yarn.lock`.
+## Read and edit efficiently
 
-## Package Upgrades
+1. Read this guide, the requested page, its sidebar entry, and only directly linked source evidence.
+2. Do not load all docs, the full sibling app, generated `build/`, `.docusaurus/`, `node_modules/`, assets, or
+   the whole content tracker for orientation.
+3. Preserve established front matter. Never fabricate features, statistics, testimonials, security
+   guarantees, legal compliance, or deletion precision.
+4. Update `CLAUDE.md` and `AGENTS.md` together. Move future operational depth to an on-demand document and
+   leave a pointer.
+5. Context optimization is ineligible before 2026-10-15 unless the owner requests it, topology changes, a hard
+   cap is breached, or a proven stale instruction risks incorrect work.
 
-`npx -y npm-check-updates -u && yarn install` (latest STABLE), then `yarn build`. Not `yarn upgrade --latest`.
+## Commands and release
 
-## Gitignore Hygiene (IRON-SOLID)
-`.gitignore` stays current with the project structure — ignore only recoverable artifacts (build/`dist`/`www`/`node_modules`/logs/caches/IDE), never lose source. Custom rules always present: `*.ignore.*`, `project-record-ignore/`. This is a **PUBLIC** repo -> secrets/`.env`/keystores are NEVER tracked.
-Full rule + private/public protocol: `~/.claude/rules/project-config.md`.
-Gitignore Last Verified: 2026-06-24
+```bash
+yarn typecheck
+yarn build
+```
 
-## Last Updated
+Do not run `yarn start` or another dev server. A push to `main` drives the GitHub Pages workflow; the custom
+host is pinned by `static/CNAME`. There is no tracked Firebase deployment configuration in this repository.
 
-2026-06-23
+## Links
 
-
-## Sub-agents & Skills — Main-Context-First (IRON-SOLID)
-Default/built-in sub-agents (`general-purpose`, `Explore`, `Plan`, `claude`, `fork`, …) do NOT have
-access to `/skills`, so delegating to them silently SKIPS the skills RULE #0 requires. Do all
-skill-relevant work in the **MAIN context**; use a sub-agent ONLY when a **custom** agent exists in
-`.claude/agents/` for that job; a default `Explore`/`Plan` agent is allowed ONLY for read-only,
-no-skill search/exploration. When a relevant skill is missing, **install/enable it** rather than
-proceeding skill-less. (Owner directive 2026-07-11; full text in `~/.claude/CLAUDE.md`.)
-
-<!-- RULE:main-context-model-workflow v2026-07-16 -->
-## Main-Context + Skills + Model Workflow (IRON-SOLID — CRITICAL)
-1. **NO default/built-in sub-agents** (`general-purpose`, `Explore`, `Plan`, `claude`, `fork`, …) for ANY work in
-   this project — they cannot invoke /skills, which RULE #0 makes mandatory. Do ALL work (planning, implementation,
-   review, exploration) in the MAIN context. A sub-agent is allowed ONLY when a CUSTOM agent exists in
-   `.claude/agents/` for that exact job.
-2. **Skills always:** before any task, scan the available-skills list and invoke EVERY relevant skill; if a needed
-   skill is missing, download/enable/install it (or use the nearest installed equivalent and say so) — never
-   proceed skill-less.
-3. **Model workflow:** PLAN and REVIEW on **Fable 5**; EXECUTE the approved plan on **Opus 4.8**. Plans in
-   `~/.claude/plans/`; multi-phase features keep a resumable tracker (`docs/features/<slug>/00-tracker.json`),
-   resumed rather than re-planned from zero.
-
-Global records (rules, policy, audit reports) live in the `ahsan-notebook` repo at
-`static/assets/claude-code/`; the `~/.claude/…` paths are symlinks into it. Full text: `~/.claude/CLAUDE.md`.
-(Owner directives 2026-07-11 / 2026-07-14; fleet-rolled 2026-07-16.)
+- Docs: https://achat-docs.aoneahsan.com
+- App: https://achat.aoneahsan.com
+- Play Store: https://play.google.com/store/apps/details?id=com.aoneahsan.achat
