@@ -1,15 +1,17 @@
 # AChat documentation
 
-**Last Updated:** 2026-09-15
+**Last Updated:** 2026-09-22
 
 | Context | Value |
 |---|---|
 | Repository | Public `aoneahsan/achatai-docs` · branch `main` · remote `origin` |
 | Product source | Private sibling app at `../achat` |
 | Stack | Docusaurus 3 · TypeScript · Node 18+ · yarn only (`yarn.lock`) |
-| Context Budget Last Verified | 2026-09-15 — CLAUDE.md 3,471 B / no PENDING-TASKS.md; re-check due 2026-10-15 |
+| Last optimized | 2026-09-22 |
+| Next routine optimization eligible | 2026-10-22 |
+| Guide bytes | 3,568 B |
 | Context design | Compact root; page evidence loads on demand. |
-| Mirror | `AGENTS.md` differs only in its H1 and mirror label. |
+| Mirror | `CLAUDE.md` and `AGENTS.md` are byte-identical. |
 | Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |
 
 ## Purpose and hard boundaries
@@ -49,7 +51,8 @@ The sibling app proves the Android/Play identifier is `com.aoneahsan.achat`.
    guarantees, legal compliance, or deletion precision.
 4. Update `CLAUDE.md` and `AGENTS.md` together. Move future operational depth to an on-demand document and
    leave a pointer.
-5. Context optimization is ineligible before 2026-10-15 unless the owner requests it, topology changes, a hard
+5. `.claude/settings.json` keeps app/backend/mobile skills name-only; the skills remain manually callable.
+6. Context optimization is ineligible before 2026-10-22 unless the owner requests it, topology changes, a hard
    cap is breached, or a proven stale instruction risks incorrect work.
 
 ## Commands and release
