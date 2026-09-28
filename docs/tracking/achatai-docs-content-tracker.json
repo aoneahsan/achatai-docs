@@ -5,7 +5,7 @@
   "appRepo": "github.com/aoneahsan/anonymous-chat-ai-achatai (PRIVATE)",
   "docsRepo": "github.com/aoneahsan/achatai-docs (PUBLIC)",
   "appLive": "https://achat.aoneahsan.com",
-  "docsLive": "https://achatai-docs.aoneahsan.com",
+  "docsLive": "https://achat-docs.aoneahsan.com",
   "stack": "Docusaurus 3 (classic preset + Mermaid), React 19, TypeScript",
   "createdAt": "2026-06-23",
   "lastUpdated": "2026-08-05",
