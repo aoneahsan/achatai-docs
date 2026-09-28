@@ -34,7 +34,7 @@ A deleted chat also waits in Trash, so you can bring it back.
 
 ## Clear messages
 
-- **Clear for me** hides every message in a chat from you only. Everyone else keeps them, and new messages still arrive.
+- **Clear for me** hides every message in a chat from you only. Everyone else keeps them, and new messages still arrive. Right after you clear, **Undo** brings the messages back. It works once, for a limited time; if it's no longer available, nothing changes and the chat stays cleared for you.
 - **Clear for everyone** moves every message to the chat's Trash as one batch, **Cleared messages**, which anyone in the chat can restore with **Restore all**. In a group, only the owner and admins can do this.
 
 Copies that people already saved, forwarded or screenshotted stay with them.
@@ -47,11 +47,11 @@ Anyone in the chat can still copy, save or screenshot a message before it disapp
 
 ## View once
 
-Turn on **View once** for your next message. It's covered until opened, opens for a few seconds with a countdown, then is gone from that device. You see whether it was opened. It can still be copied or screenshotted while it's open.
+Turn on **View once** for your next message. It's covered until opened, opens for a few seconds with a countdown, then is gone from that device. You see whether it was opened. It can still be copied or screenshotted while it's open. If it doesn't open because of a connection problem, it isn't used up: the cover stays and you can try again for a short while.
 
 ## Polls
 
-Send a poll and people vote in the chat. The person who sent it can close it: no one can vote after that, the results stay and the leading option is marked. A closed poll can be opened again.
+Send a poll and people vote in the chat. A poll shows how many people chose each option, not who, and each person can choose one option. The person who sent it can close it: no one can vote after that, the results stay and the leading option is marked. A closed poll can be opened again.
 
 ## Archive and private archive
 
