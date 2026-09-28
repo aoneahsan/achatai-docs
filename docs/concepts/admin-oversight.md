@@ -1,43 +1,45 @@
 ---
 sidebar_position: 3
 title: Admin oversight
-description: AChat has a built-in administrator role for safety and moderation. This is the honest boundary — what an admin can and cannot see, why passworded chats stay end-to-end encrypted, and how every admin action is logged.
-keywords: [chat admin, moderation, admin oversight, audit log, key escrow, content moderation, admin transparency]
+description: What AChat's administrators can and can't see and do — chat details but never messages, reports, suspensions, room restrictions, plan grants — and the action log.
+keywords: [AChat admin, moderation, content moderation, admin access to messages, action log]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Admin oversight
 
-**AChat has a built-in administrator role so the operator can keep the service safe — handle abuse reports, moderate public communities, and run the app. This page is the honest boundary of that role: it is oversight, not behavioural tracking, and passworded chats stay end-to-end encrypted even from an admin.**
+**AChat's admin panel shows chat details, never their messages, except what a reporter chose to send with a report.** Every admin change is recorded in an action log that nobody can edit or delete, admins included.
 
-The administrator is the operator's own **verified Google account** (plus any co-admins they add). It is enforced in the Firestore security rules by that verified email — not by a client-side flag — so it is a real server-side boundary.
+## What admins see
 
-## What an admin can do
+- **Chats:** size, dates and settings only. An encrypted chat lists only its details.
+- **Reports:** about people, rooms and communities. Admins see only what the reporter chose to send, never who sent it.
+- **Private location history:** admins can't open it.
 
-- **Enumerate and inspect** all chats and all signed-in accounts (and their reservations) — the reach here is *discovery*, so abuse can be found and acted on.
-- **Read open chats.** A chat without a password was always readable by anyone who had its ID; an admin can now find those chats to moderate them.
-- **Keep a chat indefinitely** (or mark it eligible to be kept), and grant a specific account a larger upload limit or a longer keep window.
-- **Edit app policy parameters** and the co-admin list.
+## What admins can do
 
-## What an admin cannot do
+| Action | Effect |
+|---|---|
+| Remove reported messages | Removes them for everyone in the chat. Only AChat admins can restore them |
+| Restrict a room | New people can't open it from a link or join it. Members already in it keep chatting |
+| Suspend an account | The person can't sign in or send until an admin lifts it. Their chats are kept, and they can ask for a review through the contact page |
+| Grant a plan or allowance | Sets a plan or custom allowances for an account, with its own end date |
+| Allow keeping a room forever | Lets a keep grant cover that room |
+| Mark a community Mature | Changes a community's 18+ mark |
+| Delete an account on request | For someone who can't sign in, on a request from that account's Google email address |
 
-- **Read passworded chats.** These stay end-to-end encrypted. There is **no key escrow** — the operator holds no copy of your key and cannot decrypt your messages or file metadata. An admin sees only the unencrypted **metadata** (things like a chat's kind, title, or reservation state).
-- **Change the structural guarantees.** The encryption model, the anonymous-by-design writes, and the fixed limits are not runtime-editable — only tunable parameters inside a fixed envelope can be changed.
+Admins also confirm plan payments by hand and answer the contact inbox.
 
-## Accountability
+## Moderation inside groups and communities
 
-- **Every admin action is written to an immutable audit log** — it can be added to but not edited or deleted.
-- **Co-admin transparency:** the list of co-admin emails is readable by any signed-in user, so who has oversight is not hidden.
+The people who run a space act first. Group admins can remove members and delete any message; community admins handle reports and bans. See [Groups & communities](/features/groups-and-communities).
 
-## What this means for you
+## The action log
 
-- **Passworded chats remain private from the operator** — the honest, load-bearing guarantee is unchanged.
-- **Treat open chats and communities as visible** — to other participants, and now to a moderator.
-- **Reserving or keeping a chat records your account on that chat** (an account-to-chat link, never an account-to-message one), which is how it is exempted from the 10-day delete.
+Every admin change appears with who made it and when. Nobody can edit or delete an entry. Chats' device and location history isn't part of this log.
 
-## Related
+## Reviews
 
-- [Security & encryption model](/concepts/security-and-encryption)
-- [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
+If you think a suspension or ban is wrong, ask the AChat team for a review through the [contact page](https://achat.aoneahsan.com/contact). The team makes the final decision, and a review doesn't guarantee any outcome.

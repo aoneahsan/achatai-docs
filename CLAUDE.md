@@ -1,30 +1,34 @@
 # AChat documentation
 
-**Last Updated:** 2026-09-22
+**Last Updated:** 2026-09-28
 
 | Context | Value |
 |---|---|
-| Repository | Public `aoneahsan/achatai-docs` · branch `main` · remote `origin` |
-| Product source | Private sibling app at `../achat` |
+| Repository | Public `aoneahsan/achatai-docs` · `main` (live legacy app) · `rebuild-release` (the rebuild; merges to `main` at the W9 cutover) · remote `origin` |
+| Product source | Private rebuild at `../achat-next` (`../achat` is read-only legacy) |
 | Stack | Docusaurus 3 · TypeScript · Node 18+ · yarn only (`yarn.lock`) |
 | Last optimized | 2026-09-22 |
 | Next routine optimization eligible | 2026-10-22 |
-| Guide bytes | 3,568 B |
+| Guide bytes | 4,217 B |
 | Context design | Compact root; page evidence loads on demand. |
 | Mirror | `CLAUDE.md` and `AGENTS.md` are byte-identical. |
 | Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |
 
 ## Purpose and hard boundaries
 
-This is the public product documentation for **AChat: Anonymous Chat**. AChat is a no-signup, transient chat
-application; it is not an AI or LLM chatbot.
+This is the public product documentation for **AChat** (full name `AChat: Anonymous Chat`): a messaging app for
+personal chats, groups, communities, status and anonymous rooms, on the web and Android.
 
-- Every product claim must be verified against `../achat` source, its project context, or deployed behavior.
-- State the limits with the features: open chats are public, passworded message bodies and file metadata are
-  client-encrypted, file bytes are not encrypted at rest, and normal deletion is about 10 days.
+- Every product claim must trace to `../achat-next` evidence: its approved `src/locales/en/*.json` wording,
+  `docs/PROJECT-CONTEXT.md`, or the root kit's schema/security contracts. Admin-set values (prices, allowances,
+  retention days) appear only as defaults or "a set number", never as fixed literals.
+- State the limits with the features: personal chats, private groups and passworded rooms are end-to-end
+  encrypted; communities, open rooms and status are not; anonymous is not untraceable; no calls.
+- Voice: "the AChat team", never one person. Plans exist (Free, Pro, Team / Family); never imply free-only.
+  Never name AI, internal tooling, FilesHub or private identifiers.
 - This repository is public. Never add an environment file, credential, private identifier, app secret,
   keystore, internal audit record, or unpublished private-app material.
-- App behavior changes belong in `../achat`; current global workflow rules auto-load and are never copied here.
+- App behavior changes belong in `../achat-next`; current global workflow rules auto-load and are never copied here.
 
 ## Project map
 
@@ -62,7 +66,7 @@ yarn typecheck
 yarn build
 ```
 
-Do not run `yarn start` or another dev server. A push to `main` drives the GitHub Pages workflow; the custom
+Do not run `yarn start` or another dev server. Until the W9 cutover, `main` keeps describing the live legacy app and `rebuild-release` is never merged early. A push to `main` drives the GitHub Pages workflow; the custom
 host is pinned by `static/CNAME`. There is no tracked Firebase deployment configuration in this repository.
 
 ## Links

@@ -3,8 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // ---------------------------------------------------------------------------
-// AChat (Anonymous Chat AI) — Documentation site config
-// Author: Ahsan Mahmood (https://aoneahsan.com)
+// AChat — Documentation site config (the AChat team)
 // App: https://achat.aoneahsan.com  ·  Play: id=com.aoneahsan.achat
 // ---------------------------------------------------------------------------
 
@@ -14,10 +13,15 @@ const PLAY_URL =
   'https://play.google.com/store/apps/details?id=com.aoneahsan.achat';
 const DOCS_REPO = 'https://github.com/aoneahsan/achatai-docs';
 
+// Wording from the app's approved public copy (about/features meta).
+const APP_DESCRIPTION =
+  'AChat is a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android. Personal chats and private groups are end-to-end encrypted; anonymous rooms need no account.';
+const DOCS_DESCRIPTION = `Documentation for AChat. ${APP_DESCRIPTION} What it does, with each limit beside it.`;
+
 const config: Config = {
   title: 'AChat Docs',
   tagline:
-    'No-signup anonymous chat: optional in-browser end-to-end encryption, file sharing, and 10-day auto-delete.',
+    'Personal chats, groups, communities, and anonymous rooms when you\'d rather not use an account.',
   favicon: 'img/favicon.svg',
 
   // Production URL — GitHub Pages, custom domain pinned by static/CNAME.
@@ -69,23 +73,10 @@ const config: Config = {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'AChat Documentation',
-        alternateName: 'Anonymous Chat AI Docs',
         url: SITE_URL,
-        description:
-          'Documentation for AChat (Anonymous Chat AI): a no-signup, transient chat app with optional client-side end-to-end encryption (PBKDF2 + AES-GCM), file sharing, message threads, group chats, public communities, an embeddable widget, and 10-day auto-delete. Author: Ahsan Mahmood.',
+        description: DOCS_DESCRIPTION,
         inLanguage: 'en',
-        publisher: {
-          '@type': 'Person',
-          name: 'Ahsan Mahmood',
-          url: 'https://aoneahsan.com',
-          email: 'aoneahsan@gmail.com',
-          sameAs: [
-            'https://linkedin.com/in/aoneahsan',
-            'https://github.com/aoneahsan',
-            'https://www.npmjs.com/~aoneahsan',
-          ],
-        },
-        license: 'https://opensource.org/licenses/MIT',
+        publisher: { '@type': 'Organization', name: 'AChat team', url: APP_URL },
       }),
     },
     {
@@ -94,27 +85,22 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
-        name: 'Anonymous Chat AI',
-        alternateName: 'AChat',
+        name: 'AChat',
+        alternateName: 'AChat: Anonymous Chat',
         applicationCategory: 'CommunicationApplication',
         operatingSystem: 'Android, Web',
-        offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         url: APP_URL,
         sameAs: [APP_URL, PLAY_URL],
-        author: {
-          '@type': 'Person',
-          name: 'Ahsan Mahmood',
-          url: 'https://aoneahsan.com',
-        },
-        description:
-          'No-signup anonymous chat. Pick or generate a chat ID, share the link, talk. An optional password enables true in-browser end-to-end encryption. Files up to 10 MB each (100 MB per chat). Every message and file auto-deletes about 10 days after it is sent.',
+        author: { '@type': 'Organization', name: 'AChat team', url: APP_URL },
+        description: APP_DESCRIPTION,
         featureList: [
-          'No sign-up required',
-          'Optional client-side end-to-end encryption (PBKDF2 + AES-GCM)',
-          'File sharing up to 10 MB per file (100 MB per chat)',
-          'Message threads, group chats, and public communities',
-          'Embeddable chat widget',
-          '10-day automatic deletion (Firestore TTL)',
+          'Personal chats and private groups, end-to-end encrypted',
+          'Anonymous rooms without an account',
+          'Communities with channels, threads and moderation',
+          'Status that disappears after 24 hours',
+          'Linked devices and a recovery key',
+          'Chat widget for other websites',
+          'Free, Pro and Team / Family plans',
         ],
       }),
     },
@@ -124,17 +110,9 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'Ahsan Mahmood',
-        alternateName: 'aoneahsan',
-        url: 'https://aoneahsan.com',
-        email: 'aoneahsan@gmail.com',
-        sameAs: [
-          'https://linkedin.com/in/aoneahsan',
-          'https://github.com/aoneahsan',
-          'https://www.npmjs.com/~aoneahsan',
-          'https://aoneahsan.com',
-        ],
-        founder: { '@type': 'Person', name: 'Ahsan Mahmood' },
+        name: 'AChat team',
+        url: APP_URL,
+        sameAs: [APP_URL, PLAY_URL],
       }),
     },
   ],
@@ -184,29 +162,26 @@ const config: Config = {
     metadata: [
       {
         name: 'description',
-        content:
-          'Documentation for AChat (Anonymous Chat AI) — no-signup transient chat with optional in-browser end-to-end encryption, file sharing, communities, an embeddable widget, and 10-day auto-delete. By Ahsan Mahmood.',
+        content: DOCS_DESCRIPTION,
       },
       {
         name: 'keywords',
         content:
-          'anonymous chat, no signup chat, end-to-end encrypted chat, ephemeral chat, disappearing messages, temporary chat room, private chat link, self-destructing chat, encrypted file sharing, anonymous group chat, public chat community, embeddable chat widget, capacitor chat app, firebase chat',
+          'AChat, messaging app, end-to-end encrypted chat, anonymous chat room, group chat, online communities, status updates, disappearing messages, chat widget, no phone number chat',
       },
-      { name: 'author', content: 'Ahsan Mahmood' },
+      { name: 'author', content: 'AChat team' },
       {
         name: 'robots',
         content:
           'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
       },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:creator', content: '@aoneahsan' },
-      { name: 'twitter:site', content: '@aoneahsan' },
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'AChat Docs' },
       { property: 'og:locale', content: 'en_US' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
-      { property: 'article:author', content: 'Ahsan Mahmood' },
+      { property: 'article:author', content: 'AChat team' },
     ],
     colorMode: {
       defaultMode: 'dark',
@@ -233,7 +208,7 @@ const config: Config = {
           label: 'Docs',
         },
         { to: '/getting-started/quick-start', label: 'Quick Start', position: 'left' },
-        { to: '/about-the-author', label: 'Author', position: 'right' },
+        { to: '/about-the-author', label: 'AChat team', position: 'right' },
         { href: APP_URL, label: 'Open AChat', position: 'right' },
         { href: PLAY_URL, label: 'Play Store', position: 'right' },
         { href: DOCS_REPO, label: 'GitHub', position: 'right' },
@@ -257,21 +232,13 @@ const config: Config = {
             { label: 'Open the app', href: APP_URL },
             { label: 'Get it on Google Play', href: PLAY_URL },
             { label: 'Contact', href: `${APP_URL}/contact` },
+            { label: 'Plans and pricing', href: `${APP_URL}/pricing` },
             { label: 'Privacy policy', href: `${APP_URL}/privacy` },
             { label: 'Terms', href: `${APP_URL}/terms` },
           ],
         },
-        {
-          title: 'Built by Ahsan Mahmood',
-          items: [
-            { label: 'aoneahsan.com', href: 'https://aoneahsan.com' },
-            { label: 'LinkedIn', href: 'https://linkedin.com/in/aoneahsan' },
-            { label: 'GitHub', href: 'https://github.com/aoneahsan' },
-            { label: 'npm packages', href: 'https://www.npmjs.com/~aoneahsan' },
-          ],
-        },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Ahsan Mahmood. Built with Docusaurus. AChat is a free product by Zaions.`,
+      copyright: `Copyright © ${new Date().getFullYear()} the AChat team. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -279,9 +246,9 @@ const config: Config = {
       additionalLanguages: ['bash', 'json', 'typescript', 'jsx', 'tsx', 'yaml', 'diff'],
     },
     announcementBar: {
-      id: 'achat-live',
+      id: 'achat-rebuild',
       content:
-        'AChat is live on the web and Google Play — no sign-up, optional end-to-end encryption, 10-day auto-delete. <a href="https://achat.aoneahsan.com">Start a chat →</a>',
+        'AChat now has personal chats with people you know, groups, communities and status, alongside anonymous rooms. <a href="https://achat.aoneahsan.com">Open AChat</a>',
       backgroundColor: '#7c3aed',
       textColor: '#ffffff',
       isCloseable: true,

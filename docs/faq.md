@@ -1,85 +1,79 @@
 ---
 sidebar_position: 90
 title: FAQ
-description: Frequently asked questions about AChat (Anonymous Chat AI) — sign-up, encryption, AI, file sharing, deletion, communities, and the embeddable widget.
-keywords: [AChat FAQ, anonymous chat questions, is achat private, does achat use ai, ephemeral chat faq]
+description: Direct answers about AChat — accounts, encryption, anonymous rooms, how long messages last, plans, location history, account deletion and platforms.
+keywords: [AChat FAQ, is AChat encrypted, anonymous chat questions, AChat plans, delete AChat account]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Frequently asked questions
 
-Direct answers to the most common questions about AChat (Anonymous Chat AI).
+## Do I need an account?
 
-## Do I need an account to use AChat?
+Not for anonymous rooms: you pick a display name and share the room's link. Personal chats, contacts, groups, status and kept rooms need an account, which is a Google sign-in and a username. AChat never asks for your phone number.
 
-No. AChat needs no sign-up, email, or phone number. Open the app, pick or generate a chat ID, share the link, and talk. An optional Google sign-in only exists so you can *keep* a chat past the 10-day auto-delete — it is never required to chat.
+## Who can read a personal chat?
 
-## Is AChat private?
+The people in it. Personal chats, private groups and their files are end-to-end encrypted, so each message can be read only on those people's devices. AChat's moderators see a message only if someone in the chat reports it. See [Passwords & encryption](/features/passwords-and-encryption).
 
-It can be. A chat with a **password** is end-to-end encrypted in your browser (PBKDF2 + AES-GCM), so message bodies and file metadata are ciphertext on the server. A chat **without** a password is plaintext and readable by anyone who has the chat ID. Privacy comes from the password, not from the link being secret. See [Security & encryption](/concepts/security-and-encryption).
+## Is everything encrypted?
 
-## Does AChat use AI?
+No. Communities, their channels, open anonymous rooms and status updates aren't end-to-end encrypted. A room with a password encrypts its messages on your device.
 
-No. Despite the brand name "Anonymous Chat AI", AChat has **no AI or LLM chat feature** — conversations are between real people, not a chatbot. The "AI" in the name is historical branding. The accurate description is "anonymous, ephemeral, optionally end-to-end-encrypted chat."
+## What does anonymous mean here?
+
+No account and no phone number. It doesn't mean invisible: your device still connects to AChat's servers, as it would for any website. If you also have an account, AChat doesn't link your anonymous messages to it.
 
 ## How long do messages last?
 
-About 10 days. Every message and file is stamped with an `expiresAt` ~10 days in the future, and Firestore TTL deletes expired documents (typically within ~24 hours of expiry). File bytes on FilesHub are cleaned up lazily when a chat is next loaded. To keep a room longer, sign in and [reserve](/features/keep-chats-and-accounts) it.
+Personal chats and groups keep their history until someone deletes it, unless the chat uses disappearing messages (1 minute, 1 hour or 1 day). Each anonymous room message is kept for a set number of days, 10 by default, unless someone [keeps the room](/features/keep-chats-and-accounts). Status lasts 24 hours.
 
-## Can I share files?
+## What if I lose every device?
 
-Yes — up to 10 MB per file and 100 MB total per chat, stored on FilesHub, with image previews and a lightbox. Note that **file bytes are not encrypted at rest**; on passworded chats only the file URL/metadata is encrypted. See [File sharing](/features/file-sharing).
+Your recovery key or another linked device brings your history back. Google sign-in alone can't, and the AChat team can't either, because AChat doesn't keep a copy of your message keys. See [Devices & recovery key](/features/devices-and-recovery).
 
-## What happens if I lose my chat password?
+## Can I delete a message?
 
-The chat becomes permanently unreadable. There is no password reset and no backdoor — that is the point of client-side encryption. Share the password over a separate trusted channel and keep it safe.
+Yes. **Delete for everyone** moves your message to that chat's Trash, where anyone in the chat can restore it for a set number of days (30 by default). Copies people already saved stay with them. See [Manage messages](/features/manage-messages).
 
-## Are communities private?
+## Does AChat record my location?
 
-No. Communities are **public** and discoverable, with best-effort, **bypassable** client-side moderation (a profanity filter, soft anonymous-ID bans, and report counters). Treat them as public spaces. Their messages still auto-delete on the 10-day schedule. See [Groups & communities](/features/groups-and-communities).
+Only in a chat with device and location history on, and only after you agree. The chat shows what it records and who can see it before you enter; say no and it stays closed. See [Device & location history](/features/location-history).
 
-## Can I embed AChat on my website?
+## Does AChat cost anything?
 
-Yes. Embed it as an inline iframe or a floating launcher. The widget is sandboxed, so the host page cannot read the messages inside. See [Embeddable widget](/features/embeddable-widget).
+Free has no end date and covers personal chats, groups, communities and anonymous rooms. Pro and Team / Family raise four allowances: file size, files per chat, how many rooms you keep and for how long. See [Plans & pricing](/features/plans-and-pricing).
 
-## Is AChat free?
+## Can the person paying for Team / Family read my messages?
 
-Yes. AChat is free with no paid tier. It runs on free-tier infrastructure (Firestore TTL + FilesHub) with no server-side functions.
+No. The payer manages seats and renewal, and can't read other members' chats or see their location.
 
-## Is it anonymous against everyone, including law enforcement?
+## Can I embed a chat on my website?
 
-No. AChat hides your identity from **other participants** — there is no account requirement and accounts are never linked to message authorship. But standard infrastructure telemetry (IP address, user agent) is processed by Firebase, so AChat is **not** anonymous against legal process.
+Yes: an anonymous room or a display-name channel in a community marked Anonymous allowed. You can list the websites allowed to show it. See [Embeddable widget](/features/embeddable-widget).
+
+## Can I make voice or video calls?
+
+No. AChat is for messages.
 
 ## How do I delete my account?
 
-If you signed in: **Account → Delete account** in the app (or the public [/delete-account](https://achat.aoneahsan.com/delete-account) page). It releases your reservations, deletes your profile, and removes your Firebase Auth record. After that, reserved chats return to the normal 10-day expiry.
+**Account**, then the **Data** tab, then **Delete account**. It's immediate and permanent. See [Kept rooms & your account](/features/keep-chats-and-accounts#delete-your-account).
 
-## Can I search my chats?
+## Which platforms does it run on?
 
-Yes — you can search across the chats you have opened, and the search runs **entirely on your device**. AChat keeps a small local cache of your recent chats (5 when anonymous, 10 when signed in) in this browser and searches that; your search terms never leave the browser. A passworded chat is searchable only when its password is saved on this device. See [Search & message history](/features/search-and-history).
+Any current browser, and [Android](https://play.google.com/store/apps/details?id=com.aoneahsan.achat). There's no iOS app; use the web on iPhone and iPad.
 
-## Can I delete a message, or keep a chat just for myself?
+## Which languages?
 
-Yes. Deleting a message sends it to a per-chat **Trash** you can restore from (kept up to 30 days, never past the chat's own expiry). You can delete one thread reply by itself, while deleting its parent moves every reply in that thread to Trash too. If you sign in, you can also **privately archive** a chat so only you — signed in — can read it; a password alone will not unlock an archived chat. You can also forward a message into another chat. See [Delete, archive & forward](/features/manage-messages).
+English, Spanish, French, German and Arabic.
 
-## Who can read my chats — can an admin see them?
+## Who can use AChat?
 
-A built-in administrator role exists for safety and moderation. It can find and read **open** (unpassworded) chats, which were already readable by anyone with the ID. It **cannot** read passworded chats — those stay end-to-end encrypted and there is no key escrow — and every admin action is logged to an immutable audit trail. See [Admin oversight](/concepts/admin-oversight).
+People 16 or older.
 
-## Does AChat track me with analytics?
+## How do I contact the AChat team?
 
-AChat uses product analytics (Firebase Analytics / GA4, Amplitude, Microsoft Clarity) and Sentry error reporting to improve the app and fix problems. They **never receive chat IDs, message contents, passwords, or files** — the chat ID is stripped from the URL first — and **no advertising ID is collected**. Clarity records anonymised session replays of interface usage. See [Data, privacy & deletion](/concepts/data-privacy-and-deletion).
-
-## Will AChat email me or send notifications?
-
-Only if you choose. Push notifications (via OneSignal) are **off by default** and opt-in. A few transactional emails (welcome on first sign-in, account-deletion confirmation, a reserved-chat expiry reminder) go out via FilesHub if they apply to you. Anonymous use sends no email. See [Notifications & email](/features/notifications-and-email).
-
-## How do I contact the developer?
-
-Use the [contact page](https://achat.aoneahsan.com/contact), or email [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com).
-
-## Which platforms does AChat run on?
-
-The web app runs in any modern browser (and installs as a PWA). There is an Android app on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat). There is no iOS app — on iPhone and iPad, use the web app and add it to your home screen; it works in mobile Safari.
+Use the [contact page](https://achat.aoneahsan.com/contact). Replies go to the email address you enter.

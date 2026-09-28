@@ -1,7 +1,7 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 /**
- * Sidebar layout for the AChat (Anonymous Chat AI) documentation site.
+ * Sidebar layout for the AChat documentation site.
  * Every entry maps to a real Markdown file under docs/.
  */
 const sidebars: SidebarsConfig = {
@@ -18,17 +18,24 @@ const sidebars: SidebarsConfig = {
       label: 'Features',
       collapsed: false,
       items: [
+        'features/personal-chats-and-contacts',
+        'features/devices-and-recovery',
         'features/anonymous-chats',
         'features/passwords-and-encryption',
-        'features/file-sharing',
-        'features/threads-and-replies',
         'features/groups-and-communities',
-        'features/search-and-history',
-        'features/manage-messages',
-        'features/embeddable-widget',
+        'features/status',
         'features/keep-chats-and-accounts',
+        'features/threads-and-replies',
+        'features/file-sharing',
+        'features/manage-messages',
+        'features/writing-messages',
+        'features/search-and-history',
+        'features/embeddable-widget',
         'features/notifications-and-email',
         'features/themes-and-accessibility',
+        'features/privacy-on-this-device',
+        'features/location-history',
+        'features/plans-and-pricing',
       ],
     },
     {

@@ -1,41 +1,43 @@
 ---
-sidebar_position: 6
+sidebar_position: 13
 title: Embeddable widget
-description: Embed an AChat room on any website as an inline iframe or a floating launcher — sandboxed, so the host page cannot read the messages inside.
-keywords: [embeddable chat widget, iframe chat, add chat to website, floating chat launcher, anonymous chat embed]
+description: Put an AChat anonymous room or community channel on your website, in the page or as a chat button, and choose which websites may show it.
+keywords: [embed chat widget, website chat, chat iframe, AChat widget]
 last_update:
-  date: 2026-06-23
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Embeddable widget
 
-**AChat can be embedded on any website as a sandboxed chat — either an inline iframe or a floating launcher button — without standing up your own backend, and the host page cannot read the messages inside.** This makes AChat a drop-in anonymous chat for landing pages, docs, events, and support corners.
+**Choose a room or channel, choose how it looks, then copy the code into your page.** Build it on the [widget page](https://achat.aoneahsan.com/widget), which shows a preview with demo messages before you copy.
 
-## Two embed modes
+## What you can embed
 
-- **Inline iframe** — render a specific chat room directly in the page layout (for example, a support box in a sidebar).
-- **Floating launcher** — a small button that opens the chat in a panel, similar to a typical website chat bubble.
+| Target | Condition |
+|---|---|
+| Anonymous room | Any room ID: 8–20 lowercase letters, numbers and dashes. A new room is created the first time someone opens the widget |
+| Community channel | Only display-name channels in communities marked **Anonymous allowed** |
 
-Both point at a specific chat ID, so you control which room the widget opens.
+Private groups and channels that need an account can't be shown on other websites.
 
-## Sandboxing & privacy
+## Layout and options
 
-The widget runs inside a sandboxed iframe:
+- **In the page:** the chat at a fixed size where you paste the code.
+- **Chat button:** a button in a corner that opens the chat in a panel.
+- **Compact**, **Hide chat header** and **Offer sign-in** (visitors can sign in to keep the room; chatting never needs it, and sign-in opens in a new tab).
 
-- The **host page cannot read the chat's messages** — the iframe is an isolated browsing context.
-- The widget only carries the permissions the iframe `allow`-list grants; AChat ships with no sensitive permissions (e.g. no microphone) in the widget.
-- The chat behaves like any AChat room: optionally passworded, ephemeral, and auto-deleting.
+## Allowed websites
 
-## Sign-in inside an embed (honest limit)
+List up to 20 websites allowed to show the chat. Until you add one, any website can show it.
 
-Optional Google sign-in **may be blocked inside a third-party iframe** by the browser (third-party cookie / popup restrictions). When that happens, AChat falls back to opening sign-in in a new tab. Because anonymous chat needs no sign-in at all, embeds work fully without it — sign-in only matters if a user wants to *keep* a chat.
+- For a room, only the person keeping it can change the list. Nobody can limit a room until someone keeps it.
+- For a channel, only the community's admins can.
 
-## Direct widget link
+A website that isn't on the list shows a notice and a link to open the chat in AChat instead.
 
-There is also a direct `/widget` route, so you can link people straight to the widget experience without embedding it yourself.
+## What visitors should know
 
-## Related
-
-- [Anonymous chats](/features/anonymous-chats)
-- [Keep chats & accounts](/features/keep-chats-and-accounts)
+- Anyone who visits a page with the widget can read the room and write in it, unless the room has a password. Messages follow the room's own history.
+- Sign-in, microphone and location don't work inside another website. A chat that records location opens only in AChat.
+- The website's browser settings may stop AChat remembering a visitor, so they might need to pick a display name again next time.

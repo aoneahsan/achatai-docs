@@ -1,68 +1,48 @@
 ---
 sidebar_position: 2
 title: Security & encryption model
-description: AChat's honest threat model — what client-side PBKDF2 + AES-GCM encryption protects, what it does not, and what to assume about open chats, files, and infrastructure telemetry.
-keywords: [chat threat model, end-to-end encryption limits, AES-GCM, PBKDF2, secure chat, encryption honest framing]
+description: What AChat's end-to-end encryption covers and what it doesn't, how keys, linked devices and the recovery key fit together, and the limits no app can remove.
+keywords: [AChat security, end-to-end encryption model, recovery key, linked devices, threat model]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Security & encryption model
 
-**AChat's security comes from optional, client-side end-to-end encryption: a password derives an AES-GCM key in your browser (via PBKDF2) that the server never sees. This page is the honest threat model — what is protected, and just as importantly, what is not.**
+**AChat promises end-to-end encryption for personal chats, private groups and rooms with a password. It doesn't promise it for communities, their channels, open rooms or status updates.**
 
-## What is protected (passworded chats)
+## What end-to-end encryption means here
 
-- **Message bodies** are AES-GCM ciphertext; the server stores only `{ ciphertext, iv }`.
-- **File metadata** (name, FilesHub URL) is encrypted client-side.
-- **The key never leaves your device** — it is derived in-memory from your password + a per-chat salt and is never uploaded or persisted to a server.
-- **Password correctness is checked offline** via a stored verifier, so the server is never asked to validate the password.
+- Messages in those chats can be read only on the devices of the people in them.
+- AChat stores them in a form its servers and administrators can't read.
+- AChat doesn't keep a copy of your message keys, so it can't read or restore your history.
+- Push notifications carry the chat or sender name, never the message text.
+- Search looks only at messages already on your device.
 
-## What is *not* protected (read this carefully)
+## Keys, devices and recovery
 
-| Not protected | Why it matters |
-|---|---|
-| **File bytes at rest** | Files on FilesHub are not encrypted; only their URL/metadata is. A holder of the raw URL can fetch the file. |
-| **Open (no-password) chats** | Everything is plaintext; anyone with the chat ID can read all messages and files. |
-| **Grouping/metadata fields** | `kind`, `title`, `topic`, thread counts, and reservation fields stay plaintext even on passworded chats. |
-| **Identity vs. infrastructure** | Standard Firebase telemetry (IP address, user agent) is processed. AChat hides you from other participants, not from a subpoena. |
-| **Lost passwords** | No recovery, no backdoor. A lost password means the chat is permanently unreadable. |
+- **Linked devices** each hold your keys. Approving a device lets it read your chats, history included, and send messages as you. Compare security codes to check a link.
+- **Removing a device** stops new messages reaching it and signs it out. What it already stored stays on it.
+- **Groups get new keys** when their members change, so people who left can't read new messages.
+- **The recovery key** is yours to keep. Google sign-in alone can't restore your history. Lose the key and every linked device, and nobody can restore it.
 
-## Threat model in plain terms
+## Room passwords
 
-AChat is designed to protect a passworded chat's **message contents** from:
+A room with a password encrypts its messages on your device, using that password. Too many wrong tries in a row make you wait before trying again. A password you set gets strength advice checked on your device.
 
-- Other people who do not have the password.
-- A casual observer of the database (they see only ciphertext for passworded chats).
+## Private location history
 
-AChat is **not** designed to protect against:
+In a personal chat, private group or room with a password, [device and location history](/features/location-history) is encrypted end to end. Only members who enter the chat's audit password (or the room password) can see it, and AChat's administrators can't open it.
 
-- A determined adversary who has the **password** (they can read everything).
-- Exposure of **file bytes** via a leaked FilesHub URL.
-- **Legal/infrastructure-level** identification via IP/UA telemetry.
-- Anything in an **open** chat (no encryption at all).
+## What encryption can't do
 
-## App-level hardening
+- **Anyone who reads a message can copy it.** People in a chat can copy, save or screenshot anything, including disappearing and view-once messages while they're open. Deleting later doesn't reach those copies.
+- **Open chats are open.** Anyone with an open room's link can read it. Communities and their channels aren't end-to-end encrypted.
+- **Anonymous isn't untraceable.** Your device connects to AChat's servers like any website, and hosts record connection details such as your IP address.
+- **A lost, unlocked device is a risk.** Whoever holds it can open what's stored there. [Privacy on this device](/features/privacy-on-this-device) covers the privacy screen and Wipe from this device.
+- **Nothing already seen can be recalled.** A later setting or policy change can't take back what was read, copied, saved or exported.
 
-Beyond message encryption, the web app ships standard production hardening:
+## Moderation and encryption
 
-- A strict **Content-Security-Policy**, plus HSTS, `X-Content-Type-Options`, a restrictive `Referrer-Policy`, and a `Permissions-Policy` that denies unused device APIs.
-- Optional **Firebase App Check** (reCAPTCHA v3) support — currently **off** by default, and documented as such rather than claimed as enforced.
-- The Android app requests a minimal permission set — **INTERNET**, **VIBRATE**, and, only if you opt in to push, **notifications** (`POST_NOTIFICATIONS`) — with no camera, microphone, location, contacts, or storage permission, and no advertising ID.
-
-## Practical guidance
-
-- For anything sensitive: **generated chat ID + strong password**, shared out-of-band.
-- Treat **files** as semi-public; do not upload secrets.
-- Treat **communities** and **open chats** as fully public.
-
-## A note on admin oversight
-
-A built-in administrator role can enumerate chats and read **open** ones for moderation. It does **not** weaken this model: passworded chats stay end-to-end encrypted, there is **no key escrow**, and every admin action is logged. See [Admin oversight](/concepts/admin-oversight).
-
-## Related
-
-- [Passwords & encryption](/features/passwords-and-encryption)
-- [Admin oversight](/concepts/admin-oversight)
-- [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
+AChat's moderators see a message in an encrypted chat only if someone in that chat reports it and sends it with the report. See [Admin oversight](/concepts/admin-oversight).

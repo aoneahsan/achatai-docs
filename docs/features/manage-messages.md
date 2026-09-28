@@ -1,52 +1,63 @@
 ---
-sidebar_position: 7
-title: Delete, archive & forward
-description: Soft-delete messages to a per-chat 30-day Trash, lock a chat to your account with a login-gated private archive, or forward a message to another chat.
-keywords: [delete chat message, message trash, restore deleted message, private chat archive, forward message, lock chat to account]
+sidebar_position: 10
+title: Manage messages
+description: Edit, delete, clear, forward, pin and restore AChat messages; per-chat Trash; disappearing messages and view once; polls; archiving and saving a copy of a chat.
+keywords: [delete message, chat trash, disappearing messages, view once, forward message, poll, archive chat, AChat]
 last_update:
-  date: 2026-08-05
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
-# Delete, archive & forward
+# Manage messages
 
-**AChat gives you three ways to manage what is in a chat: soft-delete a message to a per-chat Trash you can restore from, privately archive a whole chat to your account, and forward a message into another chat.**
+**Every message action says what it changes and for whom before you confirm, and most can be undone.**
 
-## Trash (soft-delete with a 30-day window)
+## Message actions
 
-Delete a message and it goes to that chat's **Trash** rather than vanishing:
+| Action | What it does |
+|---|---|
+| React | Adds an emoji reaction |
+| Reply / Thread | Quotes a message, or opens a [thread](/features/threads-and-replies) on it |
+| Edit | Changes your own message, in encrypted chats too |
+| Forward | Sends a copy to another chat. In an encrypted chat it's encrypted again for the chat it goes to |
+| Pin | Pins a message to the top of the chat |
+| Copy link | A link to that one message, which opens only for people in the chat |
 
-- **Restore** it, **delete it permanently**, or **Clear all** trashed messages.
-- Trash retention is capped by the chat's own lifetime — a Trash entry never outlives the chat, and deleting only ever pulls its expiry **earlier**, never later.
-- Delete an individual thread reply on its own. Delete the thread's parent and every reply in that thread moves to Trash with it, including older replies outside the chat's live message window.
-- Deletion is best-effort and owner-oriented, consistent with how AChat's other edits work: the rules constrain the shape of the change, not who may make it.
+## Delete and Trash
 
-You can also delete a whole chat from your view.
+- **Delete for me** removes a message only for you.
+- **Delete for everyone** applies to your own messages and moves the message to that chat's **Trash**.
+- Anyone in the chat can restore a message from the chat's Trash, or delete it permanently.
+- Trash keeps things for a set number of days, 30 by default, then deletes them permanently. Never longer than the chat's own history, or a message's own disappearing timer.
 
-## Private archive (login-gated)
+A deleted chat also waits in Trash, so you can bring it back.
 
-Signing in with Google unlocks a **private archive** that locks a chat to your account:
+## Clear messages
 
-- Once archived, **only you, while signed in, can read that chat** — a read-only snapshot.
-- **A password alone will not unlock an archived chat.** The account gate is enforced by the security rules, separately from any chat password. Archiving implies keeping the chat past the 10-day auto-delete.
+- **Clear for me** hides every message in a chat from you only. Everyone else keeps them, and new messages still arrive.
+- **Clear for everyone** moves every message to the chat's Trash as one batch, **Cleared messages**, which anyone in the chat can restore with **Restore all**. In a group, only the owner and admins can do this.
 
-This is different from the local declutter archive (a personal "tidy this away" that only affects your own list) and from [reserving a chat](/features/keep-chats-and-accounts) (which extends a chat's lifetime for everyone in it).
+Copies that people already saved, forwarded or screenshotted stay with them.
 
-## Forward
+## Disappearing messages
 
-Forward a message to reuse it elsewhere:
+A per-chat setting: **Off**, **1 minute**, **1 hour** or **1 day**. It applies to new messages from everyone in the chat; messages already sent keep their own timer. A line in the chat says when someone changes it, and each message shows a countdown.
 
-- **Text** can be forwarded anywhere you can write.
-- **Files** can be forwarded into any open chat.
+Anyone in the chat can still copy, save or screenshot a message before it disappears.
 
-You can also copy a direct link to a message, and mark messages read or unread.
+## View once
 
-## Honest framing
+Turn on **View once** for your next message. It's covered until opened, opens for a few seconds with a countdown, then is gone from that device. You see whether it was opened. It can still be copied or screenshotted while it's open.
 
-- Soft-delete and restore act on the copy stored in the chat; a message someone already read or copied is not recalled.
-- The private archive gates **who can read** the chat (your signed-in account); it is a separate protection from the client-side [password encryption](/features/passwords-and-encryption), not a replacement for it.
+## Polls
 
-## Related
+Send a poll and people vote in the chat. The person who sent it can close it: no one can vote after that, the results stay and the leading option is marked. A closed poll can be opened again.
 
-- [Keep chats & accounts](/features/keep-chats-and-accounts)
-- [Search & message history](/features/search-and-history)
+## Archive and private archive
+
+- **Archive** hides a chat from your list without deleting it. Nothing changes for anyone else.
+- **Private archive** (anonymous rooms, with an account): from then on only your account can open the room, even with its link or password, and it becomes read-only. You can't do this to a room someone else keeps.
+
+## Save a copy
+
+Save a copy of a chat as a web page (.html) or Markdown (.md). The file includes the messages you can read on that device now, and anyone who gets the file can read it.

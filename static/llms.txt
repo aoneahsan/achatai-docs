@@ -1,45 +1,48 @@
-# AChat (Anonymous Chat AI) — Documentation Index
+# AChat — Documentation Index
 
-> AChat is a no-signup, transient chat app. Pick or generate a chat ID, share the link, and talk. An optional password turns on true client-side end-to-end encryption (PBKDF2 + AES-GCM) in the browser — and you can add a password to an open chat later (new messages then encrypt; earlier ones stay as sent). You can share files (up to 10 MB each, 100 MB per chat), reply in threads, create private group chats, open public communities, and embed a chat widget on any site. Search across the chats you have opened, entirely on your device. Soft-delete messages to a per-chat Trash or privately archive a chat to your account. Every message and file auto-deletes about 10 days after it is sent (Firestore TTL). Web app: https://achat.aoneahsan.com. Author: Ahsan Mahmood (https://aoneahsan.com).
+> AChat is a messaging app for personal chats, groups, communities, status and anonymous rooms, in the browser and on Android, in English, Spanish, French, German and Arabic. Accounts use Google sign-in and a username; no phone number is asked for. Anonymous rooms need no account: a display name and a link. Personal chats, private groups and their files are end-to-end encrypted, and a room with a password encrypts its messages on the device; communities, their channels, open rooms and status updates are not end-to-end encrypted. Linked devices and a user-held recovery key restore history; AChat keeps no copy of message keys. Anonymous room messages are kept for a set number of days (10 by default) unless someone keeps the room. Plans: Free, Pro and Team / Family. AChat does not make voice or video calls. Web app: https://achat.aoneahsan.com. Built by the AChat team.
 
-## About
-
-AChat is built by Ahsan Mahmood. The web app runs on Vite + React 19 + Firebase (Firestore + Hosting); the native Android build uses Capacitor 8 (Android + web only — there is no iOS build); file storage and transactional email are FilesHub. It is free to use, with no paid tier and no Firebase Functions. Product analytics (Firebase Analytics / GA4, Amplitude, Microsoft Clarity) and error reporting (Sentry) never receive chat IDs, message contents, passwords, or files; no advertising ID is collected. Despite the brand name "Anonymous Chat AI", AChat currently has NO AI / LLM chat features — conversations are between real people, not a chatbot. The name is historical branding; the honest description is "anonymous, ephemeral, optionally end-to-end-encrypted chat".
-
-This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a structured index for large language models.
+This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 
 ## Getting Started
 
-- [Introduction](https://achatai-docs.aoneahsan.com/intro): What AChat is, who it is for, and what it is not.
-- [Installation / how to use it](https://achatai-docs.aoneahsan.com/getting-started/installation): Web (any browser, installable PWA) + Android. No account needed.
-- [Quick Start](https://achatai-docs.aoneahsan.com/getting-started/quick-start): Start your first chat in about 60 seconds.
+- [Introduction](https://achat-docs.aoneahsan.com/intro): what AChat does and what it doesn't promise.
+- [Installation & access](https://achat-docs.aoneahsan.com/getting-started/installation): web and Android; anonymous or with an account.
+- [Quick Start](https://achat-docs.aoneahsan.com/getting-started/quick-start): the first chat, with a contact or in an anonymous room.
 
 ## Features
 
-- [Anonymous chats](https://achatai-docs.aoneahsan.com/features/anonymous-chats): chat IDs, sharing, presence, no sign-up.
-- [Passwords & end-to-end encryption](https://achatai-docs.aoneahsan.com/features/passwords-and-encryption): how the optional PBKDF2 + AES-GCM encryption works and its honest limits.
-- [File sharing](https://achatai-docs.aoneahsan.com/features/file-sharing): 10 MB per file, 100 MB per chat, FilesHub storage, previews.
-- [Threads & replies](https://achatai-docs.aoneahsan.com/features/threads-and-replies): quote replies and threaded conversations.
-- [Groups & communities](https://achatai-docs.aoneahsan.com/features/groups-and-communities): private named groups and public discoverable communities with client-side moderation.
-- [Search & message history](https://achatai-docs.aoneahsan.com/features/search-and-history): on-device cross-chat search and load-earlier for long chats.
-- [Delete, archive & forward](https://achatai-docs.aoneahsan.com/features/manage-messages): per-chat 30-day Trash, login-gated private archive, and forwarding.
-- [Embeddable widget](https://achatai-docs.aoneahsan.com/features/embeddable-widget): inline iframe + floating launcher.
-- [Keep chats & accounts](https://achatai-docs.aoneahsan.com/features/keep-chats-and-accounts): the optional Google sign-in that lets you reserve chats past the 10-day delete.
-- [Notifications & email](https://achatai-docs.aoneahsan.com/features/notifications-and-email): opt-in OneSignal push and optional transactional emails.
-- [Themes & accessibility](https://achatai-docs.aoneahsan.com/features/themes-and-accessibility): full theme customizer, dyslexia/colorblind options, keyboard support.
+- [Personal chats & contacts](https://achat-docs.aoneahsan.com/features/personal-chats-and-contacts): usernames, invite links, QR codes, requests, blocks, online status, read receipts.
+- [Devices & recovery key](https://achat-docs.aoneahsan.com/features/devices-and-recovery): linking devices, security codes, the recovery key.
+- [Anonymous rooms](https://achat-docs.aoneahsan.com/features/anonymous-chats): room IDs, display names, passwords, how long rooms last.
+- [Passwords & encryption](https://achat-docs.aoneahsan.com/features/passwords-and-encryption): which chats are end-to-end encrypted and the limits.
+- [Groups & communities](https://achat-docs.aoneahsan.com/features/groups-and-communities): encrypted groups; communities with channels, roles, reports and bans.
+- [Status](https://achat-docs.aoneahsan.com/features/status): 24-hour updates for contacts; not end-to-end encrypted.
+- [Kept rooms & your account](https://achat-docs.aoneahsan.com/features/keep-chats-and-accounts): keeping rooms, username, export, account deletion.
+- [Threads & replies](https://achat-docs.aoneahsan.com/features/threads-and-replies): replies and threads.
+- [Files, voice notes & media](https://achat-docs.aoneahsan.com/features/file-sharing): plan-based file allowances, voice notes, video.
+- [Manage messages](https://achat-docs.aoneahsan.com/features/manage-messages): edit, forward, Trash, clear, disappearing messages, view once, polls, archive.
+- [Writing messages](https://achat-docs.aoneahsan.com/features/writing-messages): drafts, spoilers, maths, mentions, stickers, dictation, translation, read aloud.
+- [Search & offline history](https://achat-docs.aoneahsan.com/features/search-and-history): on-device search and the offline outbox.
+- [Embeddable widget](https://achat-docs.aoneahsan.com/features/embeddable-widget): rooms and channels on other websites, with allowed websites.
+- [Notifications & email](https://achat-docs.aoneahsan.com/features/notifications-and-email): opt-in notifications without message text; account emails.
+- [Appearance, language & shortcuts](https://achat-docs.aoneahsan.com/features/themes-and-accessibility): the Appearance panel, five languages, keyboard shortcuts.
+- [Privacy on this device](https://achat-docs.aoneahsan.com/features/privacy-on-this-device): privacy screen, neutral tab, clipboard clearing, Wipe from this device, usage data.
+- [Device & location history](https://achat-docs.aoneahsan.com/features/location-history): what some chats record, who sees it, consent.
+- [Plans & pricing](https://achat-docs.aoneahsan.com/features/plans-and-pricing): Free, Pro, Team / Family, payment and referrals.
 
 ## Concepts
 
-- [How AChat works](https://achatai-docs.aoneahsan.com/concepts/how-it-works): the transient data model and the 10-day TTL lifecycle.
-- [Security & encryption model](https://achatai-docs.aoneahsan.com/concepts/security-and-encryption): the threat model, what is protected, and what is not.
-- [Admin oversight](https://achatai-docs.aoneahsan.com/concepts/admin-oversight): the built-in administrator role, its honest boundaries, and the immutable audit trail.
-- [Data, privacy & deletion](https://achatai-docs.aoneahsan.com/concepts/data-privacy-and-deletion): what is stored, third-party processors, analytics, and how deletion works.
+- [How AChat works](https://achat-docs.aoneahsan.com/concepts/how-it-works): identities, chat types, where messages live, retention.
+- [Security & encryption model](https://achat-docs.aoneahsan.com/concepts/security-and-encryption): what encryption covers and can't do.
+- [Admin oversight](https://achat-docs.aoneahsan.com/concepts/admin-oversight): what administrators see and do, and the action log.
+- [Data, privacy & deletion](https://achat-docs.aoneahsan.com/concepts/data-privacy-and-deletion): collection, processors, retention, controls.
 
 ## Reference
 
-- [FAQ](https://achatai-docs.aoneahsan.com/faq): common questions with direct answers.
-- [Changelog](https://achatai-docs.aoneahsan.com/changelog): release history.
-- [About the Author](https://achatai-docs.aoneahsan.com/about-the-author): Ahsan Mahmood's developer profile, links, contact.
+- [FAQ](https://achat-docs.aoneahsan.com/faq): direct answers.
+- [Changelog](https://achat-docs.aoneahsan.com/changelog): release history.
+- [The AChat team](https://achat-docs.aoneahsan.com/about-the-author): who builds and supports AChat, and how to reach the team.
 
 ## Links
 
@@ -47,5 +50,5 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec — a struct
 - Google Play: https://play.google.com/store/apps/details?id=com.aoneahsan.achat
 - Privacy: https://achat.aoneahsan.com/privacy
 - Terms: https://achat.aoneahsan.com/terms
+- Pricing: https://achat.aoneahsan.com/pricing
 - Contact: https://achat.aoneahsan.com/contact
-- Author: https://aoneahsan.com

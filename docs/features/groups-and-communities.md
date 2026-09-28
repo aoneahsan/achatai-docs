@@ -1,55 +1,50 @@
 ---
 sidebar_position: 5
 title: Groups & communities
-description: Beyond one-link rooms, AChat supports named private group chats and public, discoverable communities with best-effort, client-side moderation.
-keywords: [anonymous group chat, public chat community, discoverable chat rooms, community moderation, group messaging]
+description: Private encrypted groups for people who know each other, and communities with channels, threads, roles, reports and bans. Which ones need an account.
+keywords: [group chat, encrypted group chat, online community, community channels, moderation, AChat groups]
 last_update:
-  date: 2026-06-23
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Groups & communities
 
-**AChat goes beyond one-link rooms with two grouping models: named private *group chats* you share by link, and public *communities* that are open, anonymous, and discoverable in an in-app directory.** Both still auto-delete their messages on the 10-day schedule.
+**Groups are for people who already know each other. Communities have channels and threads, and each one says whether you need an account or can join anonymously.**
 
-## Group chats
+## Groups
 
-A group chat is a room with a `kind` of `group` plus a plaintext **title** and optional **topic**, so the room has a friendly identity instead of a bare ID. Groups are otherwise like any anonymous chat:
+A group brings people from your contacts into one end-to-end encrypted chat, so groups need an account.
 
-- Shared by link; no account required to join.
-- Can be passworded for [end-to-end encryption](/features/passwords-and-encryption).
-- Support threads, reactions, files, and presence.
+- **Create** a group from **Groups**, then invite contacts or share an invite link.
+- **Joining by link:** an admin approves anyone who asks to join through the link. Resetting the link stops the old one working.
+- **New members** see messages sent after they join. Earlier messages aren't shared automatically.
+- **Leaving or removal** stops new messages. Messages already on that person's devices stay there.
 
-The title/topic are stored **plaintext** (they are grouping metadata), even when the message bodies are encrypted.
+| Role | Can |
+|---|---|
+| Owner | Everything an admin can, and chooses admins. Can make someone else the owner |
+| Admin | Approve requests, remove members, delete any message, clear messages for everyone |
+| Member | Chat, reply, react, leave |
+
+A message an admin deletes goes to the group's Trash, and only admins can restore it.
 
 ## Communities
 
-A community is a **public** room that anyone can discover and join from the in-app communities directory:
+Browse the **Communities** directory, or open a community's link.
 
-- Each community has a **title**, **topic**, **category**, and an **NSFW** flag for filtering.
-- Communities are listed in a discovery index so people can browse and join — they are designed *not* to vanish the way a private room does (the community record itself is not auto-deleted), while **the messages inside still carry the 10-day TTL**.
-- A community has a creator and can have **moderators** (by uid or by invited email).
+- **Access:** each community is either **Account needed** or **Anonymous allowed**. Joining anonymously uses a display name; it doesn't guarantee that nobody can tell who you are.
+- **Channels:** a community holds channels, and channels hold threads. A private channel is readable only by the people added to it.
+- **Community link ID:** 8–20 lowercase letters, numbers and dashes, picked by the creator.
+- **Mature:** an 18+ mark for adult topics, never explicit content. Mature communities show only to people who say they're 18 or older, and always need an account. AChat doesn't verify the declaration, and AChat admins can change the mark.
 
-### Moderation — best-effort and client-side (honest framing)
+Communities and their channels aren't end-to-end encrypted.
 
-Community moderation is deliberately lightweight and **bypassable**; treat communities as public spaces, not secure ones:
+## Moderation
 
-- A **profanity filter** runs client-side and can be bypassed.
-- **Anonymous-ID bans are soft** — they discourage, not strictly prevent, a determined user.
-- **Reports raise a counter** for owner visibility rather than triggering automated removal.
+- Admins create channels, manage private ones, and handle reports and bans. Only the owner chooses admins.
+- **Reports:** the messages you select go to the community's admins and to AChat's moderators. You choose a reason: spam, harassment or bullying, sexual content, threats or violence, or something else. The moderation queue never shows who made a report.
+- **Bans:** a banned person can't read or post in any channel of that community until an admin lifts the ban. Their earlier messages stay unless an admin removes them. If you think a ban is wrong, you can ask the AChat team for a review through the contact page.
+- A message an admin or moderator removes goes to that space's Trash, and only its admins can restore it.
 
-Because communities are public and anonymous, do not post anything private in them, and assume anything posted may be seen by anyone before it expires.
-
-## Choosing between them
-
-| You want… | Use |
-|---|---|
-| A private room for known people | A one-link chat or a **group chat** (optionally passworded) |
-| An open, discoverable, public space | A **community** |
-| A focused side-conversation | A [thread](/features/threads-and-replies) inside any of the above |
-
-## Related
-
-- [Anonymous chats](/features/anonymous-chats)
-- [Embeddable widget](/features/embeddable-widget)
-- [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
+Communities keep a moderation history of reports, bans and removals.

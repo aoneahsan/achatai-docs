@@ -1,63 +1,42 @@
 ---
 sidebar_position: 1
 title: Introduction
-description: AChat (Anonymous Chat AI) is a no-signup, transient chat app with optional in-browser end-to-end encryption, file sharing, threads, communities, an embeddable widget, and 10-day auto-delete.
-keywords: [anonymous chat, no signup chat, ephemeral chat, end-to-end encrypted chat, disappearing messages, temporary chat room, AChat]
+description: AChat is a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android. What it does, and what it doesn't promise.
+keywords: [AChat, messaging app, end-to-end encrypted chat, anonymous chat room, group chat, communities, no phone number chat]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Introduction
 
-**AChat (Anonymous Chat AI) is a no-signup, transient chat app: you pick or generate a chat ID, share the link, and talk — and every message and file auto-deletes about 10 days after it is sent.** An optional password turns on true end-to-end encryption performed entirely in your browser. There is no registration, no email, and no phone number; opening the link puts you in the room.
+**AChat is a messaging app for keeping up with the people you choose: personal chats, groups, communities, and anonymous rooms when you'd rather not use an account.** It runs in your browser at [achat.aoneahsan.com](https://achat.aoneahsan.com) and on [Android](https://play.google.com/store/apps/details?id=com.aoneahsan.achat), in English, Spanish, French, German and Arabic.
 
-The web app lives at [achat.aoneahsan.com](https://achat.aoneahsan.com), is free to use, and is built and maintained by [Ahsan Mahmood](https://aoneahsan.com). An Android build is available on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat).
+There's no phone number to hand over. You sign in with Google, pick a username, and friends find you by that username, an invite link or a QR code. Anonymous rooms need no account at all.
 
 ## What it does
 
-| Capability | One-line summary |
-|---|---|
-| **Anonymous rooms** | Pick or generate a chat ID (8–20 characters), share the URL, and start talking. No account. |
-| **Optional E2E encryption** | Set a password and AChat derives an AES-GCM key in your browser with PBKDF2. Message bodies and file metadata are encrypted client-side. |
-| **File sharing** | Send files up to 10 MB each, 100 MB total per chat, with image previews and a lightbox. |
-| **Threads & replies** | Quote a message or branch a threaded conversation off any message. |
-| **Groups & communities** | Named private group chats, plus public, discoverable communities with best-effort client-side moderation. |
-| **Embeddable widget** | Drop a sandboxed chat into any website as an inline iframe or a floating launcher. |
-| **Search your chats** | Search across the chats you have opened, done entirely on your device — search terms never leave the browser. |
-| **Delete & archive** | Soft-delete messages to a per-chat 30-day Trash, or privately archive a whole chat to your signed-in account. |
-| **10-day auto-delete** | Firestore TTL removes messages and files about 10 days after they are sent, with lazy file cleanup. |
+| Area | In short | Read more |
+|---|---|---|
+| Personal chats and contacts | Chats with people you've accepted, end-to-end encrypted | [Personal chats & contacts](/features/personal-chats-and-contacts) |
+| Linked devices and recovery key | Your history on every device you approve, and a key to bring it back | [Devices & recovery key](/features/devices-and-recovery) |
+| Anonymous rooms | A display name and a link, no account; messages are kept for a set number of days | [Anonymous rooms](/features/anonymous-chats) |
+| Groups and communities | Private groups for people who know each other; communities with channels and moderation | [Groups & communities](/features/groups-and-communities) |
+| Status | Updates for your contacts that disappear after 24 hours | [Status](/features/status) |
+| Messages | Threads, files, voice notes, polls, disappearing messages, view once, Trash | [Manage messages](/features/manage-messages) |
+| Device and location history | An opt-in record some chats keep, shown to you before you enter | [Device & location history](/features/location-history) |
+| Plans | Free, Pro and Team / Family | [Plans & pricing](/features/plans-and-pricing) |
 
-## Who it is for
+## What it doesn't promise
 
-- **Anyone who wants a throwaway chat link** — support handoffs, quick coordination, one-off conversations you do not want to keep.
-- **Privacy-minded users** who want client-side encryption without installing anything or trusting a server with their key.
-- **Site owners** who want to embed a lightweight, anonymous chat widget without standing up their own backend.
-- **Communities** that want an open, anonymous, ephemeral public room rather than a permanent, account-gated forum.
+- **Anonymous isn't untraceable.** Anonymous rooms don't need an account, but your device still connects to AChat's servers, as it would for any website.
+- **Not everything is end-to-end encrypted.** AChat promises end-to-end encryption for personal chats, private groups and rooms with a password. It doesn't promise it for communities, their channels, open rooms or status updates. See [Security & encryption](/concepts/security-and-encryption).
+- **No calls.** AChat is for messages. It doesn't make voice or video calls.
+- **Some chats record location.** A chat can turn on device and location history, and it tells you what it records before you enter. See [Device & location history](/features/location-history).
+- **Nothing already seen can be recalled.** Anyone in a chat can copy, save or screenshot a message, and deleting it later doesn't reach those copies.
 
-## What it is *not*
+## Used AChat before?
 
-Honesty matters more than marketing. Some explicit non-claims:
+AChat was rebuilt. Your anonymous room links still open, with their messages and kept rooms, and any extra keep days you'd earned carry over. Personal chats with people you know, groups, communities and status are new, alongside anonymous rooms.
 
-- **It has no AI chatbot.** Despite the brand name "Anonymous Chat AI", AChat does **not** include any AI or LLM chat feature — conversations are between real people. The name is historical branding; the accurate description is "anonymous, ephemeral, optionally end-to-end-encrypted chat". See the [FAQ](/faq#does-achat-use-ai).
-- **Open chats are not private.** A chat without a password is readable by anyone who has the chat ID. Privacy comes from the optional password, not from secrecy of the link alone.
-- **File bytes are not encrypted at rest.** On passworded chats only the file URL/metadata is encrypted; the file contents on FilesHub are not. See [Security & encryption](/concepts/security-and-encryption).
-- **It is not anonymous against legal process.** Standard infrastructure telemetry (IP address, user agent) is processed by Firebase. AChat hides your identity from other participants, not from a court order.
-- **A built-in admin can moderate open chats.** For safety and moderation, an administrator role can enumerate chats and read open ones — but passworded chats stay end-to-end encrypted with no key escrow, and every admin action is logged. See [Admin oversight](/concepts/admin-oversight).
-- **Deletion is "about 10 days", not instant or guaranteed-to-the-minute.** Firestore TTL typically removes expired documents within ~24 hours of expiry; FilesHub cleanup is lazy.
-
-## How it works in 60 seconds
-
-```mermaid
-flowchart LR
-    A[Open achat.aoneahsan.com] --> B[Pick / generate a chat ID]
-    B --> C{Set a password?}
-    C -- yes --> D[Browser derives AES-GCM key<br/>PBKDF2, never leaves device]
-    C -- no --> E[Open chat — anyone with the ID can read]
-    D --> F[Send messages & files]
-    E --> F
-    F --> G[Firestore stores docs with expiresAt = +10 days]
-    G --> H[TTL auto-deletes ~10 days later]
-```
-
-Read on with the [Quick Start](/getting-started/quick-start), or jump to [How AChat works](/concepts/how-it-works) for the data model.
+Next: [Installation & access](/getting-started/installation), then the [Quick Start](/getting-started/quick-start).

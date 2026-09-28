@@ -1,54 +1,45 @@
 ---
 sidebar_position: 1
 title: Installation & access
-description: How to use AChat on the web, install it as a PWA, or get the Android app. No account, email, or phone number required.
-keywords: [AChat install, anonymous chat web app, install chat PWA, anonymous chat android, no account chat]
+description: Use AChat in your browser or get the Android app from Google Play. Anonymous rooms need no account; personal chats need a Google sign-in and a username.
+keywords: [AChat web app, AChat Android, anonymous chat no account, messaging app sign in with Google]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Installation & access
 
-**AChat needs no installation to use — open [achat.aoneahsan.com](https://achat.aoneahsan.com) in any modern browser and you are ready.** There is no sign-up step. If you want an app-like experience, you can install it as a Progressive Web App (PWA) or get the Android build from Google Play.
+**Open [achat.aoneahsan.com](https://achat.aoneahsan.com) in a current browser, or install the Android app from [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat).** Both are the same AChat, with the same chats.
 
-## 1. Web (recommended, zero install)
+## Web
 
-Open [achat.aoneahsan.com](https://achat.aoneahsan.com) in Chrome, Firefox, Safari, Edge, or any current browser, on desktop or mobile. Everything works immediately: starting chats, passwords, file sharing, threads, communities, and the theme customizer. The web app is responsive from 320 px phones to full-HD desktops.
+AChat runs in any current browser on a phone, tablet or computer. Nothing to install.
 
-## 2. Install as a PWA
+## Android
 
-AChat is an installable PWA, so you can pin it to your home screen or app launcher and open it in its own window.
+Get it on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat). Android asks you before AChat can use the camera (to scan a code), the microphone (voice notes and dictation), notifications, or location (only in a chat with device and location history on).
 
-- **Chrome / Edge (desktop):** click the install icon in the address bar, or use the in-app **Install** button in the header when it appears.
-- **Android (Chrome):** open the browser menu and choose **Install app** / **Add to Home screen**.
-- **iOS (Safari):** tap the **Share** button, then **Add to Home Screen**. (iOS Safari does not expose an automatic install prompt; AChat shows a one-tap reminder of these steps.)
+## iPhone and iPad
 
-Installing does not create an account and does not change how data is stored — it is the same web app in a standalone window.
+There's no iOS app. Use AChat in Safari on the web.
 
-## 3. Android app (Google Play)
+## Two ways to join
 
-The Android build wraps the same web experience with Capacitor and adds native niceties (share sheet, clipboard, haptics, keyboard handling).
+| | Anonymous room | Account |
+|---|---|---|
+| What you need | A room link and a display name | A Google account and a username |
+| What you get | That room, under a display name you pick | Personal chats, contacts, groups, communities, status, kept rooms, plans |
+| Phone number | Never asked | Never asked |
 
-- Get it on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat).
-- The app ships with a minimal permission set: **INTERNET**, **VIBRATE**, and — only if you opt in to push — **notifications** (`POST_NOTIFICATIONS`). No camera, microphone, location, contacts, or storage permissions, and no advertising ID.
+Your username is 3–24 letters, numbers, dots or underscores, and you can change it later. If you have an account, AChat doesn't link your anonymous room messages to it.
 
-## 4. iPhone & iPad
+## Can I try it first?
 
-There is no iOS app — AChat is Android and web only. On iPhone and iPad, use the web app and add it to your home screen (step 2); everything works in mobile Safari.
+Yes. The [demo](https://achat.aoneahsan.com/demo) walks through four short tasks with made-up people, and nothing you type there leaves the page.
 
-## Requirements
+## Who can use AChat
 
-| Surface | Requirement |
-|---|---|
-| Web | A current browser with the Web Crypto API (all modern browsers). Encryption needs a secure context (HTTPS), which the live site provides. |
-| PWA | The same browser; a service worker enables offline shell + installability. |
-| Android | Android device supporting the Play listing's minimum SDK. |
+You need to be 16 or older. An account found to belong to someone younger is closed.
 
-## What you do *not* need
-
-- No account, email, username, or password to *use* AChat. (A password is only for per-chat encryption, and even that is optional.)
-- No payment — AChat is free, with no paid tier.
-- No app install on the web — the link is the app.
-
-Next: start talking with the [Quick Start](/getting-started/quick-start).
+Next: the [Quick Start](/getting-started/quick-start).

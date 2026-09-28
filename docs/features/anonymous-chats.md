@@ -1,57 +1,46 @@
 ---
-sidebar_position: 1
-title: Anonymous chats
-description: How AChat's anonymous one-link chat rooms work — chat IDs, sharing, presence, recents, and the no-signup model.
-keywords: [anonymous chat room, no signup chat, chat by link, ephemeral chat room, anonymous messaging]
+sidebar_position: 3
+title: Anonymous rooms
+description: How AChat's anonymous rooms work without an account — room IDs, display names, passwords, how long messages are kept, and what anonymous doesn't mean.
+keywords: [anonymous chat room, no signup chat, chat by link, display name chat, AChat anonymous rooms]
 last_update:
-  date: 2026-06-23
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
-# Anonymous chats
+# Anonymous rooms
 
-**An AChat room is a URL: anyone with the chat ID can open `achat.aoneahsan.com/c/<id>` and join, with no account and no identity attached to their messages.** This page covers how the core anonymous-chat experience behaves.
+**An anonymous room needs no account and no phone number: you pick a display name and share the room's link.** Anyone with the link can join, unless the room has a password.
 
-## Chat IDs
+## Create or join a room
 
-The chat ID is the room's address and its access key.
+- **Create room** gives you a new room and its link to share.
+- **Join room** takes a link or a room ID. A room ID is 8–20 lowercase letters, numbers and dashes.
+- Pick a **display name**, 1–24 characters, not used by anyone else in that room. It's the only thing others in the room see, and you can change it later.
 
-- **Format:** 8–20 characters, lowercase letters, numbers, and hyphens (`a–z`, `0–9`, `-`).
-- **Generated IDs** are random and 12–15 characters long — long enough to be hard to guess.
-- **Custom IDs** let you use a memorable name, but a memorable open chat is also a guessable one. For anything sensitive, set a [password](/features/passwords-and-encryption) or use a generated ID.
+Rooms never show when you're online or last seen.
 
-## Identity (or the lack of it)
+## How long a room lasts
 
-AChat does not ask who you are. Each participant gets a client-side anonymous identity used only to render "who sent what" within the room. You can set a display name and avatar for a friendlier UI, but:
+Each message in an anonymous room is kept for a set number of days after it's sent, 10 by default, then deleted. If someone with an account [keeps the room](/features/keep-chats-and-accounts), its history stays until the room's kept-until date instead.
 
-- There is no account requirement to chat.
-- Even if you *optionally* sign in (to [keep chats](/features/keep-chats-and-accounts)), your account is **never linked to message authorship** — sign-in is for reservations, not attribution.
+A chat can also turn on [disappearing messages](/features/manage-messages#disappearing-messages), so new messages go sooner.
 
-## Presence
+## Rooms with a password
 
-When others are in the room, AChat shows lightweight presence (who is currently active / typing). Presence records carry the same 10-day TTL as everything else and are best-effort, not a guarantee of who is watching.
+Set a password when you create a room, and everyone else needs it to join. A room with a password encrypts its messages on your device, using that password. Send the password to people separately from the link.
 
-## Sharing a room
+Read what the password does and doesn't protect in [Passwords & encryption](/features/passwords-and-encryption).
 
-Use the in-app **Share** action to distribute the room:
+## What anonymous means here
 
-- **On the web:** an in-app share modal with a social grid (X, Facebook, LinkedIn, WhatsApp, Telegram, Reddit, Email) plus a click-to-copy link.
-- **On Android:** the native OS share sheet.
+No account and no phone number. It doesn't mean invisible.
 
-You can also share a **QR code** for the room, and there is a one-link copy for quick pasting. Only the public chat URL is ever shared — never message contents.
+- Your device still connects to AChat's servers, as it would for any website.
+- AChat records the display name you pick in each room, the messages you send there and a device ID used in that room.
+- If you also have an account, AChat doesn't link your anonymous messages to it.
+- In an open room (no password), anyone with the link can read the messages.
 
-## Recents
+## Rooms from the old AChat
 
-AChat remembers rooms you have recently visited on this device (locally, via Capacitor Preferences) so you can hop back in. Clearing them is local and does not affect anyone else.
-
-## Honest limits
-
-- **Open (no-password) chats are not private.** Anyone with the ID can read the whole history until it expires.
-- **Presence and identity are client-side.** They make the UI friendly; they are not a security boundary.
-- **Rooms are ephemeral.** Messages and files auto-delete about 10 days after they are sent. To persist a room, see [Keep chats & accounts](/features/keep-chats-and-accounts).
-
-## Related
-
-- [Passwords & encryption](/features/passwords-and-encryption)
-- [Threads & replies](/features/threads-and-replies)
-- [How AChat works](/concepts/how-it-works)
+Room links from before the rebuild still open, with their messages, passwords and kept rooms.

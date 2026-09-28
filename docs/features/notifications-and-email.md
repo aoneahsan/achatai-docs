@@ -1,40 +1,37 @@
 ---
-sidebar_position: 10
+sidebar_position: 14
 title: Notifications & email
-description: AChat's optional extras — opt-in push notifications via OneSignal (off by default) and optional transactional emails via FilesHub, plus how to reach the developer.
-keywords: [push notifications, onesignal, opt-in notifications, transactional email, contact form, reserved chat reminder]
+description: AChat notifications are opt-in and never include the message text. Which emails AChat sends to your Google email address, and when.
+keywords: [chat notifications, push notifications, mute chat, AChat email]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Notifications & email
 
-**Notifications and email are both optional. Push is off until you turn it on, and emails only go out for a few account-related events if you sign in or use the contact form.**
+**Notifications are off until you allow them, and they never include the message itself.**
 
-## Push notifications (opt-in)
+## Notifications
 
-AChat can send push notifications on the web and on Android through **OneSignal**, and it is **off by default**.
+- Turn them on in **Account**, then **Preferences**, with **Allow notifications**. AChat asks your device only after you choose this.
+- Each alert carries the chat or sender name, never the message text.
+- **Mute notifications** silences one chat. Muting everything stops sounds and alerts; messages still arrive.
+- Allowed and receiving are separate: if your device allows notifications but isn't receiving them yet, AChat says so and lets you try again.
 
-- Turn it on from the theme/settings panel. Enabling it registers this device or browser with OneSignal so it can deliver a notification.
-- OneSignal receives a push token and basic delivery metadata (device/browser type, timezone, IP) to route the notification. It **never receives chat IDs, message contents, passwords, or files**, and **no advertising ID is collected**.
-- On Android this is the only reason the app requests the notifications permission (`POST_NOTIFICATIONS`); leave push off and no notifications are requested. Opt out any time from the toggle or your browser/OS settings.
+## Emails
 
-## Transactional email (optional)
+AChat emails your Google email address only about your account:
 
-AChat sends a small number of account-related emails through **FilesHub**, only when they apply to you:
+| Email | When |
+|---|---|
+| Welcome | After you sign up |
+| New device linked | A device was linked to your account |
+| Recovery key replaced | Your recovery key was replaced |
+| Kept room reminder | A kept room's date is coming up |
+| Plan invitation | Someone invites you to a Team / Family plan |
+| Payment request received, confirmed or not confirmed | After you pay for a plan |
+| Contact form receipt | After you send a message through the contact page |
+| Account deleted | After your account is deleted |
 
-- a **welcome** email on your first sign-in,
-- an **account-deletion confirmation**,
-- a **reminder** before a chat you reserved is due to expire.
-
-There are no marketing emails. Anonymous use sends no email at all.
-
-## Contact
-
-Questions or feedback go through the [contact page](https://achat.aoneahsan.com/contact). Its form delivers your message to the developer (again via FilesHub), with your address used only to reply.
-
-## Related
-
-- [Keep chats & accounts](/features/keep-chats-and-accounts)
-- [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
+Anonymous rooms send no email.

@@ -1,56 +1,54 @@
 ---
 sidebar_position: 7
-title: Keep chats & accounts
-description: An optional Google sign-in lets you reserve AChat rooms past the 10-day auto-delete — anonymous chat still works with zero sign-in, and your account is never linked to message authorship.
-keywords: [keep chat, reserve chat, optional account, google sign-in chat, persistent anonymous chat, account deletion]
+title: Kept rooms & your account
+description: Keep an anonymous AChat room past its default history, release it, and manage your account — username, data export and account deletion.
+keywords: [keep chat room, kept rooms, delete AChat account, export chat data, change username]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
-# Keep chats & accounts
+# Kept rooms & your account
 
-**By default every chat auto-deletes in about 10 days. If you want to keep a room longer, you can *optionally* sign in with Google and reserve it — but anonymous chat works with zero sign-in, and your account is never linked to who wrote which message.** Accounts exist for one reason: persistence.
+**Anyone in an anonymous room who has an account can keep it, so its history stays for everyone until the room's kept-until date.** Your account also holds your username, your data export and account deletion.
 
-## Why sign in (and why you usually don't need to)
+## Keep a room
 
-- **Anonymous by default.** You never need an account to start, join, or use any AChat feature.
-- **Sign in only to keep.** A Google account lets you **reserve** chats so they survive past the 10-day delete.
-- **No attribution.** Your account stores only your uid, email, name, and photo. It is **never linked to message authorship** — signing in does not de-anonymize your messages.
+- Anyone in the room with an AChat account can keep it, as long as no one else already keeps it. If the room has a password, you enter it first.
+- Keeping a room changes it for everyone in it, and they can see who's keeping it. Your account is recorded as the keeper; the messages you wrote there aren't linked to it.
+- How many rooms you can keep, and for how long, are [plan](/features/plans-and-pricing) allowances. You can extend a kept room back to that full length, counted from today.
+- A reminder email comes when a kept room's date is coming up.
+- **Kept rooms** lists every room you keep.
 
-## Reservations
+A room can be kept forever only with a grant from an AChat admin.
 
-When signed in, you can reserve a chat to extend its lifetime:
+## Release a room
 
-- Reserve up to **100 chats**.
-- A reserved chat gets a **base retention of about 3 months**, extendable up to about **1 year** through achievements (see below).
-- Reservations are managed from your account / "kept" area; releasing a reservation lets the chat return to the normal expiry schedule.
+Releasing a room returns it to the default: messages already there keep the expiry they had, and new messages get the default number of days (10 by default).
 
-A reserved chat's retention is implemented by extending its `expiresAt`, so it simply lives longer rather than being special-cased out of the deletion system. If you signed in with an email, AChat can send an optional reminder before a reserved chat is due to expire — see [Notifications & email](/features/notifications-and-email).
+Rooms you kept in the old AChat stay kept until the same dates, and any extra keep days you'd earned carry over.
 
-## Achievements & referrals (honest framing)
+## Your account
 
-AChat includes lightweight gamification that can extend retention:
+The **Account** page has these tabs: **Account**, **Devices**, **Recovery**, **Preferences**, **Storage** and **Data**, plus Team / Family and invites where they apply.
 
-- **Achievements are tracked client-side** with limited anti-cheat. They are a fun way to extend retention, not a hardened system.
-- **Referrals are self-referable** — the referral mechanic is intentionally low-stakes and not fraud-proof.
+- **Username:** change it any time. Anyone adding you from then on searches for the new one, and your old username is free for someone else.
+- **Profile photo:** replace the photo from your Google account with your own.
+- **Export:** **Data** gives you one file with your profile, your contacts and the chats this device can read, built on your device. Keep it somewhere private.
 
-These exist to reward engagement, not to gate core functionality.
+## Delete your account
 
-## Account deletion
+1. Open **Account**, then the **Data** tab, and choose **Delete account**.
+2. If you own a group or community, make someone else its owner first.
+3. Read what happens, then type your username to confirm. Google may ask you to sign in again.
 
-Account deletion is built in and mandatory-grade:
+Deletion is immediate and permanent:
 
-- In the app, go to **Account → Delete account**. You type-to-confirm, and AChat releases your reservations, deletes your profile, and deletes your Firebase Auth record (re-authenticating if required).
-- A public [/delete-account](https://achat.aoneahsan.com/delete-account) page documents the same flow.
+- Your username is released straight away.
+- Every linked device is signed out, and your recovery key stops working.
+- Messages you sent stay in other people's chats, marked as from a deleted account.
+- Your anonymous room messages were never linked to the account, so they stay until the room's history ends.
+- Payment records (reference, amount and date) and reports you sent are kept for a set time; the [privacy page](https://achat.aoneahsan.com/privacy) says how long.
+- A confirmation goes to your Google email address.
 
-After deletion, your reserved chats return to the normal 10-day expiry.
-
-## Native Google sign-in (setup note)
-
-On the web, Google sign-in uses the Firebase Auth popup. On the Android app, it uses the native Google auth flow and lands the same Firebase user. Configuring native sign-in (OAuth client, signing-certificate fingerprints) is a one-time developer/operator setup step.
-
-## Related
-
-- [Anonymous chats](/features/anonymous-chats)
-- [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
+Can't sign in? The [delete account page](https://achat.aoneahsan.com/delete-account) explains how to ask the AChat team from the Google email address your account uses.

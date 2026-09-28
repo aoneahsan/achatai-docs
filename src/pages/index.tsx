@@ -11,30 +11,31 @@ type Feature = {
   body: string;
 };
 
+/** Card copy follows the app's approved public wording, each limit beside its claim. */
 const FEATURES: Feature[] = [
   {
-    title: 'No sign-up',
-    body: 'Pick or generate a chat ID, share the link, talk. There is no registration, email, or phone number — you are in a room the moment you open the URL.',
+    title: 'Chats with the people you know',
+    body: 'Friends find you by username, invite link or QR code, never a phone number. Personal chats, private groups and their files are end-to-end encrypted, so each message can be read only on those people\'s devices.',
   },
   {
-    title: 'Optional end-to-end encryption',
-    body: 'Set a password and AChat derives an AES-GCM key in your browser with PBKDF2. Message bodies and file metadata are encrypted client-side; the server never sees the key. Lose the password, lose the chat.',
+    title: 'Anonymous rooms',
+    body: 'No account: pick a display name and share the room\'s link. Each message is kept for a set number of days, and someone with an account can keep the room longer. Anonymous doesn\'t mean untraceable.',
   },
   {
-    title: 'File sharing',
-    body: 'Send files up to 10 MB each, 100 MB total per chat, stored on FilesHub. Image previews, a lightbox, and a multi-file upload queue are built in.',
+    title: 'Groups and communities',
+    body: 'Groups are for people who already know each other. Communities have channels and threads, and each one says whether you need an account or can join anonymously. Communities aren\'t end-to-end encrypted.',
   },
   {
-    title: 'Threads, groups & communities',
-    body: 'Reply in threads, spin up named private group chats, or open public, discoverable communities with best-effort client-side moderation.',
+    title: 'Your history on every device',
+    body: 'Link the devices you approve, and keep a recovery key. If you lose every device, the key brings your history back. Google sign-in alone can\'t, and AChat keeps no copy of your keys.',
   },
   {
-    title: 'Embeddable widget',
-    body: 'Drop AChat into any site as an inline iframe or a floating launcher. The host page cannot read the messages inside the sandboxed widget.',
+    title: 'When the connection drops',
+    body: 'Chats you\'ve opened stay readable, and new messages wait with "Waiting to send" until you\'re back. A message says "Sent" only once it has arrived.',
   },
   {
-    title: '10-day auto-delete',
-    body: 'Every message and file carries a time-to-live. Firestore TTL removes them about 10 days after they are sent, with lazy FilesHub cleanup. Nothing is meant to last.',
+    title: 'Plans',
+    body: 'Free has no end date and covers personal chats, groups, communities and anonymous rooms. Pro and Team / Family raise the file and kept-room allowances.',
   },
 ];
 
@@ -50,7 +51,7 @@ function HomepageHeader(): ReactNode {
             className="button button--primary button--lg"
             to="/getting-started/quick-start"
           >
-            Quick Start — 60 sec
+            Quick Start
           </Link>
           <Link className="button button--secondary button--lg" to="/intro">
             What is AChat?
@@ -90,8 +91,8 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} — Anonymous Chat AI documentation`}
-      description="Documentation for AChat (Anonymous Chat AI): no-signup transient chat with optional in-browser end-to-end encryption, file sharing, threads, communities, an embeddable widget, and 10-day auto-delete."
+      title={`${siteConfig.title}: personal chats, groups, communities and anonymous rooms`}
+      description="Documentation for AChat, a messaging app for personal chats, groups, communities and anonymous rooms on the web and Android. What it does, with each limit beside it."
     >
       <HomepageHeader />
       <main>

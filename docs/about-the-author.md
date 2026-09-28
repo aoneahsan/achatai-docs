@@ -1,36 +1,35 @@
 ---
 sidebar_position: 99
-title: About the Author
-description: AChat (Anonymous Chat AI) is built and maintained by Ahsan Mahmood, a senior full-stack and mobile developer. Links, contact, and other projects.
-keywords: [Ahsan Mahmood, aoneahsan, Zaions, AChat author, full-stack developer]
+sidebar_label: The AChat team
+title: The AChat team
+description: Who builds and supports AChat, and how to reach the AChat team through the contact page.
+keywords: [AChat team, AChat support, contact AChat]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
-# About the Author
+# The AChat team
 
-**AChat (Anonymous Chat AI) is built and maintained by [Ahsan Mahmood](https://aoneahsan.com)** — a senior full-stack and mobile developer who builds free, privacy-respecting web and Capacitor apps under the Zaions umbrella.
+**AChat is built and run by the AChat team, based in Lahore, Pakistan.** The team runs AChat, decides how the data it holds is handled, and answers support questions.
 
-## Contact & links
+## Contact the team
 
-| | |
-|---|---|
-| Portfolio | [aoneahsan.com](https://aoneahsan.com) |
-| Email | [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com) |
-| GitHub | [github.com/aoneahsan](https://github.com/aoneahsan) |
-| LinkedIn | [linkedin.com/in/aoneahsan](https://linkedin.com/in/aoneahsan) |
-| npm | [npmjs.com/~aoneahsan](https://www.npmjs.com/~aoneahsan) |
+Use the [contact page](https://achat.aoneahsan.com/contact). Questions, problems and half-formed ideas are all welcome.
 
-## About AChat
+- Replies go to the email address you enter. If you're signed in, it starts as your Google email address, and you can change it.
+- Choose a topic if one fits. For a payment, include your payment reference so it can be matched.
+- Don't include passwords or your recovery key.
 
-AChat started as an answer to a simple question: *what would a chat app look like if it kept nothing?* The result is a no-signup, transient chat where every message and file auto-deletes in about 10 days, an optional password gives you true in-browser end-to-end encryption, and the whole thing runs on free-tier infrastructure with no server-side functions.
+The contact page also handles:
+
+- a review of a suspension or a community ban
+- deleting an account you can't sign in to, sent from the Google email address the account uses
+- questions about the [privacy page](https://achat.aoneahsan.com/privacy)
+
+## Links
 
 - **Web app:** [achat.aoneahsan.com](https://achat.aoneahsan.com)
 - **Android:** [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat)
-- **Contact:** [achat.aoneahsan.com/contact](https://achat.aoneahsan.com/contact)
-- **Stack:** Vite · React 19 · TypeScript · Tailwind CSS · Radix UI · TanStack Router & Query · Firebase (Firestore + Hosting) · FilesHub · Capacitor 8 (Android + web).
-
-## Support the work
-
-AChat is free. If it is useful to you and you would like to support continued development, you can do so at [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=achatai&project-identifier=com.aoneahsan.achat). No pressure — sharing the app with someone who needs an ephemeral chat helps just as much.
+- **Release notes:** [achat.aoneahsan.com/feed](https://achat.aoneahsan.com/feed)
+- **Plans:** [achat.aoneahsan.com/pricing](https://achat.aoneahsan.com/pricing)

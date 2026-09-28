@@ -1,69 +1,51 @@
 ---
 sidebar_position: 1
 title: How AChat works
-description: The mental model behind AChat — a transient, no-database-of-record chat where every message and file carries a 10-day time-to-live and Firestore TTL deletes it automatically.
-keywords: [ephemeral chat architecture, firestore ttl, transient messaging, how anonymous chat works, auto-delete messages]
+description: The two identities in AChat — an account and an anonymous display name — which chat types exist, where messages live, and how long each kind is kept.
+keywords: [how AChat works, anonymous vs account chat, chat retention, on-device search, offline messages]
 last_update:
-  date: 2026-06-23
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # How AChat works
 
-**AChat is built around one idea: nothing is meant to last. Every chat, message, and file is written with an `expiresAt` timestamp set about 10 days in the future, and Firestore's TTL feature deletes them automatically once they expire.** There is no long-term archive by design.
+**AChat has two ways to be in a chat: an account (Google sign-in plus a username) or, in anonymous rooms, a display name with no account.** The two are never linked: if you also have an account, AChat doesn't connect your anonymous messages to it.
 
-## The moving parts
+## Chat types
 
-| Part | Role |
+| Chat | Who's in it | Needs an account | End-to-end encrypted |
+|---|---|---|---|
+| Personal chat | You and one contact | Yes | Yes |
+| Private group | Contacts you invite, or people an admin approves | Yes | Yes |
+| Anonymous room | Anyone with the link (and password, if set) | No | Only with a password |
+| Community channel | Community members | Depends on the community | No |
+| Status | Your accepted contacts | Yes | No |
+
+## Where messages live
+
+- **On AChat's servers:** every chat's messages, so each device can fetch them. End-to-end encrypted messages are stored in a form the servers and AChat's administrators can't read.
+- **On your devices:** chats and files you've opened, so they load fast and open offline, plus an outbox of messages waiting to send. Search runs here, over what the device holds.
+- **Your keys:** on your linked devices, and restorable with your recovery key. AChat doesn't keep a copy.
+
+## How long things last
+
+| What | How long |
 |---|---|
-| **Browser app** | React app that does all encryption, rendering, and TTL stamping client-side. |
-| **Firestore** | Stores chats, messages, files, reactions, presence, polls — each with an `expiresAt`. |
-| **Firestore TTL policies** | Auto-delete expired documents (within ~24h of expiry). Free on the Spark plan. |
-| **FilesHub** | Stores uploaded file bytes; cleaned up lazily on the client. |
-| **Firebase Auth (optional)** | Only for users who sign in to reserve chats. |
+| Personal chats and groups | Until someone deletes them, unless the chat sets disappearing messages (1 minute, 1 hour or 1 day) |
+| Anonymous room messages | A set number of days after each one is sent (10 by default), or until the kept-until date if someone keeps the room |
+| Trash | A set number of days (30 by default), never longer than the chat's own history |
+| Status | 24 hours |
+| Location history | Until the chat is permanently deleted from Trash or expires |
 
-There are **no server-side functions** and no paid backend — the app talks to Firestore and FilesHub directly, gated by security rules.
+The [privacy page](https://achat.aoneahsan.com/privacy) lists everything else, and [Data, privacy & deletion](/concepts/data-privacy-and-deletion) summarises it.
 
-## The data model (simplified)
+## Sending a message
 
-```
-chats/{chatId}                     ← 8–20 char id; createdAt, expiresAt (TTL), hasPassword, salt?, verifier?
-  messages/{msgId}                 ← createdAt, expiresAt (TTL), authorId, kind, body | {ciphertext, iv}
-  files/{fileId}                   ← createdAt, expiresAt (TTL), fileshubId, metadata | {ciphertext, iv}
-  reactions / presence / pins / polls   ← each with its own expiresAt TTL
+1. You write it. It goes into the outbox first, so it survives a lost connection or a reload.
+2. AChat sends it and retries until it's accepted, without sending it twice.
+3. The label under it moves from **Sending** (or **Waiting to send** while offline) to **Sent** once it has arrived.
 
-users/{uid}                        ← optional accounts (NOT auto-deleted)
-communities/{chatId}               ← public discovery index (NOT auto-deleted; messages inside still TTL)
-```
+## Platforms
 
-Grouping/metadata fields (`kind`, `title`, `topic`, thread `threadParentId`/`replyCount`, reservation fields) stay **plaintext** even on passworded chats; only message bodies and file metadata are encrypted.
-
-## The 10-day lifecycle
-
-```mermaid
-sequenceDiagram
-    participant U as You
-    participant App as AChat (browser)
-    participant FS as Firestore
-    U->>App: send a message
-    App->>App: stamp expiresAt = now + ~10 days
-    App->>FS: write message doc (ciphertext if passworded)
-    Note over FS: doc lives, readable by participants
-    FS-->>FS: ~10 days later, TTL deletes the doc (within ~24h of expiry)
-```
-
-## What persists, and what doesn't
-
-- **Ephemeral (auto-deleted):** chats, messages, files, reactions, presence, pins, polls.
-- **Persistent (not auto-deleted):** optional user accounts, community discovery records, and any chat you explicitly [reserved](/features/keep-chats-and-accounts) (its `expiresAt` is simply pushed further out).
-
-## Why this design
-
-- **Privacy by expiry:** the less data that lingers, the less there is to leak.
-- **No account friction:** the link is the room; identity is optional.
-- **Free to run:** Firestore TTL + FilesHub keep it on free tiers with no server compute.
-
-## Related
-
-- [Security & encryption model](/concepts/security-and-encryption)
-- [Data, privacy & deletion](/concepts/data-privacy-and-deletion)
+The same AChat runs in the browser and on Android, in five languages. There are no voice or video calls.

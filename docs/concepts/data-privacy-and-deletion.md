@@ -1,63 +1,74 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 title: Data, privacy & deletion
-description: What AChat stores, which third-party processors are involved, and how the 10-day auto-delete and account deletion actually work — with honest framing throughout.
-keywords: [chat data retention, message deletion, privacy policy, third-party processors, account deletion, ephemeral data]
+description: What AChat collects, which services handle it, how long each kind of data is kept, what you control, and what deleting your account removes.
+keywords: [AChat privacy, data retention, delete chat data, analytics opt out, what does AChat collect]
 last_update:
-  date: 2026-07-24
-  author: Ahsan Mahmood
+  date: 2026-09-28
+  author: AChat team
 ---
 
 # Data, privacy & deletion
 
-**AChat stores the minimum needed to run an ephemeral chat, deletes message data automatically after about 10 days, and gives signed-in users a one-click account deletion.** This page summarizes the data flows; the authoritative legal documents are the app's [Privacy Policy](https://achat.aoneahsan.com/privacy) and [Terms](https://achat.aoneahsan.com/terms).
+**This page summarises AChat's [privacy page](https://achat.aoneahsan.com/privacy), which is the authority. Where they differ, the privacy page wins.** The AChat team, based in Lahore, Pakistan, runs AChat and decides how the data it holds is handled.
 
-## What AChat stores
+## What AChat collects
 
-| Data | Where | Lifetime |
+- **Account:** the name, email address and photo from your Google account, and your username. AChat never asks for your phone number.
+- **Anonymous rooms:** the display name you pick in each room, the messages you send there and a device ID used in that room.
+- **Chats:** your messages, files, voice notes and statuses, and who's in each chat.
+- **Contacts:** people you've accepted, requests, and people you've blocked.
+- **Location:** only in a chat with [device and location history](/features/location-history) on, after you agree.
+- **Reports:** the messages you select when you report.
+- **Payments:** the plan you chose and what the AChat team needs to confirm your payment, such as its reference code.
+- **Contact form:** your name, email address and message.
+- **Error reports and usage analytics:** without message content, passwords, keys or precise locations.
+- **Screen recordings:** masked recordings of a few account screens, never of chats.
+
+## Who else handles it
+
+| Service | Provided by | What it receives |
 |---|---|---|
-| Messages (plaintext or ciphertext) | Firestore | ~10 days (TTL) |
-| File metadata + file bytes | Firestore + FilesHub | ~10 days (TTL + lazy cleanup) |
-| Reactions, presence, pins, polls | Firestore | ~10 days (TTL) |
-| Chat metadata (id, salt, verifier, title/topic) | Firestore | with the chat (~10 days, or longer if reserved) |
-| Account (uid, email, name, photo) — **optional** | Firestore + Firebase Auth | until you delete it |
-| Community discovery records | Firestore | persistent (messages inside still TTL) |
-| Theme/recents preferences | On your device (Capacitor Preferences) | until you clear them |
-| Search cache (recent chats you opened) | On your device (IndexedDB) | until sign-out / a wipe / you clear it |
+| Sign-in | Google | Your name, email address and photo come from it |
+| Error reports | Sentry | What went wrong, without message content, passwords, keys or precise locations |
+| Usage analytics | Amplitude, and Google Analytics 4 once it's switched on | How AChat is used, with the same exclusions |
+| Screen recordings | Microsoft Clarity | Masked recordings of five account screens only. Text and images are hidden. Chats, rooms, contacts and statuses are never recorded |
+| Push notifications | OneSignal, and Google Firebase Cloud Messaging on Android | A push token and the chat or sender name for each alert, never the message text |
+| Hosting, database, file storage and email | Listed on the [privacy page](https://achat.aoneahsan.com/privacy) | Your account, chats, files and the account emails AChat sends |
 
-## Third-party processors
+AChat doesn't show ads from ad networks and doesn't sell your personal data. It may show you other apps made by the AChat team.
 
-AChat uses a small set of processors to function:
+## How long it's kept
 
-- **Firebase (Google)** — Firestore database, Hosting, optional Auth and App Check. Processes standard telemetry (IP, user agent).
-- **FilesHub** — stores uploaded file bytes (public visibility so previews load) and sends AChat's transactional emails (welcome, account-deletion confirmation, reserved-chat reminder, contact form).
-- **Google Sign-In** — only if you *optionally* sign in; provides your uid/email/name/photo.
-- **Firebase Analytics (GA4) & Amplitude** — product analytics: page views (route pattern only, e.g. `/c/:chatId`) and feature actions, plus standard web telemetry.
-- **Microsoft Clarity** — anonymised session replays and heatmaps of interface usage. Clarity is an independent controller, so this data counts as **shared**.
-- **Sentry** — crash and error reports (stack traces, browser), with no session replay.
-- **OneSignal** — only if you opt in to push; receives a push token and delivery metadata to route notifications.
+| What | How long |
+|---|---|
+| Messages in personal chats and groups | Until someone deletes them, or the chat's disappearing timer |
+| Messages in anonymous rooms | A set number of days after each is sent (10 by default), or until the kept-until date |
+| Chats and messages in Trash | A set number of days (30 by default), then deleted permanently |
+| Status updates | 24 hours |
+| Location history | Until the chat is permanently deleted from Trash or expires |
+| Your profile and username | Until you delete your account |
+| Screen recordings | 30 days, except a small sample Microsoft keeps for up to 9 months. Heatmaps and recordings the team marks as favourites are kept for 9 months |
+| Contact messages, reports, payment records, error reports and analytics, backups | A set time, shown on the privacy page |
+| Chats saved on a device | Until you sign out or free up space there |
+| An export you download | As long as you keep the file |
 
-**None of the analytics, error, or push services ever receive chat IDs, message contents, passwords, or file contents** — the chat ID is stripped from the URL to its route pattern before anything is sent, and no message text is transmitted. **No advertising ID is collected** and none of this is used for ad targeting. These are documented in the app's privacy policy, which is kept consistent with the Google Play Data Safety declaration.
+## What you control
 
-## Admin oversight
+- **Export:** one file with your profile, contacts and the chats this device can read, built on your device.
+- **Online status and read receipts:** see [Personal chats & contacts](/features/personal-chats-and-contacts).
+- **Status audience:** your accepted contacts by default, with people included or left out.
+- **Usage data:** one switch for usage analytics and screen recordings. See [Privacy on this device](/features/privacy-on-this-device).
+- **Correct or remove:** edit your profile or username, or delete your account. For anything else, write to the AChat team through the [contact page](https://achat.aoneahsan.com/contact).
 
-A built-in administrator role can enumerate all chats and accounts and read **open** chats for safety and moderation; **passworded chats stay end-to-end encrypted with no key escrow**, and every admin action is logged to an immutable audit trail. Full boundary: [Admin oversight](/concepts/admin-oversight).
+## Deleting your account
 
-## How deletion works
+Deletion is immediate and permanent. Messages you sent stay with the people you sent them to, marked as from a deleted account. Steps and details: [Kept rooms & your account](/features/keep-chats-and-accounts#delete-your-account).
 
-- **Automatic:** every message/file/reaction/presence/poll document carries `expiresAt = created + ~10 days`. Firestore **TTL policies** delete expired documents, typically within ~24 hours of expiry. File bytes on FilesHub are cleaned up **lazily** when the chat is next loaded.
-- **Reserved chats:** if a signed-in user reserves a chat, its `expiresAt` is extended (about 3 months base, up to ~1 year via achievements), so it lives longer — then expires normally.
-- **Account deletion:** **Account → Delete account** (or the public [/delete-account](https://achat.aoneahsan.com/delete-account) page) releases your reservations, deletes your profile, and removes your Firebase Auth record.
+## What can't be taken back
 
-## Honest framing
+Anything already read, copied, saved or exported. A later setting or policy change can't recall it.
 
-- **"~10 days," not to-the-second.** TTL is asynchronous; expired data can linger briefly past the window, and an un-revisited chat's files may persist until someone loads the chat.
-- **Open chats and communities are public.** Anyone with the ID (open chats) or anyone at all (communities) can read them before they expire.
-- **Analytics are on, but scoped.** Product analytics run by default so the app can be improved, and Clarity records anonymised session replays of interface usage — but the chat ID is stripped before anything is sent, and no message content ever is. Nothing here identifies you or reads your conversations.
-- **Not anonymous against legal process.** Infrastructure telemetry exists; AChat protects you from other participants, not from lawful demands to the providers.
+## Age
 
-## Related
-
-- [How AChat works](/concepts/how-it-works)
-- [Security & encryption model](/concepts/security-and-encryption)
-- App [Privacy Policy](https://achat.aoneahsan.com/privacy) · [Terms](https://achat.aoneahsan.com/terms)
+You need to be 16 or older to use AChat.
