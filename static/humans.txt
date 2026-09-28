@@ -10,7 +10,7 @@
 /* PROJECT */
   Name: AChat (Anonymous Chat AI)
   App: https://achat.aoneahsan.com
-  Docs: https://achatai-docs.aoneahsan.com
+  Docs: https://achat-docs.aoneahsan.com
   Play Store: https://play.google.com/store/apps/details?id=com.aoneahsan.achat
   Description: No-signup, transient, optionally end-to-end-encrypted chat that auto-deletes in 10 days.
 

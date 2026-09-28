@@ -7,7 +7,7 @@ Built with [Docusaurus 3](https://docusaurus.io). Deployed to **Firebase Hosting
 ## Links
 
 - **App:** https://achat.aoneahsan.com
-- **Docs (this site):** https://achatai-docs.aoneahsan.com
+- **Docs (this site):** https://achat-docs.aoneahsan.com
 - **Google Play:** https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat
 - **App source (private):** https://github.com/aoneahsan/anonymous-chat-ai-achatai
 - **Author:** [Ahsan Mahmood](https://aoneahsan.com)

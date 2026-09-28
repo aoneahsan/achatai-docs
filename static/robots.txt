@@ -2,7 +2,7 @@
 # Maintained by Ahsan Mahmood (https://aoneahsan.com)
 # Last updated: 2026-06-23
 #
-# Public crawl policy for https://achatai-docs.aoneahsan.com. We allow every
+# Public crawl policy for https://achat-docs.aoneahsan.com. We allow every
 # reputable search-engine and AI bot we know about, and block scraper bots that
 # don't bring traffic. The Sitemap directive at the bottom lets crawlers
 # discover the URL space without spidering.
@@ -134,4 +134,4 @@ Allow: /
 
 # --- Sitemap discovery ------------------------------------------------------
 
-Sitemap: https://achatai-docs.aoneahsan.com/sitemap.xml
+Sitemap: https://achat-docs.aoneahsan.com/sitemap.xml
