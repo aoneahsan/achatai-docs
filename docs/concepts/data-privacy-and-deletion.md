@@ -4,7 +4,7 @@ title: Data, privacy & deletion
 description: What AChat collects, which services handle it, how long each kind of data is kept, what you control, and what deleting your account removes.
 keywords: [AChat privacy, data retention, delete chat data, analytics opt out, what does AChat collect]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-02
   author: AChat team
 ---
 
@@ -20,7 +20,7 @@ last_update:
 - **Contacts:** people you've accepted, requests, and people you've blocked.
 - **Location:** only in a chat with [device and location history](/features/location-history) on, after you agree.
 - **Reports:** the messages you select when you report.
-- **Payments:** the plan you chose and what the AChat team needs to confirm your payment, such as its reference code.
+- **Payments:** the plan you chose and what the AChat team needs to confirm your payment, such as its reference code. For a card payment, AChat keeps the subscription's status, plan, period, seats, amount and dates, and never receives your card number or your billing name or address.
 - **Contact form:** your name, email address and message.
 - **Error reports and usage analytics:** without message content, passwords, keys or precise locations.
 - **Screen recordings:** masked recordings of a few account screens, never of chats.
@@ -34,6 +34,7 @@ last_update:
 | Usage analytics | Amplitude, and Google Analytics 4 once it's switched on | How AChat is used, with the same exclusions |
 | Screen recordings | Microsoft Clarity | Masked recordings of five account screens only. Text and images are hidden. Chats, rooms, contacts and statuses are never recorded |
 | Push notifications | OneSignal, and Google Firebase Cloud Messaging on Android | A push token and the chat or sender name for each alert, never the message text |
+| Card payments, when you pay by card | Polar Software, Inc. ([privacy policy](https://polar.sh/legal/privacy)) | Your account's email address and an AChat account ID, sent when the payment page opens. Your name, billing country or address and card details, which Polar collects on its own page |
 | Hosting, database, file storage and email | Listed on the [privacy page](https://achat.aoneahsan.com/privacy) | Your account, chats, files and the account emails AChat sends |
 
 AChat doesn't show ads from ad networks and doesn't sell your personal data. It may show you other apps made by the AChat team.

@@ -4,7 +4,7 @@ title: Admin oversight
 description: What AChat's administrators can and can't see and do — chat details but never messages, reports, suspensions, room restrictions, plan grants — and the action log.
 keywords: [AChat admin, moderation, content moderation, admin access to messages, action log]
 last_update:
-  date: 2026-10-01
+  date: 2026-10-02
   author: AChat team
 ---
 
@@ -31,7 +31,9 @@ last_update:
 | Mark a community Mature | Changes a community's 18+ mark |
 | Delete an account on request | For someone who can't sign in, on a request from that account's Google email address |
 
-Admins also confirm plan payments by hand and answer the contact inbox.
+Admins also confirm bank transfer payments by hand and answer the contact inbox.
+
+For [card payments](/features/plans-and-pricing#card), admins can open or close new card sales, link Polar products to plans and periods, set a plan's yearly price, and set how long a plan is kept after a failed renewal. Closing card sales doesn't end the subscriptions people already have. Each change is in the action log.
 
 ## Limits admins set
 

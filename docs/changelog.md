@@ -4,7 +4,7 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-10-01
+  date: 2026-10-02
   author: AChat team
 ---
 
@@ -26,6 +26,7 @@ AChat was rebuilt from scratch. This entry releases with the new app.
 - **Privacy on this device:** privacy screen, neutral tab title, clipboard clearing and Wipe from this device.
 - **Device and location history**, opt-in per chat, with consent before entry.
 - **Plans:** Free, Pro and Team / Family, paid in AChat's own checkout, plus referrals.
+- **Paying by card**, when card payment is available: a monthly or yearly subscription taken on Polar's page, managed under Your subscription in Account. Bank transfer stays.
 - **Five languages:** English, Spanish, French, German and Arabic.
 - **Admin panel** that shows chat details but never messages, with an action log nobody can edit, Keep forever grants and admin-set search limits.
 - **Offline:** an outbox that sends in order when you're back.
