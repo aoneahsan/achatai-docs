@@ -4,7 +4,7 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -17,18 +17,19 @@ The in-app [release notes](https://achat.aoneahsan.com/feed) are the authority, 
 AChat was rebuilt from scratch. This entry releases with the new app.
 
 - **Personal chats and contacts:** add people by username, invite link or QR code, with message requests, blocks, online status and read receipts. Personal chats and private groups are end-to-end encrypted.
-- **Linked devices and a recovery key** bring your history to each device you approve, and back if you lose them all.
-- **Groups** with roles and invite links; **communities** with channels, threads, Mature marking, reports, bans and a moderation history.
+- **Linked devices and a recovery key** bring your history to each device you approve, and back if you lose them all. Approving a link carries the history across.
+- **Groups** with roles and invite links, readable (read-only) after you leave; **communities** with channels, threads, Mature marking, reports, bans and a moderation history.
 - **Status** for your contacts, gone after 24 hours.
-- **Anonymous rooms** keep working, old links included, with passwords, kept rooms and a private archive.
+- **Anonymous rooms** keep working, old links included, with passwords, kept rooms and a private archive. Earlier messages and files in password rooms stay readable.
 - **Messages:** edit, forward, pins, polls you can close, disappearing messages per chat, view once, Clear for me / Clear for everyone, and a per-chat Trash.
 - **Writing:** drafts, spoilers, maths, mentions, stickers, pasted images, voice notes, dictation, on-device translation and read aloud.
 - **Privacy on this device:** privacy screen, neutral tab title, clipboard clearing and Wipe from this device.
 - **Device and location history**, opt-in per chat, with consent before entry.
 - **Plans:** Free, Pro and Team / Family, paid in AChat's own checkout, plus referrals.
 - **Five languages:** English, Spanish, French, German and Arabic.
-- **Admin panel** that shows chat details but never messages, with an action log nobody can edit.
+- **Admin panel** that shows chat details but never messages, with an action log nobody can edit, Keep forever grants and admin-set search limits.
 - **Offline:** an outbox that sends in order when you're back.
+- **Search** on your device, over a set number of chats and messages.
 
 Not included: voice and video calls.
 

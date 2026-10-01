@@ -4,7 +4,7 @@ title: Kept rooms & your account
 description: Keep an anonymous AChat room past its default history, release it, and manage your account — username, data export and account deletion.
 keywords: [keep chat room, kept rooms, delete AChat account, export chat data, change username]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -20,7 +20,7 @@ last_update:
 - A reminder email comes when a kept room's date is coming up.
 - **Kept rooms** lists every room you keep.
 
-A room can be kept forever only with a grant from an AChat admin.
+A room can be kept forever only with a grant from an AChat admin. See [Admin oversight](/concepts/admin-oversight#what-admins-can-do).
 
 ## Release a room
 

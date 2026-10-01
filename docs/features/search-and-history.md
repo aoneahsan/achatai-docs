@@ -4,7 +4,7 @@ title: Search & offline history
 description: AChat search runs on your device over the messages it holds. Chats you've opened stay readable offline, and messages you write offline wait in an outbox.
 keywords: [on-device search, search chats, offline chat, message outbox, AChat search]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -15,7 +15,8 @@ last_update:
 ## Search
 
 - Open **Search** to look across your chats. Results are grouped by chat.
-- It covers messages already on this device. Trash and chats that are closed for now aren't searched.
+- It covers messages already on this device. Trash, archived chats, groups you've left and chats that are closed for now aren't searched.
+- Search covers up to a set number of chats, pinned first, then your most recent, and a set number of the newest messages in each. AChat's admins set both numbers, and the search page tells you how many chats it covers.
 - **Ctrl+K** (or **⌘K**) finds a chat or a page.
 
 ## Offline

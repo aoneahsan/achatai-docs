@@ -4,7 +4,7 @@ title: Anonymous rooms
 description: How AChat's anonymous rooms work without an account — room IDs, display names, passwords, how long messages are kept, and what anonymous doesn't mean.
 keywords: [anonymous chat room, no signup chat, chat by link, display name chat, AChat anonymous rooms]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -44,3 +44,5 @@ No account and no phone number. It doesn't mean invisible.
 ## Rooms from the old AChat
 
 Room links from before the rebuild still open, with their messages, passwords and kept rooms.
+
+In a room with a password, enter the same password to read its earlier messages, with their names, replies, polls and files. A message that can't be read shows a line saying so.

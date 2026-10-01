@@ -4,7 +4,7 @@ title: Groups & communities
 description: Private encrypted groups for people who know each other, and communities with channels, threads, roles, reports and bans. Which ones need an account.
 keywords: [group chat, encrypted group chat, online community, community channels, moderation, AChat groups]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -19,7 +19,7 @@ A group brings people from your contacts into one end-to-end encrypted chat, so 
 - **Create** a group from **Groups**, then invite contacts or share an invite link.
 - **Joining by link:** an admin approves anyone who asks to join through the link. Resetting the link stops the old one working.
 - **New members** see messages sent after they join. Earlier messages aren't shared automatically.
-- **Leaving or removal** stops new messages. Messages already on that person's devices stay there.
+- **Leaving or removal** stops new messages. Messages already on that person's devices stay there. See [Groups you've left](#groups-youve-left).
 
 | Role | Can |
 |---|---|
@@ -28,6 +28,10 @@ A group brings people from your contacts into one end-to-end encrypted chat, so 
 | Member | Chat, reply, react, leave |
 
 A message an admin deletes goes to the group's Trash, and only admins can restore it.
+
+### Groups you've left
+
+A group you left, or were removed from, stays in your chat list on the devices that had opened it. Open it to read the messages already on that device, under a banner that says you left or were removed. It's read-only: there's no message box, and messages have no reply, reaction or other actions. New messages don't arrive, and these groups aren't part of [search](/features/search-and-history).
 
 ## Communities
 

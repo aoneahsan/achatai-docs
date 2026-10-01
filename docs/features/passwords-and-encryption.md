@@ -4,7 +4,7 @@ title: Passwords & encryption
 description: Which AChat chats are end-to-end encrypted, what a room password protects, and the limits — open rooms, communities and status aren't end-to-end encrypted.
 keywords: [end-to-end encrypted chat, room password, encrypted group chat, AChat encryption]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 

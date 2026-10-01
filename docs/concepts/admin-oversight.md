@@ -4,7 +4,7 @@ title: Admin oversight
 description: What AChat's administrators can and can't see and do — chat details but never messages, reports, suspensions, room restrictions, plan grants — and the action log.
 keywords: [AChat admin, moderation, content moderation, admin access to messages, action log]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -26,11 +26,16 @@ last_update:
 | Restrict a room | New people can't open it from a link or join it. Members already in it keep chatting |
 | Suspend an account | The person can't sign in or send until an admin lifts it. Their chats are kept, and they can ask for a review through the contact page |
 | Grant a plan or allowance | Sets a plan or custom allowances for an account, with its own end date |
-| Allow keeping a room forever | Lets a keep grant cover that room |
+| Mark a room for keep forever | Lets a keep-forever grant limited to marked rooms cover that room |
+| Set Keep forever for a person | Chooses whether that person can keep rooms forever: **Not allowed**, **Marked rooms only**, **Any room** or **Every room, automatically**. A reason is required unless the choice is Not allowed. Changing it never shortens a room already kept forever |
 | Mark a community Mature | Changes a community's 18+ mark |
 | Delete an account on request | For someone who can't sign in, on a request from that account's Google email address |
 
 Admins also confirm plan payments by hand and answer the contact inbox.
+
+## Limits admins set
+
+Admins set AChat's limits in the admin panel, such as how long Trash keeps things and how long anonymous room messages last. Two of them bound [search](/features/search-and-history) on each device: **Chats in search**, the most chats search covers (pinned first, then the most recent), and **Messages in search**, the most messages it covers in each chat, newest first. Each field takes only a whole number within its allowed range.
 
 ## Moderation inside groups and communities
 
@@ -38,7 +43,7 @@ The people who run a space act first. Group admins can remove members and delete
 
 ## The action log
 
-Every admin change appears with who made it and when. Nobody can edit or delete an entry. Chats' device and location history isn't part of this log.
+Every admin change appears with who made it and when. A Keep forever change shows the setting before and after. Nobody can edit or delete an entry. Chats' device and location history isn't part of this log.
 
 ## Reviews
 

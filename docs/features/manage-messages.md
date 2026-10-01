@@ -4,7 +4,7 @@ title: Manage messages
 description: Edit, delete, clear, forward, pin and restore AChat messages; per-chat Trash; disappearing messages and view once; polls; archiving and saving a copy of a chat.
 keywords: [delete message, chat trash, disappearing messages, view once, forward message, poll, archive chat, AChat]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -29,6 +29,8 @@ last_update:
 - **Delete for everyone** applies to your own messages and moves the message to that chat's **Trash**.
 - Anyone in the chat can restore a message from the chat's Trash, or delete it permanently.
 - Trash keeps things for a set number of days, 30 by default, then deletes them permanently. Never longer than the chat's own history, or a message's own disappearing timer.
+
+In an end-to-end encrypted chat, a message deleted for everyone also leaves the copy each device saved for offline reading and search, the next time that device loads the chat. It can still be restored from Trash. Once it's permanently deleted, the saved copy goes too, and it doesn't return when you link a device or restore your history.
 
 A deleted chat also waits in Trash, so you can bring it back.
 

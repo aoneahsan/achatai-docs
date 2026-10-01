@@ -4,7 +4,7 @@ title: Devices & recovery key
 description: Link another device to your AChat account, compare security codes, remove a lost device, and use your recovery key to bring your history back.
 keywords: [link device, recovery key, restore chat history, lost phone, AChat devices]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-01
   author: AChat team
 ---
 
@@ -17,6 +17,8 @@ last_update:
 1. On the new device, open AChat and choose **Link this device**. It shows a code.
 2. On a device where you're already signed in, open **Account**, then **Devices**, and scan the code. If that browser can't scan, type the letters and numbers instead.
 3. Approve it. Once you do, the new device can read your chats, history included, and send messages as you. Only approve a device you're holding.
+
+Your history comes with the approval. The new device shows **Bringing your chats across** while it brings over the messages your devices have already opened or sent. If the history doesn't arrive, the device is still linked: restore earlier messages with your recovery key from **Account**, then **Recovery**.
 
 To check a link, compare security codes: both devices should show the same one. If they don't, remove the device you don't trust.
 
