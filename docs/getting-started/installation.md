@@ -4,7 +4,7 @@ title: Installation & access
 description: Use AChat in your browser or get the Android app from Google Play. Anonymous rooms need no account; personal chats need a Google sign-in and a username.
 keywords: [AChat web app, AChat Android, anonymous chat no account, messaging app sign in with Google]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-02
   author: AChat team
 ---
 
@@ -15,6 +15,8 @@ last_update:
 ## Web
 
 AChat runs in any current browser on a phone, tablet or computer. Nothing to install.
+
+On a phone, AChat's pages are laid out like an app: the main action stays within reach of your thumb, and the page links sit under **More links**. On a computer, or in a narrowed browser window, you get the web layout.
 
 ## Android
 

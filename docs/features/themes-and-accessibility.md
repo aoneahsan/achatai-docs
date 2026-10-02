@@ -4,7 +4,7 @@ title: Appearance, language & shortcuts
 description: One Appearance panel for theme, colour, text size and motion; five interface languages including Arabic; keyboard shortcuts and focus mode in AChat.
 keywords: [dark mode chat, text size, reduce motion, keyboard shortcuts, Arabic RTL chat, AChat accessibility]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-02
   author: AChat team
 ---
 
@@ -22,7 +22,7 @@ AChat's interface comes in English, Spanish, French, German and Arabic. Choose i
 
 ## Keyboard shortcuts
 
-Press **?** anywhere outside a text field to see the full list. Shortcuts show **Ctrl**, or **⌘** on Apple devices.
+Press **?** anywhere outside a text field to open the list. You can change most keys there. Shortcuts show **Ctrl**, or **⌘** on Apple devices. The table shows each shortcut's original keys.
 
 | Keys | Action |
 |---|---|
@@ -37,6 +37,15 @@ Press **?** anywhere outside a text field to see the full list. Shortcuts show *
 | ↑ / ↓, Home / End | Move through the chat list |
 | Alt+↑ / Alt+↓ | Previous or next chat |
 | Shift+F10 | Chat actions |
+
+### Change a key
+
+In the list, press **Change** beside a shortcut, then press the new keys. **Esc** cancels. **Reset** returns one shortcut to its original keys, and **Reset all** returns every shortcut, with an Undo.
+
+- One key combination belongs to one shortcut. If the keys are taken, AChat names the shortcut that has them and links to it.
+- Esc, the arrow keys, Home, End and Shift+F10 are standard keys. They can't be changed, because menus, dialogs and lists rely on them.
+- Your browser keeps some combinations for itself, such as Ctrl+W, so AChat can't use them.
+- When you're signed in, your keys follow your account to every device you sign in on. Signed out, they're saved in this browser only.
 
 ## Focus mode
 
