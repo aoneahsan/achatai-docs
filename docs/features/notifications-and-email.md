@@ -4,7 +4,7 @@ title: Notifications & email
 description: AChat notifications are opt-in and never include the message text. Which emails AChat sends to your Google email address, and when.
 keywords: [chat notifications, push notifications, mute chat, AChat email]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-05
   author: AChat team
 ---
 
@@ -35,3 +35,7 @@ AChat emails your Google email address only about your account:
 | Account deleted | After your account is deleted |
 
 Anonymous rooms send no email.
+
+## While AChat is in another tab
+
+When a message arrives and AChat's tab isn't showing, you hear the message sound (if **Sound** is on in your notification settings and the chat isn't muted), and the tab's title counts new messages until you come back. The chat list updates at once.

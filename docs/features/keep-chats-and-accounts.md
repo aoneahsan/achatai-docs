@@ -4,7 +4,7 @@ title: Kept rooms & your account
 description: Keep an anonymous AChat room past its default history, release it, and manage your account — username, data export and account deletion.
 keywords: [keep chat room, kept rooms, delete AChat account, export chat data, change username]
 last_update:
-  date: 2026-10-01
+  date: 2026-10-05
   author: AChat team
 ---
 
@@ -52,3 +52,7 @@ Deletion is immediate and permanent:
 - A confirmation goes to your Google email address.
 
 Can't sign in? The [delete account page](https://achat.aoneahsan.com/delete-account) explains how to ask the AChat team from the Google email address your account uses.
+
+## Achievements
+
+Account shows **Achievements**: badges for a finished profile, kept rooms, installing AChat, the Android app and the days you've opened it. They are worked out on your device and don't change your plan.

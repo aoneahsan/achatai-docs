@@ -4,7 +4,7 @@ title: Manage messages
 description: Edit, delete, clear, forward, pin and restore AChat messages; per-chat Trash; disappearing messages and view once; polls; archiving and saving a copy of a chat.
 keywords: [delete message, chat trash, disappearing messages, view once, forward message, poll, archive chat, AChat]
 last_update:
-  date: 2026-10-01
+  date: 2026-10-05
   author: AChat team
 ---
 
@@ -63,3 +63,19 @@ Send a poll and people vote in the chat. A poll shows how many people chose each
 ## Save a copy
 
 Save a copy of a chat as a web page (.html) or Markdown (.md). The file includes the messages you can read on that device now, and anyone who gets the file can read it.
+
+## Star a message
+
+**Star** marks a message on this device only; nothing is sent. A starred message shows a star, and **Search this chat** can show starred messages only.
+
+## Report a message
+
+**Report** sends someone else's message to AChat moderators with a reason. Its author isn't told who reported it. In an end-to-end encrypted chat AChat's server can't read messages, so the words your device shows go with the report, and the dialog says so first.
+
+## Search this chat
+
+**Search this chat** (Ctrl or ⌘ + F, or the chat's More menu) finds words in the messages this device has loaded, including end-to-end encrypted ones, since the search runs on your device. **Search earlier messages** loads more. Nothing is sent anywhere.
+
+## Save a copy from a chat
+
+**Save a copy** (Ctrl or ⌘ + E, or the chat's More menu) saves the chat as a file on your device.

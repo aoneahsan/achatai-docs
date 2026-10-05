@@ -4,7 +4,7 @@ title: Groups & communities
 description: Private encrypted groups for people who know each other, and communities with channels, threads, roles, reports and bans. Which ones need an account.
 keywords: [group chat, encrypted group chat, online community, community channels, moderation, AChat groups]
 last_update:
-  date: 2026-10-01
+  date: 2026-10-05
   author: AChat team
 ---
 
@@ -52,3 +52,7 @@ Communities and their channels aren't end-to-end encrypted.
 - A message an admin or moderator removes goes to that space's Trash, and only its admins can restore it.
 
 Communities keep a moderation history of reports, bans and removals.
+
+## Waiting to join an encrypted group
+
+Groups are end-to-end encrypted, so an owner's or admin's device adds each new member. After you accept an invitation, the group stays on **Groups** as **Waiting** until that device is online, and AChat tells you when you're in. An owner's or admin's device adds waiting people whenever AChat is open on it.

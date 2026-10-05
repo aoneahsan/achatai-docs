@@ -4,7 +4,7 @@ title: Appearance, language & shortcuts
 description: One Appearance panel for theme, colour, text size and motion; five interface languages including Arabic; keyboard shortcuts and focus mode in AChat.
 keywords: [dark mode chat, text size, reduce motion, keyboard shortcuts, Arabic RTL chat, AChat accessibility]
 last_update:
-  date: 2026-10-02
+  date: 2026-10-05
   author: AChat team
 ---
 
@@ -57,3 +57,19 @@ Turn **Focus mode** on from a chat's menu or with Ctrl+Shift+F. Press **Esc** to
 - Changes such as a sent message or a restored draft are announced to screen readers.
 - Text size and motion come from Appearance.
 - [Read aloud](/features/writing-messages#read-aloud) plays a message with an on-device voice.
+
+## Side panels
+
+Every side panel on Chats (a room, chat info, shared media, Trash, a thread and others) opens at 60% of the chat area. Drag its edge, or focus the edge and use the arrow keys; double-click returns to 60%. Each panel keeps its width on this device and, when you're signed in, on your account.
+
+## Appearance as a file
+
+**Save as a file** in the appearance panel keeps every appearance choice in a small file; **Load from a file** applies one.
+
+## Keys
+
+Keys 1 to 6 react to the newest message with the quick reactions. **Vim-style keys in a chat** (in the shortcuts dialog) adds j and k to scroll, G for the newest message and g g for the oldest loaded. Every shortcut can be changed.
+
+## This device
+
+Account › Preferences › **This device**: **Keep the screen on in a chat**, **Vibrate on send and reactions** (Android app), **Show link previews**, and **Install AChat** where your browser offers it.
