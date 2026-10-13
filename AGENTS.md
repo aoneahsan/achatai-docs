@@ -1,15 +1,15 @@
 # AChat documentation
 
-**Last Updated:** 2026-09-28
+**Last Updated:** 2026-10-13
 
 | Context | Value |
 |---|---|
-| Repository | Public `aoneahsan/achatai-docs` · `main` (live legacy app) · `rebuild-release` (the rebuild; merges to `main` at the W9 cutover) · remote `origin` |
+| Repository | Public `aoneahsan/achatai-docs` · `main` (live rebuild docs) · `rebuild-release` (retained branch at the same commit) · remote `origin` |
 | Product source | Private rebuild at `../achat-next` (`../achat` is read-only legacy) |
 | Stack | Docusaurus 3 · TypeScript · Node 18+ · yarn only (`yarn.lock`) |
 | Last optimized | 2026-09-22 |
 | Next routine optimization eligible | 2026-10-22 |
-| Guide bytes | 4,217 B |
+| Guide bytes | 4,161 B |
 | Context design | Compact root; page evidence loads on demand. |
 | Mirror | `CLAUDE.md` and `AGENTS.md` are byte-identical. |
 | Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |
@@ -66,7 +66,8 @@ yarn typecheck
 yarn build
 ```
 
-Do not run `yarn start` or another dev server. Until the W9 cutover, `main` keeps describing the live legacy app and `rebuild-release` is never merged early. A push to `main` drives the GitHub Pages workflow; the custom
+Do not run `yarn start` or another dev server. The W9 web cutover is complete, and `main` describes the rebuild.
+A push to `main` drives the GitHub Pages workflow; the custom
 host is pinned by `static/CNAME`. There is no tracked Firebase deployment configuration in this repository.
 
 ## Links
