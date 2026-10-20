@@ -9,7 +9,7 @@
 | Stack | Docusaurus 3.10.2 · TypeScript 6 · Node 20+ · Yarn 4.18.1 (`yarn.lock`) |
 | Last optimized | 2026-09-22 |
 | Next routine optimization eligible | 2026-10-22 |
-| Guide bytes | 4,161 B |
+| Guide bytes | 4,768 B |
 | Context design | Compact root; page evidence loads on demand. |
 | Mirror | `CLAUDE.md` and `AGENTS.md` are byte-identical. |
 | Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |
