@@ -1,64 +1,61 @@
-# achatai-docs
+# AChat documentation
 
-Public documentation site for **AChat (Anonymous Chat AI)** — the no-signup, transient, optionally end-to-end-encrypted, 10-day auto-deleting chat app at [achat.aoneahsan.com](https://achat.aoneahsan.com).
+Public documentation for [AChat](https://achat.aoneahsan.com), a messaging app for personal chats, groups,
+communities, status updates, and anonymous rooms on the web and Android.
 
-Built with [Docusaurus 3](https://docusaurus.io). Deployed to **Firebase Hosting** (primary) and **GitHub Pages** (free fallback) — see "Deploy".
+The site uses Docusaurus 3 and deploys to GitHub Pages.
 
 ## Links
 
-- **App:** https://achat.aoneahsan.com
-- **Docs (this site):** https://achat-docs.aoneahsan.com
-- **Google Play:** https://play.google.com/store/apps/details?id=com.aoneahsan.achatachat
-- **App source (private):** https://github.com/aoneahsan/anonymous-chat-ai-achatai
+- **App:** <https://achat.aoneahsan.com>
+- **Documentation:** <https://achat-docs.aoneahsan.com>
+- **Google Play:** <https://play.google.com/store/apps/details?id=com.aoneahsan.achat>
+- **App source (private):** <https://github.com/aoneahsan/anonymous-chat-ai-achatai>
 - **Author:** [Ahsan Mahmood](https://aoneahsan.com)
 
 ## Local development
 
-This repo is **yarn-only** (never `npm`/`pnpm`).
+This repository uses Yarn.
 
 ```bash
-yarn install
-yarn start      # dev server on http://localhost:5971
+yarn install --immutable
+yarn start
 ```
 
-## Build & verify
+The development server uses <http://localhost:5971>.
+
+## Build and verify
 
 ```bash
-yarn typecheck  # tsc --noEmit (must exit 0)
-yarn build      # docusaurus build -> ./build (must exit 0)
-yarn serve      # preview the built site on :5972
+yarn typecheck
+yarn build
+yarn serve
 ```
+
+`yarn serve` previews the built site on <http://localhost:5972>.
 
 ## Deploy
 
-The site is dual-hosted. Point the custom domain's DNS at whichever host you activate — never both at once for the same domain.
-
-**Firebase Hosting (primary):**
-
-```bash
-yarn build
-npx -y firebase-tools@latest deploy --only hosting --project achatai-docs
-```
-
-**GitHub Pages (free fallback):** the `.github/workflows/deploy-pages.yml` workflow builds and publishes on every push to `main`. The custom domain comes from `static/CNAME`. To use the default `*.github.io` URL instead, delete `static/CNAME` and set `baseUrl: '/achatai-docs/'` in `docusaurus.config.ts`.
+Pushing `main` runs [the GitHub Pages workflow](.github/workflows/deploy-pages.yml). The workflow builds the
+site and publishes its `build/` output. `static/CNAME` assigns the custom documentation domain.
 
 ## Structure
 
-```
-docs/                     ← all documentation pages (intro, getting-started, features, concepts, faq, changelog, about)
-docs/tracking/            ← content/build tracker JSON
-src/css/custom.css        ← AChat violet brand palette
-src/pages/index.tsx       ← homepage
-static/                   ← robots.txt, llms.txt, humans.txt, CNAME, .well-known, img/ (favicon, logo, social-card)
-docusaurus.config.ts      ← site config, JSON-LD, navbar/footer cross-links to the app + Play Store
-sidebars.ts               ← sidebar layout
-firebase.json / .firebaserc ← Firebase Hosting config (target achatai-docs)
+```text
+.github/workflows/deploy-pages.yml  GitHub Pages build and deployment
+docs/                               Documentation pages and tracking records
+src/css/custom.css                  AChat theme styles
+src/pages/index.tsx                 Documentation homepage
+static/                             CNAME, metadata, and image assets
+docusaurus.config.ts                Site configuration and navigation
+sidebars.ts                         Documentation sidebar
 ```
 
-## Honest framing
+## Content accuracy
 
-The docs deliberately state what AChat does **not** do: it has no AI/LLM chatbot (despite the brand name), open chats are not private, file bytes are not encrypted at rest, and deletion is "about 10 days" rather than instant. Keep that honesty on every edit.
+Keep product, privacy, security, retention, and availability claims aligned with the current application.
+Record uncertain claims for review instead of publishing assumptions.
 
 ---
 
-Built and maintained by [Ahsan Mahmood](https://aoneahsan.com) · MIT-licensed docs.
+Built and maintained by [Ahsan Mahmood](https://aoneahsan.com). Documentation source is MIT licensed.
