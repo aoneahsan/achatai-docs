@@ -1,12 +1,12 @@
 # AChat documentation
 
-**Last Updated:** 2026-10-13
+**Last Updated:** 2026-10-20
 
 | Context | Value |
 |---|---|
 | Repository | Public `aoneahsan/achatai-docs` · `main` (live rebuild docs) · `rebuild-release` (retained branch at the same commit) · remote `origin` |
 | Product source | Private rebuild at `../achat-next` (`../achat` is read-only legacy) |
-| Stack | Docusaurus 3 · TypeScript · Node 18+ · yarn only (`yarn.lock`) |
+| Stack | Docusaurus 3.10.2 · TypeScript 6 · Node 20+ · Yarn 4.18.1 (`yarn.lock`) |
 | Last optimized | 2026-09-22 |
 | Next routine optimization eligible | 2026-10-22 |
 | Guide bytes | 4,161 B |
@@ -75,3 +75,9 @@ host is pinned by `static/CNAME`. There is no tracked Firebase deployment config
 - Docs: https://achat-docs.aoneahsan.com
 - App: https://achat.aoneahsan.com
 - Play Store: https://play.google.com/store/apps/details?id=com.aoneahsan.achat
+
+## Stop-work Git gate
+
+<!-- RULE:stop-work-git-gate v2026-10-20 -->
+
+Before stopping, commit every legitimate change and work-progress checkpoint in this repository and each independent nested repository, fetch and merge the designated upstream, push the documented working branch, then verify an empty worktree and `0 0` ahead/behind. Never stash, discard, reset, rebase, or force-push. If synchronization is blocked, report the exact repository, branch, blocker, and next action instead of calling the work complete. The full workflow remains authoritative in `~/.claude/rules/git-workflow.md`.
