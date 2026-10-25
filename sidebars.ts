@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
         'features/location-history',
         'features/plans-and-pricing',
         'features/tours-and-walkthrough',
+        'features/ai-help',
       ],
     },
     {
