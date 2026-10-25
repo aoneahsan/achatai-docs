@@ -1,6 +1,6 @@
 # AChat documentation
 
-**Last Updated:** 2026-10-20
+**Last Updated:** 2026-10-25
 
 | Context | Value |
 |---|---|
@@ -25,7 +25,8 @@ personal chats, groups, communities, status and anonymous rooms, on the web and 
 - State the limits with the features: personal chats, private groups and passworded rooms are end-to-end
   encrypted; communities, open rooms and status are not; anonymous is not untraceable; no calls.
 - Voice: "the AChat team", never one person. Plans exist (Free, Pro, Team / Family); never imply free-only.
-  Never name AI, internal tooling, FilesHub or private identifiers.
+  Never name AI, internal tooling, FilesHub or private identifiers — except the product's own AI features (Speak,
+  Draft help, Catch me up), which `docs/features/ai-help.md` names (owner, 2026-10-25: "Allow for AI features").
 - This repository is public. Never add an environment file, credential, private identifier, app secret,
   keystore, internal audit record, or unpublished private-app material.
 - App behavior changes belong in `../achat-next`; current global workflow rules auto-load and are never copied here.
