@@ -36,6 +36,7 @@ const sidebars: SidebarsConfig = {
         'features/privacy-on-this-device',
         'features/location-history',
         'features/plans-and-pricing',
+        'features/tours-and-walkthrough',
       ],
     },
     {
