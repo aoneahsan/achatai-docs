@@ -1,10 +1,10 @@
 ---
 sidebar_position: 10
 title: Manage messages
-description: Edit, delete, clear, forward, pin and restore AChat messages; per-chat Trash; disappearing messages and view once; polls; archiving and saving a copy of a chat.
+description: Edit, delete, clear, forward, pin and restore AChat messages; per-chat Trash; disappearing messages and view once; polls; archiving chats, messages and replies; saving a copy of a chat.
 keywords: [delete message, chat trash, disappearing messages, view once, forward message, poll, archive chat, AChat]
 last_update:
-  date: 2026-10-05
+  date: 2026-10-30
   author: AChat team
 ---
 
@@ -58,6 +58,9 @@ Send a poll and people vote in the chat. A poll shows how many people chose each
 ## Archive and private archive
 
 - **Archive** hides a chat from your list without deleting it. Nothing changes for anyone else.
+- **Archive a message or a reply** from its menu. Your own message is hidden for everyone until you unarchive it; someone else's is hidden for you only. Archiving a main message takes its thread with it. If other people replied to your message, their replies stay under "Message archived", and the thread takes no new replies until you unarchive it.
+- **Select** several messages, replies or chats (from a menu, or a long-press on a phone), then archive or unarchive them together. The bar says who stops seeing them before you press "Archive".
+- Each level has its own view: **Archived chats** in your list, **Archived messages** from a chat's menu or Chat info, and **Archived replies** from a thread. Nothing there expires on its own, and only you can unarchive what you archived. A message with its own disappearing timer still leaves when that ends.
 - **Private archive** (anonymous rooms, with an account): from then on only your account can open the room, even with its link or password, and it becomes read-only. You can't do this to a room someone else keeps.
 
 ## Save a copy
