@@ -31,7 +31,7 @@ You pay on the web, signed in to your account. Choose a plan on the pricing page
 1. Transfer the amount by bank, with the reference the checkout shows in the payment details.
 2. Send your payment request. The AChat team matches each payment to its reference by hand, and your plan shows as waiting until it's confirmed.
 
-**Cancel** from the pricing page or **Account**: your plan runs until the end of the period you paid for, and no renewal payment is expected. Part of a period isn't refunded.
+**Cancel** from the pricing page or **Account**: your plan runs to the end of the period you paid for, and no renewal payment is expected.
 
 ### Card
 
@@ -52,7 +52,7 @@ A plan you pay for by card appears under **Your subscription** in **Account**, w
 | **Card and receipts** | Opens Polar's page, where you change your card and see receipts |
 | **Change seats** | Changes the number of seats on a Team / Family plan. You can't go below the seats in use |
 | **Change plan** | Changes the plan or the period. Polar works out the price difference for the rest of the period you've paid for, and the change applies once Polar confirms it |
-| **Cancel subscription** | You keep the plan until the end of the period you've paid for, and it doesn't renew. Part of a period isn't refunded |
+| **Cancel subscription** | You keep the plan to the end of the period you've paid for, and it doesn't renew |
 | **Resume subscription** | Before that end date, sets the subscription to renew again on the same date |
 
 **If a renewal payment doesn't go through**, you keep the plan for a short while after the paid period ends, then move to the plan you'd otherwise have until a payment goes through. Polar keeps trying the card, and if its tries run out the subscription ends.
@@ -62,7 +62,7 @@ A plan you pay for by card appears under **Your subscription** in **Account**, w
 ### When a plan ends
 
 - **When a paid plan ends**, you move back to Free. Nothing is deleted, everything stays readable and you keep messaging. Until you're back under Free's limits, new files in a chat that's over its limit, and new kept rooms, are refused.
-- Deleting your account ends a paid plan straight away, with no refund for the time left. If you pay by card, the subscription is cancelled at Polar first, so no further payment is taken. If that can't be confirmed, the account isn't deleted.
+- Deleting your account ends a paid plan straight away. If you pay by card, the subscription is cancelled at Polar first, so no further payment is taken. If that can't be confirmed, the account isn't deleted.
 
 ## Team / Family
 

@@ -1,6 +1,9 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import changelogFeed from './src/plugins/changelog-feed';
+import docsDirectory from './src/plugins/docs-directory';
+import notFoundHead from './src/plugins/not-found-head';
 
 // ---------------------------------------------------------------------------
 // AChat — Documentation site config (the AChat team)
@@ -40,10 +43,16 @@ const config: Config = {
   // SEO + AI-citability head tags. The JSON-LD payloads (WebSite, Organization,
   // SoftwareApplication) help Google Rich Results, Perplexity, ChatGPT, and
   // Claude extract structured entity data when citing this documentation.
+  // No canonical here: the theme emits one per route, and a global one gave every page two (SA-P01).
   headTags: [
     {
       tagName: 'link',
-      attributes: { rel: 'canonical', href: `${SITE_URL}/` },
+      attributes: {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: 'AChat Docs changelog',
+        href: `${SITE_URL}/feed.xml`,
+      },
     },
     {
       tagName: 'link',
@@ -76,7 +85,7 @@ const config: Config = {
         url: SITE_URL,
         description: DOCS_DESCRIPTION,
         inLanguage: 'en',
-        publisher: { '@type': 'Organization', name: 'AChat team', url: APP_URL },
+        publisher: { '@type': 'Organization', name: 'AChat', url: APP_URL },
       }),
     },
     {
@@ -91,7 +100,7 @@ const config: Config = {
         operatingSystem: 'Android, Web',
         url: APP_URL,
         sameAs: [APP_URL, PLAY_URL],
-        author: { '@type': 'Organization', name: 'AChat team', url: APP_URL },
+        author: { '@type': 'Organization', name: 'AChat', url: APP_URL },
         description: APP_DESCRIPTION,
         featureList: [
           'Personal chats and private groups, end-to-end encrypted',
@@ -110,7 +119,7 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'AChat team',
+        name: 'AChat',
         url: APP_URL,
         sameAs: [APP_URL, PLAY_URL],
       }),
@@ -126,6 +135,7 @@ const config: Config = {
     hooks: { onBrokenMarkdownLinks: 'warn' },
   },
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: [changelogFeed, docsDirectory, notFoundHead],
 
   presets: [
     [
@@ -152,13 +162,15 @@ const config: Config = {
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
-        sitemap: { changefreq: 'weekly', priority: 0.7, lastmod: 'date' },
+        // lastmod only: search engines ignore changefreq and priority.
+        sitemap: { changefreq: null, priority: null, lastmod: 'date' },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    image: 'img/social-card.svg',
+    // PNG (social scrapers do not render SVG), exported from its master static/img/social-card.svg.
+    image: 'img/social-card.png',
     metadata: [
       {
         name: 'description',
@@ -181,6 +193,11 @@ const config: Config = {
       { property: 'og:locale', content: 'en_US' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
+      { property: 'og:image:type', content: 'image/png' },
+      {
+        property: 'og:image:alt',
+        content: 'AChat Docs: a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android.',
+      },
       { property: 'article:author', content: 'AChat team' },
     ],
     colorMode: {
@@ -224,6 +241,9 @@ const config: Config = {
             { label: 'Quick Start', to: '/getting-started/quick-start' },
             { label: 'Security & encryption', to: '/concepts/security-and-encryption' },
             { label: 'FAQ', to: '/faq' },
+            { label: 'Sitemap', to: '/sitemap' },
+            { label: 'Changelog feed', to: '/feed' },
+            { label: 'RSS (feed.xml)', href: 'pathname:///feed.xml' },
           ],
         },
         {

@@ -4,7 +4,7 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-10-02
+  date: 2026-10-30
   author: AChat team
 ---
 
@@ -12,9 +12,15 @@ last_update:
 
 The in-app [release notes](https://achat.aoneahsan.com/feed) are the authority, with the date each change shipped. Older entries here describe AChat as it was at the time.
 
-## Rebuild (release pending)
+## Archive messages and replies (2026-10-30)
 
-AChat was rebuilt from scratch. This entry releases with the new app.
+- **Archive a message or a reply** from its menu. Your own is hidden for everyone until you unarchive it; someone else's is hidden for you only. A main message takes its thread with it, except that other people's replies to your own message stay, under "Message archived".
+- **Select** several messages, replies or chats, then archive or unarchive them together. The bar says who stops seeing them before you press "Archive".
+- **Archived chats**, **Archived messages** and **Archived replies** each have their own view. Archiving sets no expiry of its own, and only you can unarchive what you archived. See [Manage messages](./features/manage-messages.md#archive-and-private-archive).
+
+## Rebuild (2026-10-03)
+
+AChat was rebuilt from scratch. It went live at achat.aoneahsan.com on 2026-10-03.
 
 - **Personal chats and contacts:** add people by username, invite link or QR code, with message requests, blocks, online status and read receipts. Personal chats and private groups are end-to-end encrypted.
 - **Linked devices and a recovery key** bring your history to each device you approve, and back if you lose them all. Approving a link carries the history across.

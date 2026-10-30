@@ -1,44 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="AChat — Anonymous Chat AI documentation">
-  <defs>
-    <linearGradient id="sc-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7c3aed"/>
-      <stop offset="0.55" stop-color="#5b21b6"/>
-      <stop offset="1" stop-color="#2e1065"/>
-    </linearGradient>
-    <radialGradient id="sc-glow" cx="0.78" cy="0.16" r="0.7">
-      <stop offset="0" stop-color="#a855f7" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sc-key" x1="0" y1="0" x2="0.6" y2="1">
-      <stop offset="0" stop-color="#c4b5fd"/>
-      <stop offset="0.5" stop-color="#a855f7"/>
-      <stop offset="1" stop-color="#7c3aed"/>
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="630" fill="url(#sc-bg)"/>
-  <rect width="1200" height="630" fill="url(#sc-glow)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <!-- Docs social preview card (themeConfig.image, docusaurus.config.ts). The editable master; social-card.png is its
+       1200x630 export: rsvg-convert -w 1200 -h 630 static/img/social-card.svg -o static/img/social-card.png
+       Same card as the app (achat/public/og-image.svg); the sentence is the app's approved about.meta.description. -->
+  <title id="t">AChat Docs</title>
+  <desc id="d">The AChat mark, two overlapping chat bubbles, beside the AChat Docs wordmark and the line: a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android.</desc>
 
-  <!-- brand mark, left -->
-  <g transform="translate(96 175)">
-    <rect width="280" height="280" rx="62" fill="#ffffff" fill-opacity="0.07"/>
-    <g transform="translate(28 28) scale(0.222)">
-      <path d="M620.64 243.12 A290 290 0 1 1 403.36 243.12" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
-      <circle cx="587.06" cy="231.88" r="14" fill="#ffffff"/>
-      <circle cx="557.36" cy="225.57" r="9" fill="#ffffff" fill-opacity="0.6"/>
-      <circle cx="532.23" cy="222.71" r="5" fill="#ffffff" fill-opacity="0.35"/>
-      <rect x="339" y="366" width="346" height="250" rx="66" fill="#ffffff"/>
-      <path d="M410 612 L372 672 L474 612 Z" fill="#ffffff"/>
-      <circle cx="512" cy="466" r="46" fill="url(#sc-key)"/>
-      <path d="M491 480 H533 L548 556 H476 Z" fill="url(#sc-key)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0b1f"/>
+      <stop offset="1" stop-color="#1b1442"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b4ef0"/>
+      <stop offset="1" stop-color="#8b7bff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#5b4ef0" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#5b4ef0" stop-opacity="0"/>
+    </radialGradient>
+    <!-- The mark (public/achat-mark.svg), redrawn at 64-unit scale. -->
+    <linearGradient id="mark-bg" x1="6" y1="2" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b4ef0"/>
+      <stop offset="1" stop-color="#6c3fe0"/>
+    </linearGradient>
+    <radialGradient id="mark-hi" cx="16" cy="4" r="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="mark-gap" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#ffffff"/>
+      <g transform="rotate(-24 37 31)" fill="#000000" stroke="#000000" stroke-width="4.5" stroke-linejoin="round">
+        <ellipse cx="37" cy="31" rx="10.5" ry="14"/>
+        <path d="M42 40 43 51 33 43.5z"/>
+      </g>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <g transform="translate(842 150) scale(5)">
+    <path d="M32 2C7.7 2 2 7.7 2 32s5.7 30 30 30 30-5.7 30-30S56.3 2 32 2z" fill="url(#mark-bg)"/>
+    <path d="M32 2C7.7 2 2 7.7 2 32s5.7 30 30 30 30-5.7 30-30S56.3 2 32 2z" fill="url(#mark-hi)"/>
+    <g fill="#ffffff">
+      <g mask="url(#mark-gap)">
+        <g transform="rotate(24 27 31)">
+          <ellipse cx="27" cy="31" rx="10.5" ry="14"/>
+          <path d="M22 40 21 51 31 43.5z"/>
+        </g>
+      </g>
+      <g transform="rotate(-24 37 31)" opacity="0.84">
+        <ellipse cx="37" cy="31" rx="10.5" ry="14"/>
+        <path d="M42 40 43 51 33 43.5z"/>
+      </g>
     </g>
   </g>
 
-  <!-- text, right -->
-  <g transform="translate(440 0)" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
-    <text x="0" y="232" fill="#ffffff" font-size="92" font-weight="800" letter-spacing="-2">AChat</text>
-    <text x="0" y="300" fill="#e9d5ff" font-size="38" font-weight="600">Anonymous Chat AI — Documentation</text>
-    <text x="0" y="372" fill="#ffffff" fill-opacity="0.92" font-size="30" font-weight="500">No sign-up · optional end-to-end encryption</text>
-    <text x="0" y="416" fill="#ffffff" fill-opacity="0.92" font-size="30" font-weight="500">File sharing · 10-day auto-delete</text>
-    <text x="0" y="486" fill="#c4b5fd" font-size="26" font-weight="500">achat.aoneahsan.com</text>
+  <g transform="translate(80 250)" font-family="'Geist','DejaVu Sans','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="0" y="0" font-weight="800" font-size="168" fill="#ffffff" letter-spacing="-5">AChat<tspan font-weight="500" font-size="72" fill="#cdc6ff" dx="24">Docs</tspan></text>
+    <rect x="0" y="40" width="260" height="6" rx="3" fill="url(#accent)"/>
+    <g font-weight="500" font-size="36" fill="#cdc6ff">
+      <text x="0" y="118">A messaging app for personal chats,</text>
+      <text x="0" y="170">groups, communities and anonymous</text>
+      <text x="0" y="222">rooms, on the web and Android.</text>
+    </g>
   </g>
+
+  <text x="80" y="566" font-family="'DejaVu Sans Mono',ui-monospace,Menlo,monospace" font-weight="500" font-size="22" fill="#8f88c4" letter-spacing="3">ACHAT-DOCS.AONEAHSAN.COM</text>
 </svg>
