@@ -47,4 +47,4 @@ Room links from before the rebuild still open, with their messages, passwords an
 
 In a room with a password, enter the same password to read its earlier messages, with their names, replies, polls and files. A message that can't be read shows a line saying so.
 
-The old AChat encrypted a password room's messages but stored its files without encryption, and those earlier files are kept as they were. They still open only inside the room, for people who know its password.
+The old AChat encrypted a password room's messages, but stored its files without encryption, each at a public link that can't be guessed. Those earlier files are kept as they were, so anyone who has one file's link can open that file.
