@@ -2,9 +2,9 @@
 sidebar_position: 4
 title: Data, privacy & deletion
 description: What AChat collects, which services handle it, how long each kind of data is kept, what you control, and what deleting your account removes.
-keywords: [AChat privacy, data retention, delete chat data, analytics opt out, what does AChat collect]
+keywords: [AChat privacy, data retention, delete chat data, AChat analytics, what does AChat collect]
 last_update:
-  date: 2026-10-02
+  date: 2026-10-31
   author: AChat team
 ---
 
@@ -23,7 +23,7 @@ last_update:
 - **Payments:** the plan you chose and what the AChat team needs to confirm your payment, such as its reference code. For a card payment, AChat keeps the subscription's status, plan, period, seats, amount and dates, and never receives your card number or your billing name or address.
 - **Contact form:** your name, email address and message.
 - **Error reports and usage analytics:** without message content, passwords, keys or precise locations.
-- **Screen recordings:** masked recordings of a few account screens, never of chats.
+- **Screen recordings:** masked recordings of two public pages, never of chats.
 
 ## Who else handles it
 
@@ -32,7 +32,7 @@ last_update:
 | Sign-in | Google | Your name, email address and photo come from it |
 | Error reports | Sentry | What went wrong, without message content, passwords, keys or precise locations |
 | Usage analytics | Amplitude, and Google Analytics 4 once it's switched on | How AChat is used, with the same exclusions |
-| Screen recordings | Microsoft Clarity | Masked recordings of five account screens only. Text and images are hidden. Chats, rooms, contacts and statuses are never recorded |
+| Screen recordings | Microsoft Clarity | Masked recordings of two pages only: Join AChat and Keeping rooms. Text and images are hidden. Chats, rooms, contacts and statuses are never recorded |
 | Push notifications | OneSignal, and Google Firebase Cloud Messaging on Android | A push token and the chat or sender name for each alert, never the message text |
 | Card payments, when you pay by card | Polar Software, Inc. ([privacy policy](https://polar.sh/legal/privacy)) | Your account's email address and an AChat account ID, sent when the payment page opens. Your name, billing country or address and card details, which Polar collects on its own page |
 | Hosting, database, file storage and email | Listed on the [privacy page](https://achat.aoneahsan.com/privacy) | Your account, chats, files and the account emails AChat sends |
@@ -59,7 +59,7 @@ AChat doesn't show ads from ad networks and doesn't sell your personal data. It 
 - **Export:** one file with your profile, contacts and the chats this device can read, built on your device.
 - **Online status and read receipts:** see [Personal chats & contacts](/features/personal-chats-and-contacts).
 - **Status audience:** your accepted contacts by default, with people included or left out.
-- **Usage data:** one switch for usage analytics and screen recordings. See [Privacy on this device](/features/privacy-on-this-device).
+- **Usage analytics and screen recordings:** on for everyone; there's no switch to turn them off. AChat says so once, in a notice bar at the bottom of the screen when you first open it. Analytics leave out message content, passwords, keys and precise locations; recordings cover two public pages only, with text and images hidden.
 - **Correct or remove:** edit your profile or username, or delete your account. For anything else, write to the AChat team through the [contact page](https://achat.aoneahsan.com/contact).
 
 ## Deleting your account

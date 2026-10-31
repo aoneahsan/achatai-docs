@@ -1,15 +1,15 @@
 # AChat documentation
 
-**Last Updated:** 2026-10-25
+**Last Updated:** 2026-10-31
 
 | Context | Value |
 |---|---|
 | Repository | Public `aoneahsan/achatai-docs` · `main` (live rebuild docs) · `rebuild-release` (retained branch at the same commit) · remote `origin` |
 | Product source | Private rebuild at `../achat-next` (`../achat` is read-only legacy) |
 | Stack | Docusaurus 3.10.2 · TypeScript 6 · Node 20+ · Yarn 4.18.1 (`yarn.lock`) |
-| Last optimized | 2026-09-22 |
-| Next routine optimization eligible | 2026-10-22 |
-| Guide bytes | 4,768 B |
+| Last optimized | 2026-10-31 |
+| Next routine optimization eligible | 2026-11-30 |
+| Guide bytes | 4,929 B |
 | Context design | Compact root; page evidence loads on demand. |
 | Mirror | `CLAUDE.md` and `AGENTS.md` are byte-identical. |
 | Fleet record | [workspace context tracker](../../../docs/tracking/project-context-budget-tracker.json) |

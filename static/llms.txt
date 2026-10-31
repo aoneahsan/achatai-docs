@@ -27,7 +27,7 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 - [Embeddable widget](https://achat-docs.aoneahsan.com/features/embeddable-widget): rooms and channels on other websites, with allowed websites.
 - [Notifications & email](https://achat-docs.aoneahsan.com/features/notifications-and-email): opt-in notifications without message text; account emails.
 - [Appearance, language & shortcuts](https://achat-docs.aoneahsan.com/features/themes-and-accessibility): the Appearance panel, five languages, keyboard shortcuts.
-- [Privacy on this device](https://achat-docs.aoneahsan.com/features/privacy-on-this-device): privacy screen, neutral tab, clipboard clearing, Wipe from this device, usage data.
+- [Privacy on this device](https://achat-docs.aoneahsan.com/features/privacy-on-this-device): privacy screen, neutral tab, clipboard clearing, Wipe from this device.
 - [Device & location history](https://achat-docs.aoneahsan.com/features/location-history): what some chats record, who sees it, consent.
 - [Plans & pricing](https://achat-docs.aoneahsan.com/features/plans-and-pricing): Free, Pro, Team / Family, payment and referrals.
 

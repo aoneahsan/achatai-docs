@@ -1,10 +1,10 @@
 ---
 sidebar_position: 16
 title: Privacy on this device
-description: AChat settings that protect a shared or borrowed device — privacy screen, neutral tab title, clipboard auto-clear, Wipe from this device, and the usage data switch.
-keywords: [privacy screen, clear clipboard, panic button chat, hide chat tab, usage data opt out, AChat privacy]
+description: AChat settings that protect a shared or borrowed device — privacy screen, neutral tab title, clipboard auto-clear and Wipe from this device.
+keywords: [privacy screen, clear clipboard, panic button chat, hide chat tab, AChat privacy]
 last_update:
-  date: 2026-09-28
+  date: 2026-10-31
   author: AChat team
 ---
 
@@ -34,8 +34,4 @@ From a chat's menu, **Wipe from this device** removes that chat's saved items fr
 
 It doesn't delete the chat or its messages for anyone. Other devices and people keep their copies, and opening the chat loads its messages again.
 
-## Usage data
-
-**Account**, then **Preferences**, has a **Usage data** switch. It controls usage analytics and masked screen recordings of a few account screens, never of chats. Off stops both on every signed-in device; error reports stay on. If your browser sends Global Privacy Control, screen recordings are already off in that browser.
-
-See [Data, privacy & deletion](/concepts/data-privacy-and-deletion) for what each one receives.
+For what AChat collects and who receives it, see [Data, privacy & deletion](/concepts/data-privacy-and-deletion).
