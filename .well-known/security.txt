@@ -1,0 +1,8 @@
+# Security contact for AChat (Anonymous Chat AI) and its documentation.
+# https://achat-docs.aoneahsan.com/.well-known/security.txt
+
+Contact: mailto:aoneahsan@gmail.com
+Contact: https://aoneahsan.com
+Preferred-Languages: en
+Canonical: https://achat-docs.aoneahsan.com/.well-known/security.txt
+Expires: 2027-06-23T00:00:00.000Z

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AChat Docs changelog</title>
+    <link>https://achat-docs.aoneahsan.com/feed</link>
+    <description>AChat&apos;s release history, from the changelog in these docs. The in-app release notes at achat.aoneahsan.com/feed are the authority, with the date each change shipped.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 30 Oct 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Archive messages and replies</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#archive-messages-and-replies-2026-10-30</link>
+      <guid isPermaLink="false">achat-docs-changelog-archive-messages-and-replies-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Archive a message or a reply from its menu. Your own is hidden for everyone until you unarchive it; someone else&apos;s is hidden for you only. A main message takes its thread with it, except that other people&apos;s replies to your own message stay, under &quot;Message archived&quot;. Select several messages, replies or chats, then archive or unarchive them together. The bar says who stops seeing them before you press &quot;Archive&quot;. Archived chats, Archived messages and Archived replies each have their own view. Archiving sets no expiry of its own, and only you can unarchive what you archived. See Manage messages.</description>
+    </item>
+    <item>
+      <title>Rebuild</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#rebuild-2026-10-03</link>
+      <guid isPermaLink="false">achat-docs-changelog-rebuild-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>AChat was rebuilt from scratch. It went live at achat.aoneahsan.com on 2026-10-03. Personal chats and contacts: add people by username, invite link or QR code, with message requests, blocks, online status and read receipts. Personal chats and private groups are end-to-end encrypted. Linked devices and a recovery key bring your history to each device you approve, and back if you lose them all. Approving a link carries the history across. Groups with roles and invite links, readable (read-only) after you leave; communities with channels, threads, Mature marking, reports, bans and a moderation history. Status for your contacts, gone after 24 hours. Anonymous rooms keep working, old links included, with passwords, kept rooms and a private archive. Earlier messages and files in password rooms stay readable. Messages: edit, forward, pins, polls you can close, disappearing messages per chat, view once, Clear for me / Clear for everyone, and a per-chat Trash. Writing: drafts, spoilers, maths, mentions, stickers, pasted images, voice notes, dictation, on-device translation and read aloud. Privacy on this device: privacy screen, neutral tab title, clipboard clearing and Wipe from this device. Device and location history, opt-in per chat, with consent before entry. Plans: Free, Pro and Team / Family, paid in AChat&apos;s own checkout, plus referrals. Paying by card, when card payment is available: a monthly or yearly subscription taken on Polar&apos;s page, managed under Your subscription in Account. Bank transfer stays. Five languages: English, Spanish, French, German and Arabic. Admin panel that shows chat details but never messages, with an action log nobody can edit, Keep forever grants and admin-set search limits. Offline: an outbox that sends in order when you&apos;re back. Search on your device, over a set number of chats and messages. Not included: voice and video calls.</description>
+    </item>
+    <item>
+      <title>Thread deletion fix</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#thread-deletion-fix-2026-08-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-thread-deletion-fix-2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Delete one thread reply on its own, or delete the message a thread starts from to move it and every reply to Trash together.</description>
+    </item>
+    <item>
+      <title>0.4.0: first Google Play release</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#040-first-google-play-release-2026-07-24</link>
+      <guid isPermaLink="false">achat-docs-changelog-040-first-google-play-release-2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>The no-signup anonymous chat as an Android app. Long chats load their newest messages first, with Load earlier. Analytics and error reports that never receive chat IDs, messages, passwords or files. Optional account emails, a contact page and opt-in push notifications.</description>
+    </item>
+    <item>
+      <title>0.3.0: manage, search and lock (2026-06)</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#030-manage-search-and-lock-2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-030-manage-search-and-lock-2026-06</guid>
+      <category>Changelog</category>
+      <description>On-device search across the chats you&apos;d opened. A per-chat Trash, a private archive for signed-in people, and forwarding. Adding a password to an open chat later; earlier messages stayed as sent. An administrator role with an action log.</description>
+    </item>
+    <item>
+      <title>0.2.0: Play Store preparation (2026-06)</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#020-play-store-preparation-2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-020-play-store-preparation-2026-06</guid>
+      <category>Changelog</category>
+      <description>Account deletion in the app, and privacy, terms and store declarations.</description>
+    </item>
+    <item>
+      <title>Earlier (2026-05)</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#earlier-2026-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-earlier-2026-05</guid>
+      <category>Changelog</category>
+      <description>Spaces: threads, private group chats, public communities and the embeddable widget. Keeping chats: optional Google sign-in to keep a chat past its 10 days. Composer and themes: reactions, polls, pins, a command palette, message editing, mentions, export and the theme customiser. First release: anonymous chats by ID, optional password encryption, file uploads and 10-day auto-delete.</description>
+    </item>
+  </channel>
+</rss>

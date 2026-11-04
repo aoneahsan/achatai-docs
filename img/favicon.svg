@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.55" stop-color="#5b21b6"/>
+      <stop offset="1" stop-color="#3b0f73"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.74" cy="0.2" r="0.62">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.5" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="224" fill="url(#glowA)"/>
+
+  <!-- 10-day countdown ring dissolving at the top -->
+  <path d="M620.64 243.12 A290 290 0 1 1 403.36 243.12"
+        fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="587.06" cy="231.88" r="14" fill="#ffffff"/>
+  <circle cx="557.36" cy="225.57" r="9" fill="#ffffff" fill-opacity="0.6"/>
+  <circle cx="532.23" cy="222.71" r="5" fill="#ffffff" fill-opacity="0.35"/>
+
+  <!-- chat bubble with tail -->
+  <rect x="339" y="366" width="346" height="250" rx="66" fill="#ffffff"/>
+  <path d="M410 612 L372 672 L474 612 Z" fill="#ffffff"/>
+
+  <!-- keyhole = client-side end-to-end privacy -->
+  <circle cx="512" cy="466" r="46" fill="url(#key)"/>
+  <path d="M491 480 H533 L548 556 H476 Z" fill="url(#key)"/>
+</svg>
