@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 title: Moving from Wire to AChat
-description: "How to move from Wire to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Wire is priced per person for business teams. If you used it for friends and family, here's how that circle moves to AChat. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,28 +9,31 @@ last_update:
 
 # Moving from Wire to AChat
 
-**Messaging with end-to-end encryption on every plan, priced per person and free for teams of up to 5.** Choose Wire if you're buying for a business team. Choose AChat if you're chatting with friends and family, and want anonymous rooms by link.
+**Wire encrypts messages end to end on every plan, prices them per person, and is free for teams of up to 5.** If you're buying for a business team, it's built for you. AChat is for chatting with friends and family, plus anonymous rooms anyone can join by link.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Wire](https://achat.aoneahsan.com/compare/wire).
+Checked 2026-11-07. The comparison page is [AChat and Wire](https://achat.aoneahsan.com/compare/wire).
 
-## How to move across
+## From a small Wire team to AChat
 
-1. [Sign in to AChat](/getting-started/quick-start) and pick a username. It asks for no phone number.
-2. Tell the people you talk to on Wire your username, or send them your link or QR code ([personal chats and contacts](/features/personal-chats-and-contacts)).
-3. Save your recovery key somewhere only you can reach ([devices and recovery](/features/devices-and-recovery)). It's what brings your history back if you lose every device.
-4. Keep Wire open until the people you need have moved. AChat doesn't import chats from other apps.
+This is for the family or group of friends using Wire for Free, inside its 5-person limit.
 
-## How they differ
+1. Each person [signs in to AChat](/getting-started/quick-start) and chooses a username. No phone number is asked for.
+2. Add each other as contacts by username or invite link ([personal chats and contacts](/features/personal-chats-and-contacts)).
+3. One of you creates a [group](/features/groups-and-communities) and invites the others. It's end-to-end encrypted, as your Wire conversations were.
+4. Everyone saves their own recovery key ([devices and recovery](/features/devices-and-recovery)). Nobody else can restore your history for you.
+5. For people outside the circle, share an [anonymous room](/features/anonymous-chats) by link instead of adding them.
+
+Wire conversations stay in Wire. AChat doesn't import chats from other apps.
+
+## Wire, as their pricing page has it
+
+Wire's pricing page confirms end-to-end encryption. It doesn't say whether you can sign up without a phone number, or whether history returns on a new device, so those rows are left out.
 
 | Feature | AChat | Wire |
 |---|---|---|
-| Sign up without a phone number | Yes | Not stated on the pages we checked |
 | End-to-end encryption on personal chats | Yes | Yes (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| History comes back on a new device | Partly | Not stated on the pages we checked |
 
-AChat has no voice or video calls. Your encrypted history comes back only with another linked device or your recovery key. Lose both, and nobody can restore it, including us.
-
-## What they charge
+AChat never asks for a phone number. Its history returns through a linked device or your recovery key, and without either nobody can restore it, including us. AChat has no voice or video calls.
 
 | Plan | Price | Source |
 |---|---|---|
@@ -38,6 +41,4 @@ AChat has no voice or video calls. Your encrypted history comes back only with a
 | Wire for SMB | €7.45 per person a month, billed yearly | <a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Wire for SMB | €8.94 per person a month, billed monthly | <a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://wire.com" target="_blank" rel="noopener noreferrer nofollow">Wire website</a>.
+AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing). Wire's are on the <a href="https://wire.com" target="_blank" rel="noopener noreferrer nofollow">Wire website</a>.

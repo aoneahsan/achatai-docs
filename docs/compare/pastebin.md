@@ -1,7 +1,7 @@
 ---
 sidebar_position: 26
 title: Moving from Pastebin to AChat
-description: "How to move from Pastebin to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Pastebin keeps a paste at one address for months; file uploads are PRO. AChat rooms take files and replies, but messages expire unless the room is kept. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,18 +9,21 @@ last_update:
 
 # Moving from Pastebin to AChat
 
-**Paste text and share the link, with a password and burn-after-read option. Uploading files is a PRO feature.** Choose Pastebin for a long piece of text that should stay at one address for months. Choose AChat if you need files too, or a reply from the other side.
+**Pastebin lets you paste text and share the link, with a password and a burn-after-read option. Uploading files is a PRO feature.** For a long piece of text that should sit at one address for months, Pastebin is the better home. Use AChat when you need to send files too, or want a reply from the other side.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Pastebin](https://achat.aoneahsan.com/compare/pastebin).
+Last checked 2026-11-07. The side-by-side page: [AChat and Pastebin](https://achat.aoneahsan.com/compare/pastebin).
 
-## How to move across
+## Know how long it lasts first
 
-1. Open AChat on the machine that has what you need and choose **Create room**. No account or phone number.
-2. Set a password if the room shouldn't be open to anyone with the link ([passwords and encryption](/features/passwords-and-encryption)).
-3. Send your message or file, then open the room's link on the other machine and take it ([file sharing](/features/file-sharing)).
-4. Delete what you sent, or let it expire ([anonymous rooms](/features/anonymous-chats)). The room stays open for replies until then.
+The big difference is time. AChat deletes each message in a room after a set number of days, 10 by default. Plan for that before you paste anything you'll need next month.
 
-## How they differ
+1. Choose **Continue anonymously** and **Create room** ([anonymous rooms](/features/anonymous-chats)).
+2. Add a password if the paste isn't for everyone with the link ([passwords and encryption](/features/passwords-and-encryption)).
+3. Paste the text. Attach the log file or screenshot alongside it ([file sharing](/features/file-sharing)).
+4. Send the link. Whoever opens it can answer right under your paste.
+5. Need it for longer? Sign in and [keep the room](/features/keep-chats-and-accounts) until a date your plan allows.
+
+## Next to each other
 
 | Feature | AChat | Pastebin |
 |---|---|---|
@@ -29,15 +32,11 @@ Last checked 2026-11-07. The full comparison is on [AChat and Pastebin](https://
 | Protect it with a password | Yes | Yes (<a href="https://pastebin.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | The other side can reply | Yes | Not stated on the pages we checked |
 
-Messages in an anonymous room are deleted after a set number of days, unless someone with an account keeps the room. In a room with no password, anyone with the link can read them. Anonymous here means no account, not invisible.
-
-## What they charge
+With no password, anyone with the room's link can read it. No account isn't the same as invisible.
 
 | Plan | Price | Source |
 |---|---|---|
 | Guest or free | Free | <a href="https://pastebin.com/pro" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | PRO | Not stated | <a href="https://pastebin.com/pro" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://pastebin.com/" target="_blank" rel="noopener noreferrer nofollow">Pastebin website</a>.
+AChat's prices sit on its [pricing page](https://achat.aoneahsan.com/pricing). Check Pastebin on the <a href="https://pastebin.com/" target="_blank" rel="noopener noreferrer nofollow">Pastebin website</a>.

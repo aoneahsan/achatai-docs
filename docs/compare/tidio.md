@@ -1,7 +1,7 @@
 ---
 sidebar_position: 14
 title: Moving from Tidio to AChat
-description: "How to move from Tidio to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Tidio answers customers with its AI agent Lyro and prices by conversations. AChat is a room where visitors talk to each other. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,28 +9,29 @@ last_update:
 
 # Moving from Tidio to AChat
 
-**Customer chat with an AI agent called Lyro, priced by conversations.** Choose Tidio if you want an AI agent answering your customers. Choose AChat if people are there to talk to each other, and you don't want to count conversations.
+**Tidio is customer chat with an AI agent called Lyro, priced by conversations.** If you want an agent answering customers, that's Tidio. AChat is for pages where people come to talk to each other, and you don't want to count conversations.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Tidio](https://achat.aoneahsan.com/compare/tidio).
+Last checked 2026-11-07. Full comparison: [AChat and Tidio](https://achat.aoneahsan.com/compare/tidio).
 
-## How to move across
+## Swapping an answering bot for a room
 
-1. Decide whether AChat's widget fits. It shows an anonymous room or an open community channel, so visitors talk to each other. It doesn't replace Tidio if an agent has to answer each visitor.
-2. Build it on the [widget page](https://achat.aoneahsan.com/widget), then paste the code into your page ([embeddable widget](/features/embeddable-widget)).
-3. List the websites allowed to show it. Until you add one, any website can.
-4. Add a password if the room shouldn't be readable by everyone on the page.
+Nobody answers on AChat's behalf. Visitors answer each other, so this only works where that's the point.
 
-## How they differ
+1. Pick the pages where visitors chat with each other rather than with you. Leave Tidio on the rest.
+2. On the [widget page](https://achat.aoneahsan.com/widget), choose an anonymous room or an open community channel, then a layout ([embeddable widget](/features/embeddable-widget)).
+3. Turn on **Compact** or **Hide chat header** if the room sits in a narrow column.
+4. Paste the code into those pages.
+5. Give the room a password if only certain visitors should read it.
+
+## Tidio, from its pricing page
+
+Tidio's pricing page confirms a free plan with no end date. The pages we checked didn't mention a ready-made chat to add to a page, or running it on your own servers, so those rows aren't shown.
 
 | Feature | AChat | Tidio |
 |---|---|---|
 | Free plan with no end date | Yes | Yes (<a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Ready-made chat to add to a page | Yes | Not stated on the pages we checked |
-| Run it on your own servers | No | Not stated on the pages we checked |
 
-The AChat widget shows an anonymous room or an open community channel. It isn't an agent inbox or a developer SDK, and anyone on the page can read the room unless it has a password.
-
-## What they charge
+The AChat widget isn't an agent inbox or a developer SDK, and it can't be self-hosted.
 
 | Plan | Price | Source |
 |---|---|---|
@@ -39,6 +40,4 @@ The AChat widget shows an anonymous room or an open community channel. It isn't 
 | Growth | $49.17 a month, starting price | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Plus | $300 a month, starting price | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://www.tidio.com" target="_blank" rel="noopener noreferrer nofollow">Tidio website</a>.
+What AChat costs is on the [pricing page](https://achat.aoneahsan.com/pricing). Check Tidio on the <a href="https://www.tidio.com" target="_blank" rel="noopener noreferrer nofollow">Tidio website</a>.

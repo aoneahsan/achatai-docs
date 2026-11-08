@@ -1,7 +1,7 @@
 ---
 sidebar_position: 21
 title: Moving from Chatwoot to AChat
-description: "How to move from Chatwoot to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Chatwoot is open source support you self-host or pay for per agent. AChat runs nothing on your side and lets visitors talk to each other. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,18 +9,21 @@ last_update:
 
 # Moving from Chatwoot to AChat
 
-**An open source customer support platform you can self-host, or pay for per agent.** Choose Chatwoot if you want to run customer support on your own servers. Choose AChat if you don't want to run anything, and your visitors are talking to each other.
+**Chatwoot is an open source customer support platform you can self-host, or pay for per agent.** Running support on your own servers is a good reason to stay; AChat can't be self-hosted. It's for when you don't want to run anything, and your visitors are talking to each other rather than to agents.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Chatwoot](https://achat.aoneahsan.com/compare/chatwoot).
+Checked 2026-11-07. See [AChat and Chatwoot](https://achat.aoneahsan.com/compare/chatwoot) for the comparison.
 
-## How to move across
+## Retiring a self-hosted instance
 
-1. Decide whether AChat's widget fits. It shows an anonymous room or an open community channel, so visitors talk to each other. It doesn't replace Chatwoot if an agent has to answer each visitor.
-2. Build it on the [widget page](https://achat.aoneahsan.com/widget), then paste the code into your page ([embeddable widget](/features/embeddable-widget)).
-3. List the websites allowed to show it. Until you add one, any website can.
-4. Add a password if the room shouldn't be readable by everyone on the page.
+If your Chatwoot server mostly hosts visitor chatter, the upkeep may be more than the room is worth.
 
-## How they differ
+1. Export anything you need from Chatwoot first. Nothing imports into AChat.
+2. Build a room or pick an open community channel on the [widget page](https://achat.aoneahsan.com/widget) ([embeddable widget](/features/embeddable-widget)). There's no server, database or update for you to look after.
+3. Paste the code where the Chatwoot widget ran.
+4. Keep the room with an account, so it lasts past the default history and you can list the websites allowed to show it.
+5. Shut your instance down only after the new room has run for a while.
+
+## Side by side
 
 | Feature | AChat | Chatwoot |
 |---|---|---|
@@ -28,9 +31,7 @@ Last checked 2026-11-07. The full comparison is on [AChat and Chatwoot](https://
 | Ready-made chat to add to a page | Yes | Not stated on the pages we checked |
 | Run it on your own servers | No | Yes (<a href="https://www.chatwoot.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-The AChat widget shows an anonymous room or an open community channel. It isn't an agent inbox or a developer SDK, and anyone on the page can read the room unless it has a password.
-
-## What they charge
+The AChat widget isn't an agent inbox. Anyone on the page can read the room unless it has a password.
 
 | Plan | Price | Source |
 |---|---|---|
@@ -39,6 +40,4 @@ The AChat widget shows an anonymous room or an open community channel. It isn't 
 | Business | $39 per person a month | <a href="https://www.chatwoot.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Enterprise | $99 per person a month | <a href="https://www.chatwoot.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://www.chatwoot.com" target="_blank" rel="noopener noreferrer nofollow">Chatwoot website</a>.
+For AChat's own plans, see the [pricing page](https://achat.aoneahsan.com/pricing). Chatwoot's are on the <a href="https://www.chatwoot.com" target="_blank" rel="noopener noreferrer nofollow">Chatwoot website</a>.

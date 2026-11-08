@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Moving from Signal to AChat
-description: "How to move from Signal to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Signal users moving to AChat: start in a browser, save the recovery key Signal doesn't have, and keep Signal for calls. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,16 +9,20 @@ last_update:
 
 # Moving from Signal to AChat
 
-**A free messenger with no ads and end-to-end encryption, on phones and desktop.** Choose Signal if you want voice and video calls, and a nonprofit behind the app. Choose AChat if you want to open it in a browser and restore your history with a recovery key after losing your phone. Signal says restoring isn't supported without your old device.
+**Signal is free, carries no ads, encrypts end to end, and runs on phones and desktop.** A nonprofit stands behind it, and it does voice and video calls, which AChat doesn't. People usually look at AChat for two other reasons: it opens in a browser, and a recovery key brings your history back after you lose your phone. Signal says restoring isn't supported without your old device.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Signal](https://achat.aoneahsan.com/compare/signal).
+Last checked 2026-11-07. Full comparison: [AChat and Signal](https://achat.aoneahsan.com/compare/signal).
 
-## How to move across
+## Setting up next to Signal
 
-1. [Sign in to AChat](/getting-started/quick-start) and pick a username. It asks for no phone number.
-2. Tell the people you talk to on Signal your username, or send them your link or QR code ([personal chats and contacts](/features/personal-chats-and-contacts)).
-3. Save your recovery key somewhere only you can reach ([devices and recovery](/features/devices-and-recovery)). It's what brings your history back if you lose every device.
-4. Keep Signal open until the people you need have moved. AChat doesn't import chats from other apps.
+You don't need to give Signal up to try this. Most people run both for a while.
+
+1. Open AChat in the browser on your computer and [sign in](/getting-started/quick-start). There's nothing to install, and no phone has to be paired first. Pick a username; no phone number is asked for.
+2. Write down the recovery key when AChat shows it, because it's shown once ([devices and recovery](/features/devices-and-recovery)). This is the part Signal can't give you, so treat it like a house key.
+3. When you're with someone from Signal, scan each other's QR codes. Otherwise send your invite link in your Signal chat ([personal chats and contacts](/features/personal-chats-and-contacts)).
+4. Compare security codes when you link a second device of your own. Matching codes mean it's the device you meant to link.
+
+Calls stay on Signal. Old Signal messages stay there too, since AChat doesn't import chats from other apps.
 
 ## How they differ
 
@@ -28,14 +32,10 @@ Last checked 2026-11-07. The full comparison is on [AChat and Signal](https://ac
 | End-to-end encryption on personal chats | Yes | Yes (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | History comes back on a new device | Partly | Partly (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-AChat has no voice or video calls. Your encrypted history comes back only with another linked device or your recovery key. Lose both, and nobody can restore it, including us.
-
-## What they charge
+Both say "Partly" for different reasons. On AChat, it means a linked device or the recovery key. Lose both, and nobody can restore your history, including us.
 
 | Plan | Price | Source |
 |---|---|---|
 | Signal | Free | <a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://signal.org" target="_blank" rel="noopener noreferrer nofollow">Signal website</a>.
+AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing). Check Signal's side on the <a href="https://signal.org" target="_blank" rel="noopener noreferrer nofollow">Signal website</a>.

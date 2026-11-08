@@ -1,7 +1,7 @@
 ---
 sidebar_position: 29
 title: Moving from Snapdrop to AChat
-description: "How to move from Snapdrop to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Snapdrop, stored by LimeWire, sends up to 4 GB per transfer with no account. AChat adds messages alongside files and a password on the room. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,18 +9,19 @@ last_update:
 
 # Moving from Snapdrop to AChat
 
-**File transfer with no account, stored by LimeWire, up to 4 GB per transfer without one.** Choose Snapdrop for large files with no sign-up. Choose AChat if you want messages as well as files, and a password on the room.
+**Snapdrop is file transfer with no account, stored by LimeWire, up to 4 GB per transfer without one.** Large files with no sign-up are its strength. AChat is for when you want messages as well as files, and a password on the room.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Snapdrop](https://achat.aoneahsan.com/compare/snapdrop).
+Checked 2026-11-07. Compared on [AChat and Snapdrop](https://achat.aoneahsan.com/compare/snapdrop).
 
-## How to move across
+## Files with something to say about them
 
-1. Open AChat on the machine that has what you need and choose **Create room**. No account or phone number.
-2. Set a password if the room shouldn't be open to anyone with the link ([passwords and encryption](/features/passwords-and-encryption)).
-3. Send your message or file, then open the room's link on the other machine and take it ([file sharing](/features/file-sharing)).
-4. Delete what you sent, or let it expire ([anonymous rooms](/features/anonymous-chats)). The room stays open for replies until then.
+1. Before moving a big transfer, check the file size your AChat plan allows. AChat shows it before you attach ([file sharing](/features/file-sharing)). Above that, Snapdrop is still the tool.
+2. Open AChat on the sending machine and start a room, no account needed ([anonymous rooms](/features/anonymous-chats)).
+3. Put a password on it ([passwords and encryption](/features/passwords-and-encryption)).
+4. Send the files, and write what each one is for in the same room.
+5. The person on the other machine opens the link, enters the password, downloads, and can reply if something's missing.
 
-## How they differ
+## How they line up
 
 | Feature | AChat | Snapdrop |
 |---|---|---|
@@ -29,14 +30,10 @@ Last checked 2026-11-07. The full comparison is on [AChat and Snapdrop](https://
 | Protect it with a password | Yes | Not stated on the pages we checked |
 | The other side can reply | Yes | Not stated on the pages we checked |
 
-Messages in an anonymous room are deleted after a set number of days, unless someone with an account keeps the room. In a room with no password, anyone with the link can read them. Anonymous here means no account, not invisible.
-
-## What they charge
+AChat messages are deleted after the room's set number of days unless someone with an account keeps the room. Anonymous means no account, not invisible.
 
 | Plan | Price | Source |
 |---|---|---|
 | Free | Free | <a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer nofollow">Snapdrop website</a>.
+For AChat's own plans, see the [pricing page](https://achat.aoneahsan.com/pricing). Check Snapdrop on the <a href="https://snapdrop.net/" target="_blank" rel="noopener noreferrer nofollow">Snapdrop website</a>.

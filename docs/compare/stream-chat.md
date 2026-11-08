@@ -1,7 +1,7 @@
 ---
 sidebar_position: 17
 title: Moving from Stream Chat to AChat
-description: "How to move from Stream Chat to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Stream Chat is for developers building chat into their own app, free up to 1,000 monthly active users. AChat is a snippet you paste with no developers. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,28 +9,29 @@ last_update:
 
 # Moving from Stream Chat to AChat
 
-**Chat for developers to build into their apps, free up to 1,000 monthly active users.** Choose Stream if your developers are building chat into your own app and want control of every part. Choose AChat if you want to paste a snippet and have a working chat, with no developers.
+**Stream Chat is chat for developers to build into their apps, free up to 1,000 monthly active users.** If your developers are building chat into your own product and want control of every part, Stream is the right kind of tool. AChat is the opposite trade: you paste a snippet and have a working chat, with no developers involved.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Stream Chat](https://achat.aoneahsan.com/compare/stream-chat).
+Checked 2026-11-07. The side-by-side is on [AChat and Stream Chat](https://achat.aoneahsan.com/compare/stream-chat).
 
-## How to move across
+## When the SDK was more than the job
 
-1. Decide whether AChat's widget fits. It shows an anonymous room or an open community channel, so visitors talk to each other. It doesn't replace Stream Chat if an agent has to answer each visitor.
-2. Build it on the [widget page](https://achat.aoneahsan.com/widget), then paste the code into your page ([embeddable widget](/features/embeddable-widget)).
-3. List the websites allowed to show it. Until you add one, any website can.
-4. Add a password if the room shouldn't be readable by everyone on the page.
+Teams sometimes pick up a chat SDK for what turns out to be one public room on one page. If that's where you are, this takes minutes instead of a sprint.
 
-## How they differ
+1. Keep Stream wherever chat is tied to your own users and data. AChat's widget isn't a developer SDK, so it won't sit on top of your own user accounts.
+2. For the public room, open the [widget page](https://achat.aoneahsan.com/widget) and pick a room ID or an open community channel ([embeddable widget](/features/embeddable-widget)).
+3. Choose the layout and options; the widget page writes the code for you.
+4. Copy the snippet into your page template.
+5. Once someone keeps the room, they can list the domains allowed to show it, up to 20.
+
+## From Stream's pricing page
+
+Stream's pricing page confirms a free plan with no end date. The pages we checked didn't state whether Stream gives you a ready-made chat to add to a page, or whether you can run it on your own servers, so those rows are left out.
 
 | Feature | AChat | Stream Chat |
 |---|---|---|
 | Free plan with no end date | Yes | Yes (<a href="https://getstream.io/chat/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Ready-made chat to add to a page | Yes | Not stated on the pages we checked |
-| Run it on your own servers | No | Not stated on the pages we checked |
 
-The AChat widget shows an anonymous room or an open community channel. It isn't an agent inbox or a developer SDK, and anyone on the page can read the room unless it has a password.
-
-## What they charge
+AChat's widget is a ready-made room, hosted only. It isn't a developer SDK, and anyone on the page can read the room unless it has a password.
 
 | Plan | Price | Source |
 |---|---|---|
@@ -40,6 +41,4 @@ The AChat widget shows an anonymous room or an open community channel. It isn't 
 | Elevate | $599 a month, billed yearly | <a href="https://getstream.io/chat/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Elevate | $675 a month, billed monthly | <a href="https://getstream.io/chat/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://getstream.io/chat/" target="_blank" rel="noopener noreferrer nofollow">Stream Chat website</a>.
+AChat's prices sit on its [pricing page](https://achat.aoneahsan.com/pricing). Check Stream on the <a href="https://getstream.io/chat/" target="_blank" rel="noopener noreferrer nofollow">Stream Chat website</a>.

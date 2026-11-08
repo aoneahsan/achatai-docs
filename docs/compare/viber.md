@@ -1,7 +1,7 @@
 ---
 sidebar_position: 9
 title: Moving from Viber to AChat
-description: "How to move from Viber to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Viber is free calls and messages. Keep it for calls; move your messaging to AChat without a phone number, or try a room by link first. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,33 +9,33 @@ last_update:
 
 # Moving from Viber to AChat
 
-**Free calls and messages, with chats synced between your devices.** Choose Viber if calls matter to you as much as messages. Choose AChat if you don't want a phone number in the picture, and you want anonymous rooms by link.
+**Viber gives you free calls and messages, with chats synced between your devices.** When calls matter as much as texting, keep Viber; AChat doesn't do calls at all. People move their messaging when they'd rather leave the phone number out of it, or want a room anyone can join from a link.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Viber](https://achat.aoneahsan.com/compare/viber).
+Last checked 2026-11-07. See [AChat and Viber](https://achat.aoneahsan.com/compare/viber) for the comparison.
 
-## How to move across
+## Running both
 
-1. [Sign in to AChat](/getting-started/quick-start) and pick a username. It asks for no phone number.
-2. Tell the people you talk to on Viber your username, or send them your link or QR code ([personal chats and contacts](/features/personal-chats-and-contacts)).
-3. Save your recovery key somewhere only you can reach ([devices and recovery](/features/devices-and-recovery)). It's what brings your history back if you lose every device.
-4. Keep Viber open until the people you need have moved. AChat doesn't import chats from other apps.
+Viber stays on your phone for calls. Messaging moves over gradually.
 
-## How they differ
+1. Try a room before anyone signs up. **Continue anonymously**, create a room, and post its link in a Viber chat ([anonymous rooms](/features/anonymous-chats)). Everyone picks a display name and talks. Nobody needs an account or a phone number.
+2. When you want chats that last, [sign in](/getting-started/quick-start) with Google and choose a username.
+3. Save the recovery key, and link your other devices from **Account**, then **Devices** ([devices and recovery](/features/devices-and-recovery)). Viber syncs your chats; AChat brings history to a device only when you link it, or with the key.
+4. Ask the people from the room to add you by username ([personal chats and contacts](/features/personal-chats-and-contacts)).
+
+Viber's history doesn't come across. AChat doesn't import chats from other apps.
+
+## Facts from Viber's pages
+
+Viber's pages, as we read them, didn't say whether you can sign up without a phone number or whether personal chats are encrypted end to end. Those rows are left out.
 
 | Feature | AChat | Viber |
 |---|---|---|
-| Sign up without a phone number | Yes | Not stated on the pages we checked |
-| End-to-end encryption on personal chats | Yes | Not stated on the pages we checked |
 | History comes back on a new device | Partly | Partly (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-AChat has no voice or video calls. Your encrypted history comes back only with another linked device or your recovery key. Lose both, and nobody can restore it, including us.
-
-## What they charge
+For AChat, "partly" means a linked device or the recovery key. Lose both, and nobody can restore your history, including us.
 
 | Plan | Price | Source |
 |---|---|---|
 | Calls and messages | Free | <a href="https://www.viber.com/en/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://www.viber.com" target="_blank" rel="noopener noreferrer nofollow">Viber website</a>.
+AChat's prices sit on its [pricing page](https://achat.aoneahsan.com/pricing). To check Viber, see the <a href="https://www.viber.com" target="_blank" rel="noopener noreferrer nofollow">Viber website</a>.

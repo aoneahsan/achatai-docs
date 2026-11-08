@@ -1,7 +1,7 @@
 ---
 sidebar_position: 23
 title: Moving from Chatzy to AChat
-description: "How to move from Chatzy to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Chatzy gives you private rooms for invited people with its own entry controls. AChat rooms add files, and a password that encrypts the messages. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,18 +9,21 @@ last_update:
 
 # Moving from Chatzy to AChat
 
-**Free private chat rooms for people you invite, with no registration.** Choose Chatzy if you want a room with its own controls for who gets in. Choose AChat if you want to send files and have the room's password encrypt its messages.
+**Chatzy offers free private chat rooms for people you invite, with no registration.** If you rely on its own controls for who gets in, keep using them. AChat's answer to "who gets in" is a password, and that password also encrypts the room's messages. AChat rooms take files too.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Chatzy](https://achat.aoneahsan.com/compare/chatzy).
+Checked 2026-11-07. Compared on [AChat and Chatzy](https://achat.aoneahsan.com/compare/chatzy).
 
-## How to move across
+## Recreating a private room
 
-1. Open AChat on the machine that has what you need and choose **Create room**. No account or phone number.
-2. Set a password if the room shouldn't be open to anyone with the link ([passwords and encryption](/features/passwords-and-encryption)).
-3. Send your message or file, then open the room's link on the other machine and take it ([file sharing](/features/file-sharing)).
-4. Delete what you sent, or let it expire ([anonymous rooms](/features/anonymous-chats)). The room stays open for replies until then.
+1. In AChat, choose **Continue anonymously**, then **Create room**. Nobody needs to register ([anonymous rooms](/features/anonymous-chats)).
+2. Set a password as you create it. Without it, nobody can join or read. Messages are encrypted on each person's device using that password ([passwords and encryption](/features/passwords-and-encryption)).
+3. Send the link in one message and the password in another, or by a different route.
+4. Each person picks a display name, 1 to 24 characters, unique in that room.
+5. Share files in the room when you need to ([file sharing](/features/file-sharing)).
 
-## How they differ
+Messages go after a set number of days, 10 by default, unless someone with an account [keeps the room](/features/keep-chats-and-accounts).
+
+## Row by row
 
 | Feature | AChat | Chatzy |
 |---|---|---|
@@ -29,14 +32,10 @@ Last checked 2026-11-07. The full comparison is on [AChat and Chatzy](https://ac
 | Protect it with a password | Yes | Partly (<a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 | The other side can reply | Yes | Yes (<a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
 
-Messages in an anonymous room are deleted after a set number of days, unless someone with an account keeps the room. In a room with no password, anyone with the link can read them. Anonymous here means no account, not invisible.
-
-## What they charge
+A room's password keeps out anyone who doesn't have it. Anonymous here means no account, not invisible.
 
 | Plan | Price | Source |
 |---|---|---|
 | Chatzy | Free | <a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">Chatzy website</a>.
+AChat's prices sit on its [pricing page](https://achat.aoneahsan.com/pricing). Chatzy's own site: the <a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">Chatzy website</a>.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 25
 title: Moving from Yopass to AChat
-description: "How to move from Yopass to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "Yopass makes one-time secret links encrypted in your browser and self-destructing after viewing. AChat keeps a conversation open until you're done. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,35 +9,32 @@ last_update:
 
 # Moving from Yopass to AChat
 
-**One-time secret links encrypted in your browser, open source and free to self-host.** Choose Yopass if the secret should self-destruct after viewing, or you want to host it yourself. Choose AChat if you want a conversation that stays open until you're done with it.
+**Yopass makes one-time secret links, encrypted in your browser, open source and free to self-host.** If the secret should destroy itself after one view, or you want to host the tool yourself, stay with Yopass; AChat can't be self-hosted. AChat is for a conversation that stays open until you're done with it.
 
-Last checked 2026-11-07. The full comparison is on [AChat and Yopass](https://achat.aoneahsan.com/compare/yopass).
+Checked 2026-11-07. See [AChat and Yopass](https://achat.aoneahsan.com/compare/yopass) for the comparison.
 
-## How to move across
+## Keeping the thread open
 
-1. Open AChat on the machine that has what you need and choose **Create room**. No account or phone number.
-2. Set a password if the room shouldn't be open to anyone with the link ([passwords and encryption](/features/passwords-and-encryption)).
-3. Send your message or file, then open the room's link on the other machine and take it ([file sharing](/features/file-sharing)).
-4. Delete what you sent, or let it expire ([anonymous rooms](/features/anonymous-chats)). The room stays open for replies until then.
+A Yopass link closes after it's read. If the other person comes back with "that didn't work", you start again. In an AChat room, they reply where you left it.
 
-## How they differ
+1. Choose **Continue anonymously**, then **Create room** ([anonymous rooms](/features/anonymous-chats)).
+2. Set a password. Messages in a password room are encrypted on your device using it ([passwords and encryption](/features/passwords-and-encryption)).
+3. Send what's needed, text or a file ([file sharing](/features/file-sharing)), then send the link and the password separately.
+4. Stay until it's sorted. Then delete your messages, or leave them to expire after the room's set number of days.
+
+## What Yopass's page said
+
+Yopass's page confirms it carries text and files. It didn't state whether an account is needed, whether you can add a password, or whether the other side can reply, so those rows are left out.
 
 | Feature | AChat | Yopass |
 |---|---|---|
-| No account needed | Yes | Not stated on the pages we checked |
 | Send both text and files | Yes | Yes (<a href="https://yopass.se/" target="_blank" rel="noopener noreferrer nofollow">their page</a>) |
-| Protect it with a password | Yes | Not stated on the pages we checked |
-| The other side can reply | Yes | Not stated on the pages we checked |
 
-Messages in an anonymous room are deleted after a set number of days, unless someone with an account keeps the room. In a room with no password, anyone with the link can read them. Anonymous here means no account, not invisible.
-
-## What they charge
+AChat rooms need no account, take a password, and let the other side reply. Without a password, anyone with the link can read the room.
 
 | Plan | Price | Source |
 |---|---|---|
 | Open source | Free | <a href="https://yopass.se/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Business License | €149 a year | <a href="https://yopass.se/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
-AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://yopass.se/" target="_blank" rel="noopener noreferrer nofollow">Yopass website</a>.
+For AChat's own plans, see the [pricing page](https://achat.aoneahsan.com/pricing). Yopass's are on the <a href="https://yopass.se/" target="_blank" rel="noopener noreferrer nofollow">Yopass website</a>.

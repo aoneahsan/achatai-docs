@@ -1,7 +1,7 @@
 ---
 sidebar_position: 16
 title: Moving from LiveChat to AChat
-description: "How to move from LiveChat to AChat, what differs, and what each costs. Checked 2026-11-07."
+description: "LiveChat is priced per user after a 14-day trial, for agents answering visitors one by one. AChat is a free room on your page today. Checked 2026-11-07."
 last_update:
   date: 2026-11-07
   author: AChat team
@@ -9,28 +9,25 @@ last_update:
 
 # Moving from LiveChat to AChat
 
-**Live chat priced per user, with a 14-day trial.** Choose LiveChat if your agents answer visitors one by one. Choose AChat if you want something free on your page today, with no trial to run out.
+**LiveChat is live chat priced per user, with a 14-day trial.** It's made for agents answering visitors one by one. If that's how your site works, keep it. AChat is for something free on your page today, with no trial to run out.
 
-Last checked 2026-11-07. The full comparison is on [AChat and LiveChat](https://achat.aoneahsan.com/compare/livechat).
+Last checked 2026-11-07. The side-by-side page: [AChat and LiveChat](https://achat.aoneahsan.com/compare/livechat).
 
-## How to move across
+## If your trial is running out
 
-1. Decide whether AChat's widget fits. It shows an anonymous room or an open community channel, so visitors talk to each other. It doesn't replace LiveChat if an agent has to answer each visitor.
-2. Build it on the [widget page](https://achat.aoneahsan.com/widget), then paste the code into your page ([embeddable widget](/features/embeddable-widget)).
-3. List the websites allowed to show it. Until you add one, any website can.
-4. Add a password if the room shouldn't be readable by everyone on the page.
+Maybe you started a LiveChat trial and found visitors didn't need an agent at all. Here's how to have a room in place before the trial ends.
 
-## How they differ
+1. Open the [widget page](https://achat.aoneahsan.com/widget) and choose an anonymous room or an open community channel ([embeddable widget](/features/embeddable-widget)).
+2. Try both layouts in the preview, which fills the room with demo messages so you can judge the size.
+3. Copy the code and replace the LiveChat snippet.
+4. Visitors pick a display name and talk. Nobody waits in a queue, because there isn't one.
+5. A password keeps the room readable only by people you give it to.
 
-| Feature | AChat | LiveChat |
-|---|---|---|
-| Free plan with no end date | Yes | Not stated on the pages we checked |
-| Ready-made chat to add to a page | Yes | Not stated on the pages we checked |
-| Run it on your own servers | No | Not stated on the pages we checked |
+## What LiveChat's pages didn't say
 
-The AChat widget shows an anonymous room or an open community channel. It isn't an agent inbox or a developer SDK, and anyone on the page can read the room unless it has a password.
+The LiveChat pages we read didn't state whether there's a free plan with no end date, a ready-made chat to add to a page, or a version to run on your own servers. So there's no feature table. Check on the <a href="https://www.livechat.com" target="_blank" rel="noopener noreferrer nofollow">LiveChat website</a>.
 
-## What they charge
+AChat has a free plan and a ready-made widget, and it's hosted only. The widget isn't an agent inbox or a developer SDK.
 
 | Plan | Price | Source |
 |---|---|---|
@@ -40,5 +37,3 @@ The AChat widget shows an anonymous room or an open community channel. It isn't 
 | Growth | $99 per person a month, billed monthly | <a href="https://www.livechat.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 AChat's plans are on the [pricing page](https://achat.aoneahsan.com/pricing).
-
-Check it yourself: <a href="https://www.livechat.com" target="_blank" rel="noopener noreferrer nofollow">LiveChat website</a>.
