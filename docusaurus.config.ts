@@ -45,6 +45,7 @@ const config: Config = {
   // Claude extract structured entity data when citing this documentation.
   // No canonical here: the theme emits one per route, and a global one gave every page two (SA-P01).
   headTags: [
+    { tagName: 'meta', attributes: { name: 'yandex-verification', content: 'bfb02722189028cf' } },
     {
       tagName: 'link',
       attributes: {
