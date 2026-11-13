@@ -31,6 +31,16 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 - [Device & location history](https://achat-docs.aoneahsan.com/features/location-history): what some chats record, who sees it, consent.
 - [Plans & pricing](https://achat-docs.aoneahsan.com/features/plans-and-pricing): Free, Pro, Team / Family, payment and referrals.
 
+## White-label & licensing
+
+- [White-label & licensing](https://achat-docs.aoneahsan.com/white-label): run AChat under your own name, hosted by the AChat team, or buy its source code outright.
+- [What you get per platform](https://achat-docs.aoneahsan.com/white-label/what-is-delivered): the web app and the mobile app (Android, iOS on request).
+- [Setting up your copy](https://achat-docs.aoneahsan.com/white-label/setup): licence email, domain, name, logo and colours.
+- [Updates and renewals](https://achat-docs.aoneahsan.com/white-label/updates-and-renewals): six months included, renewals, running without one.
+- [Verify a licence](https://achat-docs.aoneahsan.com/white-label/verify-a-licence): checking a copy by key or by domain.
+- [White-label questions](https://achat-docs.aoneahsan.com/white-label/faq): source code, exclusivity, custom work, iOS.
+- Prices: https://achat.aoneahsan.com/white-label/pricing (licence) and https://achat.aoneahsan.com/white-label/buyout (buyout).
+
 ## Concepts
 
 - [How AChat works](https://achat-docs.aoneahsan.com/concepts/how-it-works): identities, chat types, where messages live, retention.

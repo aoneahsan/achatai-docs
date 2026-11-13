@@ -57,6 +57,19 @@ const sidebars: SidebarsConfig = {
         'concepts/data-privacy-and-deletion',
       ],
     },
+    {
+      type: 'category',
+      label: 'White-label & licensing',
+      collapsed: true,
+      link: { type: 'doc', id: 'white-label/index' },
+      items: [
+        'white-label/what-is-delivered',
+        'white-label/setup',
+        'white-label/updates-and-renewals',
+        'white-label/verify-a-licence',
+        'white-label/faq',
+      ],
+    },
     'faq',
     'changelog',
     {

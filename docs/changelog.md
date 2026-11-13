@@ -4,13 +4,19 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-10-30
+  date: 2026-11-13
   author: AChat team
 ---
 
 # Changelog
 
 The in-app [release notes](https://achat.aoneahsan.com/feed) are the authority, with the date each change shipped. Older entries here describe AChat as it was at the time.
+
+## White-label licences and source buyouts (2026-11-13)
+
+- **Run AChat under your own name:** the AChat team hosts it at your domain with your name, logo and colours, on the web and Android, with iOS on request. See [White-label & licensing](./white-label/index.md).
+- **Or buy it outright:** the source code of every repository that builds the web and Android app, after which AChat comes off sale.
+- **Check any copy's licence** by key or by domain on [Verify a licence](https://achat.aoneahsan.com/verify-license).
 
 ## Archive messages and replies (2026-10-30)
 
