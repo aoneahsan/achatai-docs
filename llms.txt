@@ -33,12 +33,12 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 
 ## White-label & licensing
 
-- [White-label & licensing](https://achat-docs.aoneahsan.com/white-label): run AChat under your own name, hosted by the AChat team, or buy its source code outright.
+- [White-label & licensing](https://achat-docs.aoneahsan.com/white-label): run AChat under your own name, hosted by the AChat team, or buy its source code outright, for the buyout price plus a 7% royalty on its gross revenue (excluding sales tax/VAT), paid quarterly with a revenue statement for as long as it earns, including after a resale.
 - [What you get per platform](https://achat-docs.aoneahsan.com/white-label/what-is-delivered): the web app and the mobile app (Android, iOS on request).
 - [Setting up your copy](https://achat-docs.aoneahsan.com/white-label/setup): licence email, domain, name, logo and colours.
 - [Updates and renewals](https://achat-docs.aoneahsan.com/white-label/updates-and-renewals): six months included, renewals, running without one.
 - [Verify a licence](https://achat-docs.aoneahsan.com/white-label/verify-a-licence): checking a copy by key or by domain.
-- [White-label questions](https://achat-docs.aoneahsan.com/white-label/faq): source code, exclusivity, custom work, iOS.
+- [White-label questions](https://achat-docs.aoneahsan.com/white-label/faq): source code, exclusivity, the buyout royalty, paying by Wise transfer, custom work, iOS.
 - Prices: https://achat.aoneahsan.com/white-label/pricing (licence) and https://achat.aoneahsan.com/white-label/buyout (buyout).
 
 ## Concepts

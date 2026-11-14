@@ -5,8 +5,16 @@
     <link>https://achat-docs.aoneahsan.com/feed</link>
     <description>AChat&apos;s release history, from the changelog in these docs. The in-app release notes at achat.aoneahsan.com/feed are the authority, with the date each change shipped.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>White-label payments and the buyout royalty</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#white-label-payments-and-the-buyout-royalty-2026-11-14</link>
+      <guid isPermaLink="false">achat-docs-changelog-white-label-payments-and-the-buyout-royalty-2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Licences, buyouts and renewals are paid by Wise bank transfer. The AChat team confirms the transfer, then the licence key comes by email. A buyout now carries a royalty: 7% of the gross revenue AChat earns, paid quarterly with a revenue statement, for as long as it earns. See White-label questions.</description>
+    </item>
     <item>
       <title>White-label licences and source buyouts</title>
       <link>https://achat-docs.aoneahsan.com/changelog#white-label-licences-and-source-buyouts-2026-11-13</link>
