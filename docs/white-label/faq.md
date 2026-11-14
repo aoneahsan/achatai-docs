@@ -1,10 +1,10 @@
 ---
 sidebar_position: 6
 title: "White-label questions"
-description: "Answers about AChat white-label licences and buyouts: source code, exclusivity, custom work, iOS and what happens after a buyout."
+description: "Answers about AChat white-label licences and buyouts: source code, exclusivity, custom work, iOS, paying by Wise transfer, and the royalty that follows a buyout."
 keywords: [AChat white label FAQ, buy AChat source code, AChat licence questions]
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: AChat team
 ---
 
@@ -21,6 +21,14 @@ No. Until someone buys AChat outright, the AChat team may license it to other bu
 ## What happens after someone buys AChat outright?
 
 AChat comes off sale and nobody else can license it. Licences sold before the buyout keep their terms, and they can still be checked.
+
+## Is there anything to pay after a buyout?
+
+Yes, a royalty. The buyer pays the AChat team 7% of the gross revenue AChat earns, not counting any sales tax or VAT they collect. It's paid every quarter with a revenue statement, for as long as AChat earns revenue, and it's still owed after AChat is resold. The [licence terms](https://achat.aoneahsan.com/white-label/license-terms#wl-buyout) and the [Terms](https://achat.aoneahsan.com/terms#white-label) set it out.
+
+## How do we pay?
+
+By bank transfer to the AChat team's Wise account. The pay page shows the details and asks for your transfer reference. Once the AChat team confirms the transfer, your licence key and certificate come by email.
 
 ## Can you change AChat just for us?
 

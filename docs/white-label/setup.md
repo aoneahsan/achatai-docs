@@ -4,7 +4,7 @@ title: "Setting up your copy"
 description: "What happens after you buy an AChat white-label licence: the licence email, your domain, your name, logo and colours, and going live."
 keywords: [set up white-label AChat, connect domain white label, AChat branding]
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: AChat team
 ---
 
@@ -17,4 +17,4 @@ last_update:
 3. **Your name, logo and colours.** Send them, and they're applied to every screen.
 4. **Live.** Once your copy runs at your domain, it serves its licence file and anyone can [check it](/white-label/verify-a-licence).
 
-The payment page belongs to Polar, which takes the payment; the licence is issued once Polar confirms it, never from the page you return to.
+You pay by bank transfer to the AChat team's Wise account and send the transfer reference from the pay page. The licence is issued once the AChat team confirms the transfer, never from the page you return to.

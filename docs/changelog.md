@@ -4,13 +4,18 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-11-13
+  date: 2026-11-14
   author: AChat team
 ---
 
 # Changelog
 
 The in-app [release notes](https://achat.aoneahsan.com/feed) are the authority, with the date each change shipped. Older entries here describe AChat as it was at the time.
+
+## White-label payments and the buyout royalty (2026-11-14)
+
+- **Licences, buyouts and renewals are paid by Wise bank transfer.** The AChat team confirms the transfer, then the licence key comes by email.
+- **A buyout now carries a royalty:** 7% of the gross revenue AChat earns, paid quarterly with a revenue statement, for as long as it earns. See [White-label questions](./white-label/faq.md).
 
 ## White-label licences and source buyouts (2026-11-13)
 
