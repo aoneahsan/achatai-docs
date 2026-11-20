@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
+import { OTHER_PLATFORMS, PRIMARY_PLATFORM } from '@site/src/data/platforms';
 import styles from './index.module.css';
 
 type Feature = {
@@ -56,13 +57,17 @@ function HomepageHeader(): ReactNode {
           <Link className="button button--secondary button--lg" to="/intro">
             What is AChat?
           </Link>
-          <Link
-            className="button button--secondary button--lg"
-            href="https://achat.aoneahsan.com"
-          >
+          <Link className="button button--secondary button--lg" href={PRIMARY_PLATFORM.href}>
             Open the app
           </Link>
         </div>
+        <p className={styles.also}>
+          <span>Also on</span>
+          {OTHER_PLATFORMS.filter((platform) => !platform.primary).map((platform) => (
+            <Link key={platform.id} href={platform.href}>{platform.name}</Link>
+          ))}
+          <Link to="/apps">All apps →</Link>
+        </p>
       </div>
     </header>
   );

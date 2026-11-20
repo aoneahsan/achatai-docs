@@ -4,6 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import changelogFeed from './src/plugins/changelog-feed';
 import docsDirectory from './src/plugins/docs-directory';
 import notFoundHead from './src/plugins/not-found-head';
+import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
 
 // ---------------------------------------------------------------------------
 // AChat — Documentation site config (the AChat team)
@@ -11,9 +12,8 @@ import notFoundHead from './src/plugins/not-found-head';
 // ---------------------------------------------------------------------------
 
 const SITE_URL = 'https://achat-docs.aoneahsan.com';
-const APP_URL = 'https://achat.aoneahsan.com';
-const PLAY_URL =
-  'https://play.google.com/store/apps/details?id=com.aoneahsan.achat';
+const APP_URL = platformHref('web');
+const PLAY_URL = platformHref('android');
 const DOCS_REPO = 'https://github.com/aoneahsan/achatai-docs';
 
 // Wording from the app's approved public copy (about/features meta).
@@ -227,14 +227,28 @@ const config: Config = {
         },
         { to: '/getting-started/quick-start', label: 'Quick Start', position: 'left' },
         { to: '/about-the-author', label: 'AChat team', position: 'right' },
-        { href: APP_URL, label: 'Open AChat', position: 'right' },
-        { href: PLAY_URL, label: 'Play Store', position: 'right' },
+        {
+          type: 'dropdown',
+          label: 'Get AChat',
+          position: 'right',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
         { href: DOCS_REPO, label: 'GitHub', position: 'right' },
       ],
     },
     footer: {
       style: 'dark',
       links: [
+        {
+          title: 'Get AChat',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
         {
           title: 'Documentation',
           items: [
@@ -250,8 +264,6 @@ const config: Config = {
         {
           title: 'AChat',
           items: [
-            { label: 'Open the app', href: APP_URL },
-            { label: 'Get it on Google Play', href: PLAY_URL },
             { label: 'Contact', href: `${APP_URL}/contact` },
             { label: 'Plans and pricing', href: `${APP_URL}/pricing` },
             { label: 'Privacy policy', href: `${APP_URL}/privacy` },

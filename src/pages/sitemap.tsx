@@ -5,13 +5,14 @@ import { usePluginData } from '@docusaurus/useGlobalData';
 import Layout from '@theme/Layout';
 import type { DirectoryGroup, DirectoryPage } from '../plugins/docs-directory';
 import styles from './sitemap.module.css';
+import { platformHref } from '@site/src/data/platforms';
 
 /**
  * The readable /sitemap page: every docs page as a card, grouped as the sidebar groups them (src/plugins/docs-directory.ts),
  * with a typo-tolerant filter whose text lives in the URL (?q=). The prerendered HTML lists every card as a real link.
  */
 
-const APP_URL = 'https://achat.aoneahsan.com';
+const APP_URL = platformHref('web');
 
 const normal = (s: string) =>
   s
