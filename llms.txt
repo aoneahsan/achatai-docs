@@ -4,6 +4,13 @@
 
 This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 
+
+## Get AChat
+
+- [All apps](https://achat-docs.aoneahsan.com/apps): every released surface of AChat.
+- [AChat web app](https://achat.aoneahsan.com)
+- [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat)
+
 ## Getting Started
 
 - [Introduction](https://achat-docs.aoneahsan.com/intro): what AChat does and what it doesn't promise.
