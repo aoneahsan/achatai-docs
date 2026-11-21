@@ -4,7 +4,7 @@ title: Plans & pricing
 description: AChat's Free, Pro and Team / Family plans, the four allowances they change, how paying by card or bank transfer works, and how referrals earn plan months.
 keywords: [AChat pricing, AChat Pro, family plan, team plan, chat app plans, pay by card, bank transfer, referrals]
 last_update:
-  date: 2026-10-02
+  date: 2026-11-21
   author: AChat team
 ---
 
@@ -21,6 +21,8 @@ last_update:
 | **Team / Family** | Shared seats for a family or a team. Each member's chats stay their own |
 
 Pro and Team / Family raise four allowances: file size, files per chat, how many rooms you can keep, and how long you can keep them. The AChat team sets each plan's allowances.
+
+Plans also set how far other apps can reach your account: access keys, API requests a day, webhook addresses and connected assistants. See [what your plan allows](/developers#what-your-plan-allows).
 
 ## Paying
 

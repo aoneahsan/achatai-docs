@@ -20,7 +20,9 @@ export interface DirectoryGroup {
   pages: DirectoryPage[];
 }
 
-type SidebarItem = string | { type: string; label?: string; items?: SidebarItem[] };
+type SidebarItem =
+  | string
+  | { type: string; label?: string; items?: SidebarItem[]; link?: { type: string; id?: string } };
 
 /** The `title:` and `description:` lines of a doc's front matter (single-line values, as every page here writes them). */
 function frontMatter(siteDir: string, id: string): DirectoryPage {
@@ -30,7 +32,8 @@ function frontMatter(siteDir: string, id: string): DirectoryPage {
   const title = field('title');
   const description = field('description');
   if (!title || !description) throw new Error(`docs-directory: docs/${id}.md needs a title and a description.`);
-  return { title, description, path: `/${id}` };
+  // An `index` doc is served at its folder's URL (`developers/index` → `/developers`).
+  return { title, description, path: `/${id.replace(/\/?index$/, '')}` };
 }
 
 /** Top-level docs form the first group (labelled `firstLabel`); each category is its own group. */
@@ -42,7 +45,12 @@ export function directoryOf(siteDir: string, items: readonly SidebarItem[], firs
   for (const item of items) {
     if (typeof item === 'string') first.pages.push(frontMatter(siteDir, item));
     else if (item.type === 'category') {
-      groups.push({ label: item.label ?? '', pages: ids(item.items ?? []).map((id) => frontMatter(siteDir, id)) });
+      // A category's own page (`link: { type: 'doc' }`) leads its group.
+      const linked = item.link?.type === 'doc' && item.link.id ? [item.link.id] : [];
+      groups.push({
+        label: item.label ?? '',
+        pages: [...linked, ...ids(item.items ?? [])].map((id) => frontMatter(siteDir, id)),
+      });
     }
   }
   return groups.filter((g) => g.pages.length);

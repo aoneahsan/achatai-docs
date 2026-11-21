@@ -5,7 +5,7 @@
 | Context | Value |
 |---|---|
 | Repository | Public `aoneahsan/achatai-docs` · `main` (live rebuild docs) · `rebuild-release` (retained branch at the same commit) · remote `origin` |
-| Product source | Private rebuild at `../achat-next` (`../achat` is read-only legacy) |
+| Product source | The app at `../achat` (the rebuild, live since the W9 cutover) |
 | Stack | Docusaurus 3.10.2 · TypeScript 6 · Node 20+ · Yarn 4.18.1 (`yarn.lock`) |
 | Last optimized | 2026-10-31 |
 | Next routine optimization eligible | 2026-11-30 |
@@ -19,7 +19,7 @@
 This is the public product documentation for **AChat** (full name `AChat: Anonymous Chat`): a messaging app for
 personal chats, groups, communities, status and anonymous rooms, on the web and Android.
 
-- Every product claim must trace to `../achat-next` evidence: its approved `src/locales/en/*.json` wording,
+- Every product claim must trace to `../achat` evidence: its approved `src/locales/en/*.json` wording,
   `docs/PROJECT-CONTEXT.md`, or the root kit's schema/security contracts. Admin-set values (prices, allowances,
   retention days) appear only as defaults or "a set number", never as fixed literals.
 - State the limits with the features: personal chats, private groups and passworded rooms are end-to-end
@@ -29,7 +29,7 @@ personal chats, groups, communities, status and anonymous rooms, on the web and 
   Draft help, Catch me up), which `docs/features/ai-help.md` names (owner, 2026-10-25: "Allow for AI features").
 - This repository is public. Never add an environment file, credential, private identifier, app secret,
   keystore, internal audit record, or unpublished private-app material.
-- App behavior changes belong in `../achat-next`; current global workflow rules auto-load and are never copied here.
+- App behavior changes belong in `../achat`; current global workflow rules auto-load and are never copied here.
 
 ## Project map
 
@@ -40,7 +40,6 @@ personal chats, groups, communities, status and anonymous rooms, on the web and 
 | `docusaurus.config.ts` | URL, metadata, structured data, theme, and plugins |
 | `src/` | Documentation-site React/CSS customization |
 | `static/` | `CNAME`, `static/llms.txt`, `static/img/social-card.svg`, robots, and other published files |
-| `.github/workflows/deploy-pages.yml` | GitHub Pages build and deployment |
 | `docs/tracking/achatai-docs-content-tracker.json` | Content state; read only the relevant entry |
 | `docs/MANUAL-TASKS.md` | Owner-only setup |
 
@@ -68,8 +67,8 @@ yarn build
 ```
 
 Do not run `yarn start` or another dev server. The W9 web cutover is complete, and `main` describes the rebuild.
-A push to `main` drives the GitHub Pages workflow; the custom
-host is pinned by `static/CNAME`. There is no tracked Firebase deployment configuration in this repository.
+There is no GitHub Actions workflow (owner rule): build locally with `yarn build`, then publish `build/` to the
+`gh-pages` branch by hand; the custom host is pinned by `static/CNAME`. There is no tracked Firebase deployment configuration in this repository.
 
 ## Links
 

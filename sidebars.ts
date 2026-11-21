@@ -59,6 +59,20 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Developers',
+      collapsed: true,
+      link: { type: 'doc', id: 'developers/index' },
+      items: [
+        'developers/access-keys',
+        'developers/api',
+        'developers/assistants',
+        'developers/webhooks',
+        'developers/two-step-sign-in',
+        'developers/changelog',
+      ],
+    },
+    {
+      type: 'category',
       label: 'White-label & licensing',
       collapsed: true,
       link: { type: 'doc', id: 'white-label/index' },

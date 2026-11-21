@@ -255,6 +255,7 @@ const config: Config = {
             { label: 'Introduction', to: '/intro' },
             { label: 'Quick Start', to: '/getting-started/quick-start' },
             { label: 'Security & encryption', to: '/concepts/security-and-encryption' },
+            { label: 'Developers', to: '/developers' },
             { label: 'FAQ', to: '/faq' },
             { label: 'Sitemap', to: '/sitemap' },
             { label: 'Changelog feed', to: '/feed' },

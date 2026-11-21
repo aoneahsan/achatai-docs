@@ -4,7 +4,7 @@ title: Data, privacy & deletion
 description: What AChat collects, which services handle it, how long each kind of data is kept, what you control, and what deleting your account removes.
 keywords: [AChat privacy, data retention, delete chat data, AChat analytics, what does AChat collect]
 last_update:
-  date: 2026-10-31
+  date: 2026-11-21
   author: AChat team
 ---
 
@@ -59,6 +59,7 @@ AChat doesn't show ads from ad networks and doesn't sell your personal data. It 
 - **Export:** one file with your profile, contacts and the chats this device can read, built on your device.
 - **Online status and read receipts:** see [Personal chats & contacts](/features/personal-chats-and-contacts).
 - **Status audience:** your accepted contacts by default, with people included or left out.
+- **Other apps:** nothing outside AChat reaches your account unless you make an access key or approve a connection, and you can remove either at any time. End-to-end encrypted messages are never reachable. See [AChat for developers](/developers).
 - **Usage analytics and screen recordings:** on for everyone; there's no switch to turn them off. AChat says so once, in a notice bar at the bottom of the screen when you first open it. Analytics leave out message content, passwords, keys and precise locations; recordings cover two public pages only, with text and images hidden.
 - **Correct or remove:** edit your profile or username, or delete your account. For anything else, write to the AChat team through the [contact page](https://achat.aoneahsan.com/contact).
 

@@ -4,7 +4,7 @@ title: FAQ
 description: Direct answers about AChat — accounts, encryption, anonymous rooms, how long messages last, plans, location history, account deletion and platforms.
 keywords: [AChat FAQ, is AChat encrypted, anonymous chat questions, AChat plans, delete AChat account]
 last_update:
-  date: 2026-09-28
+  date: 2026-11-21
   author: AChat team
 ---
 
@@ -45,6 +45,10 @@ Only in a chat with device and location history on, and only after you agree. Th
 ## Does AChat cost anything?
 
 Free has no end date and covers personal chats, groups, communities and anonymous rooms. Pro and Team / Family raise four allowances: file size, files per chat, how many rooms you keep and for how long. See [Plans & pricing](/features/plans-and-pricing).
+
+## Can other apps or AI assistants reach my account?
+
+Only through an access key you make or a connection you approve, and only for what you tick. Your profile, settings, status posts and blocked list can be read and changed; contacts, chats and communities are read only; messages in direct chats, groups and password rooms never leave AChat. An assistant can't delete anything without your yes on AChat. See [AChat for developers](/developers).
 
 ## Can the person paying for Team / Family read my messages?
 

@@ -48,6 +48,17 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 - [White-label questions](https://achat-docs.aoneahsan.com/white-label/faq): source code, exclusivity, the buyout royalty, paying by Wise transfer, custom work, iOS.
 - Prices: https://achat.aoneahsan.com/white-label/pricing (licence) and https://achat.aoneahsan.com/white-label/buyout (buyout).
 
+## Developers
+
+- [AChat for developers](https://achat-docs.aoneahsan.com/developers): what outside apps can reach (own profile, settings, status posts and blocked list read and change; contacts, chats, open-room messages, communities and channels read only; end-to-end encrypted messages never) and the plan limits.
+- [Access keys](https://achat-docs.aoneahsan.com/developers/access-keys): achat_pat_ keys, permissions, expiry (Never only for read-only keys), showing a key again within 10 minutes of a sign-in.
+- [The AChat API](https://achat-docs.aoneahsan.com/developers/api): base URL https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1, Bearer auth, envelope, errors, cursor pagination, every resource with curl.
+- [Connect an assistant](https://achat-docs.aoneahsan.com/developers/assistants): MCP address https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/mcp for Claude, ChatGPT, Claude Code and Cursor; deletes wait for the person's yes.
+- [Webhooks](https://achat-docs.aoneahsan.com/developers/webhooks): Standard Webhooks signatures, events carrying ids and times only, Node and Python verification, retries.
+- [Two-step sign-in](https://achat-docs.aoneahsan.com/developers/two-step-sign-in): authenticator codes, recovery codes, remembered browsers, a lost phone.
+- [Developer changelog](https://achat-docs.aoneahsan.com/developers/changelog): API and platform changes.
+- OpenAPI: https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1/openapi.json (Markdown: https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1/openapi.md)
+
 ## Concepts
 
 - [How AChat works](https://achat-docs.aoneahsan.com/concepts/how-it-works): identities, chat types, where messages live, retention.

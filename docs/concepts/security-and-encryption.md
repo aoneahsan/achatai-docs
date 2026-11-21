@@ -4,7 +4,7 @@ title: Security & encryption model
 description: What AChat's end-to-end encryption covers and what it doesn't, how keys, linked devices and the recovery key fit together, and the limits no app can remove.
 keywords: [AChat security, end-to-end encryption model, recovery key, linked devices, threat model]
 last_update:
-  date: 2026-09-28
+  date: 2026-11-21
   author: AChat team
 ---
 
@@ -19,6 +19,7 @@ last_update:
 - AChat doesn't keep a copy of your message keys, so it can't read or restore your history.
 - Push notifications carry the chat or sender name, never the message text.
 - Search looks only at messages already on your device.
+- Other apps can't read them either. An access key, an AI assistant or a webhook sees an encrypted chat's name and members, never its messages. See [AChat for developers](/developers#what-other-apps-can-reach).
 
 ## Keys, devices and recovery
 

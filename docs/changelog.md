@@ -4,13 +4,19 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-11-14
+  date: 2026-11-21
   author: AChat team
 ---
 
 # Changelog
 
 The in-app [release notes](https://achat.aoneahsan.com/feed) are the authority, with the date each change shipped. Older entries here describe AChat as it was at the time.
+
+## Other apps, assistants and two-step sign-in (2026-11-21)
+
+- **Reach your own account from outside AChat:** an API with access keys, a connection for Claude, ChatGPT, Claude Code and Cursor, and signed webhooks, all under Account › Other apps. Your profile, settings, status posts and blocked list can be changed; contacts, chats and communities are read only. See [AChat for developers](./developers/index.md).
+- **End-to-end encrypted chats stay out:** outside apps see a chat's name and members, never its messages. An assistant's delete waits for your yes on AChat.
+- **Two-step sign-in:** a code from an authenticator app after Google, ten recovery codes, and an optional 7-day remembered browser. See [Two-step sign-in](./developers/two-step-sign-in.md).
 
 ## White-label payments and the buyout royalty (2026-11-14)
 

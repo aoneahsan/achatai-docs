@@ -4,7 +4,7 @@ title: Introduction
 description: AChat is a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android. What it does, and what it doesn't promise.
 keywords: [AChat, messaging app, end-to-end encrypted chat, anonymous chat room, group chat, communities, no phone number chat]
 last_update:
-  date: 2026-09-28
+  date: 2026-11-21
   author: AChat team
 ---
 
@@ -26,6 +26,7 @@ There's no phone number to hand over. You sign in with Google, pick a username, 
 | Messages | Threads, files, voice notes, polls, disappearing messages, view once, Trash | [Manage messages](/features/manage-messages) |
 | Device and location history | An opt-in record some chats keep, shown to you before you enter | [Device & location history](/features/location-history) |
 | Plans | Free, Pro and Team / Family | [Plans & pricing](/features/plans-and-pricing) |
+| Other apps | An API, AI assistants, webhooks and two-step sign-in for your own account; encrypted chats stay out | [AChat for developers](/developers) |
 
 ## What it doesn't promise
 
