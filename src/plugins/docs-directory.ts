@@ -26,7 +26,8 @@ type SidebarItem =
 
 /** The `title:` and `description:` lines of a doc's front matter (single-line values, as every page here writes them). */
 function frontMatter(siteDir: string, id: string): DirectoryPage {
-  const source = readFileSync(join(siteDir, 'docs', `${id}.md`), 'utf8');
+  // Line endings normalised: a Windows checkout (core.autocrlf) writes CRLF, which the `\n` patterns below never match.
+  const source = readFileSync(join(siteDir, 'docs', `${id}.md`), 'utf8').replace(/\r\n?/g, '\n');
   const head = /^---\n([\s\S]*?)\n---/.exec(source)?.[1] ?? '';
   const field = (name: string) => new RegExp(`^${name}:\\s*(.+)$`, 'm').exec(head)?.[1]?.trim() ?? '';
   const title = field('title');

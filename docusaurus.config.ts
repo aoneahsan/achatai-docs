@@ -1,9 +1,12 @@
+import { existsSync, readdirSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import changelogFeed from './src/plugins/changelog-feed';
+import changelogFeed, { FEED_TITLE, FEED_TITLE_WITH_POSTS } from './src/plugins/changelog-feed';
 import docsDirectory from './src/plugins/docs-directory';
 import notFoundHead from './src/plugins/not-found-head';
+import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
 
 // ---------------------------------------------------------------------------
@@ -20,6 +23,14 @@ const DOCS_REPO = 'https://github.com/aoneahsan/achatai-docs';
 const APP_DESCRIPTION =
   'AChat is a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android. Personal chats and private groups are end-to-end encrypted; anonymous rooms need no account.';
 const DOCS_DESCRIPTION = `Documentation for AChat. ${APP_DESCRIPTION} What it does, with each limit beside it.`;
+
+/**
+ * Whether blog/ holds a post yet. Until it does, the blog stays off: an empty blog page would sit in sitemap.xml with
+ * nothing on it, and a Blog link would point at it. The first post added to blog/ turns on the blog, its feeds, its
+ * sitemap entries and the Blog links in the navbar and the footer.
+ */
+const BLOG_DIR = fileURLToPath(new URL('./blog', import.meta.url));
+const HAS_POSTS = existsSync(BLOG_DIR) && readdirSync(BLOG_DIR).some((name) => /\.mdx?$/.test(name));
 
 const config: Config = {
   title: 'AChat Docs',
@@ -51,7 +62,7 @@ const config: Config = {
       attributes: {
         rel: 'alternate',
         type: 'application/rss+xml',
-        title: 'AChat Docs changelog',
+        title: HAS_POSTS ? FEED_TITLE_WITH_POSTS : FEED_TITLE,
         href: `${SITE_URL}/feed.xml`,
       },
     },
@@ -161,10 +172,53 @@ const config: Config = {
             'MANUAL-TASKS.md',
           ],
         },
-        blog: false,
+        blog: HAS_POSTS && {
+          path: 'blog',
+          routeBasePath: BLOG_PATH.slice(1),
+          blogTitle: BLOG_TITLE,
+          blogDescription: BLOG_DESCRIPTION,
+          blogSidebarTitle: 'Recent posts',
+          blogSidebarCount: 10,
+          postsPerPage: 10,
+          showReadingTime: false,
+          // A post's last update comes from git: shown under the post, and its sitemap lastmod. No name is shown.
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
+          // Every author and tag is defined once, in blog/authors.yml (and blog/tags.yml when a post uses one).
+          onInlineAuthors: 'throw',
+          onInlineTags: 'throw',
+          onUntruncatedBlogPosts: 'throw',
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+            title: BLOG_TITLE,
+            description: BLOG_DESCRIPTION,
+            copyright: 'Made by the AChat team.',
+            language: 'en-US',
+          },
+        },
         theme: { customCss: './src/css/custom.css' },
-        // lastmod only: search engines ignore changefreq and priority.
-        sitemap: { changefreq: null, priority: null, lastmod: 'date' },
+        sitemap: {
+          // lastmod only: search engines ignore changefreq and priority.
+          changefreq: null,
+          priority: null,
+          lastmod: 'date',
+          // The blog's tag, author, archive and later list pages only repeat its posts; each post is listed once.
+          ignorePatterns: ['/blog/tags/**', '/blog/authors/**', '/blog/archive', '/blog/page/**'],
+          // The blog's own page has no git date: it takes the newest date among the posts it lists.
+          createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) => {
+            const items = await defaultCreateSitemapItems(params);
+            const blogUrl = `${SITE_URL}${BLOG_PATH}`;
+            const newest = items
+              .filter((item) => item.url.startsWith(`${blogUrl}/`) && item.lastmod)
+              .map((item) => item.lastmod as string)
+              .sort()
+              .at(-1);
+            return items.map((item) =>
+              item.url === blogUrl && !item.lastmod && newest ? { ...item, lastmod: newest } : item
+            );
+          },
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -226,6 +280,7 @@ const config: Config = {
           label: 'Docs',
         },
         { to: '/getting-started/quick-start', label: 'Quick Start', position: 'left' },
+        ...(HAS_POSTS ? [{ to: BLOG_PATH, label: 'Blog', position: 'left' as const }] : []),
         { to: '/about-the-author', label: 'AChat team', position: 'right' },
         {
           type: 'dropdown',
@@ -257,6 +312,7 @@ const config: Config = {
             { label: 'Security & encryption', to: '/concepts/security-and-encryption' },
             { label: 'Developers', to: '/developers' },
             { label: 'FAQ', to: '/faq' },
+            ...(HAS_POSTS ? [{ label: 'Blog', to: BLOG_PATH }] : []),
             { label: 'Sitemap', to: '/sitemap' },
             { label: 'Changelog feed', to: '/feed' },
             { label: 'RSS (feed.xml)', href: 'pathname:///feed.xml' },
