@@ -1,9 +1,9 @@
 ---
 sidebar_position: 22
 title: Moving from tlk.io to AChat
-description: "tlk.io is a no-signup chat room at a URL. AChat rooms work the same way, and add a password, files, and a way to keep the room. Checked 2026-11-07."
+description: "tlk.io is a no-signup chat room at a URL. AChat rooms work the same way, and add a password, files, and a way to keep the room. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **tlk.io is a web chat room at a URL, with no signup, that you can embed on your own site.** For one throwaway room with nothing to read first, it's hard to beat. AChat rooms start the same way and go further when you need them to: a password, files, or someone keeping the room.
 
-Last checked 2026-11-07. Side by side: [AChat and tlk.io](https://achat.aoneahsan.com/compare/tlk-io).
+Last checked 2026-11-22. Side by side: [AChat and tlk.io](https://achat.aoneahsan.com/compare/tlk-io).
 
 ## The same habit, one more choice
 

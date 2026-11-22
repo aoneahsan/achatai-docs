@@ -1,9 +1,9 @@
 ---
 sidebar_position: 25
 title: Moving from Yopass to AChat
-description: "Yopass makes one-time secret links encrypted in your browser and self-destructing after viewing. AChat keeps a conversation open until you're done. Checked 2026-11-07."
+description: "Yopass makes one-time secret links encrypted in your browser and self-destructing after viewing. AChat keeps a conversation open until you're done. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Yopass makes one-time secret links, encrypted in your browser, open source and free to self-host.** If the secret should destroy itself after one view, or you want to host the tool yourself, stay with Yopass; AChat can't be self-hosted. AChat is for a conversation that stays open until you're done with it.
 
-Checked 2026-11-07. See [AChat and Yopass](https://achat.aoneahsan.com/compare/yopass) for the comparison.
+Checked 2026-11-22. See [AChat and Yopass](https://achat.aoneahsan.com/compare/yopass) for the comparison.
 
 ## Keeping the thread open
 

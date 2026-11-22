@@ -1,9 +1,9 @@
 ---
 sidebar_position: 27
 title: Moving from Wormhole to AChat
-description: "Wormhole sends large files, up to 10 GB, end-to-end encrypted by an expiring link. AChat is for a password and a small file with a conversation around them. Checked 2026-11-07."
+description: "Wormhole sends large files, up to 10 GB, end-to-end encrypted by an expiring link. AChat is for a password and a small file with a conversation around them. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Wormhole shares files with end-to-end encryption, up to 10 GB, by a link that expires.** Large files belong on Wormhole. AChat is for when you also want to talk in the same place, or need to send a password and a small file together.
 
-Checked 2026-11-07. The comparison is on [AChat and Wormhole](https://achat.aoneahsan.com/compare/wormhole).
+Checked 2026-11-22. The comparison is on [AChat and Wormhole](https://achat.aoneahsan.com/compare/wormhole).
 
 ## Big files there, small ones here
 

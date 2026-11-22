@@ -1,9 +1,9 @@
 ---
 sidebar_position: 10
 title: Moving from Wire to AChat
-description: "Wire is priced per person for business teams. If you used it for friends and family, here's how that circle moves to AChat. Checked 2026-11-07."
+description: "Wire is priced per person for business teams. If you used it for friends and family, here's how that circle moves to AChat. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Wire encrypts messages end to end on every plan, prices them per person, and is free for teams of up to 5.** If you're buying for a business team, it's built for you. AChat is for chatting with friends and family, plus anonymous rooms anyone can join by link.
 
-Checked 2026-11-07. The comparison page is [AChat and Wire](https://achat.aoneahsan.com/compare/wire).
+Checked 2026-11-22. The comparison page is [AChat and Wire](https://achat.aoneahsan.com/compare/wire).
 
 ## From a small Wire team to AChat
 

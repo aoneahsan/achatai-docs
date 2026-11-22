@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4
 title: Moving from Signal to AChat
-description: "Signal users moving to AChat: start in a browser, save the recovery key Signal doesn't have, and keep Signal for calls. Checked 2026-11-07."
+description: "Signal users moving to AChat: start in a browser, save the recovery key Signal doesn't have, and keep Signal for calls. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Signal is free, carries no ads, encrypts end to end, and runs on phones and desktop.** A nonprofit stands behind it, and it does voice and video calls, which AChat doesn't. People usually look at AChat for two other reasons: it opens in a browser, and a recovery key brings your history back after you lose your phone. Signal says restoring isn't supported without your old device.
 
-Last checked 2026-11-07. Full comparison: [AChat and Signal](https://achat.aoneahsan.com/compare/signal).
+Last checked 2026-11-22. Full comparison: [AChat and Signal](https://achat.aoneahsan.com/compare/signal).
 
 ## Setting up next to Signal
 

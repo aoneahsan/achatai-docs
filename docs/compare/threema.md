@@ -1,9 +1,9 @@
 ---
 sidebar_position: 5
 title: Moving from Threema to AChat
-description: "Threema asks for no phone number or email. AChat accounts use Google sign-in, but anonymous rooms need nothing. What to move and what to keep. Checked 2026-11-07."
+description: "Threema asks for no phone number or email. AChat accounts use Google sign-in, but anonymous rooms need nothing. What to move and what to keep. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Threema asks for no phone number or email, and backs up your ID and your chats separately.** If giving no personal data at sign-up is the reason you chose it, keep it. An AChat account signs in with Google, so it isn't as bare. What AChat adds is rooms anyone can join by link, and a chat you can put on a website.
 
-Checked 2026-11-07. See [AChat and Threema](https://achat.aoneahsan.com/compare/threema) for the side-by-side.
+Checked 2026-11-22. See [AChat and Threema](https://achat.aoneahsan.com/compare/threema) for the side-by-side.
 
 ## Two ways in
 

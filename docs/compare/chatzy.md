@@ -1,9 +1,9 @@
 ---
 sidebar_position: 23
 title: Moving from Chatzy to AChat
-description: "Chatzy gives you private rooms for invited people with its own entry controls. AChat rooms add files, and a password that encrypts the messages. Checked 2026-11-07."
+description: "Chatzy gives you private rooms for invited people with its own entry controls. AChat rooms add files, and a password that encrypts the messages. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Chatzy offers free private chat rooms for people you invite, with no registration.** If you rely on its own controls for who gets in, keep using them. AChat's answer to "who gets in" is a password, and that password also encrypts the room's messages. AChat rooms take files too.
 
-Checked 2026-11-07. Compared on [AChat and Chatzy](https://achat.aoneahsan.com/compare/chatzy).
+Checked 2026-11-22. Compared on [AChat and Chatzy](https://achat.aoneahsan.com/compare/chatzy).
 
 ## Recreating a private room
 

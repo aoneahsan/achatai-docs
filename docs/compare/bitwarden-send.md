@@ -1,9 +1,9 @@
 ---
 sidebar_position: 31
 title: Moving from Bitwarden Send to AChat
-description: "Bitwarden Send shares files and passwords from your Bitwarden vault. AChat is for the machine where there's no password manager. Checked 2026-11-07."
+description: "Bitwarden Send shares files and passwords from your Bitwarden vault. AChat is for the machine where there's no password manager. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Bitwarden Send shares files and passwords from Bitwarden, with end-to-end encryption and control over how long each Send lasts.** If you already use Bitwarden, keep using Send. AChat fills the gap where there's no password manager on the machine in front of you.
 
-Checked 2026-11-07. See [AChat and Bitwarden Send](https://achat.aoneahsan.com/compare/bitwarden-send) for the side-by-side.
+Checked 2026-11-22. See [AChat and Bitwarden Send](https://achat.aoneahsan.com/compare/bitwarden-send) for the side-by-side.
 
 ## On a machine without your vault
 

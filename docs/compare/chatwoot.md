@@ -1,9 +1,9 @@
 ---
 sidebar_position: 21
 title: Moving from Chatwoot to AChat
-description: "Chatwoot is open source support you self-host or pay for per agent. AChat runs nothing on your side and lets visitors talk to each other. Checked 2026-11-07."
+description: "Chatwoot is open source support you self-host or pay for per agent. AChat runs nothing on your side and lets visitors talk to each other. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Chatwoot is an open source customer support platform you can self-host, or pay for per agent.** Running support on your own servers is a good reason to stay; AChat can't be self-hosted. It's for when you don't want to run anything, and your visitors are talking to each other rather than to agents.
 
-Checked 2026-11-07. See [AChat and Chatwoot](https://achat.aoneahsan.com/compare/chatwoot) for the comparison.
+Checked 2026-11-22. See [AChat and Chatwoot](https://achat.aoneahsan.com/compare/chatwoot) for the comparison.
 
 ## Retiring a self-hosted instance
 

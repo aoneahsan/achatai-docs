@@ -1,9 +1,9 @@
 ---
 sidebar_position: 9
 title: Moving from Viber to AChat
-description: "Viber is free calls and messages. Keep it for calls; move your messaging to AChat without a phone number, or try a room by link first. Checked 2026-11-07."
+description: "Viber is free calls and messages. Keep it for calls; move your messaging to AChat without a phone number, or try a room by link first. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Viber gives you free calls and messages, with chats synced between your devices.** When calls matter as much as texting, keep Viber; AChat doesn't do calls at all. People move their messaging when they'd rather leave the phone number out of it, or want a room anyone can join from a link.
 
-Last checked 2026-11-07. See [AChat and Viber](https://achat.aoneahsan.com/compare/viber) for the comparison.
+Last checked 2026-11-22. See [AChat and Viber](https://achat.aoneahsan.com/compare/viber) for the comparison.
 
 ## Running both
 

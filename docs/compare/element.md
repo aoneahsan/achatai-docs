@@ -1,9 +1,9 @@
 ---
 sidebar_position: 8
 title: Moving from Element to AChat
-description: "Element is chat for organisations; AChat is for you and the people you keep up with. Who should stay, and how a personal circle moves. Checked 2026-11-07."
+description: "Element is chat for organisations; AChat is for you and the people you keep up with. Who should stay, and how a personal circle moves. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Element sells chat to organisations: a free Community edition, plus Enterprise and Sovereign options priced by seat or by deployment.** If you're running chat for an organisation and want your own deployment, this page isn't your move; AChat can't be run on your own servers. It's for the other case, where you used Element to keep up with friends and family and would rather start in a browser with nothing to set up.
 
-Checked 2026-11-07. Compared in full on [AChat and Element](https://achat.aoneahsan.com/compare/element).
+Checked 2026-11-22. Compared in full on [AChat and Element](https://achat.aoneahsan.com/compare/element).
 
 ## Moving a personal circle
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 14
 title: Moving from Tidio to AChat
-description: "Tidio answers customers with its AI agent Lyro and prices by conversations. AChat is a room where visitors talk to each other. Checked 2026-11-07."
+description: "Tidio answers customers with its AI agent Lyro and prices by conversations. AChat is a room where visitors talk to each other. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Tidio is customer chat with an AI agent called Lyro, priced by conversations.** If you want an agent answering customers, that's Tidio. AChat is for pages where people come to talk to each other, and you don't want to count conversations.
 
-Last checked 2026-11-07. Full comparison: [AChat and Tidio](https://achat.aoneahsan.com/compare/tidio).
+Last checked 2026-11-22. Full comparison: [AChat and Tidio](https://achat.aoneahsan.com/compare/tidio).
 
 ## Swapping an answering bot for a room
 
@@ -36,8 +36,8 @@ The AChat widget isn't an agent inbox or a developer SDK, and it can't be self-h
 | Plan | Price | Source |
 |---|---|---|
 | Free | Free | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Starter | $24.17 a month | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
-| Growth | $49.17 a month, starting price | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Starter | $33 a month, billed yearly | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
+| Growth | $63 a month, billed yearly, starting price | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 | Plus | $300 a month, starting price | <a href="https://www.tidio.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">their page</a> |
 
 What AChat costs is on the [pricing page](https://achat.aoneahsan.com/pricing). Check Tidio on the <a href="https://www.tidio.com" target="_blank" rel="noopener noreferrer nofollow">Tidio website</a>.

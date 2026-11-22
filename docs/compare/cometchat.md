@@ -1,9 +1,9 @@
 ---
 sidebar_position: 20
 title: Moving from CometChat to AChat
-description: "CometChat is for developers adding chat to their own app, free for up to 100 users on Build. AChat is a snippet where visitors talk with no account. Checked 2026-11-07."
+description: "CometChat is for developers adding chat to their own app, free for up to 100 users on Build. AChat is a snippet where visitors talk with no account. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **CometChat is chat for developers, free for up to 100 users on its Build plan.** If your developers are adding chat to your own app, stay with it. AChat is for when you'd rather paste a snippet and let visitors talk with no account.
 
-Last checked 2026-11-07. Side by side: [AChat and CometChat](https://achat.aoneahsan.com/compare/cometchat).
+Last checked 2026-11-22. Side by side: [AChat and CometChat](https://achat.aoneahsan.com/compare/cometchat).
 
 ## Past the 100-user line
 

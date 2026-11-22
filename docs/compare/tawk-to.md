@@ -1,9 +1,9 @@
 ---
 sidebar_position: 12
 title: Moving from tawk.to to AChat
-description: "tawk.to is a free support chat with a help centre and ticketing. AChat puts a room on your page where visitors talk to each other. When each fits. Checked 2026-11-07."
+description: "tawk.to is a free support chat with a help centre and ticketing. AChat puts a room on your page where visitors talk to each other. When each fits. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **tawk.to is free live chat for websites; paying removes its branding.** If your team answers customers and wants a help centre and ticketing alongside, tawk.to does that and AChat doesn't. AChat's widget is a room. Visitors talk to each other there, without waiting for someone on a support team.
 
-Last checked 2026-11-07. The side-by-side is on [AChat and tawk.to](https://achat.aoneahsan.com/compare/tawk-to).
+Last checked 2026-11-22. The side-by-side is on [AChat and tawk.to](https://achat.aoneahsan.com/compare/tawk-to).
 
 ## Is this a replacement, or a second widget?
 

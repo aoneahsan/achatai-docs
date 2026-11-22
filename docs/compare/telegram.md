@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
 title: Moving from Telegram to AChat
-description: "Leaving Telegram for AChat: link every device you use before you need it, save the recovery key, and rebuild groups from contacts. Checked 2026-11-07."
+description: "Leaving Telegram for AChat: link every device you use before you need it, save the recovery key, and rebuild groups from contacts. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Telegram is a cloud messenger: you sign in with your phone number, and your chats are simply there on every device.** End-to-end encryption comes only with secret chats. If having everything everywhere matters more to you than that, Telegram fits. AChat encrypts personal chats and private groups end to end as standard and never asks for a phone number. The cost is that your history follows your devices, not a cloud.
 
-Checked 2026-11-07. The side-by-side page is [AChat and Telegram](https://achat.aoneahsan.com/compare/telegram).
+Checked 2026-11-22. The side-by-side page is [AChat and Telegram](https://achat.aoneahsan.com/compare/telegram).
 
 ## Before your first message
 

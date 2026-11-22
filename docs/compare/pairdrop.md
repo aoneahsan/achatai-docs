@@ -1,9 +1,9 @@
 ---
 sidebar_position: 28
 title: Moving from PairDrop to AChat
-description: "PairDrop sends files peer to peer while both machines are on. AChat holds the message until the other machine comes online. Checked 2026-11-07."
+description: "PairDrop sends files peer to peer while both machines are on. AChat holds the message until the other machine comes online. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **PairDrop sends files and text peer to peer on your local network, or over the internet through paired devices and temporary public rooms.** When both machines are on at the same time, it's the direct route. AChat helps when the other machine comes online later and the message still has to be there.
 
-Last checked 2026-11-07. Side by side: [AChat and PairDrop](https://achat.aoneahsan.com/compare/pairdrop).
+Last checked 2026-11-22. Side by side: [AChat and PairDrop](https://achat.aoneahsan.com/compare/pairdrop).
 
 ## When the other machine isn't on yet
 

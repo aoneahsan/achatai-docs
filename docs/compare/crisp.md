@@ -1,9 +1,9 @@
 ---
 sidebar_position: 13
 title: Moving from Crisp to AChat
-description: "Crisp is a shared inbox for customer messages, priced per workspace. AChat is an open room on your page with no seats to count. Checked 2026-11-07."
+description: "Crisp is a shared inbox for customer messages, priced per workspace. AChat is an open room on your page with no seats to count. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Crisp is a shared inbox for customer messages, priced per workspace.** If a team answers customers from one inbox, that's Crisp's job, and AChat doesn't do it. AChat gives you an open room on your page, with no seats to count.
 
-Checked 2026-11-07. Compared side by side on [AChat and Crisp](https://achat.aoneahsan.com/compare/crisp).
+Checked 2026-11-22. Compared side by side on [AChat and Crisp](https://achat.aoneahsan.com/compare/crisp).
 
 ## When the inbox was more than you needed
 

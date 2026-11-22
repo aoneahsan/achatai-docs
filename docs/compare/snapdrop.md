@@ -1,9 +1,9 @@
 ---
 sidebar_position: 29
 title: Moving from Snapdrop to AChat
-description: "Snapdrop, stored by LimeWire, sends up to 4 GB per transfer with no account. AChat adds messages alongside files and a password on the room. Checked 2026-11-07."
+description: "Snapdrop, stored by LimeWire, sends up to 4 GB per transfer with no account. AChat adds messages alongside files and a password on the room. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Snapdrop is file transfer with no account, stored by LimeWire, up to 4 GB per transfer without one.** Large files with no sign-up are its strength. AChat is for when you want messages as well as files, and a password on the room.
 
-Checked 2026-11-07. Compared on [AChat and Snapdrop](https://achat.aoneahsan.com/compare/snapdrop).
+Checked 2026-11-22. Compared on [AChat and Snapdrop](https://achat.aoneahsan.com/compare/snapdrop).
 
 ## Files with something to say about them
 

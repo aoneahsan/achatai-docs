@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Moving to AChat from another app
 description: Step-by-step guides for moving to AChat from 30 messengers, chat widgets and sharing tools, each with the date it was checked.
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 

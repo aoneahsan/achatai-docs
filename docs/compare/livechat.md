@@ -1,9 +1,9 @@
 ---
 sidebar_position: 16
 title: Moving from LiveChat to AChat
-description: "LiveChat is priced per user after a 14-day trial, for agents answering visitors one by one. AChat is a free room on your page today. Checked 2026-11-07."
+description: "LiveChat is priced per user after a 14-day trial, for agents answering visitors one by one. AChat is a free room on your page today. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **LiveChat is live chat priced per user, with a 14-day trial.** It's made for agents answering visitors one by one. If that's how your site works, keep it. AChat is for something free on your page today, with no trial to run out.
 
-Last checked 2026-11-07. The side-by-side page: [AChat and LiveChat](https://achat.aoneahsan.com/compare/livechat).
+Last checked 2026-11-22. The side-by-side page: [AChat and LiveChat](https://achat.aoneahsan.com/compare/livechat).
 
 ## If your trial is running out
 

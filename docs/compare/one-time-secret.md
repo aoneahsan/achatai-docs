@@ -1,9 +1,9 @@
 ---
 sidebar_position: 24
 title: Moving from One-Time Secret to AChat
-description: "One-Time Secret is a link that vanishes after one read. AChat is for when you send more than one thing, or the other side needs to reply. Checked 2026-11-07."
+description: "One-Time Secret is a link that vanishes after one read. AChat is for when you send more than one thing, or the other side needs to reply. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **One-Time Secret gives you a one-time link for a secret, with an expiry and an optional passphrase.** A password that should vanish after one read belongs there. Reach for AChat when there's more than one thing to send, or the other side needs to answer.
 
-Last checked 2026-11-07. The full comparison: [AChat and One-Time Secret](https://achat.aoneahsan.com/compare/one-time-secret).
+Last checked 2026-11-22. The full comparison: [AChat and One-Time Secret](https://achat.aoneahsan.com/compare/one-time-secret).
 
 ## When one read isn't enough
 

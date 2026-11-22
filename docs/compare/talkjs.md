@@ -1,9 +1,9 @@
 ---
 sidebar_position: 19
 title: Moving from TalkJS to AChat
-description: "TalkJS is a pre-built chat UI tied to your own user accounts, free in development mode. AChat goes live on a free plan for visitors with no accounts. Checked 2026-11-07."
+description: "TalkJS is a pre-built chat UI tied to your own user accounts, free in development mode. AChat goes live on a free plan for visitors with no accounts. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **TalkJS is a pre-built chat UI to add to your product, free to use in development mode.** When chat belongs inside your own product and is tied to your own user accounts, TalkJS is the closer fit. AChat goes live on a free plan, and the visitors using it don't need accounts at all.
 
-Checked 2026-11-07. The comparison page is [AChat and TalkJS](https://achat.aoneahsan.com/compare/talkjs).
+Checked 2026-11-22. The comparison page is [AChat and TalkJS](https://achat.aoneahsan.com/compare/talkjs).
 
 ## From development mode to a live room
 

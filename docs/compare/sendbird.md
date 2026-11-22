@@ -1,9 +1,9 @@
 ---
 sidebar_position: 18
 title: Moving from Sendbird to AChat
-description: "Sendbird is in-app chat priced by monthly active users, with a free trial and no free plan. When a free AChat room on a page is enough. Checked 2026-11-07."
+description: "Sendbird is in-app chat priced by monthly active users, with a free trial and no free plan. When a free AChat room on a page is enough. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Sendbird is in-app chat priced by monthly active users, with a free trial.** If chat is part of your own product and you have a budget for it, Sendbird is built for that. AChat suits a smaller ask: a room on a page, where you'd rather not pay to start.
 
-Last checked 2026-11-07. Compared in full on [AChat and Sendbird](https://achat.aoneahsan.com/compare/sendbird).
+Last checked 2026-11-22. Compared in full on [AChat and Sendbird](https://achat.aoneahsan.com/compare/sendbird).
 
 ## Before the trial turns into a bill
 

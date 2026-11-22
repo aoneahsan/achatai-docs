@@ -1,9 +1,9 @@
 ---
 sidebar_position: 30
 title: Moving from FilePizza to AChat
-description: "FilePizza sends a file straight from one browser to another while both are open. AChat keeps it in a room for when the other side comes online. Checked 2026-11-07."
+description: "FilePizza sends a file straight from one browser to another while both are open. AChat keeps it in a room for when the other side comes online. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **FilePizza does peer-to-peer file transfers in your browser.** When you want a file to go directly from one browser to another, use it. AChat is for when the other side won't be online at the same moment.
 
-Last checked 2026-11-07. The full comparison: [AChat and FilePizza](https://achat.aoneahsan.com/compare/filepizza).
+Last checked 2026-11-22. The full comparison: [AChat and FilePizza](https://achat.aoneahsan.com/compare/filepizza).
 
 ## Leaving it for later
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 6
 title: Moving from Session to AChat
-description: "Session ties no identifier to you and routes messages through onion routing. When AChat's communities and link rooms are worth adding, and how. Checked 2026-11-07."
+description: "Session ties no identifier to you and routes messages through onion routing. When AChat's communities and link rooms are worth adding, and how. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Session creates your account with no identifier tied to you, sends messages through onion routing, and restores your Account ID on a new device from a recovery password.** For conversations where that matters, stay on Session. An AChat account signs in with Google. The reasons to add AChat are communities with channels and threads, and rooms people join from a link.
 
-Checked 2026-11-07. Side by side: [AChat and Session](https://achat.aoneahsan.com/compare/session).
+Checked 2026-11-22. Side by side: [AChat and Session](https://achat.aoneahsan.com/compare/session).
 
 ## What to bring, and what to leave
 

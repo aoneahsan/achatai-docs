@@ -1,9 +1,9 @@
 ---
 sidebar_position: 26
 title: Moving from Pastebin to AChat
-description: "Pastebin keeps a paste at one address for months; file uploads are PRO. AChat rooms take files and replies, but messages expire unless the room is kept. Checked 2026-11-07."
+description: "Pastebin keeps a paste at one address for months; file uploads are PRO. AChat rooms take files and replies, but messages expire unless the room is kept. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Pastebin lets you paste text and share the link, with a password and a burn-after-read option. Uploading files is a PRO feature.** For a long piece of text that should sit at one address for months, Pastebin is the better home. Use AChat when you need to send files too, or want a reply from the other side.
 
-Last checked 2026-11-07. The side-by-side page: [AChat and Pastebin](https://achat.aoneahsan.com/compare/pastebin).
+Last checked 2026-11-22. The side-by-side page: [AChat and Pastebin](https://achat.aoneahsan.com/compare/pastebin).
 
 ## Know how long it lasts first
 

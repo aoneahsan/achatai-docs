@@ -1,9 +1,9 @@
 ---
 sidebar_position: 17
 title: Moving from Stream Chat to AChat
-description: "Stream Chat is for developers building chat into their own app, free up to 1,000 monthly active users. AChat is a snippet you paste with no developers. Checked 2026-11-07."
+description: "Stream Chat is for developers building chat into their own app, free up to 1,000 monthly active users. AChat is a snippet you paste with no developers. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Stream Chat is chat for developers to build into their apps, free up to 1,000 monthly active users.** If your developers are building chat into your own product and want control of every part, Stream is the right kind of tool. AChat is the opposite trade: you paste a snippet and have a working chat, with no developers involved.
 
-Checked 2026-11-07. The side-by-side is on [AChat and Stream Chat](https://achat.aoneahsan.com/compare/stream-chat).
+Checked 2026-11-22. The side-by-side is on [AChat and Stream Chat](https://achat.aoneahsan.com/compare/stream-chat).
 
 ## When the SDK was more than the job
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 7
 title: Moving from SimpleX Chat to AChat
-description: "SimpleX Chat has no user identifiers at all; AChat gives you a username on purpose. Choosing one, sharing it, and using rooms you can embed. Checked 2026-11-07."
+description: "SimpleX Chat has no user identifiers at all; AChat gives you a username on purpose. Choosing one, sharing it, and using rooms you can embed. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **SimpleX Chat has no user identifiers at all, not even random ones.** If that's the point for you, nothing here beats it. AChat goes the other way on purpose: people find you by a username. On top of that come anonymous rooms you can share by link or put on a website.
 
-Last checked 2026-11-07. The full comparison: [AChat and SimpleX Chat](https://achat.aoneahsan.com/compare/simplex-chat).
+Last checked 2026-11-22. The full comparison: [AChat and SimpleX Chat](https://achat.aoneahsan.com/compare/simplex-chat).
 
 ## Picking a name you're happy to be found by
 

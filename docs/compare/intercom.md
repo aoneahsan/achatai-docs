@@ -1,9 +1,9 @@
 ---
 sidebar_position: 15
 title: Moving from Intercom to AChat
-description: "Intercom is a per-seat support desk with its AI agent Fin. AChat is a room on a page. Who should stay, and what a room replaces. Checked 2026-11-07."
+description: "Intercom is a per-seat support desk with its AI agent Fin. AChat is a room on a page. Who should stay, and what a room replaces. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **Intercom is customer service software priced per seat, with its AI agent Fin charged per outcome.** A support team that wants AI answering first should stay on Intercom. AChat replaces none of that. What it offers is a room on a page, for when you never needed a support desk.
 
-Checked 2026-11-07. See [AChat and Intercom](https://achat.aoneahsan.com/compare/intercom) for the comparison.
+Checked 2026-11-22. See [AChat and Intercom](https://achat.aoneahsan.com/compare/intercom) for the comparison.
 
 ## Where a room is enough
 

@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
 title: Moving from WhatsApp to AChat
-description: "Leaving WhatsApp for AChat: your contacts are phone numbers there and usernames here, so each person moves by invite link. Checked 2026-11-07."
+description: "Leaving WhatsApp for AChat: your contacts are phone numbers there and usernames here, so each person moves by invite link. Checked 2026-11-22."
 last_update:
-  date: 2026-11-07
+  date: 2026-11-22
   author: AChat team
 ---
 
@@ -11,7 +11,7 @@ last_update:
 
 **WhatsApp is tied to your phone number, and it backs your chats up through Google or its own cloud storage.** If everyone you talk to is already there and you call them as often as you text, stay. AChat is for the people you'd rather reach by a username, a link or a QR code, with no phone number anywhere.
 
-Facts below were checked on 2026-11-07. For prices and features side by side, see [AChat and WhatsApp](https://achat.aoneahsan.com/compare/whatsapp).
+Facts below were checked on 2026-11-22. For prices and features side by side, see [AChat and WhatsApp](https://achat.aoneahsan.com/compare/whatsapp).
 
 ## Bringing people over
 
