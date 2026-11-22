@@ -3,8 +3,10 @@ import Link from '@docusaurus/Link';
 import { useHistory, useLocation } from '@docusaurus/router';
 import { usePluginData } from '@docusaurus/useGlobalData';
 import Layout from '@theme/Layout';
+import type { FeedData } from '../plugins/changelog-feed';
 import type { DirectoryGroup, DirectoryPage } from '../plugins/docs-directory';
 import styles from './sitemap.module.css';
+import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from '@site/src/data/blog';
 import { platformHref } from '@site/src/data/platforms';
 
 /**
@@ -62,7 +64,26 @@ function Card({ page }: { page: DirectoryPage }): ReactNode {
 }
 
 export default function SitemapPage(): ReactNode {
-  const groups = usePluginData('docs-directory') as DirectoryGroup[];
+  const docGroups = usePluginData('docs-directory') as DirectoryGroup[];
+  const feed = usePluginData('changelog-feed') as FeedData;
+  const withPosts = feed.posts.length > 0;
+  // Once the blog has posts, they follow the docs as their own group, led by the blog's own page.
+  const groups = useMemo<DirectoryGroup[]>(
+    () =>
+      withPosts
+        ? [
+            ...docGroups,
+            {
+              label: 'Blog',
+              pages: [
+                { title: BLOG_TITLE, description: BLOG_DESCRIPTION, path: BLOG_PATH },
+                ...feed.posts.map((post) => ({ title: post.title, description: post.summary, path: post.path })),
+              ],
+            },
+          ]
+        : docGroups,
+    [docGroups, feed.posts, withPosts]
+  );
   const location = useLocation();
   const history = useHistory();
   const query = new URLSearchParams(location.search).get('q') ?? '';
@@ -90,7 +111,8 @@ export default function SitemapPage(): ReactNode {
         <p>
           Every page of the AChat documentation, grouped as the sidebar groups them. For search engines, feed readers and AI
           assistants, <a href="/sitemap.xml">sitemap.xml</a> lists every page and <a href="/feed.xml">feed.xml</a>{' '}
-          carries the changelog as RSS; the <Link to="/feed">changelog feed</Link> page shows the same entries.
+          carries {withPosts ? 'the blog posts and the changelog' : 'the changelog'} as RSS; the{' '}
+          <Link to="/feed">{withPosts ? 'feed' : 'changelog feed'}</Link> page shows the same entries.
         </p>
         <p>
           <label htmlFor="sitemap-q" className="margin-right--sm">

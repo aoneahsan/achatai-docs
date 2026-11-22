@@ -40,6 +40,7 @@ personal chats, groups, communities, status and anonymous rooms, on the web and 
 | `docusaurus.config.ts` | URL, metadata, structured data, theme, and plugins |
 | `src/` | Documentation-site React/CSS customization |
 | `static/` | `CNAME`, `static/llms.txt`, `static/img/social-card.svg`, robots, and other published files |
+| `blog/` | Posts by the AChat team, one `.md` each (front matter: `slug`, `title`, `description`, `authors: [team]`, `image`, `date`; `{/* truncate */}` after the opening line), each image in `static/img/social/`. Empty, the blog stays off; the first post turns on the blog, its RSS/Atom feeds, its sitemap entries, its place in `/feed`, `/feed.xml` and `/sitemap`, and the Blog links (`src/data/blog.ts`) |
 | `docs/tracking/achatai-docs-content-tracker.json` | Content state; read only the relevant entry |
 | `docs/MANUAL-TASKS.md` | Owner-only setup |
 
