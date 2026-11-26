@@ -6,6 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 import changelogFeed, { FEED_TITLE, FEED_TITLE_WITH_POSTS } from './src/plugins/changelog-feed';
 import docsDirectory from './src/plugins/docs-directory';
 import notFoundHead from './src/plugins/not-found-head';
+import linkLawGate from './src/plugins/link-law-gate';
+import rehypeLinkLaw from './src/plugins/rehype-link-law';
 import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
 
@@ -147,7 +149,7 @@ const config: Config = {
     hooks: { onBrokenMarkdownLinks: 'warn' },
   },
   themes: ['@docusaurus/theme-mermaid'],
-  plugins: [changelogFeed, docsDirectory, notFoundHead],
+  plugins: [changelogFeed, docsDirectory, notFoundHead, linkLawGate],
 
   presets: [
     [
@@ -160,6 +162,7 @@ const config: Config = {
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           breadcrumbs: true,
+          rehypePlugins: [rehypeLinkLaw],
           // `docs/` is BOTH the published content dir and the home of the
           // fixed-path internal file docs/MANUAL-TASKS.md. Keep the path (the
           // global rule fixes it) but never publish it — this repo is public.
@@ -181,6 +184,7 @@ const config: Config = {
           blogSidebarCount: 10,
           postsPerPage: 10,
           showReadingTime: false,
+          rehypePlugins: [rehypeLinkLaw],
           // A post's last update comes from git: shown under the post, and its sitemap lastmod. No name is shown.
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
@@ -197,6 +201,7 @@ const config: Config = {
             language: 'en-US',
           },
         },
+        pages: { rehypePlugins: [rehypeLinkLaw] },
         theme: { customCss: './src/css/custom.css' },
         sitemap: {
           // lastmod only: search engines ignore changefreq and priority.
