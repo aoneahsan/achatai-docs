@@ -10,6 +10,13 @@ import linkLawGate from './src/plugins/link-law-gate';
 import rehypeLinkLaw from './src/plugins/rehype-link-law';
 import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
 import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
+import owner from './src/data/owner-profile.json';
+
+// The owner and his company: one entity on every site of the Zaions roster (aoneahsan-cccs-seo-aeo-standard), read
+// from the vendored src/data/owner-profile.json, never typed by hand.
+const PERSON_ID = `${owner.person.url}/#person`;
+const ZAIONS_ID = `${owner.organization.url}/#organization`;
+const HANDLE = owner.person.alternateName.find((name) => /^[a-z0-9]+$/.test(name)) ?? owner.person.name;
 
 // ---------------------------------------------------------------------------
 // AChat — Documentation site config (the AChat team)
@@ -81,6 +88,14 @@ const config: Config = {
       tagName: 'meta',
       attributes: { name: 'application-name', content: 'AChat Docs' },
     },
+    { tagName: 'meta', attributes: { name: 'author', content: `${owner.person.name} (${HANDLE})` } },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'keywords',
+        content: ['AChat', 'AChat docs', 'private chat', 'group chat', 'anonymous chat rooms', owner.keywords].join(', '),
+      },
+    },
     {
       tagName: 'meta',
       attributes: { name: 'apple-mobile-web-app-title', content: 'AChat Docs' },
@@ -114,7 +129,9 @@ const config: Config = {
         operatingSystem: 'Android, Web',
         url: APP_URL,
         sameAs: [APP_URL, PLAY_URL],
-        author: { '@type': 'Organization', name: 'AChat', url: APP_URL },
+        creator: { '@id': PERSON_ID },
+        author: { '@id': PERSON_ID },
+        publisher: { '@id': ZAIONS_ID },
         description: APP_DESCRIPTION,
         featureList: [
           'Personal chats and private groups, end-to-end encrypted',
@@ -136,6 +153,36 @@ const config: Config = {
         name: 'AChat',
         url: APP_URL,
         sameAs: [APP_URL, PLAY_URL],
+        parentOrganization: { '@id': ZAIONS_ID },
+        founder: { '@id': PERSON_ID },
+      }),
+    },
+    {
+      tagName: 'script',
+      attributes: { type: 'application/ld+json' },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'Person',
+            '@id': PERSON_ID,
+            name: owner.person.name,
+            alternateName: owner.person.alternateName,
+            url: owner.person.url,
+            jobTitle: owner.person.jobTitle,
+            sameAs: owner.person.sameAs,
+            worksFor: { '@id': ZAIONS_ID },
+          },
+          {
+            '@type': 'Organization',
+            '@id': ZAIONS_ID,
+            name: owner.organization.name,
+            alternateName: owner.organization.alternateName,
+            url: owner.organization.url,
+            founder: { '@id': PERSON_ID },
+            sameAs: owner.organization.sameAs,
+          },
+        ],
       }),
     },
   ],

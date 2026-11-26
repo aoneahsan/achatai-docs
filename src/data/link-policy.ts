@@ -45,7 +45,11 @@ export function isOwnedUrl(href: string): boolean {
   const pathAndQuery = `${url.pathname}${url.search}`;
   if (OWNED_PATHS.some((owned) => owned.host === host && pathAndQuery.startsWith(owned.prefix))) return true;
   return ROSTER_URLS.some(
-    (owned) => owned.hostname === host && (owned.pathname === '/' || url.pathname.startsWith(owned.pathname)),
+    (owned) =>
+      owned.hostname === host &&
+      (owned.search
+        ? pathAndQuery.startsWith(`${owned.pathname}${owned.search}`)
+        : owned.pathname === '/' || url.pathname.startsWith(owned.pathname)),
   );
 }
 
