@@ -70,7 +70,8 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 
 - [FAQ](https://achat-docs.aoneahsan.com/faq): direct answers.
 - [Changelog](https://achat-docs.aoneahsan.com/changelog): release history.
-- [The AChat team](https://achat-docs.aoneahsan.com/about-the-author): who builds and supports AChat, and how to reach the team.
+- [About the developer](https://achat-docs.aoneahsan.com/about-developer): who builds AChat (Ahsan Mahmood and Zaions), why it exists and how it got here, with dates.
+- [Products from Zaions](https://achat-docs.aoneahsan.com/ecosystem): every other product the AChat team makes, and how each fits beside your chats.
 
 ## Links
 
@@ -80,3 +81,8 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 - Terms: https://achat.aoneahsan.com/terms
 - Pricing: https://achat.aoneahsan.com/pricing
 - Contact: https://achat.aoneahsan.com/contact
+
+## Who builds AChat
+
+- [Ahsan Mahmood (Ahsan, aoneahsan, a1ahsan, A1 Ahsan, AOne Ahsan)](https://aoneahsan.com): Founder and developer, Zaions
+- [Zaions](https://zaions.com): the team behind AChat and the other Zaions products
