@@ -82,3 +82,11 @@ There is no GitHub Actions workflow (owner rule): build locally with `yarn build
 <!-- RULE:stop-work-git-gate v2026-10-20 -->
 
 Before stopping, commit every legitimate change and work-progress checkpoint in this repository and each independent nested repository, fetch and merge the designated upstream, push the documented working branch, then verify an empty worktree and `0 0` ahead/behind. Never stash, discard, reset, rebase, or force-push. If synchronization is blocked, report the exact repository, branch, blocker, and next action instead of calling the work complete. The full workflow remains authoritative in `~/.claude/rules/git-workflow.md`.
+
+## 🔴 Main context only: no sub-agents without the owner's approval (owner, 2026-11-26)
+
+Claude Code and Codex alike: never start a custom `aoneahsan-ccca-*` sub-agent unless the owner approved it in THIS
+session, in his own typed words. One approval covers that session only, and every new session needs a new one. Without
+it, every step runs in the main context window, including the lanes a command or skill names. Never run a default
+sub-agent (Explore, Plan, general-purpose and the like), approved or not, because they cannot reach the custom skills.
+Global law: `~/.claude/rules/subagent-orchestration.md`.
