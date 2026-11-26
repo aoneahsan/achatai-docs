@@ -12,7 +12,7 @@
 .name { margin: 0; font-size: 1.1rem; }
 .card { margin: 0; }
 .where { margin: 0; font-size: 0.95rem; color: var(--ifm-color-emphasis-700); }
-.actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-block-end: 1.5rem; }
 .actions :global(.button) { min-block-size: 2.75rem; display: inline-flex; align-items: center; }
 .tableWrap { overflow-x: auto; }
 .tableWrap td a { display: inline-flex; align-items: center; min-block-size: 2.75rem; }
