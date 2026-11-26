@@ -196,7 +196,14 @@ const config: Config = {
     hooks: { onBrokenMarkdownLinks: 'warn' },
   },
   themes: ['@docusaurus/theme-mermaid'],
-  plugins: [changelogFeed, docsDirectory, notFoundHead, linkLawGate],
+  plugins: [
+    changelogFeed,
+    docsDirectory,
+    notFoundHead,
+    linkLawGate,
+    // The old team page moved to /about-developer (ecosystem standard, OD-31); its address keeps working.
+    ['@docusaurus/plugin-client-redirects', { redirects: [{ from: '/about-the-author', to: '/about-developer' }] }],
+  ],
 
   presets: [
     [
@@ -333,7 +340,7 @@ const config: Config = {
         },
         { to: '/getting-started/quick-start', label: 'Quick Start', position: 'left' },
         ...(HAS_POSTS ? [{ to: BLOG_PATH, label: 'Blog', position: 'left' as const }] : []),
-        { to: '/about-the-author', label: 'AChat team', position: 'right' },
+        { to: '/about-developer', label: 'About the developer', position: 'right' },
         {
           type: 'dropdown',
           label: 'Get AChat',
@@ -373,6 +380,8 @@ const config: Config = {
         {
           title: 'AChat',
           items: [
+            { label: 'About the developer', to: '/about-developer' },
+            { label: 'More from Zaions', to: '/ecosystem' },
             { label: 'Contact', href: `${APP_URL}/contact` },
             { label: 'Plans and pricing', href: `${APP_URL}/pricing` },
             { label: 'Privacy policy', href: `${APP_URL}/privacy` },
@@ -380,7 +389,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} the AChat team. Built with Docusaurus.`,
+      copyright: `AChat — developed with love by the Zaions team · © ${new Date().getFullYear()} AChat`,
     },
     prism: {
       theme: prismThemes.github,

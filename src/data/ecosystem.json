@@ -17,19 +17,16 @@
         {
           "id": "callvault-1",
           "text": "CallVault records calls on Android through the audio source a phone makes available.",
-          "source": "production-projects/all-projects-brand-kits/callvault/what-is-callvault.md",
           "checked": "2026-11-25"
         },
         {
           "id": "callvault-2",
           "text": "Its phone library supports playback, search, notes and export.",
-          "source": "production-projects/all-projects-brand-kits/callvault/what-is-callvault.md",
           "checked": "2026-11-25"
         },
         {
           "id": "callvault-3",
           "text": "Recordings stay on the phone unless the user enables private cloud backup.",
-          "source": "production-projects/all-projects-brand-kits/callvault/what-is-callvault.md",
           "checked": "2026-11-25"
         }
       ],
@@ -51,19 +48,16 @@
         {
           "id": "capacitor-auth-manager-1",
           "text": "Capacitor Auth Manager offers one Google sign-in call for web, Android and iOS.",
-          "source": "https://github.com/aoneahsan/capacitor-auth-manager/ (README, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "capacitor-auth-manager-2",
           "text": "It does not require Firebase as a dependency.",
-          "source": "https://github.com/aoneahsan/capacitor-auth-manager/ (README, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "capacitor-auth-manager-3",
           "text": "Google is the only enabled provider in version 3.x.",
-          "source": "https://github.com/aoneahsan/capacitor-auth-manager/ (README, checked 2026-11-25)",
           "checked": "2026-11-25"
         }
       ],
@@ -84,25 +78,21 @@
       "facts": [
         {
           "text": "Build a sharper resume and get discovered.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "clearhire-1"
         },
         {
           "text": "ATS-friendly resume builder with structured profiles",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "clearhire-2"
         },
         {
           "text": "50+ career tools — from bullet writing to ATS checks",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "clearhire-3"
         },
         {
           "text": "Verified-employment workflows that add trust",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "clearhire-4"
         }
@@ -123,19 +113,16 @@
         {
           "id": "eatthis-1",
           "text": "Eat This lets a person look for food by nutrient, feeling or time of day.",
-          "source": "https://eatthis.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "eatthis-2",
           "text": "It shows how much of a nutrient one serving gives.",
-          "source": "https://eatthis.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "eatthis-3",
           "text": "It identifies a cheap pick and when a question belongs with a doctor.",
-          "source": "https://eatthis.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         }
       ],
@@ -155,19 +142,16 @@
         {
           "id": "empora-1",
           "text": "Empora puts WooCommerce store modules in one WordPress plugin.",
-          "source": "production-projects/all-projects-brand-kits/empora/what-is-empora.md",
           "checked": "2026-11-25"
         },
         {
           "id": "empora-2",
           "text": "A merchant chooses which modules to switch on.",
-          "source": "production-projects/all-projects-brand-kits/empora/what-is-empora.md",
           "checked": "2026-11-25"
         },
         {
           "id": "empora-3",
           "text": "Its web dashboard handles licences and optional store connections.",
-          "source": "production-projects/all-projects-brand-kits/empora/what-is-empora.md",
           "checked": "2026-11-25"
         }
       ],
@@ -188,25 +172,21 @@
       "facts": [
         {
           "text": "Turns consistency into a rope you can see.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "habitforge-1"
         },
         {
           "text": "A rope that thickens with every check-in and frays where you stopped",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "habitforge-2"
         },
         {
           "text": "Friends, challenges and a leaderboard you can leave",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "habitforge-3"
         },
         {
           "text": "Web and Android, from one account",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "habitforge-4"
         }
@@ -228,25 +208,21 @@
       "facts": [
         {
           "text": "Run your diagnostic lab end to end.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "labflow-1"
         },
         {
           "text": "Patients, orders, samples and results in one system",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "labflow-2"
         },
         {
           "text": "Validation workflow from draft to released",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "labflow-3"
         },
         {
           "text": "Billing, inventory and quality control built in",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "labflow-4"
         }
@@ -268,25 +244,21 @@
       "facts": [
         {
           "text": "Track your health, your way.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "lifewell-1"
         },
         {
           "text": "Vitals, water, meds, sleep and nutrition in one app",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "lifewell-2"
         },
         {
           "text": "Periods, fertility and baby milestones included",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "lifewell-3"
         },
         {
           "text": "Works on web and Android, syncs across devices",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "lifewell-4"
         }
@@ -315,25 +287,21 @@
         {
           "id": "linux-cleanup-1",
           "text": "See what stays before anything goes.",
-          "source": "live <title>, https://linux-cleanup.aoneahsan.com/",
           "checked": "2026-11-26"
         },
         {
           "id": "linux-cleanup-2",
           "text": "Preview the cache paths it can remove, inspect the limits and run a dry run before a real removal.",
-          "source": "linux-cleanup-website/src/i18n/en.ts (approved GATE 4, 2026-11-22) homeDescription",
           "checked": "2026-11-26"
         },
         {
           "id": "linux-cleanup-3",
           "text": "A desktop app for x86_64 Linux (AppImage and .deb) with a dry run before every real run and a receipt after it.",
-          "source": "linux-cleanup-website/src/i18n/en.ts (approved GATE 4, 2026-11-22) feed desktop 1.0.0 summary; desktop-updater/latest.json 1.0.4",
           "checked": "2026-11-26"
         },
         {
           "id": "linux-cleanup-4",
           "text": "The MIT-licensed command line runs with npx; scan and dry run never delete.",
-          "source": "linux-cleanup-website/src/i18n/en.ts (approved GATE 4, 2026-11-22) termsDescription; registry.npmjs.org linux-cleanup 2.1.1",
           "checked": "2026-11-26"
         }
       ],
@@ -352,25 +320,21 @@
       "facts": [
         {
           "text": "Safe-by-default macOS cleanup and maintenance.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "macleanup-1"
         },
         {
           "text": "The same section catalogue, for macOS",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "macleanup-2"
         },
         {
           "text": "Refuses personal folders unconditionally",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "macleanup-3"
         },
         {
           "text": "A real dry-run before anything is removed",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "macleanup-4"
         }
@@ -392,25 +356,21 @@
       "facts": [
         {
           "text": "Ship Capacitor app updates without the store wait.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "native-update-1"
         },
         {
           "text": "Live over-the-air bundle updates",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "native-update-2"
         },
         {
           "text": "In-app store-update and review prompts",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "native-update-3"
         },
         {
           "text": "Self-hostable backend, open-source",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "native-update-4"
         }
@@ -431,19 +391,16 @@
         {
           "id": "netcage-1",
           "text": "NetCage can refuse Wi-Fi and mobile connections for a selected Android app while the rest of the phone stays online.",
-          "source": "https://netcage.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "netcage-2",
           "text": "A rule can target Wi-Fi, mobile data or both.",
-          "source": "https://netcage.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "netcage-3",
           "text": "Profiles can group apps and apply rules on chosen days and times.",
-          "source": "https://netcage.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         }
       ],
@@ -464,25 +421,21 @@
       "facts": [
         {
           "text": "A calm companion through every week.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "pregnancypal-1"
         },
         {
           "text": "Week-by-week tracking with nutrition and exercise",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "pregnancypal-2"
         },
         {
           "text": "Log vitals, symptoms, mood and appointments",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "pregnancypal-3"
         },
         {
           "text": "Doctor-friendly PDF export",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "pregnancypal-4"
         }
@@ -505,19 +458,16 @@
         {
           "id": "rentparty-1",
           "text": "Rent Party is a property-trading game that can be paused.",
-          "source": "production-projects/all-projects-brand-kits/rent-party/what-is-rent-party.md",
           "checked": "2026-11-25"
         },
         {
           "id": "rentparty-2",
           "text": "Players can pass one phone around, play against CPU characters or open an online room.",
-          "source": "production-projects/all-projects-brand-kits/rent-party/what-is-rent-party.md",
           "checked": "2026-11-25"
         },
         {
           "id": "rentparty-3",
           "text": "The game handles the bank and keeps deeds in place when play resumes.",
-          "source": "production-projects/all-projects-brand-kits/rent-party/what-is-rent-party.md",
           "checked": "2026-11-25"
         }
       ],
@@ -538,25 +488,21 @@
       "facts": [
         {
           "text": "Send SMS at scale from your own Android device.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "smsapp-1"
         },
         {
           "text": "Single, batch and scheduled messages",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "smsapp-2"
         },
         {
           "text": "Device registration and volunteer-pool management",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "smsapp-3"
         },
         {
           "text": "Android-native and privacy-first",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "smsapp-4"
         }
@@ -578,25 +524,21 @@
       "facts": [
         {
           "text": "One storage API over localStorage, IndexedDB, cookies and native.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "strata-storage-1"
         },
         {
           "text": "Zero dependencies, web plus iOS and Android",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "strata-storage-2"
         },
         {
           "text": "One interface over every storage layer",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "strata-storage-3"
         },
         {
           "text": "Keychain and Keystore on native",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "strata-storage-4"
         }
@@ -617,19 +559,16 @@
         {
           "id": "tilawah-1",
           "text": "Tilawah offers recorded Tajweed and Tafseer lessons.",
-          "source": "https://tilawah.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "tilawah-2",
           "text": "Learners can track progress through self-paced lessons.",
-          "source": "https://tilawah.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         },
         {
           "id": "tilawah-3",
           "text": "It offers live one-on-one recitation sessions booked in the learner’s timezone.",
-          "source": "https://tilawah.aoneahsan.com/ (live HTML, checked 2026-11-25)",
           "checked": "2026-11-25"
         }
       ],
@@ -650,25 +589,21 @@
       "facts": [
         {
           "text": "Short links, link-in-bio and click analytics.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "trizlink-1"
         },
         {
           "text": "Branded short links with custom slugs",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "trizlink-2"
         },
         {
           "text": "Link-in-bio pages and custom domains",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "trizlink-3"
         },
         {
           "text": "50+ built-in utilities",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "trizlink-4"
         }
@@ -690,25 +625,21 @@
       "facts": [
         {
           "text": "Take complete control of any HTML5 video.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "video-controls-plus-1"
         },
         {
           "text": "Speed 0.1×–16×, A–B loop and frame-step",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "video-controls-plus-2"
         },
         {
           "text": "Audio boost to 400%, filters and color correction",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "video-controls-plus-3"
         },
         {
           "text": "Screenshots, timestamped notes and 40+ shortcuts",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "video-controls-plus-4"
         }
@@ -729,19 +660,16 @@
         {
           "id": "waylock-1",
           "text": "Waylock is an Android planning layer over Google Maps for drivers and couriers.",
-          "source": "production-projects/all-projects-brand-kits/waylock/what-is-waylock.md",
           "checked": "2026-11-25"
         },
         {
           "id": "waylock-2",
           "text": "A driver can hold chosen stops in place and order the rest around them.",
-          "source": "production-projects/all-projects-brand-kits/waylock/what-is-waylock.md",
           "checked": "2026-11-25"
         },
         {
           "id": "waylock-3",
           "text": "After a wrong turn, the chosen route stays visible beside the option to return or take a new route.",
-          "source": "production-projects/all-projects-brand-kits/waylock/what-is-waylock.md",
           "checked": "2026-11-25"
         }
       ],
@@ -760,25 +688,21 @@
       "facts": [
         {
           "text": "Windows cleanup CLI: dry-run first, personal files chosen row by row, zero install via npx.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "windowsweep-1"
         },
         {
           "text": "Names every path before it touches one",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "windowsweep-2"
         },
         {
           "text": "30 sections, a real dry-run, and no network calls",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "windowsweep-3"
         },
         {
           "text": "Runs as npx windowsweep or as a Windows desktop app",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "windowsweep-4"
         }
@@ -801,30 +725,27 @@
       "facts": [
         {
           "text": "A toolbox of developer and creator utilities, one click away.",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "ztools-1"
         },
         {
           "text": "Formatters, converters, encoders and generators in one place",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "ztools-2"
         },
         {
           "text": "Everything runs in your browser — nothing is uploaded",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "ztools-3"
         },
         {
           "text": "Searchable, dark-mode-first, works offline",
-          "source": "rules/ecosystem-products.json (2026-11-10)",
           "checked": "2026-11-10",
           "id": "ztools-4"
         }
       ],
       "logo": "/ecosystem/ztools.svg"
     }
-  ]
+  ],
+  "note": "Vendored from projects-finalization-record/ecosystem/products.json (showcase rows, AChat left out); fact sources stay in the record (local paths never ship)."
 }

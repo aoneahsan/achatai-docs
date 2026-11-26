@@ -1,0 +1,136 @@
+/* More from Zaions on the docs site: the docs' own primary as a dark band (the inverted surface), each card in its
+   product's own mark. Mobile-first; Infima variables only. */
+.band {
+  background: var(--ifm-color-primary-darkest);
+  color: #fff;
+  padding-block: 3rem;
+}
+.inner {
+  max-width: var(--ifm-container-width-xl);
+  margin-inline: auto;
+  padding-inline: var(--ifm-spacing-horizontal);
+  display: grid;
+  gap: 1.25rem;
+}
+.top {
+  display: grid;
+  gap: 1rem;
+}
+@media (min-width: 48rem) {
+  .top {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+}
+.title {
+  margin: 0 0 0.35rem;
+  color: #fff;
+}
+.line {
+  margin: 0;
+  opacity: 0.9;
+}
+.controls {
+  display: flex;
+  gap: 0.5rem;
+}
+.ctrl {
+  inline-size: 2.75rem;
+  block-size: 2.75rem;
+  border: 0;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.16);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.ctrl:hover,
+.ctrl:focus-visible {
+  background: rgb(255 255 255 / 0.28);
+}
+[dir='rtl'] .ctrl:first-child,
+[dir='rtl'] .ctrl:last-child {
+  transform: scaleX(-1);
+}
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-block: 0.25rem;
+}
+@media (min-width: 40rem) {
+  .track {
+    grid-auto-columns: calc((100% - 1rem) / 2);
+  }
+}
+@media (min-width: 64rem) {
+  .track {
+    grid-auto-columns: calc((100% - 3rem) / 4);
+  }
+}
+.slide {
+  scroll-snap-align: start;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0.85rem;
+  padding: 1.1rem;
+  border-radius: var(--ifm-card-border-radius);
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  min-width: 0;
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+.logo {
+  flex: none;
+  inline-size: 3rem;
+  block-size: 3rem;
+  object-fit: contain;
+}
+.name {
+  margin: 0;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+.card {
+  margin: 0;
+  line-height: 1.5;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.actions :global(.button) {
+  min-block-size: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+}
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.pos {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.all {
+  color: #fff;
+  border-color: #fff;
+}
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    scroll-behavior: auto;
+  }
+}

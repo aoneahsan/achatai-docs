@@ -86,12 +86,8 @@ const sidebars: SidebarsConfig = {
     },
     'faq',
     'changelog',
-    {
-      type: 'category',
-      label: 'About',
-      collapsed: true,
-      items: ['about-the-author'],
-    },
+    // Who builds AChat (ecosystem standard, OD-31): the page that replaced about-the-author, which redirects to it.
+    { type: 'link', label: 'About the developer', href: '/about-developer' },
   ],
 };
 
