@@ -4,7 +4,7 @@ title: How AChat works
 description: The two identities in AChat — an account and an anonymous display name — which chat types exist, where messages live, and how long each kind is kept.
 keywords: [how AChat works, anonymous vs account chat, chat retention, on-device search, offline messages]
 last_update:
-  date: 2026-09-28
+  date: 2026-11-27
   author: AChat team
 ---
 
@@ -48,4 +48,4 @@ The [privacy page](https://achat.aoneahsan.com/privacy) lists everything else, a
 
 ## Platforms
 
-The same AChat runs in the browser and on Android, in five languages. There are no voice or video calls.
+The same AChat runs in the browser and on Android, in eleven languages. There are no voice or video calls.

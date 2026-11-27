@@ -4,7 +4,7 @@ title: Speak, Draft help and Catch me up
 description: Speak turns a recording into text in your message box, Draft help rewrites, shortens or translates your own draft, and Catch me up summarises an open room for you alone.
 keywords: [AChat AI, AChat Speak, AChat Draft help, AChat Catch me up, AChat speech to text, AChat AI privacy]
 last_update:
-  date: 2026-10-25
+  date: 2026-11-27
   author: AChat team
 ---
 
@@ -27,7 +27,7 @@ drops, your recording stays on the device so you can try again.
 ## Draft help
 
 **Draft help** is the sparkle button in the message box. It offers **Rewrite**, **Shorten** and **Translate** (into
-English, Spanish, French, German or Arabic) for the text you've written. Only the words in your message box are sent.
+any of AChat's eleven languages) for the text you've written. Only the words in your message box are sent.
 
 The suggestion shows above the box with **Keep mine** and **Use this text**. **Use this text** replaces your draft and
 offers **Undo**.

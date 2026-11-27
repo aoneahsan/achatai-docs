@@ -4,13 +4,13 @@ title: Introduction
 description: AChat is a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android. What it does, and what it doesn't promise.
 keywords: [AChat, messaging app, end-to-end encrypted chat, anonymous chat room, group chat, communities, no phone number chat]
 last_update:
-  date: 2026-11-21
+  date: 2026-11-27
   author: AChat team
 ---
 
 # Introduction
 
-**AChat is a messaging app for keeping up with the people you choose: personal chats, groups, communities, and anonymous rooms when you'd rather not use an account.** It runs in your browser at [achat.aoneahsan.com](https://achat.aoneahsan.com) and on [Android](https://play.google.com/store/apps/details?id=com.aoneahsan.achat), in English, Spanish, French, German and Arabic.
+**AChat is a messaging app for keeping up with the people you choose: personal chats, groups, communities, and anonymous rooms when you'd rather not use an account.** It runs in your browser at [achat.aoneahsan.com](https://achat.aoneahsan.com) and on [Android](https://play.google.com/store/apps/details?id=com.aoneahsan.achat), in eleven languages: English, Chinese, Hindi, Spanish, Arabic, French, Portuguese, Russian, Japanese, Urdu and German.
 
 There's no phone number to hand over. You sign in with Google, pick a username, and friends find you by that username, an invite link or a QR code. Anonymous rooms need no account at all.
 

@@ -4,7 +4,7 @@ title: FAQ
 description: Direct answers about AChat — accounts, encryption, anonymous rooms, how long messages last, plans, location history, account deletion and platforms.
 keywords: [AChat FAQ, is AChat encrypted, anonymous chat questions, AChat plans, delete AChat account]
 last_update:
-  date: 2026-11-21
+  date: 2026-11-27
   author: AChat team
 ---
 
@@ -72,7 +72,7 @@ Any current browser, and [Android](https://play.google.com/store/apps/details?id
 
 ## Which languages?
 
-English, Spanish, French, German and Arabic.
+Eleven: English, Chinese, Hindi, Spanish, Arabic, French, Portuguese, Russian, Japanese, Urdu and German. Arabic and Urdu read right to left.
 
 ## Who can use AChat?
 

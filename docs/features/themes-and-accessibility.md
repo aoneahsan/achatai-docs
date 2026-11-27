@@ -4,7 +4,7 @@ title: Appearance, language & shortcuts
 description: One Appearance panel for theme, colour, text size and motion; five interface languages including Arabic; keyboard shortcuts and focus mode in AChat.
 keywords: [dark mode chat, text size, reduce motion, keyboard shortcuts, Arabic RTL chat, AChat accessibility]
 last_update:
-  date: 2026-10-05
+  date: 2026-11-27
   author: AChat team
 ---
 
@@ -18,7 +18,7 @@ Open the Appearance panel to change the theme, colour, text size or motion. Each
 
 ## Language
 
-AChat's interface comes in English, Spanish, French, German and Arabic. Choose it at the end of the Appearance panel; each language appears under its own name. Arabic reads right to left.
+AChat's interface comes in eleven languages: English, Chinese, Hindi, Spanish, Arabic, French, Portuguese, Russian, Japanese, Urdu and German. Choose it at the end of the Appearance panel; each language appears under its own name. Arabic and Urdu read right to left, and Chinese, Hindi, Japanese and Urdu each get their own typeface.
 
 ## Keyboard shortcuts
 

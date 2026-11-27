@@ -4,13 +4,19 @@ title: Changelog
 description: AChat release history — the rebuild that adds personal chats, groups, communities and status, and the earlier releases of the anonymous chat.
 keywords: [AChat changelog, release notes, version history]
 last_update:
-  date: 2026-11-21
+  date: 2026-11-27
   author: AChat team
 ---
 
 # Changelog
 
 The in-app [release notes](https://achat.aoneahsan.com/feed) are the authority, with the date each change shipped. Older entries here describe AChat as it was at the time.
+
+## Eleven languages (2026-11-27)
+
+- **Six more languages:** Chinese, Hindi, Portuguese (Brazil), Russian, Japanese and Urdu join English, Spanish, French, German and Arabic, in the app, its public pages, its emails and these docs. Urdu reads right to left in Nastaliq.
+- **Every public page has its own address in each language**, such as `/ja/about`, and a choice of language carries over to the next visit.
+- **Translate** in Draft help offers all eleven.
 
 ## Other apps, assistants and two-step sign-in (2026-11-21)
 
