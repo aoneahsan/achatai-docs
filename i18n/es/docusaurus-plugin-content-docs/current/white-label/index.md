@@ -4,7 +4,7 @@ title: "Marca blanca y licencias"
 description: "Usa AChat con tu propio nombre, alojado por el equipo de AChat, o compra su código de una vez. Qué incluye cada camino y dónde están los precios."
 keywords: [AChat marca blanca, app de chat de marca blanca, licenciar AChat, comprar el código de AChat, chat anónimo para mi organización]
 last_update:
-  date: 2026-11-14
+  date: 2026-11-27
   author: Equipo de AChat
 ---
 
@@ -23,6 +23,18 @@ Los precios actuales están en la [página de precios de la licencia](https://ac
 | Exclusiva | No: otros también pueden licenciar AChat | Sí: el equipo de AChat deja de venderlo |
 | Actualizaciones | Seis meses incluidos, luego renovaciones | Seis meses incluidos, luego renovaciones |
 | Después de comprar | Renovaciones, si quieres más actualizaciones | Una regalía del 7% de los ingresos brutos de AChat, cada trimestre |
+
+## Qué recibe la gente que usa tu copia
+
+Tu copia es el mismo AChat que funciona en achat.aoneahsan.com, con tu nombre. Desde el primer día tiene:
+
+- **Chats personales y grupos privados**, con cifrado de extremo a extremo, dispositivos vinculados y una clave de recuperación que devuelve el historial.
+- **Salas anónimas** que no necesitan cuenta, con una contraseña opcional que además cifra la sala. Sus mensajes se borran tras un número fijo de días, 10 por defecto.
+- **Comunidades** con canales, hilos, denuncias, expulsiones y un historial de moderación.
+- **Estados** para los contactos, que desaparecen a las 24 horas.
+- **Once idiomas de interfaz**, con el árabe y el urdu de derecha a izquierda.
+
+Los límites también son los mismos: no hay llamadas de voz ni de vídeo, y las comunidades, las salas abiertas y los estados no tienen cifrado de extremo a extremo.
 
 ## En esta sección
 

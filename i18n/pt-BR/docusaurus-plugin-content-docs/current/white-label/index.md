@@ -4,7 +4,7 @@ title: "White-label e licenciamento"
 description: "Rode o AChat com o seu nome, hospedado pela equipe do AChat, ou compre o código-fonte de vez. O que cada caminho inclui e onde ficam os preços."
 keywords: [AChat white-label, app de chat white-label, licenciar o AChat, comprar o código-fonte do AChat, chat anônimo para minha organização]
 last_update:
-  date: 2026-11-14
+  date: 2026-11-27
   author: Equipe do AChat
 ---
 
@@ -23,6 +23,18 @@ Os preços atuais estão na [página de preços da licença](https://achat.aonea
 | Exclusivo | Não: outros também podem licenciar o AChat | Sim: a equipe do AChat para de vender |
 | Atualizações | Seis meses incluídos, depois renovações | Seis meses incluídos, depois renovações |
 | Depois da compra | Renovações, se quiser mais atualizações | Royalty de 7% sobre a receita bruta do AChat, pago a cada trimestre |
+
+## O que recebem as pessoas que usam a sua cópia
+
+A sua cópia é o mesmo AChat que roda em achat.aoneahsan.com, com o seu nome. Desde o primeiro dia ela tem:
+
+- **Conversas pessoais e grupos privados**, com criptografia de ponta a ponta, aparelhos vinculados e uma chave de recuperação que traz o histórico de volta.
+- **Salas anônimas** que não precisam de conta, com uma senha opcional que também criptografa a sala. As mensagens somem depois de um número definido de dias, 10 por padrão.
+- **Comunidades** com canais, conversas paralelas, denúncias, banimentos e um histórico de moderação.
+- **Status** para os contatos, que some depois de 24 horas.
+- **Onze idiomas de interface**, com árabe e urdu da direita para a esquerda.
+
+Os limites também são os mesmos: não há chamadas de voz nem de vídeo, e comunidades, salas abertas e status não têm criptografia de ponta a ponta.
 
 ## Nesta seção
 

@@ -41,12 +41,12 @@ export const FEED_TITLE_WITH_POSTS = 'AChat Docs: posts and changelog';
 const FEED_DESCRIPTION_WITH_POSTS =
   "The AChat team's posts from the blog, and AChat's release history from the changelog in these docs. The in-app release notes at achat.aoneahsan.com/feed are the authority, with the date each change shipped.";
 
-/** Docusaurus heading id (github-slugger rules for plain ASCII headings). */
+/** Docusaurus heading id (github-slugger rules: letters, combining marks such as Arabic tanween, numbers, spaces, dashes). */
 export function anchorOf(heading: string): string {
   return heading
     .trim()
     .toLowerCase()
-    .replace(/[^\p{L}\p{N}\s-]/gu, '')
+    .replace(/[^\p{L}\p{M}\p{N}\s-]/gu, '')
     .replace(/\s/g, '-');
 }
 

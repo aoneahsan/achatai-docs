@@ -7,71 +7,71 @@ This `llms.txt` follows the [llmstxt.org](https://llmstxt.org) spec.
 
 ## Get AChat
 
-- [All apps](https://achat-docs.aoneahsan.com/apps): every released surface of AChat.
+- [All apps](https://achat-docs.aoneahsan.com/apps/): every released surface of AChat.
 - [AChat web app](https://achat.aoneahsan.com)
 - [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.achat)
 
 ## Getting Started
 
-- [Introduction](https://achat-docs.aoneahsan.com/intro): what AChat does and what it doesn't promise.
-- [Installation & access](https://achat-docs.aoneahsan.com/getting-started/installation): web and Android; anonymous or with an account.
-- [Quick Start](https://achat-docs.aoneahsan.com/getting-started/quick-start): the first chat, with a contact or in an anonymous room.
+- [Introduction](https://achat-docs.aoneahsan.com/intro/): what AChat does and what it doesn't promise.
+- [Installation & access](https://achat-docs.aoneahsan.com/getting-started/installation/): web and Android; anonymous or with an account.
+- [Quick Start](https://achat-docs.aoneahsan.com/getting-started/quick-start/): the first chat, with a contact or in an anonymous room.
 
 ## Features
 
-- [Personal chats & contacts](https://achat-docs.aoneahsan.com/features/personal-chats-and-contacts): usernames, invite links, QR codes, requests, blocks, online status, read receipts.
-- [Devices & recovery key](https://achat-docs.aoneahsan.com/features/devices-and-recovery): linking devices, security codes, the recovery key.
-- [Anonymous rooms](https://achat-docs.aoneahsan.com/features/anonymous-chats): room IDs, display names, passwords, how long rooms last.
-- [Passwords & encryption](https://achat-docs.aoneahsan.com/features/passwords-and-encryption): which chats are end-to-end encrypted and the limits.
-- [Groups & communities](https://achat-docs.aoneahsan.com/features/groups-and-communities): encrypted groups; communities with channels, roles, reports and bans.
-- [Status](https://achat-docs.aoneahsan.com/features/status): 24-hour updates for contacts; not end-to-end encrypted.
-- [Kept rooms & your account](https://achat-docs.aoneahsan.com/features/keep-chats-and-accounts): keeping rooms, username, export, account deletion.
-- [Threads & replies](https://achat-docs.aoneahsan.com/features/threads-and-replies): replies and threads.
-- [Files, voice notes & media](https://achat-docs.aoneahsan.com/features/file-sharing): plan-based file allowances, voice notes, video.
-- [Manage messages](https://achat-docs.aoneahsan.com/features/manage-messages): edit, forward, Trash, clear, disappearing messages, view once, polls, archive.
-- [Writing messages](https://achat-docs.aoneahsan.com/features/writing-messages): drafts, spoilers, maths, mentions, stickers, dictation, translation, read aloud.
-- [Search & offline history](https://achat-docs.aoneahsan.com/features/search-and-history): on-device search and the offline outbox.
-- [Embeddable widget](https://achat-docs.aoneahsan.com/features/embeddable-widget): rooms and channels on other websites, with allowed websites.
-- [Notifications & email](https://achat-docs.aoneahsan.com/features/notifications-and-email): opt-in notifications without message text; account emails.
-- [Appearance, language & shortcuts](https://achat-docs.aoneahsan.com/features/themes-and-accessibility): the Appearance panel, eleven languages, keyboard shortcuts.
-- [Privacy on this device](https://achat-docs.aoneahsan.com/features/privacy-on-this-device): privacy screen, neutral tab, clipboard clearing, Wipe from this device.
-- [Device & location history](https://achat-docs.aoneahsan.com/features/location-history): what some chats record, who sees it, consent.
-- [Plans & pricing](https://achat-docs.aoneahsan.com/features/plans-and-pricing): Free, Pro, Team / Family, payment and referrals.
+- [Personal chats & contacts](https://achat-docs.aoneahsan.com/features/personal-chats-and-contacts/): usernames, invite links, QR codes, requests, blocks, online status, read receipts.
+- [Devices & recovery key](https://achat-docs.aoneahsan.com/features/devices-and-recovery/): linking devices, security codes, the recovery key.
+- [Anonymous rooms](https://achat-docs.aoneahsan.com/features/anonymous-chats/): room IDs, display names, passwords, how long rooms last.
+- [Passwords & encryption](https://achat-docs.aoneahsan.com/features/passwords-and-encryption/): which chats are end-to-end encrypted and the limits.
+- [Groups & communities](https://achat-docs.aoneahsan.com/features/groups-and-communities/): encrypted groups; communities with channels, roles, reports and bans.
+- [Status](https://achat-docs.aoneahsan.com/features/status/): 24-hour updates for contacts; not end-to-end encrypted.
+- [Kept rooms & your account](https://achat-docs.aoneahsan.com/features/keep-chats-and-accounts/): keeping rooms, username, export, account deletion.
+- [Threads & replies](https://achat-docs.aoneahsan.com/features/threads-and-replies/): replies and threads.
+- [Files, voice notes & media](https://achat-docs.aoneahsan.com/features/file-sharing/): plan-based file allowances, voice notes, video.
+- [Manage messages](https://achat-docs.aoneahsan.com/features/manage-messages/): edit, forward, Trash, clear, disappearing messages, view once, polls, archive.
+- [Writing messages](https://achat-docs.aoneahsan.com/features/writing-messages/): drafts, spoilers, maths, mentions, stickers, dictation, translation, read aloud.
+- [Search & offline history](https://achat-docs.aoneahsan.com/features/search-and-history/): on-device search and the offline outbox.
+- [Embeddable widget](https://achat-docs.aoneahsan.com/features/embeddable-widget/): rooms and channels on other websites, with allowed websites.
+- [Notifications & email](https://achat-docs.aoneahsan.com/features/notifications-and-email/): opt-in notifications without message text; account emails.
+- [Appearance, language & shortcuts](https://achat-docs.aoneahsan.com/features/themes-and-accessibility/): the Appearance panel, eleven languages, keyboard shortcuts.
+- [Privacy on this device](https://achat-docs.aoneahsan.com/features/privacy-on-this-device/): privacy screen, neutral tab, clipboard clearing, Wipe from this device.
+- [Device & location history](https://achat-docs.aoneahsan.com/features/location-history/): what some chats record, who sees it, consent.
+- [Plans & pricing](https://achat-docs.aoneahsan.com/features/plans-and-pricing/): Free, Pro, Team / Family, payment and referrals.
 
 ## White-label & licensing
 
-- [White-label & licensing](https://achat-docs.aoneahsan.com/white-label): run AChat under your own name, hosted by the AChat team, or buy its source code outright, for the buyout price plus a 7% royalty on its gross revenue (excluding sales tax/VAT), paid quarterly with a revenue statement for as long as it earns, including after a resale.
-- [What you get per platform](https://achat-docs.aoneahsan.com/white-label/what-is-delivered): the web app and the mobile app (Android, iOS on request).
-- [Setting up your copy](https://achat-docs.aoneahsan.com/white-label/setup): licence email, domain, name, logo and colours.
-- [Updates and renewals](https://achat-docs.aoneahsan.com/white-label/updates-and-renewals): six months included, renewals, running without one.
-- [Verify a licence](https://achat-docs.aoneahsan.com/white-label/verify-a-licence): checking a copy by key or by domain.
-- [White-label questions](https://achat-docs.aoneahsan.com/white-label/faq): source code, exclusivity, the buyout royalty, paying by Wise transfer, custom work, iOS.
+- [White-label & licensing](https://achat-docs.aoneahsan.com/white-label/): run AChat under your own name, hosted by the AChat team, or buy its source code outright, for the buyout price plus a 7% royalty on its gross revenue (excluding sales tax/VAT), paid quarterly with a revenue statement for as long as it earns, including after a resale.
+- [What you get per platform](https://achat-docs.aoneahsan.com/white-label/what-is-delivered/): the web app and the mobile app (Android, iOS on request).
+- [Setting up your copy](https://achat-docs.aoneahsan.com/white-label/setup/): licence email, domain, name, logo and colours.
+- [Updates and renewals](https://achat-docs.aoneahsan.com/white-label/updates-and-renewals/): six months included, renewals, running without one.
+- [Verify a licence](https://achat-docs.aoneahsan.com/white-label/verify-a-licence/): checking a copy by key or by domain.
+- [White-label questions](https://achat-docs.aoneahsan.com/white-label/faq/): source code, exclusivity, the buyout royalty, paying by Wise transfer, custom work, iOS.
 - Prices: https://achat.aoneahsan.com/white-label/pricing (licence) and https://achat.aoneahsan.com/white-label/buyout (buyout).
 
 ## Developers
 
-- [AChat for developers](https://achat-docs.aoneahsan.com/developers): what outside apps can reach (own profile, settings, status posts and blocked list read and change; contacts, chats, open-room messages, communities and channels read only; end-to-end encrypted messages never) and the plan limits.
-- [Access keys](https://achat-docs.aoneahsan.com/developers/access-keys): achat_pat_ keys, permissions, expiry (Never only for read-only keys), showing a key again within 10 minutes of a sign-in.
-- [The AChat API](https://achat-docs.aoneahsan.com/developers/api): base URL https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1, Bearer auth, envelope, errors, cursor pagination, every resource with curl.
-- [Connect an assistant](https://achat-docs.aoneahsan.com/developers/assistants): MCP address https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/mcp for Claude, ChatGPT, Claude Code and Cursor; deletes wait for the person's yes.
-- [Webhooks](https://achat-docs.aoneahsan.com/developers/webhooks): Standard Webhooks signatures, events carrying ids and times only, Node and Python verification, retries.
-- [Two-step sign-in](https://achat-docs.aoneahsan.com/developers/two-step-sign-in): authenticator codes, recovery codes, remembered browsers, a lost phone.
-- [Developer changelog](https://achat-docs.aoneahsan.com/developers/changelog): API and platform changes.
+- [AChat for developers](https://achat-docs.aoneahsan.com/developers/): what outside apps can reach (own profile, settings, status posts and blocked list read and change; contacts, chats, open-room messages, communities and channels read only; end-to-end encrypted messages never) and the plan limits.
+- [Access keys](https://achat-docs.aoneahsan.com/developers/access-keys/): achat_pat_ keys, permissions, expiry (Never only for read-only keys), showing a key again within 10 minutes of a sign-in.
+- [The AChat API](https://achat-docs.aoneahsan.com/developers/api/): base URL https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1, Bearer auth, envelope, errors, cursor pagination, every resource with curl.
+- [Connect an assistant](https://achat-docs.aoneahsan.com/developers/assistants/): MCP address https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/mcp for Claude, ChatGPT, Claude Code and Cursor; deletes wait for the person's yes.
+- [Webhooks](https://achat-docs.aoneahsan.com/developers/webhooks/): Standard Webhooks signatures, events carrying ids and times only, Node and Python verification, retries.
+- [Two-step sign-in](https://achat-docs.aoneahsan.com/developers/two-step-sign-in/): authenticator codes, recovery codes, remembered browsers, a lost phone.
+- [Developer changelog](https://achat-docs.aoneahsan.com/developers/changelog/): API and platform changes.
 - OpenAPI: https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1/openapi.json (Markdown: https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/api/v1/openapi.md)
 
 ## Concepts
 
-- [How AChat works](https://achat-docs.aoneahsan.com/concepts/how-it-works): identities, chat types, where messages live, retention.
-- [Security & encryption model](https://achat-docs.aoneahsan.com/concepts/security-and-encryption): what encryption covers and can't do.
-- [Admin oversight](https://achat-docs.aoneahsan.com/concepts/admin-oversight): what administrators see and do, and the action log.
-- [Data, privacy & deletion](https://achat-docs.aoneahsan.com/concepts/data-privacy-and-deletion): collection, processors, retention, controls.
+- [How AChat works](https://achat-docs.aoneahsan.com/concepts/how-it-works/): identities, chat types, where messages live, retention.
+- [Security & encryption model](https://achat-docs.aoneahsan.com/concepts/security-and-encryption/): what encryption covers and can't do.
+- [Admin oversight](https://achat-docs.aoneahsan.com/concepts/admin-oversight/): what administrators see and do, and the action log.
+- [Data, privacy & deletion](https://achat-docs.aoneahsan.com/concepts/data-privacy-and-deletion/): collection, processors, retention, controls.
 
 ## Reference
 
-- [FAQ](https://achat-docs.aoneahsan.com/faq): direct answers.
-- [Changelog](https://achat-docs.aoneahsan.com/changelog): release history.
-- [About the developer](https://achat-docs.aoneahsan.com/about-developer): who builds AChat (Ahsan Mahmood and Zaions), why it exists and how it got here, with dates.
-- [Products from Zaions](https://achat-docs.aoneahsan.com/ecosystem): every other product the AChat team makes, and how each fits beside your chats.
+- [FAQ](https://achat-docs.aoneahsan.com/faq/): direct answers.
+- [Changelog](https://achat-docs.aoneahsan.com/changelog/): release history.
+- [About the developer](https://achat-docs.aoneahsan.com/about-developer/): who builds AChat (Ahsan Mahmood and Zaions), why it exists and how it got here, with dates.
+- [Products from Zaions](https://achat-docs.aoneahsan.com/ecosystem/): every other product the AChat team makes, and how each fits beside your chats.
 
 ## Links
 

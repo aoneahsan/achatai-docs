@@ -4,7 +4,7 @@ title: "White-label & licensing"
 description: "Run AChat under your own name, hosted by the AChat team, or buy its source code outright. What each path includes, and where the prices live."
 keywords: [AChat white label, white-label chat app, license AChat, buy AChat source code, anonymous chat for my organisation]
 last_update:
-  date: 2026-11-14
+  date: 2026-11-27
   author: AChat team
 ---
 
@@ -23,6 +23,18 @@ Current prices are on the [licence prices page](https://achat.aoneahsan.com/whit
 | Exclusive | No: others can license AChat too | Yes: the AChat team stops selling it |
 | Updates | Six months included, then renewals | Six months included, then renewals |
 | After the purchase | Renewals, if you want more updates | A 7% royalty on AChat's gross revenue, paid quarterly |
+
+## What the people using your copy get
+
+Your copy is the same AChat that runs at achat.aoneahsan.com, under your name. On the first day it has:
+
+- **Personal chats and private groups**, end-to-end encrypted, with linked devices and a recovery key that brings history back.
+- **Anonymous rooms** that need no account, with an optional password that also encrypts the room. Their messages go after a set number of days, 10 by default.
+- **Communities** with channels, threads, reports, bans and a moderation history.
+- **Status** updates for contacts that disappear after 24 hours.
+- **Eleven interface languages**, with Arabic and Urdu reading right to left.
+
+It has the same limits too: no voice or video calls, and communities, open rooms and status aren't end-to-end encrypted.
 
 ## In this section
 

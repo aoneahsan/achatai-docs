@@ -6,6 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import changelogFeed, { FEED_TITLE, FEED_TITLE_WITH_POSTS } from './src/plugins/changelog-feed';
 import docsDirectory from './src/plugins/docs-directory';
 import notFoundHead from './src/plugins/not-found-head';
+import faqSchema from './src/plugins/faq-schema';
 import linkLawGate from './src/plugins/link-law-gate';
 import rehypeLinkLaw from './src/plugins/rehype-link-law';
 import { BLOG_DESCRIPTION, BLOG_PATH, BLOG_TITLE } from './src/data/blog';
@@ -224,7 +225,9 @@ const config: Config = {
     },
   },
 
-  trailingSlash: false,
+  // GitHub Pages serves folder/index.html and 301s a slashless path to its slashed form, so every canonical, sitemap
+  // URL and link carries the slash (owner, 2026-11-27).
+  trailingSlash: true,
 
   markdown: {
     mermaid: true,
@@ -235,6 +238,7 @@ const config: Config = {
     changelogFeed,
     docsDirectory,
     notFoundHead,
+    faqSchema,
     linkLawGate,
     // The old team page moved to /about-developer (ecosystem standard, OD-31); its address keeps working.
     ['@docusaurus/plugin-client-redirects', { redirects: [{ from: '/about-the-author', to: '/about-developer' }] }],
@@ -252,6 +256,8 @@ const config: Config = {
           showLastUpdateAuthor: true,
           breadcrumbs: true,
           rehypePlugins: [rehypeLinkLaw],
+          // No tag pages: they only repeat other pages' links (owner, 2026-11-27). A tag in front matter fails the build.
+          onInlineTags: 'throw',
           // `docs/` is BOTH the published content dir and the home of the
           // fixed-path internal file docs/MANUAL-TASKS.md. Keep the path (the
           // global rule fixes it) but never publish it — this repo is public.
@@ -262,6 +268,8 @@ const config: Config = {
             '**/*.test.{js,jsx,ts,tsx}',
             '**/__tests__/**',
             'MANUAL-TASKS.md',
+            // The search-console fix log is a record for the next session, not a page (same path in every repo).
+            'search-consoles/**',
           ],
         },
         blog: HAS_POSTS && {
