@@ -30,7 +30,7 @@ Nada é importado do Session.
 |---|---|---|
 | Cadastro sem número de telefone | Sim | Sim (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 | Criptografia de ponta a ponta nas conversas pessoais | Sim | Sim (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
-| Histórico volta num aparelho novo | Em parte | Em parte (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
+| O histórico volta em um dispositivo novo | Em parte | Em parte (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 
 Perdeu a chave de recuperação e todos os aparelhos vinculados, o seu histórico do AChat não pode ser restaurado por ninguém, nem por nós. O AChat não tem chamadas de voz nem de vídeo.
 

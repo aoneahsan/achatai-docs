@@ -32,8 +32,8 @@ last_update:
 | 功能 | AChat | Threema |
 |---|---|---|
 | 不用手机号注册 | 是 | 是（<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 私人聊天端到端加密 | 是 | 我们查看的页面上没有说明 |
-| 新设备上找回历史 | 部分 | 部分（<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 我们查看的页面上没有说明 |
+| 换新设备后记录能找回 | 部分 | 部分（<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 没有已关联的设备或恢复密钥时，谁都无法恢复 AChat 的历史，包括我们。AChat 里没有语音或视频通话。
 

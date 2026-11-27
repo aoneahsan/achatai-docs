@@ -30,7 +30,7 @@ Votre historique Telegram reste dans Telegram. AChat n'importe pas les discussio
 | Fonctionnalité | AChat | Telegram |
 |---|---|---|
 | Inscription sans numéro de téléphone | Oui | Non (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
-| Chiffrement de bout en bout des discussions personnelles | Oui | En partie (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
+| Chiffrement de bout en bout des chats personnels | Oui | En partie (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 | L'historique revient sur un nouvel appareil | En partie | Oui (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 Ce « En partie », c'est le compromis. Un autre appareil associé ou votre clé de récupération ramène votre historique. Sans l'un ni l'autre, personne ne peut le restaurer, l'équipe AChat comprise. AChat n'a pas non plus d'appels vocaux ou vidéo.

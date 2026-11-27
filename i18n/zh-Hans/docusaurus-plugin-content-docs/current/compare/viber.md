@@ -30,7 +30,7 @@ Viber 的历史不会搬过来。AChat 不导入其他应用的聊天。
 
 | 功能 | AChat | Viber |
 |---|---|---|
-| 新设备上找回历史 | 部分 | 部分（<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 换新设备后记录能找回 | 部分 | 部分（<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 对 AChat 来说，“部分”指已关联的设备或恢复密钥。两者都丢了，谁都无法恢复你的历史，包括我们。
 

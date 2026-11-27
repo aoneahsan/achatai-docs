@@ -28,7 +28,7 @@ No se importa nada de Session.
 
 | Función | AChat | Session |
 |---|---|---|
-| Registrarse sin número de teléfono | Sí | Sí (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
+| Registro sin número de teléfono | Sí | Sí (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | Cifrado de extremo a extremo en chats personales | Sí | Sí (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | El historial vuelve en un dispositivo nuevo | En parte | En parte (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 

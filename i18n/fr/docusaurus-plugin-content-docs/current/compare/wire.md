@@ -31,7 +31,7 @@ La page des tarifs de Wire confirme le chiffrement de bout en bout. Elle ne dit 
 
 | Fonctionnalité | AChat | Wire |
 |---|---|---|
-| Chiffrement de bout en bout des discussions personnelles | Oui | Oui (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
+| Chiffrement de bout en bout des chats personnels | Oui | Oui (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 AChat ne demande jamais de numéro de téléphone. Son historique revient par un appareil associé ou votre clé de récupération, et sans l'un ni l'autre personne ne peut le restaurer, nous compris. AChat n'a pas d'appels vocaux ou vidéo.
 

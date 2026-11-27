@@ -28,7 +28,7 @@ Los chats se quedan en SimpleX. AChat no importa de otras apps.
 
 | Función | AChat | SimpleX Chat |
 |---|---|---|
-| Registrarse sin número de teléfono | Sí | Sí (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
+| Registro sin número de teléfono | Sí | Sí (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | Cifrado de extremo a extremo en chats personales | Sí | Sí (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | El historial vuelve en un dispositivo nuevo | En parte | Sí (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 

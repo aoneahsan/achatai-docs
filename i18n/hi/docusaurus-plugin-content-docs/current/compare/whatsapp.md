@@ -27,9 +27,9 @@ WhatsApp पर जिसके पास आपका नंबर है, व�
 
 | फ़ीचर | AChat | WhatsApp |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | नहीं (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | जो पेज हमने देखे उन पर नहीं लिखा |
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | आंशिक (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | नहीं (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | जो पेज हमने देखे उन पर नहीं लिखा |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | आंशिक (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 हमारी तरफ़ "आंशिक" का मतलब यह है: कोई दूसरा जुड़ा डिवाइस या आपकी रिकवरी की आपका एन्क्रिप्टेड इतिहास वापस लाती है। दोनों खो जाएँ, तो कोई उसे वापस नहीं ला सकता, हम भी नहीं।
 

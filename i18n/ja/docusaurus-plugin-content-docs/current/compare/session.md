@@ -30,7 +30,7 @@ Session からは何も取り込まれません。
 |---|---|---|
 | 電話番号なしで登録 | はい | はい（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 | 個人チャットのエンドツーエンド暗号化 | はい | はい（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
-| 新しい端末で履歴が戻る | 一部 | 一部（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | 一部（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 復元キーとリンクしたすべての端末をなくすと、私たちを含め誰も AChat の履歴を戻せません。AChat には音声通話もビデオ通話もありません。
 

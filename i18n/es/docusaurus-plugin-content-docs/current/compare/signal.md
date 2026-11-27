@@ -28,7 +28,7 @@ Las llamadas se quedan en Signal. Los mensajes antiguos de Signal también, porq
 
 | Función | AChat | Signal |
 |---|---|---|
-| Registrarse sin número de teléfono | Sí | No se indica en las páginas que revisamos |
+| Registro sin número de teléfono | Sí | No se indica en las páginas que revisamos |
 | Cifrado de extremo a extremo en chats personales | Sí | Sí (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | El historial vuelve en un dispositivo nuevo | En parte | En parte (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 

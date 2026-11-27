@@ -29,7 +29,7 @@ Les appels restent sur Signal. Les anciens messages Signal aussi, puisqu'AChat n
 | Fonctionnalité | AChat | Signal |
 |---|---|---|
 | Inscription sans numéro de téléphone | Oui | Non précisé sur les pages consultées |
-| Chiffrement de bout en bout des discussions personnelles | Oui | Oui (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
+| Chiffrement de bout en bout des chats personnels | Oui | Oui (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 | L'historique revient sur un nouvel appareil | En partie | En partie (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 Les deux disent « En partie », pour des raisons différentes. Sur AChat, cela veut dire un appareil associé ou la clé de récupération. Perdez les deux, et personne ne peut restaurer votre historique, nous compris.

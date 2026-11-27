@@ -29,7 +29,7 @@ last_update:
 | Возможность | AChat | Signal |
 |---|---|---|
 | Регистрация без номера телефона | Да | На проверенных страницах не указано |
-| Сквозное шифрование в личных чатах | Да | Да (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
+| Сквозное шифрование личных чатов | Да | Да (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 | История возвращается на новом устройстве | Частично | Частично (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 
 Оба пишут «Частично», но по разным причинам. В AChat это значит: привязанное устройство или ключ восстановления. Потеряете и то и другое — историю не восстановит никто, включая нас.

@@ -30,7 +30,7 @@ As ligações ficam no Signal. As mensagens antigas do Signal também, já que o
 |---|---|---|
 | Cadastro sem número de telefone | Sim | Não informado nas páginas que conferimos |
 | Criptografia de ponta a ponta nas conversas pessoais | Sim | Sim (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
-| Histórico volta num aparelho novo | Em parte | Em parte (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
+| O histórico volta em um dispositivo novo | Em parte | Em parte (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 
 Os dois dizem "Em parte" por motivos diferentes. No AChat, quer dizer um aparelho vinculado ou a chave de recuperação. Perdeu os dois, ninguém consegue restaurar o seu histórico, nem nós.
 

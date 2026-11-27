@@ -28,9 +28,9 @@ last_update:
 
 | فیچر | AChat | Signal |
 |---|---|---|
-| بغیر فون نمبر سائن اپ | ہاں | جو صفحات ہم نے دیکھے ان پر درج نہیں |
-| ذاتی چیٹس پر اینڈ ٹو اینڈ انکرپشن | ہاں | ہاں (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| نئی ڈیوائس پر تاریخ واپس آتی ہے | جزوی | جزوی (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| فون نمبر کے بغیر سائن اپ | ہاں | جو صفحات ہم نے دیکھے ان پر درج نہیں |
+| ذاتی چیٹس میں اینڈ ٹو اینڈ انکرپشن | ہاں | ہاں (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| نئی ڈیوائس پر ہسٹری واپس آتی ہے | جزوی | جزوی (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 دونوں "جزوی" کہتے ہیں، الگ الگ وجوہات سے۔ AChat پر اس کا مطلب ہے منسلک ڈیوائس یا ریکوری کی۔ دونوں کھو جائیں، تو کوئی آپ کی تاریخ بحال نہیں کر سکتا، ہم بھی نہیں۔
 

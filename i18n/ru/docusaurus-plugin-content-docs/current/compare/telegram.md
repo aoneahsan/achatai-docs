@@ -30,7 +30,7 @@ last_update:
 | Возможность | AChat | Telegram |
 |---|---|---|
 | Регистрация без номера телефона | Да | Нет (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
-| Сквозное шифрование в личных чатах | Да | Частично (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
+| Сквозное шифрование личных чатов | Да | Частично (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 | История возвращается на новом устройстве | Частично | Да (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 
 Это «Частично» — и есть компромисс. Другое привязанное устройство или ключ восстановления возвращают историю. Без них её не восстановит никто, включая команду AChat. Ещё в AChat нет голосовых и видеозвонков.

@@ -29,8 +29,8 @@ last_update:
 | 功能 | AChat | SimpleX Chat |
 |---|---|---|
 | 不用手机号注册 | 是 | 是（<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 私人聊天端到端加密 | 是 | 是（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 新设备上找回历史 | 部分 | 是（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 是（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 换新设备后记录能找回 | 部分 | 是（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 在 AChat 上，历史只能通过已关联的设备或恢复密钥回来，没有它们谁都无法恢复，包括 AChat 团队。AChat 没有语音或视频通话。
 

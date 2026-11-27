@@ -30,7 +30,7 @@ So wie wir sie gelesen haben, sagten die Seiten von Viber weder, ob man sich ohn
 
 | Funktion | AChat | Viber |
 |---|---|---|
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Teilweise (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Teilweise (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Bei AChat heißt „teilweise“: ein verknüpftes Gerät oder der Wiederherstellungsschlüssel. Verlierst du beides, kann niemand deinen Verlauf wiederherstellen, auch wir nicht.
 

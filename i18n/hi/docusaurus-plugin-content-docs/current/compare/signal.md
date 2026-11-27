@@ -28,9 +28,9 @@ last_update:
 
 | फ़ीचर | AChat | Signal |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | जो पेज हमने देखे उन पर नहीं लिखा |
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | आंशिक (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | जो पेज हमने देखे उन पर नहीं लिखा |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | आंशिक (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 दोनों "आंशिक" कहते हैं, अलग-अलग वजहों से। AChat पर इसका मतलब है जुड़ा डिवाइस या रिकवरी की। दोनों खो जाएँ, तो कोई आपका इतिहास वापस नहीं ला सकता, हम भी नहीं।
 

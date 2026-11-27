@@ -33,7 +33,7 @@ As suas conversas do Threema não vêm junto. O AChat não importa conversas de 
 |---|---|---|
 | Cadastro sem número de telefone | Sim | Sim (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 | Criptografia de ponta a ponta nas conversas pessoais | Sim | Não informado nas páginas que conferimos |
-| Histórico volta num aparelho novo | Em parte | Em parte (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
+| O histórico volta em um dispositivo novo | Em parte | Em parte (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 
 Sem um aparelho vinculado ou a sua chave de recuperação, ninguém consegue restaurar o histórico do AChat, nem nós. Não há chamadas de voz nem de vídeo no AChat.
 

@@ -27,9 +27,9 @@ WhatsApp پر جس کے پاس آپ کا نمبر ہے، وہ آپ کو ڈھون
 
 | فیچر | AChat | WhatsApp |
 |---|---|---|
-| بغیر فون نمبر سائن اپ | ہاں | نہیں (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| ذاتی چیٹس پر اینڈ ٹو اینڈ انکرپشن | ہاں | جو صفحات ہم نے دیکھے ان پر درج نہیں |
-| نئی ڈیوائس پر تاریخ واپس آتی ہے | جزوی | جزوی (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| فون نمبر کے بغیر سائن اپ | ہاں | نہیں (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| ذاتی چیٹس میں اینڈ ٹو اینڈ انکرپشن | ہاں | جو صفحات ہم نے دیکھے ان پر درج نہیں |
+| نئی ڈیوائس پر ہسٹری واپس آتی ہے | جزوی | جزوی (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 ہماری طرف "جزوی" کا مطلب یہ ہے: کوئی دوسری منسلک ڈیوائس یا آپ کی ریکوری کی آپ کی انکرپٹڈ تاریخ واپس لاتی ہے۔ دونوں کھو جائیں، تو کوئی اسے بحال نہیں کر سکتا، ہم بھی نہیں۔
 

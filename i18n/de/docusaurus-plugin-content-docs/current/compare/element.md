@@ -29,7 +29,7 @@ Wir haben die Preisseite von Element gelesen. Dort steht, dass man sich ohne Tel
 
 | Funktion | AChat | Element |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Ja (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Anmeldung ohne Telefonnummer | Ja | Ja (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Bei AChat sind persönliche Chats Ende-zu-Ende-verschlüsselt. Ein verknüpftes Gerät oder dein Wiederherstellungsschlüssel holt deinen Verlauf zurück, und ohne sie kann ihn niemand wiederherstellen, auch wir nicht. Sprach- oder Videoanrufe gibt es nicht.
 

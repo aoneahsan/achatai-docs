@@ -29,7 +29,7 @@ No WhatsApp, quem tem o seu número consegue te achar. No AChat ninguém te acha
 |---|---|---|
 | Cadastro sem número de telefone | Sim | Não (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 | Criptografia de ponta a ponta nas conversas pessoais | Sim | Não informado nas páginas que conferimos |
-| Histórico volta num aparelho novo | Em parte | Em parte (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
+| O histórico volta em um dispositivo novo | Em parte | Em parte (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 
 "Em parte", do nosso lado, quer dizer isto: outro aparelho vinculado ou a sua chave de recuperação traz de volta o seu histórico criptografado. Perdeu os dois, ninguém consegue restaurar, nem nós.
 

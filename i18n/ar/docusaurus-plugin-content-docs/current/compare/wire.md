@@ -31,7 +31,7 @@ last_update:
 
 | الميزة | AChat | Wire |
 |---|---|---|
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | نعم (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | نعم (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 لا يطلب AChat رقم هاتف أبدًا. يعود سجلّه عبر جهاز مرتبط أو مفتاح الاسترداد، ودون أيٍّ منهما لا يستطيع أحد استعادته، ولا نحن. وليس في AChat مكالمات صوتية أو مرئية.
 

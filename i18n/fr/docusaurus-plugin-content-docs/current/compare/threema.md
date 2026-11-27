@@ -32,7 +32,7 @@ Vos discussions Threema ne suivent pas. AChat n'importe pas les discussions d'au
 | Fonctionnalité | AChat | Threema |
 |---|---|---|
 | Inscription sans numéro de téléphone | Oui | Oui (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
-| Chiffrement de bout en bout des discussions personnelles | Oui | Non précisé sur les pages consultées |
+| Chiffrement de bout en bout des chats personnels | Oui | Non précisé sur les pages consultées |
 | L'historique revient sur un nouvel appareil | En partie | En partie (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 Sans appareil associé ni clé de récupération, personne ne peut restaurer l'historique AChat, nous compris. AChat n'a pas d'appels vocaux ou vidéo.

@@ -28,7 +28,7 @@ Sur WhatsApp, quiconque a votre numéro peut vous trouver. Sur AChat, personne n
 | Fonctionnalité | AChat | WhatsApp |
 |---|---|---|
 | Inscription sans numéro de téléphone | Oui | Non (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
-| Chiffrement de bout en bout des discussions personnelles | Oui | Non précisé sur les pages consultées |
+| Chiffrement de bout en bout des chats personnels | Oui | Non précisé sur les pages consultées |
 | L'historique revient sur un nouvel appareil | En partie | En partie (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 « En partie », de notre côté, signifie ceci : un autre appareil associé ou votre clé de récupération ramène votre historique chiffré. Si vous perdez les deux, personne ne peut le restaurer, nous compris.

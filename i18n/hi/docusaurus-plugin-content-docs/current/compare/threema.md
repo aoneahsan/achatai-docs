@@ -31,9 +31,9 @@ last_update:
 
 | फ़ीचर | AChat | Threema |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | हाँ (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | जो पेज हमने देखे उन पर नहीं लिखा |
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | आंशिक (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | हाँ (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | जो पेज हमने देखे उन पर नहीं लिखा |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | आंशिक (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 जुड़े डिवाइस या रिकवरी की के बिना कोई AChat इतिहास वापस नहीं ला सकता, हम भी नहीं। AChat में वॉइस या वीडियो कॉल नहीं है।
 

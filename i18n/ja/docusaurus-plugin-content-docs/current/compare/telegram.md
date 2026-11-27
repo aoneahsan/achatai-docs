@@ -31,7 +31,7 @@ Telegram の履歴は Telegram に残ります。AChat はほかのアプリの�
 |---|---|---|
 | 電話番号なしで登録 | はい | いいえ（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 | 個人チャットのエンドツーエンド暗号化 | はい | 一部（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
-| 新しい端末で履歴が戻る | 一部 | はい（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | はい（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 その「一部」がトレードオフです。リンクしたほかの端末か復元キーがあれば履歴は戻ります。どちらもなければ、AChat チームを含め誰も復元できません。AChat には音声通話もビデオ通話もありません。
 

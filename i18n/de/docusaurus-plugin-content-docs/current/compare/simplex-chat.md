@@ -28,9 +28,9 @@ Chats bleiben in SimpleX. AChat importiert nicht aus anderen Apps.
 
 | Funktion | AChat | SimpleX Chat |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Ja (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Anmeldung ohne Telefonnummer | Ja | Ja (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 | Ende-zu-Ende-Verschlüsselung in persönlichen Chats | Ja | Ja (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Ja (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Ja (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Bei AChat kommt der Verlauf nur über ein verknüpftes Gerät oder deinen Wiederherstellungsschlüssel zurück, und ohne sie kann ihn niemand wiederherstellen, auch nicht das AChat-Team. AChat hat keine Sprach- oder Videoanrufe.
 

@@ -28,9 +28,9 @@ last_update:
 
 | الميزة | AChat | Session |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | نعم (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | نعم (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| عودة السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | نعم (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | نعم (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| يعود السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 إن فقدت مفتاح الاسترداد وكل جهاز مرتبط، لا يستطيع أحد استعادة سجلّك في AChat، ولا نحن. وليس في AChat مكالمات صوتية أو مرئية.
 

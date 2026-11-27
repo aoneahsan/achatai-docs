@@ -29,8 +29,8 @@ Session 的内容都不会导入。
 | 功能 | AChat | Session |
 |---|---|---|
 | 不用手机号注册 | 是 | 是（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 私人聊天端到端加密 | 是 | 是（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 新设备上找回历史 | 部分 | 部分（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 是（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 换新设备后记录能找回 | 部分 | 部分（<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 恢复密钥和所有已关联的设备都丢了，你的 AChat 历史谁都无法恢复，包括我们。AChat 没有语音或视频通话。
 

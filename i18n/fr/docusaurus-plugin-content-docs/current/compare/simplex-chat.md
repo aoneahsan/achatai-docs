@@ -29,7 +29,7 @@ Les discussions restent dans SimpleX. AChat n'importe rien depuis d'autres apps.
 | Fonctionnalité | AChat | SimpleX Chat |
 |---|---|---|
 | Inscription sans numéro de téléphone | Oui | Oui (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
-| Chiffrement de bout en bout des discussions personnelles | Oui | Oui (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
+| Chiffrement de bout en bout des chats personnels | Oui | Oui (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 | L'historique revient sur un nouvel appareil | En partie | Oui (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 Sur AChat, l'historique ne revient que par un appareil associé ou votre clé de récupération, et sans eux personne ne peut le restaurer, l'équipe AChat comprise. AChat n'a pas d'appels vocaux ou vidéo.

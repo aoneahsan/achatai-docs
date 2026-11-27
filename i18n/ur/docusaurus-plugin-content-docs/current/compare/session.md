@@ -28,9 +28,9 @@ Session سے کچھ بھی امپورٹ نہیں ہوتا۔
 
 | فیچر | AChat | Session |
 |---|---|---|
-| بغیر فون نمبر سائن اپ | ہاں | ہاں (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| ذاتی چیٹس پر اینڈ ٹو اینڈ انکرپشن | ہاں | ہاں (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| نئی ڈیوائس پر تاریخ واپس آتی ہے | جزوی | جزوی (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| فون نمبر کے بغیر سائن اپ | ہاں | ہاں (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| ذاتی چیٹس میں اینڈ ٹو اینڈ انکرپشن | ہاں | ہاں (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| نئی ڈیوائس پر ہسٹری واپس آتی ہے | جزوی | جزوی (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 ریکوری کی اور ہر منسلک ڈیوائس کھو دیں، تو آپ کی AChat تاریخ کوئی بحال نہیں کر سکتا، ہم بھی نہیں۔ AChat میں آواز یا ویڈیو کال نہیں۔
 

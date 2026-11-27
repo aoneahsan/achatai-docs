@@ -29,9 +29,9 @@ last_update:
 
 | फ़ीचर | AChat | Telegram |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | नहीं (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | आंशिक (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | हाँ (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | नहीं (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | आंशिक (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | हाँ (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 वह "आंशिक" ही सौदा है। कोई दूसरा जुड़ा डिवाइस या आपकी रिकवरी की आपका इतिहास वापस लाती है। दोनों के बिना कोई उसे वापस नहीं ला सकता, AChat टीम भी नहीं। AChat में वॉइस या वीडियो कॉल भी नहीं है।
 

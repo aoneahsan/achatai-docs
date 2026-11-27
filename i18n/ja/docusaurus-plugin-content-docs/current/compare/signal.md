@@ -30,7 +30,7 @@ last_update:
 |---|---|---|
 | 電話番号なしで登録 | はい | 確認したページに記載なし |
 | 個人チャットのエンドツーエンド暗号化 | はい | はい（<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
-| 新しい端末で履歴が戻る | 一部 | 一部（<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | 一部（<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 どちらも「一部」ですが、理由が違います。AChat では、リンクした端末か復元キーのことです。両方なくすと、私たちを含め誰も履歴を戻せません。
 

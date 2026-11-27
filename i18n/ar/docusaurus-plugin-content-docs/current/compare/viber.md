@@ -30,7 +30,7 @@ last_update:
 
 | الميزة | AChat | Viber |
 |---|---|---|
-| عودة السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| يعود السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 في AChat تعني «جزئيًا» جهازًا مرتبطًا أو مفتاح الاسترداد. وإن فقدت الاثنين، لا يستطيع أحد استعادة سجلّك، ولا نحن.
 

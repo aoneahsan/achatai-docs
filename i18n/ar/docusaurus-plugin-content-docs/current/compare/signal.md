@@ -28,9 +28,9 @@ last_update:
 
 | الميزة | AChat | Signal |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | غير مذكور في الصفحات التي راجعناها |
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | نعم (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| عودة السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | غير مذكور في الصفحات التي راجعناها |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | نعم (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| يعود السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 يقول الاثنان «جزئيًا» لأسباب مختلفة. في AChat يعني ذلك جهازًا مرتبطًا أو مفتاح الاسترداد. وإن فقدت الاثنين، لا يستطيع أحد استعادة سجلّك، ولا نحن.
 

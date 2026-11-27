@@ -27,9 +27,9 @@ last_update:
 
 | الميزة | AChat | WhatsApp |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | لا (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | غير مذكور في الصفحات التي راجعناها |
-| عودة السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | لا (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | غير مذكور في الصفحات التي راجعناها |
+| يعود السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 «جزئيًا» من جهتنا تعني هذا: جهاز مرتبط آخر أو مفتاح الاسترداد يعيد سجلّك المشفّر. وإن فقدت الاثنين، لا يستطيع أحد استعادته، ولا نحن.
 

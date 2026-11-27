@@ -29,7 +29,7 @@ last_update:
 
 | الميزة | AChat | Element |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | نعم (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | نعم (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 في AChat، المحادثات الشخصية مشفّرة من الطرف إلى الطرف. جهاز مرتبط أو مفتاح الاسترداد يعيد سجلّك، ودونهما لا يستطيع أحد استعادته، ولا نحن. لا مكالمات صوتية أو مرئية.
 

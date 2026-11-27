@@ -30,8 +30,8 @@ last_update:
 | 功能 | AChat | Telegram |
 |---|---|---|
 | 不用手机号注册 | 是 | 否（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 私人聊天端到端加密 | 是 | 部分（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 新设备上找回历史 | 部分 | 是（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 部分（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 换新设备后记录能找回 | 部分 | 是（<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 那个“部分”就是取舍所在。另一台已关联的设备或你的恢复密钥能找回历史。两者都没有时，谁都无法恢复，包括 AChat 团队。AChat 也没有语音或视频通话。
 

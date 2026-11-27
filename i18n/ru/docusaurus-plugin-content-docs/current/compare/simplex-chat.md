@@ -29,7 +29,7 @@ last_update:
 | Возможность | AChat | SimpleX Chat |
 |---|---|---|
 | Регистрация без номера телефона | Да | Да (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
-| Сквозное шифрование в личных чатах | Да | Да (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
+| Сквозное шифрование личных чатов | Да | Да (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 | История возвращается на новом устройстве | Частично | Да (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 
 В AChat история возвращается только через привязанное устройство или ключ восстановления, и без них её не восстановит никто, включая команду AChat. В AChat нет голосовых и видеозвонков.

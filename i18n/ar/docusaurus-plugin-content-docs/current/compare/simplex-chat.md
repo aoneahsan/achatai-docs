@@ -28,9 +28,9 @@ last_update:
 
 | الميزة | AChat | SimpleX Chat |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | نعم (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | نعم (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| عودة السجل على جهاز جديد | جزئيًا | نعم (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | نعم (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | نعم (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| يعود السجل على جهاز جديد | جزئيًا | نعم (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 في AChat لا يعود السجل إلا عبر جهاز مرتبط أو مفتاح الاسترداد، ودونهما لا يستطيع أحد استعادته، ولا فريق AChat. وليس في AChat مكالمات صوتية أو مرئية.
 

@@ -29,9 +29,9 @@ last_update:
 
 | الميزة | AChat | Telegram |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | لا (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | جزئيًا (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| عودة السجل على جهاز جديد | جزئيًا | نعم (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | لا (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | جزئيًا (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| يعود السجل على جهاز جديد | جزئيًا | نعم (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 ذلك «جزئيًا» هو المقايضة. جهاز مرتبط آخر أو مفتاح الاسترداد يعيد سجلّك. ودون أيٍّ منهما، لا يستطيع أحد استعادته، ولا فريق AChat. وليس في AChat أيضًا مكالمات صوتية أو مرئية.
 

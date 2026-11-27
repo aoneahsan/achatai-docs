@@ -27,9 +27,9 @@ Auf WhatsApp findet dich jeder, der deine Nummer hat. Auf AChat findet dich niem
 
 | Funktion | AChat | WhatsApp |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Nein (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Anmeldung ohne Telefonnummer | Ja | Nein (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 | Ende-zu-Ende-Verschlüsselung in persönlichen Chats | Ja | Auf den geprüften Seiten nicht angegeben |
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Teilweise (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Teilweise (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 „Teilweise“ heißt bei uns: Ein anderes verknüpftes Gerät oder dein Wiederherstellungsschlüssel bringt deinen verschlüsselten Verlauf zurück. Verlierst du beides, kann ihn niemand wiederherstellen, auch wir nicht.
 

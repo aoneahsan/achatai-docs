@@ -30,7 +30,7 @@ Viber کی تاریخ ساتھ نہیں آتی۔ AChat دوسری ایپس سے 
 
 | فیچر | AChat | Viber |
 |---|---|---|
-| نئی ڈیوائس پر تاریخ واپس آتی ہے | جزوی | جزوی (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| نئی ڈیوائس پر ہسٹری واپس آتی ہے | جزوی | جزوی (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 AChat کے لیے "جزوی" کا مطلب ہے منسلک ڈیوائس یا ریکوری کی۔ دونوں کھو جائیں، تو کوئی آپ کی تاریخ بحال نہیں کر سکتا، ہم بھی نہیں۔
 

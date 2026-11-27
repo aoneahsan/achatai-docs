@@ -31,9 +31,9 @@ Deine Threema-Chats kommen nicht mit. AChat importiert keine Chats aus anderen A
 
 | Funktion | AChat | Threema |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Ja (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Anmeldung ohne Telefonnummer | Ja | Ja (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 | Ende-zu-Ende-Verschlüsselung in persönlichen Chats | Ja | Auf den geprüften Seiten nicht angegeben |
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Teilweise (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Teilweise (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Ohne verknüpftes Gerät oder Wiederherstellungsschlüssel kann niemand den AChat-Verlauf wiederherstellen, auch wir nicht. Sprach- und Videoanrufe gibt es in AChat nicht.
 

@@ -30,7 +30,7 @@ Pelo que lemos, as páginas do Viber não diziam se dá para se cadastrar sem n�
 
 | Recurso | AChat | Viber |
 |---|---|---|
-| Histórico volta num aparelho novo | Em parte | Em parte (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
+| O histórico volta em um dispositivo novo | Em parte | Em parte (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">página deles</a>) |
 
 No AChat, "em parte" quer dizer um aparelho vinculado ou a chave de recuperação. Perdeu os dois, ninguém consegue restaurar o seu histórico, nem nós.
 

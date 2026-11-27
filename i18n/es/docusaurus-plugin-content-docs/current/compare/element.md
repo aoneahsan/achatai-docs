@@ -29,7 +29,7 @@ Leímos la página de precios de Element. Dice que puedes registrarte sin númer
 
 | Función | AChat | Element |
 |---|---|---|
-| Registrarse sin número de teléfono | Sí | Sí (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
+| Registro sin número de teléfono | Sí | Sí (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 
 En AChat, los chats personales tienen cifrado de extremo a extremo. Un dispositivo vinculado o tu clave de recuperación te devuelven el historial, y sin ellos nadie puede restaurarlo, nosotros tampoco. No hay llamadas de voz ni de vídeo.
 

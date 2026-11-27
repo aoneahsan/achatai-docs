@@ -29,7 +29,7 @@ last_update:
 | Возможность | AChat | Session |
 |---|---|---|
 | Регистрация без номера телефона | Да | Да (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
-| Сквозное шифрование в личных чатах | Да | Да (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
+| Сквозное шифрование личных чатов | Да | Да (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 | История возвращается на новом устройстве | Частично | Частично (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 
 Потеряете ключ восстановления и все привязанные устройства — историю AChat не восстановит никто, включая нас. В AChat нет голосовых и видеозвонков.

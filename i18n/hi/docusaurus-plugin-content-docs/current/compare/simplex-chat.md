@@ -28,9 +28,9 @@ SimpleX पर हर कॉन्टैक्ट एक बार के लि
 
 | फ़ीचर | AChat | SimpleX Chat |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | हाँ (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | हाँ (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | हाँ (<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | हाँ (<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 AChat पर इतिहास सिर्फ़ जुड़े डिवाइस या आपकी रिकवरी की से लौटता है, और उनके बिना कोई उसे वापस नहीं ला सकता, AChat टीम भी नहीं। AChat में वॉइस या वीडियो कॉल नहीं है।
 

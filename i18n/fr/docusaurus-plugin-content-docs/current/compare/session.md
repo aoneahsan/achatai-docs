@@ -29,7 +29,7 @@ Rien n'est importé depuis Session.
 | Fonctionnalité | AChat | Session |
 |---|---|---|
 | Inscription sans numéro de téléphone | Oui | Oui (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
-| Chiffrement de bout en bout des discussions personnelles | Oui | Oui (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
+| Chiffrement de bout en bout des chats personnels | Oui | Oui (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 | L'historique revient sur un nouvel appareil | En partie | En partie (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
 Perdez la clé de récupération et tous vos appareils associés, et personne ne peut restaurer votre historique AChat, nous compris. AChat n'a pas d'appels vocaux ou vidéo.

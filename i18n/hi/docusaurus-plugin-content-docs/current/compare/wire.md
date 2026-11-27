@@ -31,7 +31,7 @@ Wire का कीमतों वाला पेज एंड-टू-एंड
 
 | फ़ीचर | AChat | Wire |
 |---|---|---|
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 AChat कभी फ़ोन नंबर नहीं माँगता। उसका इतिहास जुड़े डिवाइस या आपकी रिकवरी की से लौटता है, और दोनों के बिना कोई उसे वापस नहीं ला सकता, हम भी नहीं। AChat में वॉइस या वीडियो कॉल नहीं है।
 

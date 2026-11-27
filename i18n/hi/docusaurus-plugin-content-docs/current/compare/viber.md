@@ -30,7 +30,7 @@ Viber का इतिहास साथ नहीं आता। AChat दू
 
 | फ़ीचर | AChat | Viber |
 |---|---|---|
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | आंशिक (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | आंशिक (<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 AChat के लिए "आंशिक" का मतलब है जुड़ा डिवाइस या रिकवरी की। दोनों खो जाएँ, तो कोई आपका इतिहास वापस नहीं ला सकता, हम भी नहीं।
 

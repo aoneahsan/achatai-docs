@@ -31,9 +31,9 @@ last_update:
 
 | فیچر | AChat | Threema |
 |---|---|---|
-| بغیر فون نمبر سائن اپ | ہاں | ہاں (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| ذاتی چیٹس پر اینڈ ٹو اینڈ انکرپشن | ہاں | جو صفحات ہم نے دیکھے ان پر درج نہیں |
-| نئی ڈیوائس پر تاریخ واپس آتی ہے | جزوی | جزوی (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| فون نمبر کے بغیر سائن اپ | ہاں | ہاں (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| ذاتی چیٹس میں اینڈ ٹو اینڈ انکرپشن | ہاں | جو صفحات ہم نے دیکھے ان پر درج نہیں |
+| نئی ڈیوائس پر ہسٹری واپس آتی ہے | جزوی | جزوی (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 منسلک ڈیوائس یا ریکوری کی کے بغیر کوئی AChat تاریخ بحال نہیں کر سکتا، ہم بھی نہیں۔ AChat میں آواز یا ویڈیو کال نہیں۔
 

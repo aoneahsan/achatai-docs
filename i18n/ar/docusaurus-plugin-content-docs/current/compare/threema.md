@@ -31,9 +31,9 @@ last_update:
 
 | الميزة | AChat | Threema |
 |---|---|---|
-| التسجيل دون رقم هاتف | نعم | نعم (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
-| تشفير من الطرف إلى الطرف في المحادثات الشخصية | نعم | غير مذكور في الصفحات التي راجعناها |
-| عودة السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| التسجيل بلا رقم هاتف | نعم | نعم (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
+| تشفير تام بين الطرفين في المحادثات الشخصية | نعم | غير مذكور في الصفحات التي راجعناها |
+| يعود السجل على جهاز جديد | جزئيًا | جزئيًا (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">صفحتهم</a>) |
 
 دون جهاز مرتبط أو مفتاح الاسترداد، لا يستطيع أحد استعادة سجل AChat، ولا نحن. وليس في AChat مكالمات صوتية أو مرئية.
 

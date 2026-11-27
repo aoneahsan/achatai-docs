@@ -28,9 +28,9 @@ Session से कुछ भी इम्पोर्ट नहीं होत�
 
 | फ़ीचर | AChat | Session |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | हाँ (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| निजी चैट पर एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
-| नए डिवाइस पर इतिहास वापस आता है | आंशिक | आंशिक (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | हाँ (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| निजी चैट में एंड-टू-एंड एन्क्रिप्शन | हाँ | हाँ (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| नए डिवाइस पर हिस्ट्री वापस आती है | आंशिक | आंशिक (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 रिकवरी की और हर जुड़ा डिवाइस खो दें, तो आपका AChat इतिहास कोई वापस नहीं ला सकता, हम भी नहीं। AChat में वॉइस या वीडियो कॉल नहीं है।
 

@@ -27,7 +27,7 @@ En WhatsApp, quien tiene tu número te encuentra. En AChat nadie te encuentra ha
 
 | Función | AChat | WhatsApp |
 |---|---|---|
-| Registrarse sin número de teléfono | Sí | No (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
+| Registro sin número de teléfono | Sí | No (<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | Cifrado de extremo a extremo en chats personales | Sí | No se indica en las páginas que revisamos |
 | El historial vuelve en un dispositivo nuevo | En parte | En parte (<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 

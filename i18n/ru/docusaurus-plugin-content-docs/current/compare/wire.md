@@ -31,7 +31,7 @@ last_update:
 
 | Возможность | AChat | Wire |
 |---|---|---|
-| Сквозное шифрование в личных чатах | Да | Да (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
+| Сквозное шифрование личных чатов | Да | Да (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">их страница</a>) |
 
 AChat никогда не просит номер телефона. История возвращается через привязанное устройство или ключ восстановления, и без них её не восстановит никто, включая нас. В AChat нет голосовых и видеозвонков.
 

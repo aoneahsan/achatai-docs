@@ -28,9 +28,9 @@ Anrufe bleiben bei Signal. Alte Signal-Nachrichten auch, da AChat keine Chats au
 
 | Funktion | AChat | Signal |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Auf den geprüften Seiten nicht angegeben |
+| Anmeldung ohne Telefonnummer | Ja | Auf den geprüften Seiten nicht angegeben |
 | Ende-zu-Ende-Verschlüsselung in persönlichen Chats | Ja | Ja (<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Teilweise (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Teilweise (<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Beide sagen „Teilweise“, aus verschiedenen Gründen. Bei AChat heißt es: ein verknüpftes Gerät oder der Wiederherstellungsschlüssel. Verlierst du beides, kann niemand deinen Verlauf wiederherstellen, auch wir nicht.
 

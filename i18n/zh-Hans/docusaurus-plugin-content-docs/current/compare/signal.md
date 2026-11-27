@@ -29,8 +29,8 @@ last_update:
 | 功能 | AChat | Signal |
 |---|---|---|
 | 不用手机号注册 | 是 | 我们查看的页面上没有说明 |
-| 私人聊天端到端加密 | 是 | 是（<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 新设备上找回历史 | 部分 | 部分（<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 是（<a href="https://signal.org/" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 换新设备后记录能找回 | 部分 | 部分（<a href="https://support.signal.org/hc/en-us/articles/360007059752-Backup-and-Restore-Messages" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 两边都写“部分”，原因不同。在 AChat 上，它指已关联的设备或恢复密钥。两者都丢了，谁都无法恢复你的历史，包括我们。
 

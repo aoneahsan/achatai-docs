@@ -29,7 +29,7 @@ Element का मैसेज इतिहास Element के पास र�
 
 | फ़ीचर | AChat | Element |
 |---|---|---|
-| बिना फ़ोन नंबर साइन अप | हाँ | हाँ (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
+| बिना फ़ोन नंबर के साइन अप | हाँ | हाँ (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">उनका पेज</a>) |
 
 AChat पर निजी चैट एंड-टू-एंड एन्क्रिप्टेड हैं। जुड़ा डिवाइस या आपकी रिकवरी की आपका इतिहास वापस लाती है, और उनके बिना कोई उसे वापस नहीं ला सकता, हम भी नहीं। वॉइस या वीडियो कॉल नहीं हैं।
 

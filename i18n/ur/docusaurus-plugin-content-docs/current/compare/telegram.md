@@ -29,9 +29,9 @@ last_update:
 
 | فیچر | AChat | Telegram |
 |---|---|---|
-| بغیر فون نمبر سائن اپ | ہاں | نہیں (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| ذاتی چیٹس پر اینڈ ٹو اینڈ انکرپشن | ہاں | جزوی (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
-| نئی ڈیوائس پر تاریخ واپس آتی ہے | جزوی | ہاں (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| فون نمبر کے بغیر سائن اپ | ہاں | نہیں (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| ذاتی چیٹس میں اینڈ ٹو اینڈ انکرپشن | ہاں | جزوی (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| نئی ڈیوائس پر ہسٹری واپس آتی ہے | جزوی | ہاں (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 وہ "جزوی" ہی سودا ہے۔ کوئی دوسری منسلک ڈیوائس یا آپ کی ریکوری کی آپ کی تاریخ واپس لاتی ہے۔ دونوں کے بغیر کوئی اسے بحال نہیں کر سکتا، AChat ٹیم بھی نہیں۔ AChat میں آواز یا ویڈیو کال بھی نہیں۔
 

@@ -31,7 +31,7 @@ Wire 的价格页面确认了端到端加密。它没有说明能否不用手机
 
 | 功能 | AChat | Wire |
 |---|---|---|
-| 私人聊天端到端加密 | 是 | 是（<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 是（<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 AChat 从不要手机号。它的历史通过已关联的设备或恢复密钥回来，两者都没有时谁都无法恢复，包括我们。AChat 没有语音或视频通话。
 

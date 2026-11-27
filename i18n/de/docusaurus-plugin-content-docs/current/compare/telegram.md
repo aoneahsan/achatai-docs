@@ -29,9 +29,9 @@ Dein Telegram-Verlauf bleibt in Telegram. AChat importiert keine Chats aus ander
 
 | Funktion | AChat | Telegram |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Nein (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Anmeldung ohne Telefonnummer | Ja | Nein (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 | Ende-zu-Ende-Verschlüsselung in persönlichen Chats | Ja | Teilweise (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Ja (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Ja (<a href="https://telegram.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Dieses „Teilweise“ ist der Tausch. Ein anderes verknüpftes Gerät oder dein Wiederherstellungsschlüssel bringt deinen Verlauf zurück. Ohne beides kann ihn niemand wiederherstellen, auch nicht das AChat-Team. AChat hat außerdem keine Sprach- oder Videoanrufe.
 

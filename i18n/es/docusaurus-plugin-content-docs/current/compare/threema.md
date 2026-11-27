@@ -31,7 +31,7 @@ Tus chats de Threema no se traen. AChat no importa chats de otras apps.
 
 | Función | AChat | Threema |
 |---|---|---|
-| Registrarse sin número de teléfono | Sí | Sí (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
+| Registro sin número de teléfono | Sí | Sí (<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 | Cifrado de extremo a extremo en chats personales | Sí | No se indica en las páginas que revisamos |
 | El historial vuelve en un dispositivo nuevo | En parte | En parte (<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">su página</a>) |
 

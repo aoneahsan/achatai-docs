@@ -28,9 +28,9 @@ Aus Session wird nichts importiert.
 
 | Funktion | AChat | Session |
 |---|---|---|
-| Anmelden ohne Telefonnummer | Ja | Ja (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Anmeldung ohne Telefonnummer | Ja | Ja (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 | Ende-zu-Ende-Verschlüsselung in persönlichen Chats | Ja | Ja (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
-| Verlauf kommt auf einem neuen Gerät zurück | Teilweise | Teilweise (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
+| Verlauf kommt auf neuem Gerät zurück | Teilweise | Teilweise (<a href="https://getsession.org/faq" target="_blank" rel="noopener noreferrer nofollow">ihre Seite</a>) |
 
 Verlierst du den Wiederherstellungsschlüssel und jedes verknüpfte Gerät, kann niemand deinen AChat-Verlauf wiederherstellen, auch wir nicht. AChat hat keine Sprach- oder Videoanrufe.
 

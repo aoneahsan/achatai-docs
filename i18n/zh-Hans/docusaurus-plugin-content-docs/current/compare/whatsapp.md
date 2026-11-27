@@ -28,8 +28,8 @@ last_update:
 | 功能 | AChat | WhatsApp |
 |---|---|---|
 | 不用手机号注册 | 是 | 否（<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
-| 私人聊天端到端加密 | 是 | 我们查看的页面上没有说明 |
-| 新设备上找回历史 | 部分 | 部分（<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
+| 个人聊天端到端加密 | 是 | 我们查看的页面上没有说明 |
+| 换新设备后记录能找回 | 部分 | 部分（<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">他们的页面</a>） |
 
 我们这边的“部分”是这个意思：另一台已关联的设备或你的恢复密钥能找回你的加密历史。两者都没了，谁都无法恢复，包括我们。
 

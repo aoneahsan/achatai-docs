@@ -33,7 +33,7 @@ Threema のチャットは移りません。AChat はほかのアプリのチャ
 |---|---|---|
 | 電話番号なしで登録 | はい | はい（<a href="https://threema.ch/en" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 | 個人チャットのエンドツーエンド暗号化 | はい | 確認したページに記載なし |
-| 新しい端末で履歴が戻る | 一部 | 一部（<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | 一部（<a href="https://threema.ch/en/faq" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 リンクした端末も復元キーもなければ、私たちを含め誰も AChat の履歴を戻せません。AChat には音声通話もビデオ通話もありません。
 

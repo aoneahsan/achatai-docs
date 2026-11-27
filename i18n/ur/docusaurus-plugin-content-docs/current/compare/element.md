@@ -29,7 +29,7 @@ Element کی پیغامات کی تاریخ Element کے پاس رہتی ہے۔ 
 
 | فیچر | AChat | Element |
 |---|---|---|
-| بغیر فون نمبر سائن اپ | ہاں | ہاں (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| فون نمبر کے بغیر سائن اپ | ہاں | ہاں (<a href="https://element.io/en/pricing" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 AChat پر ذاتی چیٹس اینڈ ٹو اینڈ انکرپٹڈ ہیں۔ منسلک ڈیوائس یا آپ کی ریکوری کی آپ کی تاریخ واپس لاتی ہے، اور ان کے بغیر کوئی اسے بحال نہیں کر سکتا، ہم بھی نہیں۔ آواز یا ویڈیو کالز نہیں۔
 

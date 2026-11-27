@@ -31,7 +31,7 @@ Wire کا قیمتوں والا صفحہ اینڈ ٹو اینڈ انکرپشن �
 
 | فیچر | AChat | Wire |
 |---|---|---|
-| ذاتی چیٹس پر اینڈ ٹو اینڈ انکرپشن | ہاں | ہاں (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
+| ذاتی چیٹس میں اینڈ ٹو اینڈ انکرپشن | ہاں | ہاں (<a href="https://wire.com/en/pricing" target="_blank" rel="noopener noreferrer nofollow">ان کا صفحہ</a>) |
 
 AChat کبھی فون نمبر نہیں مانگتی۔ اس کی تاریخ منسلک ڈیوائس یا آپ کی ریکوری کی سے لوٹتی ہے، اور دونوں کے بغیر کوئی اسے بحال نہیں کر سکتا، ہم بھی نہیں۔ AChat میں آواز یا ویڈیو کال نہیں۔
 

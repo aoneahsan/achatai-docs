@@ -29,7 +29,7 @@ WhatsApp では、あなたの番号を知っている人ならあなたを見�
 |---|---|---|
 | 電話番号なしで登録 | はい | いいえ（<a href="https://www.whatsapp.com/security" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 | 個人チャットのエンドツーエンド暗号化 | はい | 確認したページに記載なし |
-| 新しい端末で履歴が戻る | 一部 | 一部（<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | 一部（<a href="https://faq.whatsapp.com/481135090640375" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 こちらの「一部」の意味はこうです。リンクしたほかの端末か復元キーがあれば、暗号化された履歴が戻ります。両方なくすと、私たちを含め誰も復元できません。
 

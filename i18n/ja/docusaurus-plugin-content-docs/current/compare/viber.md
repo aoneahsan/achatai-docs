@@ -30,7 +30,7 @@ Viber の履歴は移りません。AChat はほかのアプリのチャット�
 
 | 機能 | AChat | Viber |
 |---|---|---|
-| 新しい端末で履歴が戻る | 一部 | 一部（<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | 一部（<a href="https://www.viber.com/en/faq/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 AChat の「一部」は、リンクした端末か復元キーのことです。両方なくすと、私たちを含め誰も履歴を戻せません。
 

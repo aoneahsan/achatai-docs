@@ -30,7 +30,7 @@ SimpleX では、連絡先はどれも使い捨てのリンクから始まりま
 |---|---|---|
 | 電話番号なしで登録 | はい | はい（<a href="https://simplex.chat/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 | 個人チャットのエンドツーエンド暗号化 | はい | はい（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
-| 新しい端末で履歴が戻る | 一部 | はい（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
+| 新しいデバイスで履歴が戻る | 一部 | はい（<a href="https://simplex.chat/faq/" target="_blank" rel="noopener noreferrer nofollow">先方のページ</a>） |
 
 AChat では、履歴が戻るのはリンクした端末か復元キーからだけで、それがなければ AChat チームを含め誰も戻せません。AChat には音声通話もビデオ通話もありません。
 
