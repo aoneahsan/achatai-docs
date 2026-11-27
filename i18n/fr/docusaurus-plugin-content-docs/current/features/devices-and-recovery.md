@@ -10,21 +10,21 @@ last_update:
 
 # Appareils et clé de récupération
 
-**Ton historique chiffré vit sur les appareils que tu approuves. Ta clé de récupération ou un autre appareil associé le ramène ; la connexion Google seule ne le peut pas.** AChat ne garde aucune copie des clés de tes messages, donc l'équipe AChat ne peut pas restaurer ton historique à ta place.
+**Ton historique chiffré vit sur les appareils que tu approuves. Ta clé de récupération ou un autre appareil associé le ramène ; la connexion Google seule ne le peut pas.** AChat ne garde aucune copie des clés de tes messages, donc l'équipe AChat ne peut pas restaurer ton historique à ta place.
 
 ## Associer un appareil
 
 1. Sur le nouvel appareil, ouvre AChat et choisis **Associer cet appareil**. Il affiche un code.
-2. Sur un appareil où tu es déjà connecté, ouvre **Compte**, puis **Appareils**, et scanne le code. Si ce navigateur ne peut pas scanner, saisis plutôt les lettres et les chiffres.
+2. Sur un appareil où ta session est déjà ouverte, ouvre **Compte**, puis **Appareils**, et scanne le code. Si ce navigateur ne peut pas scanner, saisis plutôt les lettres et les chiffres.
 3. Approuve-le. Une fois approuvé, le nouvel appareil peut lire tes discussions, historique compris, et envoyer des messages en ton nom. N'approuve qu'un appareil que tu as en main.
 
-Ton historique suit l'approbation. Le nouvel appareil affiche **Transfert de tes discussions** pendant qu'il récupère les messages que tes appareils ont déjà ouverts ou envoyés. Si l'historique n'arrive pas, l'appareil reste associé : restaure les messages antérieurs avec ta clé de récupération depuis **Compte**, puis **Récupération**.
+Ton historique suit l'approbation. Le nouvel appareil affiche **Transfert de tes discussions** pendant qu'il récupère les messages que tes appareils ont déjà ouverts ou envoyés. Si l'historique n'arrive pas, l'appareil reste associé : restaure les messages antérieurs avec ta clé de récupération depuis **Compte**, puis **Récupération**.
 
-Pour vérifier une association, compare les codes de sécurité : les deux appareils doivent afficher le même. Sinon, retire l'appareil dont tu doutes.
+Pour vérifier une association, compare les codes de sécurité : les deux appareils doivent afficher le même. Sinon, retire l'appareil dont tu doutes.
 
 ## Retirer un appareil
 
-Retirer un appareil le déconnecte et empêche les nouveaux messages de lui parvenir. Ce qui y est déjà stocké y reste, et AChat ne peut pas le récupérer : verrouille ou efface un appareil perdu depuis ses propres réglages si tu peux.
+Retirer un appareil le déconnecte et empêche les nouveaux messages de lui parvenir. Ce qui y est déjà stocké y reste, et AChat ne peut pas le récupérer : verrouille ou efface un appareil perdu depuis ses propres réglages si tu peux.
 
 ## Clé de récupération
 

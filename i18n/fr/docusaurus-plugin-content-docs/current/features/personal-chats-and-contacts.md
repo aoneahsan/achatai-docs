@@ -14,11 +14,11 @@ last_update:
 
 ## Ajouter un contact
 
-Ouvre **Contacts** et ajoute quelqu'un par :
+Ouvre **Contacts** et ajoute quelqu'un par :
 
-- **Nom d'utilisateur** : cherche-le.
-- **Lien d'invitation** : quiconque a ton lien peut t'envoyer une demande de contact.
-- **QR code** : montre ton code de contact, ou scanne le sien.
+- **Nom d'utilisateur** : cherche-le.
+- **Lien d'invitation** : quiconque a ton lien peut t'envoyer une demande de contact.
+- **QR code** : montre ton code de contact, ou scanne le sien.
 
 ## Demandes de message
 
@@ -56,7 +56,7 @@ Sans discussion ouverte, la zone principale propose **Écrire à quelqu'un**, **
 
 ## Ajouter un contact par lien d'invitation ou QR code
 
-**Ajouter un contact** propose trois façons : **Nom d'utilisateur**, **Lien d'invitation** et **QR code**. Ton lien d'invitation et ton code contiennent `/invite/` et ton nom d'utilisateur ; quiconque l'ouvre ou le scanne te voit dans **Ajouter un contact** et peut t'envoyer une demande de contact. **Scanner un code** lit le code de quelqu'un avec ta caméra, si ton navigateur le permet.
+**Ajouter un contact** propose trois façons : **Nom d'utilisateur**, **Lien d'invitation** et **QR code**. Ton lien d'invitation et ton code contiennent `/invite/` et ton nom d'utilisateur ; quiconque l'ouvre ou le scanne te voit dans **Ajouter un contact** et peut t'envoyer une demande de contact. **Scanner un code** lit le code de quelqu'un avec ta caméra, si ton navigateur le permet.
 
 ## Saisie en cours
 

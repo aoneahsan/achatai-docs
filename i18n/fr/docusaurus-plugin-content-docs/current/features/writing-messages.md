@@ -29,21 +29,21 @@ Une formule impossible à dessiner s'affiche telle qu'elle a été tapée.
 
 ## La barre de mise en forme
 
-Au-dessus de la zone de message : **Gras**, **Italique**, **Barré**, **Code**, **Lien**, **Bloc de code**, **Liste à puces**, **Liste numérotée** et **Citation**. Sur un grand écran, la barre est visible dès le départ ; sur téléphone, **Mise en forme** (Aa) l'affiche ou la masque. Un message sans mise en forme part en texte brut. Le texte collé ne garde que ces types de mise en forme. Les messages écrits avec l'éditeur de l'ancien AChat s'affichent aussi avec leur mise en forme.
+Au-dessus de la zone de message : **Gras**, **Italique**, **Barré**, **Code**, **Lien**, **Bloc de code**, **Liste à puces**, **Liste numérotée** et **Citation**. Sur un grand écran, la barre est visible dès le départ ; sur téléphone, **Mise en forme** (Aa) l'affiche ou la masque. Un message sans mise en forme part en texte brut. Le texte collé ne garde que ces types de mise en forme. Les messages écrits avec l'éditeur de l'ancien AChat s'affichent aussi avec leur mise en forme.
 
 Un bloc de code est coloré pour les langages courants à l'affichage. La zone de réponse d'un fil a les mêmes outils que celle de la discussion.
 
 ## Suggestions pendant la saisie
 
-Tape `@` et le début d'un nom pour choisir quelqu'un de la discussion, ou `@all`. Tape `/` au début d'une zone vide pour les commandes : `/shrug` ajoute ¯\\_(ツ)_/¯, `/clear` efface ton brouillon et `/export` ouvre **Enregistrer une copie**. Tout le reste commençant par `/` part tel quel.
+Tape `@` et le début d'un nom pour choisir quelqu'un de la discussion, ou `@all`. Tape `/` au début d'une zone vide pour les commandes : `/shrug` ajoute ¯\\_(ツ)_/¯, `/clear` efface ton brouillon et `/export` ouvre **Enregistrer une copie**. Tout le reste commençant par `/` part tel quel.
 
 ## Plein écran et longs messages
 
-**Écrire en plein écran** donne toute la fenêtre à la zone de message ; Échap pour revenir. Un long message se replie après quelques lignes, avec **Afficher plus**.
+**Écrire en plein écran** donne toute la fenêtre à la zone de message ; Échap pour revenir. Un long message se replie après quelques lignes, avec **Afficher plus**.
 
 ## Liens
 
-Une adresse web dans un message devient un lien qui s'ouvre dans un nouvel onglet. **Afficher les aperçus de liens** (Compte › Préférences › Cet appareil) ajoute une carte avec le titre et l'image de la page. C'est désactivé par défaut. Une fois activé, le propre serveur d'AChat lit la page et transmet son image, donc le site lié ne voit jamais ton appareil ; dans une discussion chiffrée de bout en bout, cela signifie que le lien quitte ton appareil.
+Une adresse web dans un message devient un lien qui s'ouvre dans un nouvel onglet. **Afficher les aperçus de liens** (Compte › Préférences › Cet appareil) ajoute une carte avec le titre et l'image de la page. C'est désactivé par défaut. Une fois activé, le propre serveur d'AChat lit la page et transmet son image, donc le site lié ne voit jamais ton appareil ; dans une discussion chiffrée de bout en bout, cela signifie que le lien quitte ton appareil.
 
 ## Stickers et emoji
 

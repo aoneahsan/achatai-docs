@@ -26,8 +26,8 @@ Chaque copie sous licence publie un fichier de licence sur son propre domaine, s
 
 ## Par clé
 
-Une vérification par clé indique si la licence est active, encore en cours de mise en place ou révoquée, et montre ses informations publiques : à qui elle est accordée, ses domaines, plateformes et dates. Elle ne montre jamais d'adresse e-mail ni de prix.
+Une vérification par clé indique si la licence est active, encore en cours de mise en place ou révoquée, et montre ses informations publiques : à qui elle est accordée, ses domaines, plateformes et dates. Elle ne montre jamais d'adresse e-mail ni de prix.
 
 ## Une copie dont la licence n'est pas active
 
-Elle affiche « Cette licence n'est pas active » à la place de l'app, avec un lien vers cette vérification. Rien n'y est supprimé.
+Elle affiche « Cette licence n'est pas active » à la place de l'app, avec un lien vers cette vérification. Rien n'y est supprimé.

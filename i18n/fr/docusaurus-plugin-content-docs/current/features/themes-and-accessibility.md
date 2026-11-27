@@ -1,7 +1,7 @@
 ---
 sidebar_position: 15
 title: Apparence, langue et raccourcis
-description: Un seul panneau Apparence pour le thème, la couleur, la taille du texte et les animations ; onze langues d'interface, dont l'arabe et l'ourdou ; raccourcis clavier et mode concentration dans AChat.
+description: Un seul panneau Apparence pour le thème, la couleur, la taille du texte et les animations ; onze langues d'interface, dont l'arabe et l'ourdou ; raccourcis clavier et mode concentration dans AChat.
 keywords: [mode sombre discussion, taille du texte, réduire les animations, raccourcis clavier, discussion en arabe de droite à gauche, accessibilité AChat]
 last_update:
   date: 2026-11-27
@@ -10,7 +10,7 @@ last_update:
 
 # Apparence, langue et raccourcis
 
-**Le thème, la couleur, la taille du texte et les animations sont dans un seul panneau Apparence : un changement s'affiche partout à la fois.**
+**Le thème, la couleur, la taille du texte et les animations sont dans un seul panneau Apparence : un changement s'affiche partout à la fois.**
 
 ## Apparence
 
@@ -18,7 +18,7 @@ Ouvre le panneau Apparence pour changer le thème, la couleur, la taille du text
 
 ## Langue
 
-L'interface d'AChat existe en onze langues : anglais, chinois, hindi, espagnol, arabe, français, portugais, russe, japonais, ourdou et allemand. Choisis-la à la fin du panneau Apparence ; chaque langue s'affiche sous son propre nom. L'arabe et l'ourdou se lisent de droite à gauche, et le chinois, l'hindi, le japonais et l'ourdou ont chacun leur police.
+L'interface d'AChat existe en onze langues : anglais, chinois, hindi, espagnol, arabe, français, portugais, russe, japonais, ourdou et allemand. Choisis-la à la fin du panneau Apparence ; chaque langue s'affiche sous son propre nom. L'arabe et l'ourdou se lisent de droite à gauche, et le chinois, l'hindi, le japonais et l'ourdou ont chacun leur police.
 
 ## Raccourcis clavier
 
@@ -60,11 +60,11 @@ Active le **Mode concentration** depuis le menu d'une discussion ou avec Ctrl+Ma
 
 ## Panneaux latéraux
 
-Chaque panneau latéral de Discussions (un salon, les infos de la discussion, les médias partagés, la Corbeille, un fil, etc.) s'ouvre à 60 % de la zone de discussion. Fais glisser son bord, ou place le focus sur le bord et utilise les flèches ; un double-clic revient à 60 %. Chaque panneau garde sa largeur sur cet appareil et, si ta session est ouverte, sur ton compte.
+Chaque panneau latéral de Discussions (un salon, les infos de la discussion, les médias partagés, la Corbeille, un fil, etc.) s'ouvre à 60 % de la zone de discussion. Fais glisser son bord, ou place le focus sur le bord et utilise les flèches ; un double-clic revient à 60 %. Chaque panneau garde sa largeur sur cet appareil et, si ta session est ouverte, sur ton compte.
 
 ## L'apparence en fichier
 
-**Enregistrer dans un fichier** dans le panneau d'apparence garde tous tes choix d'apparence dans un petit fichier ; **Charger depuis un fichier** en applique un.
+**Enregistrer dans un fichier** dans le panneau d'apparence garde tous tes choix d'apparence dans un petit fichier ; **Charger depuis un fichier** en applique un.
 
 ## Touches
 
@@ -72,4 +72,4 @@ Les touches 1 à 6 réagissent au message le plus récent avec les réactions ra
 
 ## Cet appareil
 
-Compte › Préférences › **Cet appareil** : **Garder l'écran allumé dans une discussion**, **Vibrer à l'envoi et aux réactions** (app Android), **Afficher les aperçus de liens** et **Installer AChat** quand ton navigateur le propose.
+Compte › Préférences › **Cet appareil** : **Garder l'écran allumé dans une discussion**, **Vibrer à l'envoi et aux réactions** (app Android), **Afficher les aperçus de liens** et **Installer AChat** quand ton navigateur le propose.

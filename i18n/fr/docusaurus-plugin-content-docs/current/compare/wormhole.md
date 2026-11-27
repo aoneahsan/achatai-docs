@@ -15,17 +15,17 @@ Vérifié le 2026-11-22. La comparaison est sur [AChat et Wormhole](https://acha
 
 ## Les gros là-bas, les petits ici
 
-Gardez Wormhole pour l'export vidéo ou l'image disque. La taille maximale des fichiers sur AChat dépend de votre forfait, et AChat l'affiche avant que vous joigniez quoi que ce soit : vérifiez-la d'abord ([partage de fichiers](/features/file-sharing)).
+Gardez Wormhole pour l'export vidéo ou l'image disque. La taille maximale des fichiers sur AChat dépend de votre forfait, et AChat l'affiche avant que vous joigniez quoi que ce soit : vérifiez-la d'abord ([partage de fichiers](/features/file-sharing)).
 
 1. Créez un salon avec **Continuer anonymement**, puis **Créer un salon** ([salons anonymes](/features/anonymous-chats)).
 2. Définissez un mot de passe, pour que les messages du salon soient chiffrés avec lui ([mots de passe et chiffrement](/features/passwords-and-encryption)).
-3. Envoyez les petites choses : le fichier de configuration, le mot de passe Wi-Fi, une note sur son usage.
+3. Envoyez les petites choses : le fichier de configuration, le mot de passe Wi-Fi, une note sur son usage.
 4. Si quelque chose est trop gros, envoyez un lien Wormhole dans le salon et parlez-en là.
 5. Les messages sont supprimés après le nombre de jours défini pour le salon, sauf si quelqu'un qui a un compte le garde.
 
 ## Ce que disait la page de Wormhole
 
-La page de Wormhole confirme les fichiers, et nous avons noté texte et fichiers « en partie ». Elle ne disait pas s'il faut un compte, si l'on peut ajouter un mot de passe ni si l'on peut recevoir une réponse : ces lignes ont donc été retirées.
+La page de Wormhole confirme les fichiers, et nous avons noté texte et fichiers « en partie ». Elle ne disait pas s'il faut un compte, si l'on peut ajouter un mot de passe ni si l'on peut recevoir une réponse : ces lignes ont donc été retirées.
 
 | Fonctionnalité | AChat | Wormhole |
 |---|---|---|

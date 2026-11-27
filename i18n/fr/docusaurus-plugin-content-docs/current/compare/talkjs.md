@@ -38,4 +38,4 @@ Le widget d'AChat affiche un salon anonyme ou un canal ouvert de communauté. Ce
 | Basic | 279 $ par mois | <a href="https://talkjs.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 | Growth | 569 $ par mois | <a href="https://talkjs.com/pricing/" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 
-Forfaits et prix d'AChat : la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Pour vérifier TalkJS, ouvrez le <a href="https://talkjs.com" target="_blank" rel="noopener noreferrer nofollow">site de TalkJS</a>.
+Forfaits et prix d'AChat : la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Pour vérifier TalkJS, ouvrez le <a href="https://talkjs.com" target="_blank" rel="noopener noreferrer nofollow">site de TalkJS</a>.

@@ -9,7 +9,7 @@ last_update:
 
 # Passer de Chatwoot à AChat
 
-**Chatwoot est une plateforme de support client open source, à héberger vous-même ou à payer par agent.** Faire tourner le support sur vos propres serveurs est une bonne raison de rester : AChat ne s'auto-héberge pas. Il sert quand vous ne voulez rien faire tourner, et que vos visiteurs se parlent entre eux plutôt qu'à des agents.
+**Chatwoot est une plateforme de support client open source, à héberger vous-même ou à payer par agent.** Faire tourner le support sur vos propres serveurs est une bonne raison de rester : AChat ne s'auto-héberge pas. Il sert quand vous ne voulez rien faire tourner, et que vos visiteurs se parlent entre eux plutôt qu'à des agents.
 
 Vérifié le 2026-11-22. Voir [AChat et Chatwoot](https://achat.aoneahsan.com/fr/compare/chatwoot) pour la comparaison.
 

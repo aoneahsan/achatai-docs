@@ -11,7 +11,7 @@ last_update:
 
 **PairDrop envoie fichiers et texte de pair à pair sur votre réseau local, ou par internet via des appareils associés et des salons publics temporaires.** Quand les deux machines sont allumées en même temps, c'est la voie directe. AChat aide quand l'autre machine se connecte plus tard et que le message doit encore l'attendre.
 
-Dernière vérification le 2026-11-22. Côte à côte : [AChat et PairDrop](https://achat.aoneahsan.com/fr/compare/pairdrop).
+Dernière vérification le 2026-11-22. Côte à côte : [AChat et PairDrop](https://achat.aoneahsan.com/fr/compare/pairdrop).
 
 ## Quand l'autre machine n'est pas encore allumée
 
@@ -32,6 +32,6 @@ Disons que vous quittez le travail et voulez un fichier sur l'ordinateur de la m
 | Protection par mot de passe | Oui | Non précisé sur les pages consultées |
 | L'autre côté peut répondre | Oui | Non précisé sur les pages consultées |
 
-Les serveurs d'AChat gardent le salon jusqu'à l'expiration de ses messages : c'est ce qui lui permet de vous attendre. Sans mot de passe, quiconque a le lien peut le lire.
+Les serveurs d'AChat gardent le salon jusqu'à l'expiration de ses messages : c'est ce qui lui permet de vous attendre. Sans mot de passe, quiconque a le lien peut le lire.
 
-Aucun prix n'était indiqué sur les pages consultées. Pour les forfaits d'AChat, consultez la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Le site de PairDrop : le <a href="https://pairdrop.net/" target="_blank" rel="noopener noreferrer nofollow">site de PairDrop</a>.
+Aucun prix n'était indiqué sur les pages consultées. Pour les forfaits d'AChat, consultez la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Le site de PairDrop : le <a href="https://pairdrop.net/" target="_blank" rel="noopener noreferrer nofollow">site de PairDrop</a>.

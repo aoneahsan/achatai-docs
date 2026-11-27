@@ -27,7 +27,7 @@ Les conversations Wire restent dans Wire. AChat n'importe pas les discussions d'
 
 ## Wire, d'après sa page des tarifs
 
-La page des tarifs de Wire confirme le chiffrement de bout en bout. Elle ne dit pas si l'on peut s'inscrire sans numéro de téléphone, ni si l'historique revient sur un nouvel appareil : ces lignes ont donc été retirées.
+La page des tarifs de Wire confirme le chiffrement de bout en bout. Elle ne dit pas si l'on peut s'inscrire sans numéro de téléphone, ni si l'historique revient sur un nouvel appareil : ces lignes ont donc été retirées.
 
 | Fonctionnalité | AChat | Wire |
 |---|---|---|

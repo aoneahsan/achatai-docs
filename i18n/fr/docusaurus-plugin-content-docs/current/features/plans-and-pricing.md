@@ -20,30 +20,30 @@ last_update:
 | **Pro** | Une personne, des limites plus élevées |
 | **Team / Family** | Des places partagées pour une famille ou une équipe. Les discussions de chaque membre restent les siennes |
 
-Pro et Team / Family augmentent quatre limites : la taille des fichiers, les fichiers par discussion, le nombre de salons que tu peux conserver et la durée de conservation. L'équipe AChat fixe les limites de chaque forfait.
+Pro et Team / Family augmentent quatre limites : la taille des fichiers, les fichiers par discussion, le nombre de salons que tu peux conserver et la durée de conservation. L'équipe AChat fixe les limites de chaque forfait.
 
-Les forfaits fixent aussi jusqu'où d'autres apps peuvent accéder à ton compte : clés d'accès, requêtes API par jour, adresses de webhook et assistants connectés. Voir [ce que permet votre forfait](/developers#what-your-plan-allows).
+Les forfaits fixent aussi jusqu'où d'autres apps peuvent accéder à ton compte : clés d'accès, requêtes API par jour, adresses de webhook et assistants connectés. Voir [ce que permet votre forfait](/developers#what-your-plan-allows).
 
 ## Payer
 
-Tu paies sur le web, connecté à ton compte. Choisis un forfait sur la page des tarifs, puis le mode de paiement : **Virement**, ou **Carte** quand le paiement par carte est disponible.
+Tu paies sur le web, connecté à ton compte. Choisis un forfait sur la page des tarifs, puis le mode de paiement : **Virement**, ou **Carte** quand le paiement par carte est disponible.
 
 ### Virement
 
 1. Vire le montant par ta banque, avec la référence que le paiement affiche dans les informations de paiement.
 2. Envoie ta demande de paiement. L'équipe AChat rapproche chaque paiement de sa référence à la main, et ton forfait apparaît en attente jusqu'à confirmation.
 
-**Annuler** depuis la page des tarifs ou **Compte** : ton forfait court jusqu'à la fin de la période payée, et aucun paiement de renouvellement n'est attendu.
+**Annuler** depuis la page des tarifs ou **Compte** : ton forfait court jusqu'à la fin de la période payée, et aucun paiement de renouvellement n'est attendu.
 
 ### Carte {#card}
 
 Les paiements par carte sont encaissés par Polar (Polar Software, Inc.), qui vend le forfait. Tu saisis ta carte sur une page gérée par Polar, et AChat ne reçoit jamais ton numéro de carte.
 
-1. Choisis la **Période de paiement** : **Mensuel** ou **Annuel**. Un forfait sans prix annuel se paie au mois.
+1. Choisis la **Période de paiement** : **Mensuel** ou **Annuel**. Un forfait sans prix annuel se paie au mois.
 2. Continue vers la page de Polar et paie là-bas. Une taxe peut s'ajouter sur la page de Polar, selon ton pays.
 3. Tu reviens sur AChat, et ton forfait change dès que Polar confirme le paiement.
 
-Un paiement par carte est un abonnement : ta carte est débitée chaque mois ou chaque année jusqu'à ce que tu résilies. Les [conditions](https://polar.sh/legal/terms) de Polar s'appliquent aussi aux paiements par carte.
+Un paiement par carte est un abonnement : ta carte est débitée chaque mois ou chaque année jusqu'à ce que tu résilies. Les [conditions](https://polar.sh/legal/terms) de Polar s'appliquent aussi aux paiements par carte.
 
 ### Ton abonnement
 
@@ -68,12 +68,12 @@ Un forfait payé par carte apparaît dans **Ton abonnement**, dans **Compte**, a
 
 ## Team / Family
 
-- Une personne, le **payeur**, paie un nombre minimum de places et invite les autres par nom d'utilisateur. Configure-le en Team ou en Family ; les deux ont le même forfait et les mêmes limites.
+- Une personne, le **payeur**, paie un nombre minimum de places et invite les autres par nom d'utilisateur. Configure-le en Team ou en Family ; les deux ont le même forfait et les mêmes limites.
 - Payer ne permet à personne de lire les messages, discussions ou position des autres membres. Le payeur gère les places et le renouvellement, rien de plus.
-- Par carte, Team / Family se paie par place : le payeur choisit le nombre de places, à partir du minimum du forfait.
+- Par carte, Team / Family se paie par place : le payeur choisit le nombre de places, à partir du minimum du forfait.
 - Tu ne peux faire partie que d'un groupe Team / Family à la fois.
 - Le payeur peut confier ce rôle à un autre membre, ou mettre fin au groupe. Chacun garde le forfait jusqu'à la fin de la période payée, puis revient à son propre forfait, et rien n'est supprimé. Un forfait payé par carte se gère plutôt dans **Ton abonnement**.
 
 ## Parrainage
 
-Partage ton lien d'invitation. Quand quelqu'un crée un compte AChat depuis ce lien et que son e-mail est vérifié, tu reçois des points et un badge. Les parrainages confirmés ajoutent aussi des mois de forfait, jusqu'à une limite sur toute période de 12 mois ; les points et badges continuent de compter ensuite. Seuls les nouveaux comptes comptent. Si tu as déjà ce forfait ou un forfait supérieur, un mois gagné commence à la fin de ton forfait actuel.
+Partage ton lien d'invitation. Quand quelqu'un crée un compte AChat depuis ce lien et que son e-mail est vérifié, tu reçois des points et un badge. Les parrainages confirmés ajoutent aussi des mois de forfait, jusqu'à une limite sur toute période de 12 mois ; les points et badges continuent de compter ensuite. Seuls les nouveaux comptes comptent. Si tu as déjà ce forfait ou un forfait supérieur, un mois gagné commence à la fin de ton forfait actuel.

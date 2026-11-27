@@ -16,10 +16,10 @@ last_update:
 
 Deux limites viennent de ton [forfait](/features/plans-and-pricing) :
 
-- **Taille de fichier :** la taille maximale de chaque fichier.
-- **Fichiers par discussion :** l'espace de fichiers que chaque discussion peut contenir.
+- **Taille de fichier :** la taille maximale de chaque fichier.
+- **Fichiers par discussion :** l'espace de fichiers que chaque discussion peut contenir.
 
-AChat affiche les deux avant que tu joignes un fichier, tout comme **Compte**, puis **Stockage**. Quand une discussion atteint sa limite, les nouveaux fichiers y sont refusés ; les messages continuent.
+AChat affiche les deux avant que tu joignes un fichier, tout comme **Compte**, puis **Stockage**. Quand une discussion atteint sa limite, les nouveaux fichiers y sont refusés ; les messages continuent.
 
 ## Notes vocales
 

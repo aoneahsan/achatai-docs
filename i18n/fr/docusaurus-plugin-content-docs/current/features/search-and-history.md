@@ -21,13 +21,13 @@ last_update:
 
 ## Hors ligne
 
-- Les discussions et fichiers que tu as ouverts sont gardés sur l'appareil : ils se chargent plus vite et s'ouvrent hors ligne.
+- Les discussions et fichiers que tu as ouverts sont gardés sur l'appareil : ils se chargent plus vite et s'ouvrent hors ligne.
 - Les messages écrits hors ligne attendent dans la **Boîte d'envoi** avec **En attente d'envoi**, puis partent dans l'ordre au retour de la connexion. Un message n'affiche **Envoyé** qu'une fois arrivé.
 - Si certains messages ne partent pas, tu peux les renvoyer ou abandonner ceux dont tu n'as plus besoin.
 - Une discussion avec l'historique d'appareil et de position activé a besoin d'une connexion pour s'ouvrir.
 
 ## Enregistré sur cet appareil
 
-**Compte**, puis **Stockage**, montre ce qui est enregistré sur l'appareil. Effacer les copies enregistrées retire les discussions et fichiers enregistrés ; ils se retéléchargent quand tu les ouvres en ligne, et ta boîte d'envoi n'est pas touchée.
+**Compte**, puis **Stockage**, montre ce qui est enregistré sur l'appareil. Effacer les copies enregistrées retire les discussions et fichiers enregistrés ; ils se retéléchargent quand tu les ouvres en ligne, et ta boîte d'envoi n'est pas touchée.
 
 Te déconnecter retire tes discussions de l'appareil, ainsi que les messages encore en attente d'envoi. Voir [Appareils et clé de récupération](/features/devices-and-recovery).

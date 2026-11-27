@@ -14,9 +14,9 @@ last_update:
 
 ## Ce que voient les admins
 
-- **Discussions :** seulement la taille, les dates et les réglages. Une discussion chiffrée n'affiche que ses détails.
-- **Signalements :** sur des personnes, des salons et des communautés. Les admins ne voient que ce que la personne qui signale a choisi d'envoyer, jamais qui l'a envoyé.
-- **Historique de localisation privé :** les admins ne peuvent pas l'ouvrir.
+- **Discussions :** seulement la taille, les dates et les réglages. Une discussion chiffrée n'affiche que ses détails.
+- **Signalements :** sur des personnes, des salons et des communautés. Les admins ne voient que ce que la personne qui signale a choisi d'envoyer, jamais qui l'a envoyé.
+- **Historique de localisation privé :** les admins ne peuvent pas l'ouvrir.
 
 ## Ce que peuvent faire les admins {#what-admins-can-do}
 
@@ -27,7 +27,7 @@ last_update:
 | Suspendre un compte | La personne ne peut plus se connecter ni envoyer jusqu'à ce qu'un admin lève la suspension. Ses discussions sont conservées, et elle peut demander un réexamen via la page de contact |
 | Attribuer une offre ou un quota | Fixe une offre ou des quotas personnalisés pour un compte, avec sa propre date de fin |
 | Marquer un salon pour le garder pour toujours | Permet à un droit de garde illimitée réservé aux salons marqués de couvrir ce salon |
-| Régler Garder pour toujours pour une personne | Choisit si cette personne peut garder des salons pour toujours : **Non autorisé**, **Salons marqués uniquement**, **N'importe quel salon** ou **Tous les salons, automatiquement**. Un motif est requis sauf pour Non autorisé. Le changer ne raccourcit jamais un salon déjà gardé pour toujours |
+| Régler Garder pour toujours pour une personne | Choisit si cette personne peut garder des salons pour toujours : **Non autorisé**, **Salons marqués uniquement**, **N'importe quel salon** ou **Tous les salons, automatiquement**. Un motif est requis sauf pour Non autorisé. Le changer ne raccourcit jamais un salon déjà gardé pour toujours |
 | Marquer une communauté Adulte | Change la marque 18+ d'une communauté |
 | Supprimer un compte sur demande | Pour quelqu'un qui ne peut pas se connecter, sur une demande venue de l'adresse Google de ce compte |
 
@@ -37,11 +37,11 @@ Pour les [paiements par carte](/features/plans-and-pricing#card), les admins peu
 
 ## Les limites fixées par les admins
 
-Les admins fixent les limites d'AChat dans le panneau d'admin, comme la durée de conservation de la Corbeille ou celle des messages des salons anonymes. Deux d'entre elles bornent la [recherche](/features/search-and-history) sur chaque appareil : **Discussions dans la recherche**, le nombre maximal de discussions couvertes (épinglées d'abord, puis les plus récentes), et **Messages dans la recherche**, le nombre maximal de messages couverts dans chaque discussion, des plus récents aux plus anciens. Chaque champ n'accepte qu'un nombre entier dans sa plage autorisée.
+Les admins fixent les limites d'AChat dans le panneau d'admin, comme la durée de conservation de la Corbeille ou celle des messages des salons anonymes. Deux d'entre elles bornent la [recherche](/features/search-and-history) sur chaque appareil : **Discussions dans la recherche**, le nombre maximal de discussions couvertes (épinglées d'abord, puis les plus récentes), et **Messages dans la recherche**, le nombre maximal de messages couverts dans chaque discussion, des plus récents aux plus anciens. Chaque champ n'accepte qu'un nombre entier dans sa plage autorisée.
 
 ## Modération dans les groupes et les communautés
 
-Ceux qui gèrent un espace agissent d'abord. Les admins de groupe peuvent retirer des membres et supprimer n'importe quel message ; les admins de communauté traitent les signalements et les bannissements. Voir [Groupes et communautés](/features/groups-and-communities).
+Ceux qui gèrent un espace agissent d'abord. Les admins de groupe peuvent retirer des membres et supprimer n'importe quel message ; les admins de communauté traitent les signalements et les bannissements. Voir [Groupes et communautés](/features/groups-and-communities).
 
 ## Le journal des actions
 

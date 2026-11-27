@@ -25,13 +25,13 @@ AChat ne convient que si vos conversations Crisp s'avèrent être des visiteurs 
 
 ## Ce que disent les pages de Crisp
 
-La page des tarifs de Crisp confirme une offre gratuite sans date de fin. Les pages consultées ne disaient pas si Crisp propose un chat prêt à ajouter à une page ou une version à héberger sur vos serveurs : ces lignes ont donc été retirées.
+La page des tarifs de Crisp confirme une offre gratuite sans date de fin. Les pages consultées ne disaient pas si Crisp propose un chat prêt à ajouter à une page ou une version à héberger sur vos serveurs : ces lignes ont donc été retirées.
 
 | Fonctionnalité | AChat | Crisp |
 |---|---|---|
 | Offre gratuite sans date de fin | Oui | Oui (<a href="https://crisp.chat/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">leur page</a>) |
 
-AChat n'existe qu'en version hébergée : vous ne pouvez pas l'installer sur vos serveurs. Toute personne qui visite la page peut lire le salon, sauf s'il a un mot de passe.
+AChat n'existe qu'en version hébergée : vous ne pouvez pas l'installer sur vos serveurs. Toute personne qui visite la page peut lire le salon, sauf s'il a un mot de passe.
 
 | Forfait | Prix | Source |
 |---|---|---|
@@ -40,4 +40,4 @@ AChat n'existe qu'en version hébergée : vous ne pouvez pas l'installer sur vos
 | Essentials | 95 $ par mois | <a href="https://crisp.chat/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 | Plus | 295 $ par mois | <a href="https://crisp.chat/en/pricing/" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 
-Les forfaits d'AChat sont sur la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Ceux de Crisp : le <a href="https://crisp.chat" target="_blank" rel="noopener noreferrer nofollow">site de Crisp</a>.
+Les forfaits d'AChat sont sur la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Ceux de Crisp : le <a href="https://crisp.chat" target="_blank" rel="noopener noreferrer nofollow">site de Crisp</a>.

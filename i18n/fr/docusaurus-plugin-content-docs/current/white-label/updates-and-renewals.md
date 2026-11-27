@@ -14,7 +14,7 @@ last_update:
 
 ## Renouveler
 
-Un renouvellement ajoute trois, six ou douze mois. Il démarre à votre date de fin actuelle, ou aujourd'hui si cette date est déjà passée. Renouvelez sur la [page des mises à jour](https://achat.aoneahsan.com/fr/white-label/updates) avec votre clé de licence et l'adresse e-mail à laquelle la licence a été délivrée ; les prix y figurent.
+Un renouvellement ajoute trois, six ou douze mois. Il démarre à votre date de fin actuelle, ou aujourd'hui si cette date est déjà passée. Renouvelez sur la [page des mises à jour](https://achat.aoneahsan.com/fr/white-label/updates) avec votre clé de licence et l'adresse e-mail à laquelle la licence a été délivrée ; les prix y figurent.
 
 ## Sans renouvellement
 

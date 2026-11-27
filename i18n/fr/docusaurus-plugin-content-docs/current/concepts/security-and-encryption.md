@@ -16,7 +16,7 @@ last_update:
 
 - Les messages de ces discussions ne se lisent que sur les appareils des personnes qui y sont.
 - AChat les stocke sous une forme que ni ses serveurs ni ses administrateurs ne peuvent lire.
-- AChat ne garde aucune copie des clés de tes messages : il ne peut ni lire ni restaurer ton historique.
+- AChat ne garde aucune copie des clés de tes messages : il ne peut ni lire ni restaurer ton historique.
 - Les notifications push contiennent le nom de la discussion ou de l'expéditeur, jamais le texte du message.
 - La recherche ne porte que sur les messages déjà présents sur ton appareil.
 - Les autres apps ne peuvent pas les lire non plus. Une clé d'accès, un assistant IA ou un webhook voit le nom et les membres d'une discussion chiffrée, jamais ses messages. Voir [AChat pour les développeurs](/developers#what-other-apps-can-reach).

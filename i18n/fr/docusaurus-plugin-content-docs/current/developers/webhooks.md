@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: "Webhooks"
-description: "Webhooks AChat : ajoutez une adresse https, choisissez des événements et vérifiez la signature Standard Webhooks de chaque livraison en Node ou en Python. Tous les événements et leurs données, le calendrier des nouvelles tentatives, la pause et ce qui désactive une adresse."
+description: "Webhooks AChat : ajoutez une adresse https, choisissez des événements et vérifiez la signature Standard Webhooks de chaque livraison en Node ou en Python. Tous les événements et leurs données, le calendrier des nouvelles tentatives, la pause et ce qui désactive une adresse."
 keywords: [webhooks AChat, Standard Webhooks, signature de webhook, vérifier webhook-signature, HMAC-SHA256, webhook de demande de contact]
 last_update:
   date: 2026-11-21
@@ -10,7 +10,7 @@ last_update:
 
 # Webhooks
 
-**AChat envoie un court message signé à votre propre serveur quand quelque chose change dans votre compte, pour que vos outils réagissent sans demander chaque minute.** Chaque événement dit ce qui a changé et quand, avec des identifiants. Il ne transporte jamais le texte d'un message, un nom ni rien d'autre que vous devriez protéger ; votre serveur récupère le reste avec une [clé d'accès](./access-keys.md).
+**AChat envoie un court message signé à votre propre serveur quand quelque chose change dans votre compte, pour que vos outils réagissent sans demander chaque minute.** Chaque événement dit ce qui a changé et quand, avec des identifiants. Il ne transporte jamais le texte d'un message, un nom ni rien d'autre que vous devriez protéger ; votre serveur récupère le reste avec une [clé d'accès](./access-keys.md).
 
 ## Ajouter une adresse
 
@@ -21,14 +21,14 @@ last_update:
 
 Ajouter une adresse demande une connexion dans les 10 dernières minutes, avec le code quand la [connexion en deux étapes](./two-step-sign-in.md) est activée. AChat vous envoie un e-mail quand une adresse est ajoutée.
 
-L'adresse doit :
+L'adresse doit :
 
-- commencer par `https://` ; AChat n'envoie pas en http simple ;
-- utiliser le port standard (443) ou 8443 ;
-- ne contenir ni nom ni mot de passe ; vérifiez plutôt la signature ;
+- commencer par `https://` ; AChat n'envoie pas en http simple ;
+- utiliser le port standard (443) ou 8443 ;
+- ne contenir ni nom ni mot de passe ; vérifiez plutôt la signature ;
 - être joignable depuis internet. Les réseaux privés, cet ordinateur et les domaines d'AChat lui-même sont refusés.
 
-Votre forfait fixe le nombre d'adresses que vous pouvez avoir à la fois (3 sur Free par défaut ; voir [ce que permet votre forfait](./index.md#what-your-plan-allows)).
+Votre forfait fixe le nombre d'adresses que vous pouvez avoir à la fois (3 sur Free par défaut ; voir [ce que permet votre forfait](./index.md#what-your-plan-allows)).
 
 ## À quoi ressemble une livraison
 
@@ -44,7 +44,7 @@ webhook-signature: v1,nTT91qcpymGUsm8mf2biKHcRldxftN3Jyd3ZkufNi1g=
 {"type":"status.posted","timestamp":"2026-11-21T09:06:58.104Z","data":{"id":"0b6f2c1e-7d1a-4c55-9a3e-2f0c8e4b9d10","created_at":"2026-11-21T09:06:58.104Z","expires_at":"2026-11-22T09:06:58.104Z"}}
 ```
 
-`type` est l'événement, `timestamp` le moment où il s'est produit, et `data` contient les identifiants et horaires listés ci-dessous. `webhook-id` est l'identifiant de l'événement et reste le même à chaque nouvelle tentative : servez-vous-en pour repérer un doublon.
+`type` est l'événement, `timestamp` le moment où il s'est produit, et `data` contient les identifiants et horaires listés ci-dessous. `webhook-id` est l'identifiant de l'événement et reste le même à chaque nouvelle tentative : servez-vous-en pour repérer un doublon.
 
 ## Événements
 
@@ -65,11 +65,11 @@ webhook-signature: v1,nTT91qcpymGUsm8mf2biKHcRldxftN3Jyd3ZkufNi1g=
 
 `message.created` ne se déclenche que pour les messages texte et les liens des salons ouverts et des canaux. Un message dans une discussion directe, un groupe ou un salon avec mot de passe ne crée jamais d'événement, car AChat ne peut pas le lire. Chaque `id` correspond à l'élément de même identifiant dans l'[API](./api.md) : récupérez `/messages/{id}`, `/status/{id}` ou `/contacts/{id}` avec une clé qui a la permission.
 
-Un événement n'est enregistré que tant qu'une de vos adresses l'écoute. Ajoutez d'abord l'adresse ; les changements antérieurs à son existence ne sont pas envoyés plus tard.
+Un événement n'est enregistré que tant qu'une de vos adresses l'écoute. Ajoutez d'abord l'adresse ; les changements antérieurs à son existence ne sont pas envoyés plus tard.
 
 ## Vérifier la signature
 
-Chaque livraison est signée selon [Standard Webhooks](https://www.standardwebhooks.com) : HMAC-SHA256 sur `webhook-id`, un point, `webhook-timestamp`, un point et le corps brut, avec pour clé les octets de votre secret (la partie après `whsec_`, décodée du base64). `webhook-signature` contient une ou plusieurs valeurs `v1,<base64>` séparées par des espaces ; acceptez la livraison si l'une d'elles correspond. Refusez tout ce dont l'horodatage s'écarte de plus de cinq minutes de votre horloge.
+Chaque livraison est signée selon [Standard Webhooks](https://www.standardwebhooks.com) : HMAC-SHA256 sur `webhook-id`, un point, `webhook-timestamp`, un point et le corps brut, avec pour clé les octets de votre secret (la partie après `whsec_`, décodée du base64). `webhook-signature` contient une ou plusieurs valeurs `v1,<base64>` séparées par des espaces ; acceptez la livraison si l'une d'elles correspond. Refusez tout ce dont l'horodatage s'écarte de plus de cinq minutes de votre horloge.
 
 Vérifiez le corps **brut** exactement tel qu'il est arrivé. Analyser le JSON puis le resérialiser modifie les octets et casse la correspondance.
 
@@ -97,7 +97,7 @@ export function verifyAchatWebhook(secret, headers, rawBody) {
 }
 ```
 
-Avec Express, récupérez le corps brut sur cette route :
+Avec Express, récupérez le corps brut sur cette route :
 
 ```js
 import express from 'express';
@@ -148,13 +148,13 @@ Avec Flask, passez `request.get_data()` et `request.headers`. N'importe quelle b
 
 ## Répondre vite
 
-Répondez par n'importe quel `2xx` dans les 10 secondes et faites le travail ensuite. AChat ne suit aucune redirection. Un `410 Gone` demande à AChat de désactiver l'adresse immédiatement ; toute autre réponse, ou aucune réponse, compte comme un échec.
+Répondez par n'importe quel `2xx` dans les 10 secondes et faites le travail ensuite. AChat ne suit aucune redirection. Un `410 Gone` demande à AChat de désactiver l'adresse immédiatement ; toute autre réponse, ou aucune réponse, compte comme un échec.
 
 ## Nouvelles tentatives
 
-Une livraison en échec est tentée 8 fois en tout : immédiatement, puis 5 secondes, 5 minutes, 30 minutes, 2 heures, 5 heures, 10 heures et 10 heures après chaque tentative précédente, soit un peu plus d'une journée de la première à la dernière. Chaque tentative porte le même `webhook-id`.
+Une livraison en échec est tentée 8 fois en tout : immédiatement, puis 5 secondes, 5 minutes, 30 minutes, 2 heures, 5 heures, 10 heures et 10 heures après chaque tentative précédente, soit un peu plus d'une journée de la première à la dernière. Chaque tentative porte le même `webhook-id`.
 
-Le **Journal de livraison** de chaque adresse affiche chaque livraison : Livré, Non envoyé, Pas de réponse, ou le statut renvoyé par votre serveur, avec le numéro de tentative. **Renvoyer** en renvoie une avec le même identifiant. Les événements et leur journal sont conservés 30 jours.
+Le **Journal de livraison** de chaque adresse affiche chaque livraison : Livré, Non envoyé, Pas de réponse, ou le statut renvoyé par votre serveur, avec le numéro de tentative. **Renvoyer** en renvoie une avec le même identifiant. Les événements et leur journal sont conservés 30 jours.
 
 ## Pause, désactivation et réactivation
 
@@ -164,4 +164,4 @@ Le **Journal de livraison** de chaque adresse affiche chaque livraison : Livré,
 
 ## Le secret de signature
 
-AChat affiche le secret une fois à l'ajout de l'adresse, puis à nouveau pendant 10 minutes après une connexion (avec le code si la connexion en deux étapes est activée) : **Afficher le secret de signature**. **Remplacer le secret** en crée un nouveau, et pendant 24 heures chaque événement porte deux signatures, une par secret, pour que votre serveur bascule sans rien manquer. Les vérifications ci-dessus acceptent déjà l'une ou l'autre.
+AChat affiche le secret une fois à l'ajout de l'adresse, puis à nouveau pendant 10 minutes après une connexion (avec le code si la connexion en deux étapes est activée) : **Afficher le secret de signature**. **Remplacer le secret** en crée un nouveau, et pendant 24 heures chaque événement porte deux signatures, une par secret, pour que votre serveur bascule sans rien manquer. Les vérifications ci-dessus acceptent déjà l'une ou l'autre.

@@ -11,7 +11,7 @@ last_update:
 
 **LiveChat est un chat en direct facturé par utilisateur, avec un essai de 14 jours.** Il est conçu pour des agents qui répondent aux visiteurs un par un. Si votre site fonctionne ainsi, gardez-le. AChat sert à avoir quelque chose de gratuit sur votre page dès aujourd'hui, sans essai qui expire.
 
-Dernière vérification le 2026-11-22. La page côte à côte : [AChat et LiveChat](https://achat.aoneahsan.com/fr/compare/livechat).
+Dernière vérification le 2026-11-22. La page côte à côte : [AChat et LiveChat](https://achat.aoneahsan.com/fr/compare/livechat).
 
 ## Si votre essai touche à sa fin
 

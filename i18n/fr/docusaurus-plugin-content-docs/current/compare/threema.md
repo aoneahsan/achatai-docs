@@ -19,9 +19,9 @@ Décidez d'abord ce que vous voulez donner à AChat, car cela change votre point
 
 **Rien du tout.** Choisissez **Continuer anonymement** et créez un salon ([salons anonymes](/features/anonymous-chats)). Vous choisissez un nom affiché pour ce salon et partagez son lien. Ajoutez un mot de passe si seules certaines personnes doivent le lire.
 
-**Un compte.** [Connectez-vous avec Google](/getting-started/quick-start) et choisissez un nom d'utilisateur, par lequel on vous trouve, un peu comme un identifiant Threema. Ensuite :
+**Un compte.** [Connectez-vous avec Google](/getting-started/quick-start) et choisissez un nom d'utilisateur, par lequel on vous trouve, un peu comme un identifiant Threema. Ensuite :
 
-1. Enregistrez votre clé de récupération. Threema sauvegarde l'identifiant ; sur AChat, c'est la clé de récupération ou un autre appareil associé qui ramène votre historique ([appareils et clé de récupération](/features/devices-and-recovery)).
+1. Enregistrez votre clé de récupération. Threema sauvegarde l'identifiant ; sur AChat, c'est la clé de récupération ou un autre appareil associé qui ramène votre historique ([appareils et clé de récupération](/features/devices-and-recovery)).
 2. Envoyez à vos contacts Threema votre nom d'utilisateur ou votre lien d'invitation ([discussions personnelles et contacts](/features/personal-chats-and-contacts)).
 3. Si vous avez un site web, créez-lui un salon sur la [page du widget](https://achat.aoneahsan.com/fr/widget).
 

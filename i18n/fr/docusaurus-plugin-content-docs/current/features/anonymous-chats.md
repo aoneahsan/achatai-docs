@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 title: Salons anonymes
-description: 'Comment fonctionnent les salons anonymes d''AChat sans compte : identifiants de salon, noms affichés, mots de passe, durée de conservation des messages, et ce qu''anonyme ne veut pas dire.'
+description: 'Comment fonctionnent les salons anonymes d''AChat sans compte : identifiants de salon, noms affichés, mots de passe, durée de conservation des messages, et ce qu''anonyme ne veut pas dire.'
 keywords: ['salon de discussion anonyme', 'discussion sans inscription', 'discussion par lien', 'discussion avec nom affiché', 'salons anonymes AChat']
 last_update:
   date: 2026-10-30
@@ -10,7 +10,7 @@ last_update:
 
 # Salons anonymes
 
-**Un salon anonyme ne demande ni compte ni numéro de téléphone : tu choisis un nom affiché et tu partages le lien du salon.** Quiconque a le lien peut rejoindre, sauf si le salon a un mot de passe.
+**Un salon anonyme ne demande ni compte ni numéro de téléphone : tu choisis un nom affiché et tu partages le lien du salon.** Quiconque a le lien peut rejoindre, sauf si le salon a un mot de passe.
 
 ## Créer ou rejoindre un salon
 
@@ -47,4 +47,4 @@ Les liens de salon d'avant la refonte s'ouvrent toujours, avec leurs messages, m
 
 Dans un salon avec mot de passe, saisis le même mot de passe pour lire ses messages antérieurs, avec leurs noms, réponses, sondages et fichiers. Un message illisible affiche une ligne qui le signale.
 
-L'ancien AChat chiffrait les messages des salons avec mot de passe, mais stockait leurs fichiers sans chiffrement, chacun à un lien public impossible à deviner. Ces anciens fichiers sont gardés tels quels : quiconque a le lien d'un fichier peut l'ouvrir.
+L'ancien AChat chiffrait les messages des salons avec mot de passe, mais stockait leurs fichiers sans chiffrement, chacun à un lien public impossible à deviner. Ces anciens fichiers sont gardés tels quels : quiconque a le lien d'un fichier peut l'ouvrir.

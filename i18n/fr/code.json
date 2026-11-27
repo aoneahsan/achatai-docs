@@ -21,13 +21,13 @@
     "message": "Des discussions avec les gens que tu connais"
   },
   "home.feature.chats.body": {
-    "message": "Tes amis te trouvent par nom d'utilisateur, lien d'invitation ou QR code, jamais par numéro de téléphone. Les discussions personnelles, les groupes privés et leurs fichiers sont chiffrés de bout en bout : chaque message ne se lit que sur les appareils de ces personnes."
+    "message": "Tes amis te trouvent par nom d'utilisateur, lien d'invitation ou QR code, jamais par numéro de téléphone. Les discussions personnelles, les groupes privés et leurs fichiers sont chiffrés de bout en bout : chaque message ne se lit que sur les appareils de ces personnes."
   },
   "home.feature.rooms.title": {
     "message": "Salons anonymes"
   },
   "home.feature.rooms.body": {
-    "message": "Sans compte : choisis un pseudo et partage le lien du salon. Chaque message est gardé un nombre de jours fixé, et quelqu'un qui a un compte peut garder le salon plus longtemps. Anonyme ne veut pas dire introuvable."
+    "message": "Sans compte : choisis un pseudo et partage le lien du salon. Chaque message est gardé un nombre de jours fixé, et quelqu'un qui a un compte peut garder le salon plus longtemps. Anonyme ne veut pas dire introuvable."
   },
   "home.feature.groups.title": {
     "message": "Groupes et communautés"
@@ -45,7 +45,7 @@
     "message": "Quand la connexion tombe"
   },
   "home.feature.offline.body": {
-    "message": "Les discussions déjà ouvertes restent lisibles, et les nouveaux messages attendent avec « En attente d'envoi » jusqu'à ton retour. Un message n'indique « Envoyé » qu'une fois arrivé."
+    "message": "Les discussions déjà ouvertes restent lisibles, et les nouveaux messages attendent avec « En attente d'envoi » jusqu'à ton retour. Un message n'indique « Envoyé » qu'une fois arrivé."
   },
   "home.feature.plans.title": {
     "message": "Offres"
@@ -57,7 +57,7 @@
     "message": "Démarrage rapide"
   },
   "home.cta.intro": {
-    "message": "Qu'est-ce qu'AChat ?"
+    "message": "Qu'est-ce qu'AChat ?"
   },
   "home.cta.app": {
     "message": "Ouvrir l'app"
@@ -69,7 +69,7 @@
     "message": "Toutes les apps →"
   },
   "home.meta.title": {
-    "message": "{title} : discussions personnelles, groupes, communautés et salons anonymes"
+    "message": "{title} : discussions personnelles, groupes, communautés et salons anonymes"
   },
   "home.meta.description": {
     "message": "Documentation d'AChat, une app de messagerie pour les discussions personnelles, les groupes, les communautés et les salons anonymes, sur le web et Android. Ce qu'elle fait, chaque limite à côté."
@@ -96,7 +96,7 @@
     "message": "chiffrement, salons anonymes, offres"
   },
   "sitemap.search.none": {
-    "message": "Aucune page ne correspond à « {query} ». Essaie moins de mots ou des mots plus courts."
+    "message": "Aucune page ne correspond à « {query} ». Essaie moins de mots ou des mots plus courts."
   },
   "sitemap.app.heading": {
     "message": "L'app AChat"
@@ -111,7 +111,7 @@
     "message": "Plan du site de l'app"
   },
   "sitemap.app.sitemap.description": {
-    "message": "Toutes les pages publiques de l'app AChat : fonctionnalités, offres, confidentialité et plus."
+    "message": "Toutes les pages publiques de l'app AChat : fonctionnalités, offres, confidentialité et plus."
   },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
@@ -245,7 +245,7 @@
     "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags :",
+    "message": "Tags :",
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
@@ -389,7 +389,7 @@
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagués avec « {tagName} »",
+    "message": "{nPosts} tagués avec « {tagName} »",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -445,7 +445,7 @@
     "description": "AChat docs site string"
   },
   "apps.description": {
-    "message": "Tous les endroits où AChat est publié : l'app web, l'app Android sur Google Play et cette documentation.",
+    "message": "Tous les endroits où AChat est publié : l'app web, l'app Android sur Google Play et cette documentation.",
     "description": "AChat docs site string"
   },
   "apps.lead": {
@@ -505,7 +505,7 @@
     "description": "AChat docs site string"
   },
   "feed.title.withPosts": {
-    "message": "Documentation AChat : articles et journal des modifications",
+    "message": "Documentation AChat : articles et journal des modifications",
     "description": "AChat docs site string"
   },
   "feed.description": {
@@ -525,11 +525,11 @@
     "description": "AChat docs site string"
   },
   "sitemap.lead": {
-    "message": "Toutes les pages de la documentation AChat, groupées comme dans la barre latérale. Pour les moteurs de recherche, les lecteurs de flux et les assistants IA, {sitemap} liste chaque page et {feedXml} diffuse le journal des modifications en RSS ; la page {feedPage} montre les mêmes entrées.",
+    "message": "Toutes les pages de la documentation AChat, groupées comme dans la barre latérale. Pour les moteurs de recherche, les lecteurs de flux et les assistants IA, {sitemap} liste chaque page et {feedXml} diffuse le journal des modifications en RSS ; la page {feedPage} montre les mêmes entrées.",
     "description": "AChat docs site string"
   },
   "sitemap.lead.withPosts": {
-    "message": "Toutes les pages de la documentation AChat, groupées comme dans la barre latérale. Pour les moteurs de recherche, les lecteurs de flux et les assistants IA, {sitemap} liste chaque page et {feedXml} diffuse les articles du blog et le journal des modifications en RSS ; la page {feedPage} montre les mêmes entrées.",
+    "message": "Toutes les pages de la documentation AChat, groupées comme dans la barre latérale. Pour les moteurs de recherche, les lecteurs de flux et les assistants IA, {sitemap} liste chaque page et {feedXml} diffuse les articles du blog et le journal des modifications en RSS ; la page {feedPage} montre les mêmes entrées.",
     "description": "AChat docs site string"
   }
 }

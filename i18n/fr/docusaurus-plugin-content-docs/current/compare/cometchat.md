@@ -11,7 +11,7 @@ last_update:
 
 **CometChat est un chat pour développeurs, gratuit jusqu'à 100 utilisateurs avec son offre Build.** Si vos développeurs ajoutent le chat à votre propre app, restez dessus. AChat sert quand vous préférez coller un extrait et laisser les visiteurs discuter sans compte.
 
-Dernière vérification le 2026-11-22. Côte à côte : [AChat et CometChat](https://achat.aoneahsan.com/fr/compare/cometchat).
+Dernière vérification le 2026-11-22. Côte à côte : [AChat et CometChat](https://achat.aoneahsan.com/fr/compare/cometchat).
 
 ## Au-delà de 100 utilisateurs
 
@@ -25,7 +25,7 @@ L'offre Build couvre jusqu'à 100 utilisateurs. Si ce que vous avez construit de
 
 ## Les pages de CometChat
 
-La page des tarifs de CometChat confirme une offre gratuite sans date de fin. Les pages consultées ne disaient pas s'il propose un chat prêt à ajouter à une page, ni s'il peut être hébergé sur vos serveurs : ces lignes ont donc été retirées.
+La page des tarifs de CometChat confirme une offre gratuite sans date de fin. Les pages consultées ne disaient pas s'il propose un chat prêt à ajouter à une page, ni s'il peut être hébergé sur vos serveurs : ces lignes ont donc été retirées.
 
 | Fonctionnalité | AChat | CometChat |
 |---|---|---|
@@ -39,4 +39,4 @@ AChat ne fonctionne qu'en version hébergée. Son widget est un salon prêt à l
 | Basic | 239 $ par mois, facturation annuelle | <a href="https://www.cometchat.com/pricing" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 | Advanced | 359 $ par mois, facturation annuelle | <a href="https://www.cometchat.com/pricing" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 
-Forfaits et prix d'AChat : la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Ceux de CometChat : le <a href="https://www.cometchat.com" target="_blank" rel="noopener noreferrer nofollow">site de CometChat</a>.
+Forfaits et prix d'AChat : la [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Ceux de CometChat : le <a href="https://www.cometchat.com" target="_blank" rel="noopener noreferrer nofollow">site de CometChat</a>.

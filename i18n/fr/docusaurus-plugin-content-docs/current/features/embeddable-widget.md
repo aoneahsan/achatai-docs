@@ -16,16 +16,16 @@ last_update:
 
 | Cible | Condition |
 |---|---|
-| Salon anonyme | N'importe quel identifiant de salon : 8 à 20 lettres minuscules, chiffres et tirets. Un nouveau salon est créé la première fois que quelqu'un ouvre le widget |
+| Salon anonyme | N'importe quel identifiant de salon : 8 à 20 lettres minuscules, chiffres et tirets. Un nouveau salon est créé la première fois que quelqu'un ouvre le widget |
 | Canal de communauté | Seulement les canaux à nom affiché des communautés marquées **Anonymat autorisé** |
 
 Les groupes privés et les canaux qui demandent un compte ne peuvent pas être affichés sur d'autres sites.
 
 ## Disposition et options
 
-- **Dans la page :** la discussion à une taille fixe, là où tu colles le code.
-- **Bouton de discussion :** un bouton dans un coin qui ouvre la discussion dans un panneau.
-- **Compacte**, **Masquer l'en-tête de la discussion** et **Proposer la connexion** (les visiteurs peuvent se connecter pour conserver le salon ; discuter n'en a jamais besoin, et la connexion s'ouvre dans un nouvel onglet).
+- **Dans la page :** la discussion à une taille fixe, là où tu colles le code.
+- **Bouton de discussion :** un bouton dans un coin qui ouvre la discussion dans un panneau.
+- **Compacte**, **Masquer l'en-tête de la discussion** et **Proposer la connexion** (les visiteurs peuvent se connecter pour conserver le salon ; discuter n'en a jamais besoin, et la connexion s'ouvre dans un nouvel onglet).
 
 ## Sites autorisés
 

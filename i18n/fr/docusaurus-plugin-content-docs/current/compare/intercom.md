@@ -15,7 +15,7 @@ Vérifié le 2026-11-22. Voir [AChat et Intercom](https://achat.aoneahsan.com/fr
 
 ## Là où un salon suffit
 
-Le test honnête : quelqu'un de votre équipe lit-il les conversations Intercom ? Si oui, continuez à payer les postes.
+Le test honnête : quelqu'un de votre équipe lit-il les conversations Intercom ? Si oui, continuez à payer les postes.
 
 1. Listez les pages où Intercom apparaît. Repérez celles où les visiteurs se parlent surtout entre eux, ou où personne de votre équipe ne répond.
 2. Pour celles-là, créez un salon ou un canal ouvert sur la [page du widget](https://achat.aoneahsan.com/fr/widget) ([widget intégrable](/features/embeddable-widget)).
@@ -35,4 +35,4 @@ De notre côté, AChat a une offre gratuite, un widget prêt à l'emploi, et pas
 | Advanced | 85 $ par personne et par mois | <a href="https://www.intercom.com/pricing" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 | Expert | 132 $ par personne et par mois | <a href="https://www.intercom.com/pricing" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 
-Forfaits et prix d'AChat : la [page des tarifs](https://achat.aoneahsan.com/fr/pricing).
+Forfaits et prix d'AChat : la [page des tarifs](https://achat.aoneahsan.com/fr/pricing).

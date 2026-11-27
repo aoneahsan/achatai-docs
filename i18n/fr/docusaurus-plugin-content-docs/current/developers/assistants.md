@@ -12,7 +12,7 @@ last_update:
 
 **Collez l'adresse d'assistant d'AChat dans votre assistant, approuvez-le sur AChat, et il peut lire votre compte et modifier ce qui vous appartient.** Il ne voit que ce que vous cochez en l'approuvant. Il ne peut jamais lire un message chiffré de bout en bout, ni rien supprimer sans votre accord sur AChat.
 
-L'adresse d'assistant d'AChat :
+L'adresse d'assistant d'AChat :
 
 ```text
 https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/mcp
@@ -34,7 +34,7 @@ C'est un serveur MCP distant en Streamable HTTP. Vous la trouverez aussi, avec u
 
 ## Claude Code
 
-1. Dans un terminal, lancez :
+1. Dans un terminal, lancez :
 
    ```bash
    claude mcp add --transport http achat https://vhkerwyxmhaxfyjbvsha.supabase.co/functions/v1/mcp
@@ -54,17 +54,17 @@ C'est un serveur MCP distant en Streamable HTTP. Vous la trouverez aussi, avec u
 
 3. Cursor ouvre AChat. Vérifiez ce qu'il demande et approuvez.
 
-Les autres clients MCP compatibles OAuth fonctionnent de la même façon : à un client sans jeton, l'adresse indique où se connecter, et le client s'enregistre lui-même.
+Les autres clients MCP compatibles OAuth fonctionnent de la même façon : à un client sans jeton, l'adresse indique où se connecter, et le client s'enregistre lui-même.
 
 ## Ce que vous approuvez
 
 La page de consentement d'AChat nomme l'app, l'adresse où elle vous renvoie et chaque permission demandée, avec les mêmes cases Lire, Modifier et Supprimer qu'une [clé d'accès](./access-keys.md#permissions). Les données partagées restent en lecture seule quoi qu'on demande, et une permission qu'AChat ne propose pas est retirée de la demande. Rien n'est partagé tant que vous n'avez pas choisi **Approuver**.
 
-- Une app qui « s'est enregistrée elle-même auprès d'AChat » : AChat n'a pas vérifié qui la gère, lisez donc bien ce qu'elle demande.
+- Une app qui « s'est enregistrée elle-même auprès d'AChat » : AChat n'a pas vérifié qui la gère, lisez donc bien ce qu'elle demande.
 - Si la connexion peut modifier des choses, l'approuver demande une connexion dans les 10 dernières minutes, et le code aussi quand la [connexion en deux étapes](./two-step-sign-in.md) est activée.
 - Vous pouvez nommer la connexion, pour en distinguer deux plus tard.
 
-AChat vous envoie un e-mail quand une app est connectée. Votre forfait fixe combien peuvent être connectées à la fois (3 sur Free par défaut ; voir [ce que permet votre forfait](./index.md#what-your-plan-allows)). Les appels d'assistant comptent dans la même allocation quotidienne de requêtes que l'API.
+AChat vous envoie un e-mail quand une app est connectée. Votre forfait fixe combien peuvent être connectées à la fois (3 sur Free par défaut ; voir [ce que permet votre forfait](./index.md#what-your-plan-allows)). Les appels d'assistant comptent dans la même allocation quotidienne de requêtes que l'API.
 
 ## Ce qu'un assistant peut faire
 
@@ -80,14 +80,14 @@ Chaque outil a besoin de la permission indiquée à côté, et la liste d'outils
 | `list_chats`, `get_chats`, `list_messages`, `get_messages` | `chats:read` |
 | `list_communities`, `get_communities`, `list_channels`, `get_channels` | `communities:read` |
 
-Les champs sont ceux de l'API ; voir [L'API d'AChat](./api.md). Les listes renvoient jusqu'à 50 éléments par appel, avec un curseur pour la page suivante. Les messages ne viennent que des salons ouverts et des canaux. Une discussion directe, un groupe ou un salon avec mot de passe montrent leur nom et leurs membres, jamais ce qui s'y est dit.
+Les champs sont ceux de l'API ; voir [L'API d'AChat](./api.md). Les listes renvoient jusqu'à 50 éléments par appel, avec un curseur pour la page suivante. Les messages ne viennent que des salons ouverts et des canaux. Une discussion directe, un groupe ou un salon avec mot de passe montrent leur nom et leurs membres, jamais ce qui s'y est dit.
 
 ## Les suppressions vous attendent {#deletes-wait-for-you}
 
 Un assistant ne supprime jamais. Quand vous lui demandez de retirer un statut ou de débloquer quelqu'un, il appelle `prepare_delete_status` ou `prepare_delete_blocks`, et AChat répond avec un lien vers `https://achat.aoneahsan.com/developers/confirm/…`.
 
 1. Ouvrez le lien. AChat montre ce que l'assistant a demandé et ce qui part avec.
-2. Choisissez **Le supprimer** (ou **Débloquer**), ou **Le garder**. Vous êtes sur AChat, pas dans l'assistant : il ne peut pas appuyer sur ces boutons.
+2. Choisissez **Le supprimer** (ou **Débloquer**), ou **Le garder**. Vous êtes sur AChat, pas dans l'assistant : il ne peut pas appuyer sur ces boutons.
 3. L'assistant apprend seulement que la demande est terminée.
 
 La demande expire au bout de 10 minutes, et rien n'est supprimé. Confirmer demande une connexion dans les 10 dernières minutes, avec le code si la connexion en deux étapes est activée. Les suppressions en attente sont listées dans **Compte › Autres apps › Apps connectées**. Une [clé d'accès](./access-keys.md) avec la permission Supprimer supprime tout de suite, parce que c'est vous qui la faites tourner.

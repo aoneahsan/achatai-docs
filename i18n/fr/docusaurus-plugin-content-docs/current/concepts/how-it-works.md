@@ -10,7 +10,7 @@ last_update:
 
 # Comment fonctionne AChat
 
-**Dans AChat, il y a deux façons d'être dans une discussion : un compte (connexion Google et nom d'utilisateur) ou, dans les salons anonymes, un pseudo sans compte.** Les deux ne sont jamais reliés : si tu as aussi un compte, AChat ne rattache pas tes messages anonymes à ce compte.
+**Dans AChat, il y a deux façons d'être dans une discussion : un compte (connexion Google et nom d'utilisateur) ou, dans les salons anonymes, un pseudo sans compte.** Les deux ne sont jamais reliés : si tu as aussi un compte, AChat ne rattache pas tes messages anonymes à ce compte.
 
 ## Types de discussion
 
@@ -24,9 +24,9 @@ last_update:
 
 ## Où vivent les messages
 
-- **Sur les serveurs d'AChat :** les messages de chaque discussion, pour que chaque appareil puisse les récupérer. Les messages chiffrés de bout en bout sont stockés sous une forme que ni les serveurs ni les administrateurs d'AChat ne peuvent lire.
-- **Sur tes appareils :** les discussions et fichiers que tu as ouverts, pour qu'ils se chargent vite et s'ouvrent hors ligne, plus une boîte d'envoi des messages en attente. La recherche se fait ici, sur ce que l'appareil contient.
-- **Tes clés :** sur tes appareils associés, et récupérables avec ta clé de récupération. AChat n'en garde aucune copie.
+- **Sur les serveurs d'AChat :** les messages de chaque discussion, pour que chaque appareil puisse les récupérer. Les messages chiffrés de bout en bout sont stockés sous une forme que ni les serveurs ni les administrateurs d'AChat ne peuvent lire.
+- **Sur tes appareils :** les discussions et fichiers que tu as ouverts, pour qu'ils se chargent vite et s'ouvrent hors ligne, plus une boîte d'envoi des messages en attente. La recherche se fait ici, sur ce que l'appareil contient.
+- **Tes clés :** sur tes appareils associés, et récupérables avec ta clé de récupération. AChat n'en garde aucune copie.
 
 ## Combien de temps les choses durent
 

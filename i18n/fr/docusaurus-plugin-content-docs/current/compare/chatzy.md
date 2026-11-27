@@ -9,7 +9,7 @@ last_update:
 
 # Passer de Chatzy à AChat
 
-**Chatzy propose des salons de discussion privés et gratuits pour les personnes que vous invitez, sans inscription.** Si vous comptez sur ses propres contrôles pour décider qui entre, continuez à les utiliser. La réponse d'AChat à « qui entre » est un mot de passe, et ce mot de passe chiffre aussi les messages du salon. Les salons AChat acceptent aussi les fichiers.
+**Chatzy propose des salons de discussion privés et gratuits pour les personnes que vous invitez, sans inscription.** Si vous comptez sur ses propres contrôles pour décider qui entre, continuez à les utiliser. La réponse d'AChat à « qui entre » est un mot de passe, et ce mot de passe chiffre aussi les messages du salon. Les salons AChat acceptent aussi les fichiers.
 
 Vérifié le 2026-11-22. Comparaison sur [AChat et Chatzy](https://achat.aoneahsan.com/fr/compare/chatzy).
 
@@ -38,4 +38,4 @@ Le mot de passe d'un salon tient à l'écart quiconque ne l'a pas. Anonyme signi
 |---|---|---|
 | Chatzy | Gratuit | <a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">leur page</a> |
 
-Les prix d'AChat sont sur sa [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Le site de Chatzy : le <a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">site de Chatzy</a>.
+Les prix d'AChat sont sur sa [page des tarifs](https://achat.aoneahsan.com/fr/pricing). Le site de Chatzy : le <a href="https://www.chatzy.com/" target="_blank" rel="noopener noreferrer nofollow">site de Chatzy</a>.

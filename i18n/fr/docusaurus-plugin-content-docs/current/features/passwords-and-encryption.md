@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: Mots de passe et chiffrement
-description: 'Quelles discussions AChat sont chiffrées de bout en bout, ce que protège le mot de passe d''un salon, et les limites : les salons ouverts, les communautés et les statuts ne sont pas chiffrés de bout en bout.'
+description: 'Quelles discussions AChat sont chiffrées de bout en bout, ce que protège le mot de passe d''un salon, et les limites : les salons ouverts, les communautés et les statuts ne sont pas chiffrés de bout en bout.'
 keywords: ['discussion chiffrée de bout en bout', 'mot de passe de salon', 'discussion de groupe chiffrée', 'chiffrement AChat']
 last_update:
   date: 2026-10-01
@@ -10,18 +10,18 @@ last_update:
 
 # Mots de passe et chiffrement
 
-**Les discussions personnelles, les groupes privés et leurs fichiers sont chiffrés de bout en bout : chaque message ne peut être lu que sur les appareils des personnes qui en font partie.** Un salon avec mot de passe chiffre ses messages sur ton appareil, avec ce mot de passe.
+**Les discussions personnelles, les groupes privés et leurs fichiers sont chiffrés de bout en bout : chaque message ne peut être lu que sur les appareils des personnes qui en font partie.** Un salon avec mot de passe chiffre ses messages sur ton appareil, avec ce mot de passe.
 
 ## Ce qui est chiffré
 
-| Discussion | Chiffrée de bout en bout ? |
+| Discussion | Chiffrée de bout en bout ? |
 |---|---|
 | Discussions personnelles | Oui, avec leurs fichiers |
 | Groupes privés | Oui, avec leurs fichiers |
 | Salons anonymes avec mot de passe | Oui, chiffrés avec le mot de passe du salon |
 | Salons anonymes ouverts | Non. Quiconque a le lien peut les lire |
 | Communautés et leurs canaux | Non |
-| Statuts | Non. Les serveurs d'AChat peuvent les lire ; des règles d'accès limitent qui d'autre voit chacun d'eux |
+| Statuts | Non. Les serveurs d'AChat peuvent les lire ; des règles d'accès limitent qui d'autre voit chacun d'eux |
 
 AChat stocke les messages chiffrés de bout en bout sous une forme que ni ses serveurs ni ses administrateurs ne peuvent lire. AChat ne garde aucune copie des clés de tes messages.
 
@@ -34,7 +34,7 @@ AChat stocke les messages chiffrés de bout en bout sous une forme que ni ses se
 
 ## Groupes et changements de membres
 
-Quand les membres d'un groupe changent, le groupe reçoit de nouvelles clés de sécurité : les personnes parties ne peuvent pas lire les nouveaux messages. Celles qui arrivent voient les messages envoyés après leur arrivée ; les messages antérieurs ne sont pas partagés automatiquement.
+Quand les membres d'un groupe changent, le groupe reçoit de nouvelles clés de sécurité : les personnes parties ne peuvent pas lire les nouveaux messages. Celles qui arrivent voient les messages envoyés après leur arrivée ; les messages antérieurs ne sont pas partagés automatiquement.
 
 ## Vérifier un appareil associé
 

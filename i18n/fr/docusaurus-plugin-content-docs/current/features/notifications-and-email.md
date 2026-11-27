@@ -16,12 +16,12 @@ last_update:
 
 - Active-les dans **Compte**, puis **Préférences**, avec **Autoriser les notifications**. AChat ne demande l'accord de ton appareil qu'après ce choix.
 - Chaque alerte porte le nom de la discussion ou de l'expéditeur, jamais le texte du message.
-- **Couper les notifications** fait taire une discussion. Tout couper arrête les sons et les alertes ; les messages arrivent quand même.
-- Autoriser et recevoir sont deux choses : si ton appareil autorise les notifications mais ne les reçoit pas encore, AChat te le dit et te laisse réessayer.
+- **Couper les notifications** fait taire une discussion. Tout couper arrête les sons et les alertes ; les messages arrivent quand même.
+- Autoriser et recevoir sont deux choses : si ton appareil autorise les notifications mais ne les reçoit pas encore, AChat te le dit et te laisse réessayer.
 
 ## E-mails
 
-AChat n'écrit à ton adresse Google qu'au sujet de ton compte :
+AChat n'écrit à ton adresse Google qu'au sujet de ton compte :
 
 | E-mail | Quand |
 |---|---|

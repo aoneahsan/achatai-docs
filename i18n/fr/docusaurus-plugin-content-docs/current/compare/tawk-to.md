@@ -9,13 +9,13 @@ last_update:
 
 # Passer de tawk.to à AChat
 
-**tawk.to est un chat en direct gratuit pour les sites web ; payer retire sa marque.** Si votre équipe répond aux clients et veut un centre d'aide et des tickets à côté, tawk.to le fait et AChat non. Le widget d'AChat est un salon. Les visiteurs s'y parlent entre eux, sans attendre quelqu'un de l'équipe d'assistance.
+**tawk.to est un chat en direct gratuit pour les sites web ; payer retire sa marque.** Si votre équipe répond aux clients et veut un centre d'aide et des tickets à côté, tawk.to le fait et AChat non. Le widget d'AChat est un salon. Les visiteurs s'y parlent entre eux, sans attendre quelqu'un de l'équipe d'assistance.
 
 Dernière vérification le 2026-11-22. La comparaison côte à côte est sur [AChat et tawk.to](https://achat.aoneahsan.com/fr/compare/tawk-to).
 
-## Remplacement, ou second widget ?
+## Remplacement, ou second widget ?
 
-Le plus souvent, le second. Les questions d'assistance demandent toujours quelqu'un pour répondre : gardez tawk.to sur vos pages de contact ou d'aide. Placez AChat là où les visiteurs se parleraient entre eux : une page d'événement, un cours, un site de fans.
+Le plus souvent, le second. Les questions d'assistance demandent toujours quelqu'un pour répondre : gardez tawk.to sur vos pages de contact ou d'aide. Placez AChat là où les visiteurs se parleraient entre eux : une page d'événement, un cours, un site de fans.
 
 1. Ouvrez la [page du widget](https://achat.aoneahsan.com/fr/widget) et choisissez un identifiant de salon, de 8 à 20 lettres minuscules, chiffres et tirets. Le salon est créé la première fois que quelqu'un ouvre le widget ([widget intégrable](/features/embeddable-widget)).
 2. Choisissez **Dans la page** pour un chat de taille fixe, ou **Bouton de discussion** pour un bouton dans un coin qui ouvre le chat dans un panneau.

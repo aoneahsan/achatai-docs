@@ -59,6 +59,30 @@ const DOCS_DESCRIPTION = `Documentation for AChat. ${APP_DESCRIPTION} What it do
 const BLOG_DIR = fileURLToPath(new URL('./blog', import.meta.url));
 const HAS_POSTS = existsSync(BLOG_DIR) && readdirSync(BLOG_DIR).some((name) => /\.mdx?$/.test(name));
 
+/**
+ * The announcement bar in the reader's language. Docusaurus does not translate themeConfig, so the text comes from the
+ * locale being built; "Open AChat" uses the app's own label for that language and opens the app in it.
+ */
+const ANNOUNCEMENT: Record<string, [string, string]> = {
+  en: ['AChat now has personal chats with people you know, groups, communities and status, alongside anonymous rooms.', 'Open AChat'],
+  'zh-Hans': ['AChat 现在有和认识的人的私人聊天、群组、社区和状态，匿名房间也还在。', '打开 AChat'],
+  hi: ['AChat में अब जान-पहचान वालों से निजी चैट, ग्रुप, कम्युनिटी और स्टेटस हैं, गुमनाम रूम के साथ।', 'AChat खोलें'],
+  es: ['AChat ya tiene chats personales con gente que conoces, grupos, comunidades y estados, junto a las salas anónimas.', 'Abrir AChat'],
+  ar: ['أصبح في AChat محادثات شخصية مع من تعرفهم ومجموعات ومجتمعات وحالات، إلى جانب الغرف المجهولة.', 'فتح AChat'],
+  fr: ['AChat a maintenant des discussions personnelles avec les gens que tu connais, des groupes, des communautés et des statuts, à côté des salons anonymes.', 'Ouvrir AChat'],
+  'pt-BR': ['O AChat agora tem conversas pessoais com quem você conhece, grupos, comunidades e status, ao lado das salas anônimas.', 'Abrir o AChat'],
+  ru: ['В AChat теперь есть личные чаты со знакомыми, группы, сообщества и статусы — рядом с анонимными комнатами.', 'Открыть AChat'],
+  ja: ['AChat に、知り合いとの個人チャット、グループ、コミュニティ、ステータスが加わりました。匿名ルームもそのままです。', 'AChat を開く'],
+  ur: ['AChat میں اب جان پہچان والوں سے ذاتی چیٹس، گروپس، کمیونٹیز اور اسٹیٹس ہیں، گمنام رومز کے ساتھ۔', 'AChat کھولیں'],
+  de: ['AChat hat jetzt persönliche Chats mit Leuten, die du kennst, Gruppen, Communitys und Status, neben den anonymen Räumen.', 'AChat öffnen'],
+};
+
+function announcement(locale: string): string {
+  const [text, cta] = ANNOUNCEMENT[locale] ?? ANNOUNCEMENT.en!;
+  const href = locale === 'en' ? APP_URL : `${APP_URL}/${locale}`;
+  return `${text} <a href="${href}">${cta}</a>`;
+}
+
 const config: Config = {
   title: 'AChat Docs',
   tagline:
@@ -442,8 +466,7 @@ const config: Config = {
     },
     announcementBar: {
       id: 'achat-rebuild',
-      content:
-        'AChat now has personal chats with people you know, groups, communities and status, alongside anonymous rooms. <a href="https://achat.aoneahsan.com">Open AChat</a>',
+      content: announcement(LOCALE),
       backgroundColor: '#7c3aed',
       textColor: '#ffffff',
       isCloseable: true,

@@ -11,11 +11,11 @@ last_update:
 
 **Tidio est un chat client avec un agent IA appelé Lyro, facturé au nombre de conversations.** Si vous voulez un agent qui répond aux clients, c'est Tidio. AChat s'adresse aux pages où l'on vient se parler entre soi, quand vous ne voulez pas compter les conversations.
 
-Dernière vérification le 2026-11-22. Comparaison complète : [AChat et Tidio](https://achat.aoneahsan.com/fr/compare/tidio).
+Dernière vérification le 2026-11-22. Comparaison complète : [AChat et Tidio](https://achat.aoneahsan.com/fr/compare/tidio).
 
 ## Remplacer un bot qui répond par un salon
 
-Personne ne répond au nom d'AChat. Les visiteurs se répondent entre eux : cela ne marche que là où c'est le but.
+Personne ne répond au nom d'AChat. Les visiteurs se répondent entre eux : cela ne marche que là où c'est le but.
 
 1. Choisissez les pages où les visiteurs discutent entre eux plutôt qu'avec vous. Laissez Tidio sur les autres.
 2. Sur la [page du widget](https://achat.aoneahsan.com/fr/widget), choisissez un salon anonyme ou un canal ouvert de communauté, puis une mise en page ([widget intégrable](/features/embeddable-widget)).
@@ -25,7 +25,7 @@ Personne ne répond au nom d'AChat. Les visiteurs se répondent entre eux : cela
 
 ## Tidio, d'après sa page des tarifs
 
-La page des tarifs de Tidio confirme une offre gratuite sans date de fin. Les pages consultées ne mentionnaient ni chat prêt à ajouter à une page, ni hébergement sur vos serveurs : ces lignes ne figurent donc pas ici.
+La page des tarifs de Tidio confirme une offre gratuite sans date de fin. Les pages consultées ne mentionnaient ni chat prêt à ajouter à une page, ni hébergement sur vos serveurs : ces lignes ne figurent donc pas ici.
 
 | Fonctionnalité | AChat | Tidio |
 |---|---|---|
