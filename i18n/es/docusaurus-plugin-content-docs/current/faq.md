@@ -2,7 +2,7 @@
 sidebar_position: 90
 title: Preguntas frecuentes
 description: Respuestas directas sobre AChat — cuentas, cifrado, salas anónimas, cuánto duran los mensajes, planes, historial de ubicación, eliminar la cuenta y plataformas.
-keywords: [preguntas frecuentes AChat, ¿AChat está cifrado?, preguntas sobre chat anónimo, planes de AChat, eliminar cuenta de AChat]
+keywords: ['preguntas frecuentes AChat', '¿AChat está cifrado?', 'preguntas sobre chat anónimo', 'planes de AChat', 'eliminar cuenta de AChat']
 last_update:
   date: 2026-11-27
   author: Equipo de AChat

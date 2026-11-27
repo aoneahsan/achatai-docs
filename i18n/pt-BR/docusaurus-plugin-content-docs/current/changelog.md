@@ -1,8 +1,8 @@
 ---
 sidebar_position: 95
 title: Changelog
-description: Histórico de versões do AChat: a reconstrução que trouxe conversas pessoais, grupos, comunidades e status, e as versões anteriores do chat anônimo.
-keywords: [changelog do AChat, notas de versão, histórico de versões]
+description: 'Histórico de versões do AChat: a reconstrução que trouxe conversas pessoais, grupos, comunidades e status, e as versões anteriores do chat anônimo.'
+keywords: ['changelog do AChat', 'notas de versão', 'histórico de versões']
 last_update:
   date: 2026-11-27
   author: Equipe do AChat

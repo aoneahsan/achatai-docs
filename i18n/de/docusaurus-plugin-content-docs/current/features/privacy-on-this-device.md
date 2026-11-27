@@ -1,8 +1,8 @@
 ---
 sidebar_position: 16
 title: Privatsphäre auf diesem Gerät
-description: AChat-Einstellungen, die ein geteiltes oder geliehenes Gerät schützen: Sichtschutz, neutraler Tab-Titel, automatisches Leeren der Zwischenablage und Von diesem Gerät löschen.
-keywords: [Sichtschutz, Zwischenablage leeren, Panikknopf Chat, Chat-Tab verbergen, AChat Privatsphäre]
+description: 'AChat-Einstellungen, die ein geteiltes oder geliehenes Gerät schützen: Sichtschutz, neutraler Tab-Titel, automatisches Leeren der Zwischenablage und Von diesem Gerät löschen.'
+keywords: ['Sichtschutz', 'Zwischenablage leeren', 'Panikknopf Chat', 'Chat-Tab verbergen', 'AChat Privatsphäre']
 last_update:
   date: 2026-10-31
   author: AChat-Team

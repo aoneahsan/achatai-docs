@@ -1,8 +1,8 @@
 ---
 sidebar_position: 4
 title: Contraseñas y cifrado
-description: Qué chats de AChat tienen cifrado de extremo a extremo, qué protege la contraseña de una sala, y los límites: las salas abiertas, las comunidades y los estados no tienen cifrado de extremo a extremo.
-keywords: [chat con cifrado de extremo a extremo, contraseña de sala, chat de grupo cifrado, cifrado de AChat]
+description: 'Qué chats de AChat tienen cifrado de extremo a extremo, qué protege la contraseña de una sala, y los límites: las salas abiertas, las comunidades y los estados no tienen cifrado de extremo a extremo.'
+keywords: ['chat con cifrado de extremo a extremo', 'contraseña de sala', 'chat de grupo cifrado', 'cifrado de AChat']
 last_update:
   date: 2026-10-01
   author: Equipo de AChat

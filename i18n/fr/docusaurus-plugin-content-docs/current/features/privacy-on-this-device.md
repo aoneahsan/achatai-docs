@@ -1,8 +1,8 @@
 ---
 sidebar_position: 16
 title: Confidentialité sur cet appareil
-description: Les réglages d'AChat qui protègent un appareil partagé ou emprunté : écran de confidentialité, titre d'onglet neutre, effacement automatique du presse-papiers et Effacer de cet appareil.
-keywords: [écran de confidentialité, effacer le presse-papiers, bouton panique discussion, masquer l'onglet de discussion, confidentialité AChat]
+description: 'Les réglages d''AChat qui protègent un appareil partagé ou emprunté : écran de confidentialité, titre d''onglet neutre, effacement automatique du presse-papiers et Effacer de cet appareil.'
+keywords: ['écran de confidentialité', 'effacer le presse-papiers', 'bouton panique discussion', 'masquer l''onglet de discussion', 'confidentialité AChat']
 last_update:
   date: 2026-10-31
   author: Équipe AChat

@@ -1,8 +1,8 @@
 ---
 sidebar_position: 16
 title: Privacidade neste aparelho
-description: Configurações do AChat que protegem um aparelho compartilhado ou emprestado: tela de privacidade, título de aba neutro, limpeza automática da área de transferência e Apagar deste dispositivo.
-keywords: [tela de privacidade, limpar área de transferência, botão de pânico no chat, esconder aba do chat, privacidade no AChat]
+description: 'Configurações do AChat que protegem um aparelho compartilhado ou emprestado: tela de privacidade, título de aba neutro, limpeza automática da área de transferência e Apagar deste dispositivo.'
+keywords: ['tela de privacidade', 'limpar área de transferência', 'botão de pânico no chat', 'esconder aba do chat', 'privacidade no AChat']
 last_update:
   date: 2026-10-31
   author: Equipe do AChat

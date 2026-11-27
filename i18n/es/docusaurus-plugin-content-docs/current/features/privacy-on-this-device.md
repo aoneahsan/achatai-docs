@@ -1,8 +1,8 @@
 ---
 sidebar_position: 16
 title: Privacidad en este dispositivo
-description: Ajustes de AChat que protegen un dispositivo compartido o prestado: pantalla de privacidad, título de pestaña neutro, borrado automático del portapapeles y Borrar de este dispositivo.
-keywords: [pantalla de privacidad, borrar portapapeles, botón de pánico del chat, ocultar pestaña del chat, privacidad en AChat]
+description: 'Ajustes de AChat que protegen un dispositivo compartido o prestado: pantalla de privacidad, título de pestaña neutro, borrado automático del portapapeles y Borrar de este dispositivo.'
+keywords: ['pantalla de privacidad', 'borrar portapapeles', 'botón de pánico del chat', 'ocultar pestaña del chat', 'privacidad en AChat']
 last_update:
   date: 2026-10-31
   author: Equipo de AChat

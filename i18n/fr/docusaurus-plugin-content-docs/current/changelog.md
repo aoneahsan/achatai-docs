@@ -1,8 +1,8 @@
 ---
 sidebar_position: 95
 title: Journal des modifications
-description: L'historique des versions d'AChat : la refonte qui ajoute les discussions personnelles, les groupes, les communautés et les statuts, et les versions antérieures de la discussion anonyme.
-keywords: [journal des modifications AChat, notes de version, historique des versions]
+description: 'L''historique des versions d''AChat : la refonte qui ajoute les discussions personnelles, les groupes, les communautés et les statuts, et les versions antérieures de la discussion anonyme.'
+keywords: ['journal des modifications AChat', 'notes de version', 'historique des versions']
 last_update:
   date: 2026-11-27
   author: Équipe AChat

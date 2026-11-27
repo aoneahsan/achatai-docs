@@ -1,8 +1,8 @@
 ---
 sidebar_position: 4
 title: Mots de passe et chiffrement
-description: Quelles discussions AChat sont chiffrées de bout en bout, ce que protège le mot de passe d'un salon, et les limites : les salons ouverts, les communautés et les statuts ne sont pas chiffrés de bout en bout.
-keywords: [discussion chiffrée de bout en bout, mot de passe de salon, discussion de groupe chiffrée, chiffrement AChat]
+description: 'Quelles discussions AChat sont chiffrées de bout en bout, ce que protège le mot de passe d''un salon, et les limites : les salons ouverts, les communautés et les statuts ne sont pas chiffrés de bout en bout.'
+keywords: ['discussion chiffrée de bout en bout', 'mot de passe de salon', 'discussion de groupe chiffrée', 'chiffrement AChat']
 last_update:
   date: 2026-10-01
   author: Équipe AChat

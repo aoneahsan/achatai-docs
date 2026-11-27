@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
 title: Salas anónimas
-description: Cómo funcionan las salas anónimas de AChat sin cuenta: IDs de sala, nombres visibles, contraseñas, cuánto se guardan los mensajes y lo que anónimo no significa.
-keywords: [sala de chat anónima, chat sin registro, chat por enlace, chat con nombre visible, salas anónimas de AChat]
+description: 'Cómo funcionan las salas anónimas de AChat sin cuenta: IDs de sala, nombres visibles, contraseñas, cuánto se guardan los mensajes y lo que anónimo no significa.'
+keywords: ['sala de chat anónima', 'chat sin registro', 'chat por enlace', 'chat con nombre visible', 'salas anónimas de AChat']
 last_update:
   date: 2026-10-30
   author: Equipo de AChat

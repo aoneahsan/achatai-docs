@@ -1,8 +1,8 @@
 ---
 sidebar_position: 95
 title: Registro de cambios
-description: El historial de versiones de AChat: la reconstrucción que añade chats personales, grupos, comunidades y estados, y las versiones anteriores del chat anónimo.
-keywords: [registro de cambios de AChat, notas de versión, historial de versiones]
+description: 'El historial de versiones de AChat: la reconstrucción que añade chats personales, grupos, comunidades y estados, y las versiones anteriores del chat anónimo.'
+keywords: ['registro de cambios de AChat', 'notas de versión', 'historial de versiones']
 last_update:
   date: 2026-11-27
   author: Equipo de AChat

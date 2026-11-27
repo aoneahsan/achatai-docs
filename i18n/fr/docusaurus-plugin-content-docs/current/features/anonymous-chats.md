@@ -1,8 +1,8 @@
 ---
 sidebar_position: 3
 title: Salons anonymes
-description: Comment fonctionnent les salons anonymes d'AChat sans compte : identifiants de salon, noms affichés, mots de passe, durée de conservation des messages, et ce qu'anonyme ne veut pas dire.
-keywords: [salon de discussion anonyme, discussion sans inscription, discussion par lien, discussion avec nom affiché, salons anonymes AChat]
+description: 'Comment fonctionnent les salons anonymes d''AChat sans compte : identifiants de salon, noms affichés, mots de passe, durée de conservation des messages, et ce qu''anonyme ne veut pas dire.'
+keywords: ['salon de discussion anonyme', 'discussion sans inscription', 'discussion par lien', 'discussion avec nom affiché', 'salons anonymes AChat']
 last_update:
   date: 2026-10-30
   author: Équipe AChat

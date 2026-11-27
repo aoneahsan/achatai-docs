@@ -1,8 +1,8 @@
 ---
 sidebar_position: 4
 title: Senhas e criptografia
-description: Quais conversas do AChat têm criptografia de ponta a ponta, o que a senha de uma sala protege, e os limites: salas abertas, comunidades e status não têm criptografia de ponta a ponta.
-keywords: [chat com criptografia de ponta a ponta, senha de sala, conversa em grupo criptografada, criptografia do AChat]
+description: 'Quais conversas do AChat têm criptografia de ponta a ponta, o que a senha de uma sala protege, e os limites: salas abertas, comunidades e status não têm criptografia de ponta a ponta.'
+keywords: ['chat com criptografia de ponta a ponta', 'senha de sala', 'conversa em grupo criptografada', 'criptografia do AChat']
 last_update:
   date: 2026-10-01
   author: Equipe do AChat
