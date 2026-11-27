@@ -45,7 +45,7 @@
     "message": "Cuando se cae la conexión"
   },
   "home.feature.offline.body": {
-    "message": "Los chats que ya abriste se pueden seguir leyendo, y los mensajes nuevos esperan con \"Esperando envío\" hasta que vuelvas. Un mensaje dice \"Enviado\" solo cuando llegó."
+    "message": "Los chats que ya abriste se pueden seguir leyendo, y los mensajes nuevos esperan con \"Esperando para enviar\" hasta que vuelvas. Un mensaje dice \"Enviado\" solo cuando llegó."
   },
   "home.feature.plans.title": {
     "message": "Planes"

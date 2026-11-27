@@ -45,7 +45,7 @@
     "message": "Wenn die Verbindung abbricht"
   },
   "home.feature.offline.body": {
-    "message": "Chats, die du schon geöffnet hast, bleiben lesbar, und neue Nachrichten warten mit „Wartet auf Versand“, bis du wieder online bist. „Gesendet“ steht erst da, wenn die Nachricht angekommen ist."
+    "message": "Chats, die du schon geöffnet hast, bleiben lesbar, und neue Nachrichten warten mit „Wartet auf Senden“, bis du wieder online bist. „Gesendet“ steht erst da, wenn die Nachricht angekommen ist."
   },
   "home.feature.plans.title": {
     "message": "Tarife"
