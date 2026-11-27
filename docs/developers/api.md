@@ -4,7 +4,7 @@ title: "The AChat API"
 description: "AChat's REST API: the base URL, the Authorization header, the response envelope, error codes, cursor pagination and limits, then every resource with a working curl example, from your profile and status posts to open-room messages."
 keywords: [AChat API, AChat REST API, achat_pat, AChat OpenAPI, AChat curl, status API, blocked list API]
 last_update:
-  date: 2026-11-21
+  date: 2026-11-27
   author: AChat team
 ---
 
@@ -123,7 +123,7 @@ Your own settings: one record, at `/preferences`. Read with `preferences:read`, 
 |---|---|
 | `presence_visibility` | `everyone`, `contacts` or `nobody`: who sees whether you're online |
 | `read_receipts` | `true` or `false` |
-| `language` | `en`, `es`, `fr`, `de`, `ar`, or `null` when none is set |
+| `language` | `en`, `zh-Hans`, `hi`, `es`, `ar`, `fr`, `pt-BR`, `ru`, `ja`, `ur`, `de`, or `null` when none is set |
 | `notify_sounds` | `true` or `false` |
 | `notify_preview` | `name` or `none`: whether a notification shows who wrote |
 | `notify_mute_all` | `true` or `false` |
