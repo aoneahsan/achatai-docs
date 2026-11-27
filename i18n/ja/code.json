@@ -1,0 +1,535 @@
+{
+  "apps.here": {
+    "message": "今読んでいるページです"
+  },
+  "feed.heading.withPosts": {
+    "message": "投稿と変更履歴"
+  },
+  "feed.heading": {
+    "message": "変更履歴フィード"
+  },
+  "feed.follow": {
+    "message": "フィードリーダーで購読するには、{file}（RSS 2.0）を追加してください。"
+  },
+  "feed.kind.post": {
+    "message": "ブログ投稿"
+  },
+  "feed.kind.changelog": {
+    "message": "変更履歴"
+  },
+  "home.feature.chats.title": {
+    "message": "知っている人とのチャット"
+  },
+  "home.feature.chats.body": {
+    "message": "友だちはユーザー名、招待リンク、QR コードであなたを見つけます。電話番号は使いません。個人チャット、非公開グループ、そのファイルはエンドツーエンド暗号化され、各メッセージはその人たちのデバイスでしか読めません。"
+  },
+  "home.feature.rooms.title": {
+    "message": "匿名ルーム"
+  },
+  "home.feature.rooms.body": {
+    "message": "アカウント不要：表示名を決めて、ルームのリンクを共有するだけ。メッセージは決められた日数だけ残り、アカウントのある人はルームをもっと長く保管できます。匿名でも追跡できないわけではありません。"
+  },
+  "home.feature.groups.title": {
+    "message": "グループとコミュニティ"
+  },
+  "home.feature.groups.body": {
+    "message": "グループはもともと知り合いの人たちのためのものです。コミュニティにはチャンネルとスレッドがあり、それぞれ参加にアカウントが必要か、匿名で参加できるかが書いてあります。コミュニティはエンドツーエンド暗号化されていません。"
+  },
+  "home.feature.devices.title": {
+    "message": "どのデバイスでも履歴を"
+  },
+  "home.feature.devices.body": {
+    "message": "承認したデバイスをリンクし、復元キーを保管してください。すべてのデバイスをなくしても、キーで履歴が戻ります。Google のログインだけでは戻せず、AChat もあなたのキーを持っていません。"
+  },
+  "home.feature.offline.title": {
+    "message": "接続が切れたとき"
+  },
+  "home.feature.offline.body": {
+    "message": "開いたことのあるチャットは読めたままで、新しいメッセージは戻るまで「送信待ち」で待ちます。「送信済み」になるのは届いてからです。"
+  },
+  "home.feature.plans.title": {
+    "message": "プラン"
+  },
+  "home.feature.plans.body": {
+    "message": "Free には終了日がなく、個人チャット、グループ、コミュニティ、匿名ルームが使えます。Pro とチーム／ファミリーでは、ファイルと保管ルームの上限が上がります。"
+  },
+  "home.cta.quickStart": {
+    "message": "クイックスタート"
+  },
+  "home.cta.intro": {
+    "message": "AChat とは？"
+  },
+  "home.cta.app": {
+    "message": "アプリを開く"
+  },
+  "home.alsoOn": {
+    "message": "こちらでも"
+  },
+  "home.allApps": {
+    "message": "すべてのアプリ →"
+  },
+  "home.meta.title": {
+    "message": "{title}：個人チャット、グループ、コミュニティ、匿名ルーム"
+  },
+  "home.meta.description": {
+    "message": "AChat のドキュメント。AChat は個人チャット、グループ、コミュニティ、匿名ルームのためのメッセージアプリで、ウェブと Android で使えます。できることを、それぞれの制限と並べて書いています。"
+  },
+  "sitemap.group.blog": {
+    "message": "ブログ"
+  },
+  "sitemap.title": {
+    "message": "サイトマップ"
+  },
+  "sitemap.description": {
+    "message": "AChat ドキュメントの全ページを、セクションごとに検索つきで。"
+  },
+  "sitemap.lead.feedLink": {
+    "message": "フィード"
+  },
+  "sitemap.lead.changelogLink": {
+    "message": "変更履歴フィード"
+  },
+  "sitemap.search.label": {
+    "message": "ドキュメントのページを検索"
+  },
+  "sitemap.search.placeholder": {
+    "message": "暗号化、匿名ルーム、プラン"
+  },
+  "sitemap.search.none": {
+    "message": "「{query}」に一致するページはありません。語を減らすか短くしてみてください。"
+  },
+  "sitemap.app.heading": {
+    "message": "AChat アプリ"
+  },
+  "sitemap.app.open.title": {
+    "message": "AChat を開く"
+  },
+  "sitemap.app.open.description": {
+    "message": "アプリそのもの。ブラウザで開きます。"
+  },
+  "sitemap.app.sitemap.title": {
+    "message": "アプリのサイトマップ"
+  },
+  "sitemap.app.sitemap.description": {
+    "message": "AChat アプリの公開ページすべて：機能、プラン、プライバシーなど。"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "エラーが発生しました",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "先頭へ戻る",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "アーカイブ",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "アーカイブ",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ブログ記事一覧のナビゲーション",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "新しい記事",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "過去の記事",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ブログ記事のナビゲーション",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "新しい記事",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "過去の記事",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "全てのタグを見る",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "システムモード",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ライトモード",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ダークモード",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ダークモードを切り替える(現在は{mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリストのナビゲーション",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ドキュメントページ",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "前へ",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "次へ",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count}記事",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "「{tagName}」タグのついた{nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "バージョン: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "これはリリース前のバージョン{versionLabel}の{siteTitle}のドキュメントです。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "これはバージョン{versionLabel}の{siteTitle}のドキュメントで現在はメンテナンスされていません",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新のドキュメントは{latestVersionLink} ({versionLabel}) を見てください",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新バージョン",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} への直接リンク",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "{date}に",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user}が",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "{atDate}{byUser}最終更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "他のバージョン",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "ページが見つかりません",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "タグ:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危険",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "備考",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "注記",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "閉じる",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近のブログ記事のナビゲーション",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}'の目次を開く",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}'の目次を隠す",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "ナビゲーション",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "他の言語",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "お探しのページが見つかりませんでした",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "このページにリンクしているサイトの所有者にリンクが壊れていることを伝えてください",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "このページの見出し",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "もっと見る",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title}についてもっと見る",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "約{readingTime}分",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "コピー",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "コピーしました",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "クリップボードにコードをコピー",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "折り返し",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを隠す",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "サイドバーを隠す",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ドキュメントのサイドバー",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを閉じる",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← メインメニューに戻る",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを開く",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを開く",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "サイドバーを開く",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count}件",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "「{tagName}」タグの記事が{nPosts}件あります",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "著者一覧",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "すべての著者を見る",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "この著者による投稿はまだありません。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "非公開のページ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "このページは非公開です。 検索対象外となり、このページのリンクに直接アクセスできるユーザーのみに公開されます。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "下書きのページ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "このページは下書きです。開発環境でのみ表示され、本番環境のビルドには含まれません。",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count}項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "もう一度試してください",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "メインコンテンツまでスキップ",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "タグ",
+    "description": "The title of the tag list page"
+  },
+  "apps.title": {
+    "message": "AChat を入手",
+    "description": "AChat docs site string"
+  },
+  "apps.description": {
+    "message": "AChat が公開されているすべての場所：ウェブアプリ、Google Play の Android アプリ、そしてこのドキュメント。",
+    "description": "AChat docs site string"
+  },
+  "apps.lead": {
+    "message": "ウェブでもスマホでもチャットでき、このガイドはすぐ隣のタブに。",
+    "description": "AChat docs site string"
+  },
+  "apps.web.name": {
+    "message": "AChat ウェブアプリ",
+    "description": "AChat docs site string"
+  },
+  "apps.web.title": {
+    "message": "ブラウザで",
+    "description": "AChat docs site string"
+  },
+  "apps.web.text": {
+    "message": "どのパソコンからでも、知っている人とチャットし、グループや匿名ルームに参加し、ステータスを投稿できます。",
+    "description": "AChat docs site string"
+  },
+  "apps.web.cta": {
+    "message": "AChat を開く",
+    "description": "AChat docs site string"
+  },
+  "apps.android.name": {
+    "message": "Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.android.title": {
+    "message": "Android スマホで",
+    "description": "AChat docs site string"
+  },
+  "apps.android.text": {
+    "message": "チャットをポケットに。返信があれば通知が届きます。",
+    "description": "AChat docs site string"
+  },
+  "apps.android.cta": {
+    "message": "Google Play で入手",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.name": {
+    "message": "ドキュメント",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.title": {
+    "message": "このドキュメント",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.text": {
+    "message": "チャット、ルーム、ステータス、暗号化の仕組みと、最初によく聞かれる質問。",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.cta": {
+    "message": "ドキュメントを読む",
+    "description": "AChat docs site string"
+  },
+  "feed.title": {
+    "message": "AChat ドキュメントの変更履歴",
+    "description": "AChat docs site string"
+  },
+  "feed.title.withPosts": {
+    "message": "AChat ドキュメント：投稿と変更履歴",
+    "description": "AChat docs site string"
+  },
+  "feed.description": {
+    "message": "このドキュメントの変更履歴から作った AChat のリリース履歴です。正式な記録は achat.aoneahsan.com/feed のアプリ内リリースノートで、各変更の公開日が載っています。",
+    "description": "AChat docs site string"
+  },
+  "feed.description.withPosts": {
+    "message": "AChat チームのブログ投稿と、このドキュメントの変更履歴から作った AChat のリリース履歴です。正式な記録は achat.aoneahsan.com/feed のアプリ内リリースノートで、各変更の公開日が載っています。",
+    "description": "AChat docs site string"
+  },
+  "site.tagline": {
+    "message": "個人チャット、グループ、コミュニティ、そしてアカウントを使いたくないときの匿名ルーム。",
+    "description": "AChat docs site string"
+  },
+  "sitemap.group.overview": {
+    "message": "概要",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead": {
+    "message": "AChat ドキュメントの全ページを、サイドバーと同じ分け方で並べています。検索エンジン、フィードリーダー、AI アシスタント向けには、{sitemap} が全ページを、{feedXml} が変更履歴を RSS で載せています。{feedPage} ページにも同じ項目があります。",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead.withPosts": {
+    "message": "AChat ドキュメントの全ページを、サイドバーと同じ分け方で並べています。検索エンジン、フィードリーダー、AI アシスタント向けには、{sitemap} が全ページを、{feedXml} がブログ投稿と変更履歴を RSS で載せています。{feedPage} ページにも同じ項目があります。",
+    "description": "AChat docs site string"
+  }
+}

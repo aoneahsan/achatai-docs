@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mainSidebar.category.Getting Started": {
+    "message": "البداية",
+    "description": "The label for category 'Getting Started' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Moving to AChat": {
+    "message": "الانتقال إلى AChat",
+    "description": "The label for category 'Moving to AChat' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Features": {
+    "message": "الميزات",
+    "description": "The label for category 'Features' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Concepts": {
+    "message": "مفاهيم",
+    "description": "The label for category 'Concepts' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Developers": {
+    "message": "المطوّرون",
+    "description": "The label for category 'Developers' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.White-label & licensing": {
+    "message": "العلامة البيضاء والترخيص",
+    "description": "The label for category 'White-label & licensing' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.link.About the developer": {
+    "message": "عن المطوّر",
+    "description": "The label for link 'About the developer' in sidebar 'mainSidebar', linking to '/about-developer'"
+  }
+}

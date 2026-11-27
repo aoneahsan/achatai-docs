@@ -1,7 +1,8 @@
+import useLocale from '@site/src/components/Ecosystem/use-locale';
 import React, { useEffect, useRef, useState } from 'react';
 import Link from '@docusaurus/Link';
 import { relFor } from '../../data/link-policy';
-import { PRODUCTS, detailUrl, w } from './data';
+import { PRODUCTS, detailUrl, useW } from './data';
 import styles from './styles.module.css';
 
 /*
@@ -14,6 +15,8 @@ const SLIDE_MS = 10_000;
 const reduced = () => typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 export default function EcosystemBand(): React.ReactElement {
+  const w = useW();
+  const { locale } = useLocale();
   const track = useRef<HTMLDivElement>(null);
   const [index, setIndex] = useState(0);
   const [held, setHeld] = useState(false);
@@ -98,7 +101,7 @@ export default function EcosystemBand(): React.ReactElement {
                 <a className="button button--primary" href={p.url} target="_blank" rel={relFor(p.url)}>
                   {w('eco.visit', { name: p.name })}
                 </a>
-                <a className="button button--secondary" href={detailUrl(p.id)} target="_blank" rel={relFor(detailUrl(p.id))}>
+                <a className="button button--secondary" href={detailUrl(p.id, locale)} target="_blank" rel={relFor(detailUrl(p.id, locale))}>
                   {w('eco.details')}
                 </a>
               </div>

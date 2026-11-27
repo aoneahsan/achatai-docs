@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "AChat",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logotipo de AChat",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Documentación",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Quick Start": {
+    "message": "Inicio rápido",
+    "description": "Navbar item with label Quick Start"
+  },
+  "item.label.About the developer": {
+    "message": "Sobre el desarrollador",
+    "description": "Navbar item with label About the developer"
+  },
+  "item.label.Get AChat": {
+    "message": "Consigue AChat",
+    "description": "Navbar item with label Get AChat"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.AChat web app": {
+    "message": "App web de AChat",
+    "description": "Navbar item with label AChat web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "Todas las apps",
+    "description": "Navbar item with label All apps"
+  }
+}

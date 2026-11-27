@@ -1,0 +1,535 @@
+{
+  "apps.here": {
+    "message": "أنت تقرؤه الآن"
+  },
+  "feed.heading.withPosts": {
+    "message": "المنشورات وسجل التغييرات"
+  },
+  "feed.heading": {
+    "message": "خلاصة سجل التغييرات"
+  },
+  "feed.follow": {
+    "message": "لمتابعتها في قارئ الخلاصات، أضف {file} ‏(RSS 2.0)."
+  },
+  "feed.kind.post": {
+    "message": "منشور في المدونة"
+  },
+  "feed.kind.changelog": {
+    "message": "سجل التغييرات"
+  },
+  "home.feature.chats.title": {
+    "message": "محادثات مع من تعرفهم"
+  },
+  "home.feature.chats.body": {
+    "message": "يجدك أصدقاؤك باسم المستخدم أو رابط الدعوة أو رمز QR، وليس برقم الهاتف أبدًا. المحادثات الشخصية والمجموعات الخاصة وملفاتها مشفّرة من الطرف إلى الطرف، فلا تُقرأ كل رسالة إلا على أجهزة هؤلاء الأشخاص."
+  },
+  "home.feature.rooms.title": {
+    "message": "غرف مجهولة"
+  },
+  "home.feature.rooms.body": {
+    "message": "بلا حساب: اختر اسمًا يظهر وشارك رابط الغرفة. تبقى كل رسالة عددًا محددًا من الأيام، ويمكن لمن لديه حساب الاحتفاظ بالغرفة مدة أطول. المجهولية لا تعني استحالة التتبع."
+  },
+  "home.feature.groups.title": {
+    "message": "المجموعات والمجتمعات"
+  },
+  "home.feature.groups.body": {
+    "message": "المجموعات لأشخاص يعرف بعضهم بعضًا من قبل. للمجتمعات قنوات وسلاسل، ويذكر كل مجتمع إن كان الانضمام يحتاج إلى حساب أو يمكن دون الكشف عن الهوية. المجتمعات ليست مشفّرة من الطرف إلى الطرف."
+  },
+  "home.feature.devices.title": {
+    "message": "سجلّك على كل جهاز"
+  },
+  "home.feature.devices.body": {
+    "message": "اربط الأجهزة التي توافق عليها، واحتفظ بمفتاح استرداد. إن فقدت كل أجهزتك، يعيد المفتاح سجلّك. تسجيل الدخول بـ Google وحده لا يكفي، ولا يحتفظ AChat بأي نسخة من مفاتيحك."
+  },
+  "home.feature.offline.title": {
+    "message": "حين ينقطع الاتصال"
+  },
+  "home.feature.offline.body": {
+    "message": "تبقى المحادثات التي فتحتها قابلة للقراءة، وتنتظر الرسائل الجديدة بعبارة \"بانتظار الإرسال\" حتى تعود. ولا تظهر عبارة \"أُرسلت\" إلا بعد وصول الرسالة."
+  },
+  "home.feature.plans.title": {
+    "message": "الخطط"
+  },
+  "home.feature.plans.body": {
+    "message": "لا تاريخ انتهاء لخطة Free، وهي تشمل المحادثات الشخصية والمجموعات والمجتمعات والغرف المجهولة. وترفع Pro وخطة الفريق / العائلة حدود الملفات والغرف المحفوظة."
+  },
+  "home.cta.quickStart": {
+    "message": "بداية سريعة"
+  },
+  "home.cta.intro": {
+    "message": "ما هو AChat؟"
+  },
+  "home.cta.app": {
+    "message": "فتح التطبيق"
+  },
+  "home.alsoOn": {
+    "message": "متوفر أيضًا على"
+  },
+  "home.allApps": {
+    "message": "كل التطبيقات ←"
+  },
+  "home.meta.title": {
+    "message": "{title}: محادثات شخصية ومجموعات ومجتمعات وغرف مجهولة"
+  },
+  "home.meta.description": {
+    "message": "توثيق AChat، تطبيق مراسلة للمحادثات الشخصية والمجموعات والمجتمعات والغرف المجهولة، على الويب وAndroid. ما يفعله، وبجانب كل ميزة حدودها."
+  },
+  "sitemap.group.blog": {
+    "message": "المدونة"
+  },
+  "sitemap.title": {
+    "message": "خريطة الموقع"
+  },
+  "sitemap.description": {
+    "message": "كل صفحات توثيق AChat، مجمّعة حسب القسم، مع بحث."
+  },
+  "sitemap.lead.feedLink": {
+    "message": "الخلاصة"
+  },
+  "sitemap.lead.changelogLink": {
+    "message": "خلاصة سجل التغييرات"
+  },
+  "sitemap.search.label": {
+    "message": "البحث في صفحات التوثيق"
+  },
+  "sitemap.search.placeholder": {
+    "message": "التشفير، الغرف المجهولة، الخطط"
+  },
+  "sitemap.search.none": {
+    "message": "لا توجد صفحة تطابق \"{query}\". جرّب كلمات أقل أو أقصر."
+  },
+  "sitemap.app.heading": {
+    "message": "تطبيق AChat"
+  },
+  "sitemap.app.open.title": {
+    "message": "فتح AChat"
+  },
+  "sitemap.app.open.description": {
+    "message": "التطبيق نفسه، في متصفحك."
+  },
+  "sitemap.app.sitemap.title": {
+    "message": "خريطة موقع التطبيق"
+  },
+  "sitemap.app.sitemap.description": {
+    "message": "كل الصفحات العامة في تطبيق AChat: الميزات والخطط والخصوصية والمزيد."
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "هذه الصفحة لا تستجيب.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "إنتقل للأعلى",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "أرشيف",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "أرشيف",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "التنقل في صفحة قائمة المدونة",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "أحدث الإدخالات",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "أقدم الإدخالات",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "التنقل في صفحة مقالات المدونة",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "أحدث المقالات",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "أقدم المقالات",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "عرض كل الوسوم",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "الوضع الفاتح",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "الوضع الداكن",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "التبديل بين الوضع الداكن والفاتح (الحالي {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "التنقل التفصيلي",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "صفحة التوثيق",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "السابق",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "التالي",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "مستند موسوم واحد|{count} مستندات موسومة",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} مستند موسوم بـ \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "الإصدار: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "هذه الوثائق لم يتم طرحها بَعـد للإصدار {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "هذه هي وثائق {siteTitle} {versionLabel}، التي لم تعد تتم صيانتها بشكل نشط.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "للحصول على أحدث الوثائق، راجع {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "احدث إصدار",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "تعديل هذه الصفحة",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "إرتباط مُبـاشر بالعنوان {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " في {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " بواسطة {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخر تحديث {atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "الإصدارات",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "الصفحة غير موجودة",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "الوسوم:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "حذر",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطر",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "ملاحظة",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "تلميح",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "إغلاق",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "أحدث مُشـاركات المدونة",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "اللُغـات",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "لم نتمكن من العثور على ما كنت تبحث عنه.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "يُـرجى الإتصال بمالك الموقع الذي ربطك بعنوان URL الأصلي وإخباره بأن الارتباط الخاص به مُعطل.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "مُحتويات هذه الصفحة",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "اقرأ المزيد",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "اقرأ المزيد {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} دقائق قراءة|{readingTime} دقائق قراءة",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "نسخ",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "تم النسخ",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "نسخ الرمز إلى الحافظة",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "تبديل التفاف النص",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "الرئيسية",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "→ العودة إلى القائمة الرئيسية",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "مقالة واحدة|{count} مقالات",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} موسومة بـ \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} مواد",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "المُحاولة مجددًا",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "إنتقل إلى المحتوى الرئيسي",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "الوسوم",
+    "description": "The title of the tag list page"
+  },
+  "apps.title": {
+    "message": "احصل على AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.description": {
+    "message": "كل الأماكن التي يُنشر فيها AChat: تطبيق الويب، وتطبيق Android على Google Play، وهذا التوثيق.",
+    "description": "AChat docs site string"
+  },
+  "apps.lead": {
+    "message": "محادثاتك على الويب وعلى هاتفك، وهذه الأدلة على بُعد علامة تبويب.",
+    "description": "AChat docs site string"
+  },
+  "apps.web.name": {
+    "message": "تطبيق AChat على الويب",
+    "description": "AChat docs site string"
+  },
+  "apps.web.title": {
+    "message": "في متصفحك",
+    "description": "AChat docs site string"
+  },
+  "apps.web.text": {
+    "message": "تحدّث مع من تعرفهم، وانضم إلى المجموعات والغرف المجهولة، وانشر حالة من أي حاسوب.",
+    "description": "AChat docs site string"
+  },
+  "apps.web.cta": {
+    "message": "فتح AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.android.name": {
+    "message": "Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.android.title": {
+    "message": "على هاتف Android",
+    "description": "AChat docs site string"
+  },
+  "apps.android.text": {
+    "message": "محادثاتك في جيبك، مع إشعار حين يرد أحدهم.",
+    "description": "AChat docs site string"
+  },
+  "apps.android.cta": {
+    "message": "احصل عليه من Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.name": {
+    "message": "التوثيق",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.title": {
+    "message": "هذا التوثيق",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.text": {
+    "message": "كيف تعمل المحادثات والغرف والحالات والتشفير، والأسئلة التي يطرحها الناس أولًا.",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.cta": {
+    "message": "قراءة التوثيق",
+    "description": "AChat docs site string"
+  },
+  "feed.title": {
+    "message": "سجل تغييرات توثيق AChat",
+    "description": "AChat docs site string"
+  },
+  "feed.title.withPosts": {
+    "message": "توثيق AChat: المنشورات وسجل التغييرات",
+    "description": "AChat docs site string"
+  },
+  "feed.description": {
+    "message": "تاريخ إصدارات AChat من سجل التغييرات في هذا التوثيق. المرجع هو ملاحظات الإصدار داخل التطبيق على achat.aoneahsan.com/feed، مع تاريخ وصول كل تغيير.",
+    "description": "AChat docs site string"
+  },
+  "feed.description.withPosts": {
+    "message": "منشورات فريق AChat في المدونة، وتاريخ إصدارات AChat من سجل التغييرات في هذا التوثيق. المرجع هو ملاحظات الإصدار داخل التطبيق على achat.aoneahsan.com/feed، مع تاريخ وصول كل تغيير.",
+    "description": "AChat docs site string"
+  },
+  "site.tagline": {
+    "message": "محادثات شخصية ومجموعات ومجتمعات، وغرف مجهولة حين تفضّل ألا تستخدم حسابًا.",
+    "description": "AChat docs site string"
+  },
+  "sitemap.group.overview": {
+    "message": "نظرة عامة",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead": {
+    "message": "كل صفحات توثيق AChat، مجمّعة كما في الشريط الجانبي. لمحركات البحث وقارئات الخلاصات ومساعدي الذكاء الاصطناعي، تسرد {sitemap} كل صفحة وتحمل {feedXml} سجل التغييرات بصيغة RSS؛ وتعرض صفحة {feedPage} الإدخالات نفسها.",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead.withPosts": {
+    "message": "كل صفحات توثيق AChat، مجمّعة كما في الشريط الجانبي. لمحركات البحث وقارئات الخلاصات ومساعدي الذكاء الاصطناعي، تسرد {sitemap} كل صفحة وتحمل {feedXml} منشورات المدونة وسجل التغييرات بصيغة RSS؛ وتعرض صفحة {feedPage} الإدخالات نفسها.",
+    "description": "AChat docs site string"
+  }
+}

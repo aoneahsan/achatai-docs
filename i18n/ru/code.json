@@ -1,0 +1,535 @@
+{
+  "apps.here": {
+    "message": "Вы её читаете"
+  },
+  "feed.heading.withPosts": {
+    "message": "Публикации и история изменений"
+  },
+  "feed.heading": {
+    "message": "Лента изменений"
+  },
+  "feed.follow": {
+    "message": "Чтобы следить за ней в RSS-ридере, добавьте {file} (RSS 2.0)."
+  },
+  "feed.kind.post": {
+    "message": "Публикация в блоге"
+  },
+  "feed.kind.changelog": {
+    "message": "История изменений"
+  },
+  "home.feature.chats.title": {
+    "message": "Чаты со знакомыми"
+  },
+  "home.feature.chats.body": {
+    "message": "Друзья находят вас по имени пользователя, ссылке-приглашению или QR-коду, а не по номеру телефона. Личные чаты, закрытые группы и их файлы защищены сквозным шифрованием, поэтому каждое сообщение можно прочитать только на устройствах этих людей."
+  },
+  "home.feature.rooms.title": {
+    "message": "Анонимные комнаты"
+  },
+  "home.feature.rooms.body": {
+    "message": "Без аккаунта: выберите отображаемое имя и поделитесь ссылкой на комнату. Каждое сообщение хранится заданное число дней, а человек с аккаунтом может сохранить комнату дольше. Анонимно — не значит неотслеживаемо."
+  },
+  "home.feature.groups.title": {
+    "message": "Группы и сообщества"
+  },
+  "home.feature.groups.body": {
+    "message": "Группы — для тех, кто уже знаком. В сообществах есть каналы и ветки, и у каждого указано, нужен ли аккаунт или можно вступить анонимно. Сообщества не защищены сквозным шифрованием."
+  },
+  "home.feature.devices.title": {
+    "message": "История на каждом устройстве"
+  },
+  "home.feature.devices.body": {
+    "message": "Привяжите устройства, которым доверяете, и сохраните ключ восстановления. Если потеряются все устройства, ключ вернёт историю. Одного входа через Google для этого мало, а AChat не хранит копию ваших ключей."
+  },
+  "home.feature.offline.title": {
+    "message": "Когда пропадает связь"
+  },
+  "home.feature.offline.body": {
+    "message": "Открытые раньше чаты остаются доступными для чтения, а новые сообщения ждут с отметкой «Ожидает отправки», пока вы не вернётесь. «Отправлено» появляется, только когда сообщение дошло."
+  },
+  "home.feature.plans.title": {
+    "message": "Тарифы"
+  },
+  "home.feature.plans.body": {
+    "message": "У Free нет даты окончания, и он включает личные чаты, группы, сообщества и анонимные комнаты. Pro и «Команда / Семья» увеличивают лимиты на файлы и сохранённые комнаты."
+  },
+  "home.cta.quickStart": {
+    "message": "Быстрый старт"
+  },
+  "home.cta.intro": {
+    "message": "Что такое AChat?"
+  },
+  "home.cta.app": {
+    "message": "Открыть приложение"
+  },
+  "home.alsoOn": {
+    "message": "Также в"
+  },
+  "home.allApps": {
+    "message": "Все приложения →"
+  },
+  "home.meta.title": {
+    "message": "{title}: личные чаты, группы, сообщества и анонимные комнаты"
+  },
+  "home.meta.description": {
+    "message": "Документация AChat — мессенджера для личных чатов, групп, сообществ и анонимных комнат в браузере и на Android. Что он умеет — и рядом с каждой функцией её ограничения."
+  },
+  "sitemap.group.blog": {
+    "message": "Блог"
+  },
+  "sitemap.title": {
+    "message": "Карта сайта"
+  },
+  "sitemap.description": {
+    "message": "Все страницы документации AChat по разделам, с поиском."
+  },
+  "sitemap.lead.feedLink": {
+    "message": "ленты"
+  },
+  "sitemap.lead.changelogLink": {
+    "message": "ленты изменений"
+  },
+  "sitemap.search.label": {
+    "message": "Поиск по страницам документации"
+  },
+  "sitemap.search.placeholder": {
+    "message": "шифрование, анонимные комнаты, тарифы"
+  },
+  "sitemap.search.none": {
+    "message": "По запросу «{query}» страниц нет. Попробуйте меньше слов или слова покороче."
+  },
+  "sitemap.app.heading": {
+    "message": "Приложение AChat"
+  },
+  "sitemap.app.open.title": {
+    "message": "Открыть AChat"
+  },
+  "sitemap.app.open.description": {
+    "message": "Само приложение, в браузере."
+  },
+  "sitemap.app.sitemap.title": {
+    "message": "Карта сайта приложения"
+  },
+  "sitemap.app.sitemap.description": {
+    "message": "Все публичные страницы приложения AChat: возможности, тарифы, конфиденциальность и другое."
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "На странице произошёл сбой.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Прокрутка к началу",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Архив",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Архив",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Навигация по странице списка блогов",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Следующие записи",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Предыдущие записи",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Навигация по странице поста блога",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Следующий пост",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Предыдущий пост",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Посмотреть все теги",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "Светлый режим",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "Тёмный режим",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Переключение между темным и светлым режимом (сейчас используется {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Навигационная цепочка текущей страницы",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Страница документа",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Предыдущая страница",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Следующая страница",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Одна страница|{count} страницы|{count} страниц",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} с тегом \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Версия: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Это документация для будущей версии {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Это документация {siteTitle} для версии {versionLabel}, которая уже не поддерживается.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Актуальная документация находится на странице {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "последней версии",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Отредактировать эту страницу",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Прямая ссылка на {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " от {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Последнее обновление{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Версии",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Страница не найдена",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Теги:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "предупреждение",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "осторожно",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "к сведению",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "примечание",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "подсказка",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Навигация по последним постам в блоге",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Языки",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "К сожалению, мы не смогли найти запрашиваемую вами страницу.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Пожалуйста, обратитесь к владельцу сайта, с которого вы перешли на эту ссылку, чтобы сообщить ему, что ссылка не работает.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Содержание этой страницы",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Читать дальше",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Подробнее о {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} мин. чтения|{readingTime} мин. чтения|{readingTime} мин. чтения",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Скопировать",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Скопировано",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Скопировать в буфер обмена",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Переключить перенос по строкам",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Главная страница",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Свернуть сайдбар",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Свернуть сайдбар",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Закрыть панель навигации",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Перейти к главному меню",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Переключить навигационную панель",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Развернуть сайдбар",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Развернуть сайдбар",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count} запись|{count} записи|{count} записей",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} с тегом \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} элемент|{count} элемента|{count} элементов",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Попробуйте ещё раз",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Перейти к основному содержимому",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Теги",
+    "description": "The title of the tag list page"
+  },
+  "apps.title": {
+    "message": "Скачать AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.description": {
+    "message": "Все места, где опубликован AChat: веб-приложение, приложение для Android в Google Play и эта документация.",
+    "description": "AChat docs site string"
+  },
+  "apps.lead": {
+    "message": "Ваши чаты в браузере и на телефоне, а эти руководства — в соседней вкладке.",
+    "description": "AChat docs site string"
+  },
+  "apps.web.name": {
+    "message": "Веб-приложение AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.web.title": {
+    "message": "В браузере",
+    "description": "AChat docs site string"
+  },
+  "apps.web.text": {
+    "message": "Общайтесь со знакомыми, вступайте в группы и анонимные комнаты и публикуйте статусы с любого компьютера.",
+    "description": "AChat docs site string"
+  },
+  "apps.web.cta": {
+    "message": "Открыть AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.android.name": {
+    "message": "Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.android.title": {
+    "message": "На телефоне с Android",
+    "description": "AChat docs site string"
+  },
+  "apps.android.text": {
+    "message": "Ваши чаты всегда с собой, с уведомлениями, когда кто-то отвечает.",
+    "description": "AChat docs site string"
+  },
+  "apps.android.cta": {
+    "message": "Скачать в Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.name": {
+    "message": "Документация",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.title": {
+    "message": "Эта документация",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.text": {
+    "message": "Как устроены чаты, комнаты, статусы и шифрование, и вопросы, которые задают первыми.",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.cta": {
+    "message": "Читать документацию",
+    "description": "AChat docs site string"
+  },
+  "feed.title": {
+    "message": "История изменений документации AChat",
+    "description": "AChat docs site string"
+  },
+  "feed.title.withPosts": {
+    "message": "Документация AChat: публикации и история изменений",
+    "description": "AChat docs site string"
+  },
+  "feed.description": {
+    "message": "История выпусков AChat из журнала изменений этой документации. Главный источник — примечания к выпускам в приложении на achat.aoneahsan.com/feed, с датой выхода каждого изменения.",
+    "description": "AChat docs site string"
+  },
+  "feed.description.withPosts": {
+    "message": "Публикации команды AChat из блога и история выпусков AChat из журнала изменений этой документации. Главный источник — примечания к выпускам в приложении на achat.aoneahsan.com/feed, с датой выхода каждого изменения.",
+    "description": "AChat docs site string"
+  },
+  "site.tagline": {
+    "message": "Личные чаты, группы, сообщества и анонимные комнаты, когда не хочется пользоваться аккаунтом.",
+    "description": "AChat docs site string"
+  },
+  "sitemap.group.overview": {
+    "message": "Обзор",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead": {
+    "message": "Все страницы документации AChat, сгруппированные как в боковой панели. Для поисковиков, RSS-ридеров и ИИ-ассистентов {sitemap} перечисляет каждую страницу, а {feedXml} отдаёт историю изменений в RSS; на странице {feedPage} — те же записи.",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead.withPosts": {
+    "message": "Все страницы документации AChat, сгруппированные как в боковой панели. Для поисковиков, RSS-ридеров и ИИ-ассистентов {sitemap} перечисляет каждую страницу, а {feedXml} отдаёт публикации блога и историю изменений в RSS; на странице {feedPage} — те же записи.",
+    "description": "AChat docs site string"
+  }
+}

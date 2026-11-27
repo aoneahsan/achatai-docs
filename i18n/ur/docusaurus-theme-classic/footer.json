@@ -1,0 +1,82 @@
+{
+  "link.title.Get AChat": {
+    "message": "AChat حاصل کریں",
+    "description": "The title of the footer links column with title=Get AChat in the footer"
+  },
+  "link.title.Documentation": {
+    "message": "دستاویزات",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.AChat": {
+    "message": "AChat",
+    "description": "The title of the footer links column with title=AChat in the footer"
+  },
+  "link.item.label.AChat web app": {
+    "message": "AChat ویب ایپ",
+    "description": "The label of footer link with label=AChat web app linking to https://achat.aoneahsan.com"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.aoneahsan.achat"
+  },
+  "link.item.label.All apps": {
+    "message": "تمام ایپس",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Introduction": {
+    "message": "تعارف",
+    "description": "The label of footer link with label=Introduction linking to /intro"
+  },
+  "link.item.label.Quick Start": {
+    "message": "فوری آغاز",
+    "description": "The label of footer link with label=Quick Start linking to /getting-started/quick-start"
+  },
+  "link.item.label.Security & encryption": {
+    "message": "سیکیورٹی اور انکرپشن",
+    "description": "The label of footer link with label=Security & encryption linking to /concepts/security-and-encryption"
+  },
+  "link.item.label.Developers": {
+    "message": "ڈویلپرز",
+    "description": "The label of footer link with label=Developers linking to /developers"
+  },
+  "link.item.label.FAQ": {
+    "message": "عام سوالات",
+    "description": "The label of footer link with label=FAQ linking to /faq"
+  },
+  "link.item.label.Sitemap": {
+    "message": "سائٹ میپ",
+    "description": "The label of footer link with label=Sitemap linking to /sitemap"
+  },
+  "link.item.label.Changelog feed": {
+    "message": "تبدیلیوں کی فیڈ",
+    "description": "The label of footer link with label=Changelog feed linking to /feed"
+  },
+  "link.item.label.RSS (feed.xml)": {
+    "message": "RSS (feed.xml)",
+    "description": "The label of footer link with label=RSS (feed.xml) linking to pathname:///feed.xml"
+  },
+  "link.item.label.About the developer": {
+    "message": "ڈویلپر کے بارے میں",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.More from Zaions": {
+    "message": "Zaions کی مزید چیزیں",
+    "description": "The label of footer link with label=More from Zaions linking to /ecosystem"
+  },
+  "link.item.label.Contact": {
+    "message": "رابطہ",
+    "description": "The label of footer link with label=Contact linking to https://achat.aoneahsan.com/contact"
+  },
+  "link.item.label.Plans and pricing": {
+    "message": "پلانز اور قیمتیں",
+    "description": "The label of footer link with label=Plans and pricing linking to https://achat.aoneahsan.com/pricing"
+  },
+  "link.item.label.Privacy policy": {
+    "message": "پرائیویسی پالیسی",
+    "description": "The label of footer link with label=Privacy policy linking to https://achat.aoneahsan.com/privacy"
+  },
+  "link.item.label.Terms": {
+    "message": "شرائط",
+    "description": "The label of footer link with label=Terms linking to https://achat.aoneahsan.com/terms"
+  }
+}

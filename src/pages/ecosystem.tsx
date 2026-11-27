@@ -1,9 +1,10 @@
+import useLocale from '@site/src/components/Ecosystem/use-locale';
 import React from 'react';
 import Layout from '@theme/Layout';
 import { useHistory, useLocation } from '@docusaurus/router';
 import roster from '../data/ecosystem.json';
 import { relFor } from '../data/link-policy';
-import { PRODUCTS, detailUrl, w } from '../components/Ecosystem/data';
+import { PRODUCTS, detailUrl, useW, type Words } from '../components/Ecosystem/data';
 import styles from './ecosystem.module.css';
 
 /*
@@ -24,7 +25,7 @@ const PLACE: Record<string, string> = {
   web: 'eco.plat.web',
 };
 
-function where(id: string, url: string): string {
+function where(id: string, url: string, w: Words): string {
   const row = roster.products.find((p) => p.id === id);
   const home = /npmjs\.com\//.test(url) ? 'npm' : /github\.com\//.test(url) ? 'github' : 'web';
   const rest = Object.entries((row?.platforms ?? {}) as Record<string, string | undefined>)
@@ -34,6 +35,8 @@ function where(id: string, url: string): string {
 }
 
 export default function Ecosystem(): React.ReactElement {
+  const w = useW();
+  const { locale } = useLocale();
   const { search, pathname } = useLocation();
   const history = useHistory();
   const asked = new URLSearchParams(search).get('view');
@@ -68,13 +71,13 @@ export default function Ecosystem(): React.ReactElement {
                   <tr key={p.id}>
                     <th scope="row">{p.name}</th>
                     <td>{w(`eco.p.${p.id}.card`)}</td>
-                    <td>{where(p.id, p.url)}</td>
+                    <td>{where(p.id, p.url, w)}</td>
                     <td>
                       <a href={p.url} target="_blank" rel={relFor(p.url)}>
                         {w('eco.visit', { name: p.name })}
                       </a>{' '}
                       ·{' '}
-                      <a href={detailUrl(p.id)} target="_blank" rel={relFor(detailUrl(p.id))}>
+                      <a href={detailUrl(p.id, locale)} target="_blank" rel={relFor(detailUrl(p.id, locale))}>
                         {w('eco.details')}
                       </a>
                     </td>
@@ -92,12 +95,12 @@ export default function Ecosystem(): React.ReactElement {
                   <h2 className={styles.name}>{p.name}</h2>
                 </div>
                 <p className={styles.card}>{w(`eco.p.${p.id}.card`)}</p>
-                <p className={styles.where}>{where(p.id, p.url)}</p>
+                <p className={styles.where}>{where(p.id, p.url, w)}</p>
                 <div className={styles.actions}>
                   <a className="button button--primary" href={p.url} target="_blank" rel={relFor(p.url)}>
                     {w('eco.visit', { name: p.name })}
                   </a>
-                  <a className="button button--secondary" href={detailUrl(p.id)} target="_blank" rel={relFor(detailUrl(p.id))}>
+                  <a className="button button--secondary" href={detailUrl(p.id, locale)} target="_blank" rel={relFor(detailUrl(p.id, locale))}>
                     {w('eco.details')}
                   </a>
                 </div>

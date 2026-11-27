@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import { useHistory, useLocation } from '@docusaurus/router';
 import { usePluginData } from '@docusaurus/useGlobalData';
 import Layout from '@theme/Layout';
+import Translate, { translate } from '@docusaurus/Translate';
 import type { FeedData } from '../plugins/changelog-feed';
 import type { DirectoryGroup, DirectoryPage } from '../plugins/docs-directory';
 import styles from './sitemap.module.css';
@@ -74,7 +75,7 @@ export default function SitemapPage(): ReactNode {
         ? [
             ...docGroups,
             {
-              label: 'Blog',
+              label: translate({ id: 'sitemap.group.blog', message: 'Blog' }),
               pages: [
                 { title: BLOG_TITLE, description: BLOG_DESCRIPTION, path: BLOG_PATH },
                 ...feed.posts.map((post) => ({ title: post.title, description: post.summary, path: post.path })),
@@ -105,18 +106,38 @@ export default function SitemapPage(): ReactNode {
     history.replace({ ...location, search: search ? `?${search}` : '' });
   };
   return (
-    <Layout title="Sitemap" description="Every page of the AChat documentation, grouped by section, with a search.">
+    <Layout
+      title={translate({ id: 'sitemap.title', message: 'Sitemap' })}
+      description={translate({
+        id: 'sitemap.description',
+        message: 'Every page of the AChat documentation, grouped by section, with a search.',
+      })}
+    >
       <main className="container margin-vert--lg">
-        <h1>Sitemap</h1>
+        <h1>{translate({ id: 'sitemap.title', message: 'Sitemap' })}</h1>
         <p>
-          Every page of the AChat documentation, grouped as the sidebar groups them. For search engines, feed readers and AI
-          assistants, <a href="/sitemap.xml">sitemap.xml</a> lists every page and <a href="/feed.xml">feed.xml</a>{' '}
-          carries {withPosts ? 'the blog posts and the changelog' : 'the changelog'} as RSS; the{' '}
-          <Link to="/feed">{withPosts ? 'feed' : 'changelog feed'}</Link> page shows the same entries.
+          <Translate
+            id={withPosts ? 'sitemap.lead.withPosts' : 'sitemap.lead'}
+            values={{
+              sitemap: <a href="/sitemap.xml">sitemap.xml</a>,
+              feedXml: <a href="/feed.xml">feed.xml</a>,
+              feedPage: (
+                <Link to="/feed">
+                  {withPosts
+                    ? translate({ id: 'sitemap.lead.feedLink', message: 'feed' })
+                    : translate({ id: 'sitemap.lead.changelogLink', message: 'changelog feed' })}
+                </Link>
+              ),
+            }}
+          >
+            {withPosts
+              ? 'Every page of the AChat documentation, grouped as the sidebar groups them. For search engines, feed readers and AI assistants, {sitemap} lists every page and {feedXml} carries the blog posts and the changelog as RSS; the {feedPage} page shows the same entries.'
+              : 'Every page of the AChat documentation, grouped as the sidebar groups them. For search engines, feed readers and AI assistants, {sitemap} lists every page and {feedXml} carries the changelog as RSS; the {feedPage} page shows the same entries.'}
+          </Translate>
         </p>
         <p>
           <label htmlFor="sitemap-q" className="margin-right--sm">
-            Search the docs pages
+            {translate({ id: 'sitemap.search.label', message: 'Search the docs pages' })}
           </label>
           <input
             id="sitemap-q"
@@ -124,11 +145,16 @@ export default function SitemapPage(): ReactNode {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="encryption, anonymous rooms, plans"
+            placeholder={translate({ id: 'sitemap.search.placeholder', message: 'encryption, anonymous rooms, plans' })}
           />
         </p>
         {shown.length === 0 ? (
-          <p role="status">No page matches "{query}". Try fewer or shorter words.</p>
+          <p role="status">
+            {translate(
+              { id: 'sitemap.search.none', message: 'No page matches "{query}". Try fewer or shorter words.' },
+              { query }
+            )}
+          </p>
         ) : (
           shown.map((group) => (
             <section key={group.label} className="margin-bottom--lg">
@@ -142,13 +168,22 @@ export default function SitemapPage(): ReactNode {
           ))
         )}
         <section className="margin-bottom--lg">
-          <h2>The AChat app</h2>
+          <h2>{translate({ id: 'sitemap.app.heading', message: 'The AChat app' })}</h2>
           <ul className={styles.grid}>
-            <Card page={{ title: 'Open AChat', description: 'The app itself, in your browser.', path: APP_URL }} />
             <Card
               page={{
-                title: 'App sitemap',
-                description: "Every public page of the AChat app: features, plans, privacy and more.",
+                title: translate({ id: 'sitemap.app.open.title', message: 'Open AChat' }),
+                description: translate({ id: 'sitemap.app.open.description', message: 'The app itself, in your browser.' }),
+                path: APP_URL,
+              }}
+            />
+            <Card
+              page={{
+                title: translate({ id: 'sitemap.app.sitemap.title', message: 'App sitemap' }),
+                description: translate({
+                  id: 'sitemap.app.sitemap.description',
+                  message: 'Every public page of the AChat app: features, plans, privacy and more.',
+                }),
                 path: `${APP_URL}/sitemap`,
               }}
             />

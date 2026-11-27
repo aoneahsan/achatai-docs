@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import { translate } from '@docusaurus/Translate';
 
 import { OTHER_PLATFORMS, PRIMARY_PLATFORM } from '@site/src/data/platforms';
 import styles from './index.module.css';
@@ -13,30 +14,54 @@ type Feature = {
 };
 
 /** Card copy follows the app's approved public wording, each limit beside its claim. */
-const FEATURES: Feature[] = [
+const FEATURES = (): Feature[] => [
   {
-    title: 'Chats with the people you know',
-    body: 'Friends find you by username, invite link or QR code, never a phone number. Personal chats, private groups and their files are end-to-end encrypted, so each message can be read only on those people\'s devices.',
+    title: translate({ id: 'home.feature.chats.title', message: 'Chats with the people you know' }),
+    body: translate({
+      id: 'home.feature.chats.body',
+      message:
+        'Friends find you by username, invite link or QR code, never a phone number. Personal chats, private groups and their files are end-to-end encrypted, so each message can be read only on those people\'s devices.',
+    }),
   },
   {
-    title: 'Anonymous rooms',
-    body: 'No account: pick a display name and share the room\'s link. Each message is kept for a set number of days, and someone with an account can keep the room longer. Anonymous doesn\'t mean untraceable.',
+    title: translate({ id: 'home.feature.rooms.title', message: 'Anonymous rooms' }),
+    body: translate({
+      id: 'home.feature.rooms.body',
+      message:
+        'No account: pick a display name and share the room\'s link. Each message is kept for a set number of days, and someone with an account can keep the room longer. Anonymous doesn\'t mean untraceable.',
+    }),
   },
   {
-    title: 'Groups and communities',
-    body: 'Groups are for people who already know each other. Communities have channels and threads, and each one says whether you need an account or can join anonymously. Communities aren\'t end-to-end encrypted.',
+    title: translate({ id: 'home.feature.groups.title', message: 'Groups and communities' }),
+    body: translate({
+      id: 'home.feature.groups.body',
+      message:
+        'Groups are for people who already know each other. Communities have channels and threads, and each one says whether you need an account or can join anonymously. Communities aren\'t end-to-end encrypted.',
+    }),
   },
   {
-    title: 'Your history on every device',
-    body: 'Link the devices you approve, and keep a recovery key. If you lose every device, the key brings your history back. Google sign-in alone can\'t, and AChat keeps no copy of your keys.',
+    title: translate({ id: 'home.feature.devices.title', message: 'Your history on every device' }),
+    body: translate({
+      id: 'home.feature.devices.body',
+      message:
+        'Link the devices you approve, and keep a recovery key. If you lose every device, the key brings your history back. Google sign-in alone can\'t, and AChat keeps no copy of your keys.',
+    }),
   },
   {
-    title: 'When the connection drops',
-    body: 'Chats you\'ve opened stay readable, and new messages wait with "Waiting to send" until you\'re back. A message says "Sent" only once it has arrived.',
+    title: translate({ id: 'home.feature.offline.title', message: 'When the connection drops' }),
+    body: translate({
+      id: 'home.feature.offline.body',
+      message:
+        'Chats you\'ve opened stay readable, and new messages wait with "Waiting to send" until you\'re back. A message says "Sent" only once it has arrived.',
+    }),
   },
   {
-    title: 'Plans',
-    body: 'Free has no end date and covers personal chats, groups, communities and anonymous rooms. Pro and Team / Family raise the file and kept-room allowances.',
+    title: translate({ id: 'home.feature.plans.title', message: 'Plans' }),
+    body: translate({
+      id: 'home.feature.plans.body',
+      message:
+        'Free has no end date and covers personal chats, groups, communities and anonymous rooms. Pro and Team / Family raise the file and kept-room allowances.',
+    }),
   },
 ];
 
@@ -46,27 +71,29 @@ function HomepageHeader(): ReactNode {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
-        <p className={styles.heroTagline}>{siteConfig.tagline}</p>
+        <p className={styles.heroTagline}>
+          {translate({ id: 'site.tagline', message: siteConfig.tagline })}
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
             to="/getting-started/quick-start"
           >
-            Quick Start
+            {translate({ id: 'home.cta.quickStart', message: 'Quick Start' })}
           </Link>
           <Link className="button button--secondary button--lg" to="/intro">
-            What is AChat?
+            {translate({ id: 'home.cta.intro', message: 'What is AChat?' })}
           </Link>
           <Link className="button button--secondary button--lg" href={PRIMARY_PLATFORM.href}>
-            Open the app
+            {translate({ id: 'home.cta.app', message: 'Open the app' })}
           </Link>
         </div>
         <p className={styles.also}>
-          <span>Also on</span>
+          <span>{translate({ id: 'home.alsoOn', message: 'Also on' })}</span>
           {OTHER_PLATFORMS.filter((platform) => !platform.primary).map((platform) => (
             <Link key={platform.id} href={platform.href}>{platform.name}</Link>
           ))}
-          <Link to="/apps">All apps →</Link>
+          <Link to="/apps">{translate({ id: 'home.allApps', message: 'All apps →' })}</Link>
         </p>
       </div>
     </header>
@@ -78,7 +105,7 @@ function HomepageFeatures(): ReactNode {
     <section className={styles.featuresWrap}>
       <div className="container">
         <div className="row">
-          {FEATURES.map((feature) => (
+          {FEATURES().map((feature) => (
             <div key={feature.title} className="col col--4 margin-bottom--lg">
               <div className={styles.featureCard}>
                 <h3>{feature.title}</h3>
@@ -96,8 +123,15 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}: personal chats, groups, communities and anonymous rooms`}
-      description="Documentation for AChat, a messaging app for personal chats, groups, communities and anonymous rooms on the web and Android. What it does, with each limit beside it."
+      title={translate(
+        { id: 'home.meta.title', message: '{title}: personal chats, groups, communities and anonymous rooms' },
+        { title: siteConfig.title }
+      )}
+      description={translate({
+        id: 'home.meta.description',
+        message:
+          'Documentation for AChat, a messaging app for personal chats, groups, communities and anonymous rooms on the web and Android. What it does, with each limit beside it.',
+      })}
     >
       <HomepageHeader />
       <main>

@@ -1,0 +1,82 @@
+{
+  "link.title.Get AChat": {
+    "message": "Consigue AChat",
+    "description": "The title of the footer links column with title=Get AChat in the footer"
+  },
+  "link.title.Documentation": {
+    "message": "Documentación",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.AChat": {
+    "message": "AChat",
+    "description": "The title of the footer links column with title=AChat in the footer"
+  },
+  "link.item.label.AChat web app": {
+    "message": "App web de AChat",
+    "description": "The label of footer link with label=AChat web app linking to https://achat.aoneahsan.com"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.aoneahsan.achat"
+  },
+  "link.item.label.All apps": {
+    "message": "Todas las apps",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Introduction": {
+    "message": "Introducción",
+    "description": "The label of footer link with label=Introduction linking to /intro"
+  },
+  "link.item.label.Quick Start": {
+    "message": "Inicio rápido",
+    "description": "The label of footer link with label=Quick Start linking to /getting-started/quick-start"
+  },
+  "link.item.label.Security & encryption": {
+    "message": "Seguridad y cifrado",
+    "description": "The label of footer link with label=Security & encryption linking to /concepts/security-and-encryption"
+  },
+  "link.item.label.Developers": {
+    "message": "Desarrolladores",
+    "description": "The label of footer link with label=Developers linking to /developers"
+  },
+  "link.item.label.FAQ": {
+    "message": "Preguntas frecuentes",
+    "description": "The label of footer link with label=FAQ linking to /faq"
+  },
+  "link.item.label.Sitemap": {
+    "message": "Mapa del sitio",
+    "description": "The label of footer link with label=Sitemap linking to /sitemap"
+  },
+  "link.item.label.Changelog feed": {
+    "message": "Feed de cambios",
+    "description": "The label of footer link with label=Changelog feed linking to /feed"
+  },
+  "link.item.label.RSS (feed.xml)": {
+    "message": "RSS (feed.xml)",
+    "description": "The label of footer link with label=RSS (feed.xml) linking to pathname:///feed.xml"
+  },
+  "link.item.label.About the developer": {
+    "message": "Sobre el desarrollador",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.More from Zaions": {
+    "message": "Más de Zaions",
+    "description": "The label of footer link with label=More from Zaions linking to /ecosystem"
+  },
+  "link.item.label.Contact": {
+    "message": "Contacto",
+    "description": "The label of footer link with label=Contact linking to https://achat.aoneahsan.com/contact"
+  },
+  "link.item.label.Plans and pricing": {
+    "message": "Planes y precios",
+    "description": "The label of footer link with label=Plans and pricing linking to https://achat.aoneahsan.com/pricing"
+  },
+  "link.item.label.Privacy policy": {
+    "message": "Política de privacidad",
+    "description": "The label of footer link with label=Privacy policy linking to https://achat.aoneahsan.com/privacy"
+  },
+  "link.item.label.Terms": {
+    "message": "Términos",
+    "description": "The label of footer link with label=Terms linking to https://achat.aoneahsan.com/terms"
+  }
+}

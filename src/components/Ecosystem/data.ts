@@ -1,4 +1,5 @@
 import roster from '../../data/ecosystem.json';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import copy from '../../data/ecosystem-copy.json';
 
 /*
@@ -19,19 +20,30 @@ export const PRODUCTS: readonly Product[] = roster.products
   .filter((p) => p.id !== CURRENT)
   .map((p) => ({ id: p.id, name: NAME_FIX[p.id] ?? p.name, url: p.liveUrl }));
 
-const words = copy.words as Record<string, string>;
+const words = copy.words as Record<string, Record<string, string>>;
+
+export type Words = (key: string, vars?: Record<string, string | number>) => string;
 
 /**
- * An approved English line, with `{name}`-style slots filled.
- * @param key the catalogue key
- * @param vars values for its slots
+ * The approved lines in one language, with `{name}`-style slots filled.
+ * @param locale the site language (each build renders one)
  */
-export function w(key: string, vars: Record<string, string | number> = {}): string {
-  const text = words[key];
-  if (text === undefined) throw new Error(`ecosystem copy: missing ${key}`);
-  return text.replace(/\{(\w+)\}/g, (_, name: string) => String(vars[name] ?? `{${name}}`));
+export function wordsFor(locale: string): Words {
+  const table = words[locale] ?? words.en!;
+  return (key, vars = {}) => {
+    const text = table[key] ?? words.en![key];
+    if (text === undefined) throw new Error(`ecosystem copy: missing ${key}`);
+    return text.replace(/\{(\w+)\}/g, (_, name: string) => String(vars[name] ?? `{${name}}`));
+  };
+}
+
+/** The approved lines in the page's language. */
+export function useW(): Words {
+  const { i18n } = useDocusaurusContext();
+  return wordsFor(i18n.currentLocale);
 }
 
 /** The app's page about a product, written from AChat's angle. */
 export const APP = 'https://achat.aoneahsan.com';
-export const detailUrl = (id: string) => `${APP}/ecosystem/${id}`;
+export const detailUrl = (id: string, locale = 'en') =>
+  locale === 'en' ? `${APP}/ecosystem/${id}` : `${APP}/${locale}/ecosystem/${id}`;

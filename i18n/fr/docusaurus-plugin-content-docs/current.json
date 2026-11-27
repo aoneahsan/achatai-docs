@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mainSidebar.category.Getting Started": {
+    "message": "Premiers pas",
+    "description": "The label for category 'Getting Started' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Moving to AChat": {
+    "message": "Passer à AChat",
+    "description": "The label for category 'Moving to AChat' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Features": {
+    "message": "Fonctionnalités",
+    "description": "The label for category 'Features' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Concepts": {
+    "message": "Notions",
+    "description": "The label for category 'Concepts' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Developers": {
+    "message": "Développeurs",
+    "description": "The label for category 'Developers' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.White-label & licensing": {
+    "message": "Marque blanche et licences",
+    "description": "The label for category 'White-label & licensing' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.link.About the developer": {
+    "message": "À propos du développeur",
+    "description": "The label for link 'About the developer' in sidebar 'mainSidebar', linking to '/about-developer'"
+  }
+}

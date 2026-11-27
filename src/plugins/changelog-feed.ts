@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import type { BlogContent } from '@docusaurus/plugin-content-blog';
 import type { AllContent, LoadContext, Plugin } from '@docusaurus/types';
@@ -163,15 +163,26 @@ export function feedXml(site: string, data: FeedData): string {
 
 /** Typed as Plugin<unknown> (what the config's plugin list accepts). */
 export default function changelogFeed(context: LoadContext): Plugin {
+  // Each language builds its own feed: its addresses carry the language prefix (baseUrl `/es/`), its changelog and
+  // description come from the translation when there is one (a blog post's permalink already carries the prefix).
+  const locale = context.i18n.currentLocale;
+  const prefix = context.baseUrl.replace(/\/$/, '');
   const site = context.siteConfig.url.replace(/\/$/, '');
-  const file = join(context.siteDir, 'docs/changelog.md');
+  const translated = join(context.siteDir, 'i18n', locale, 'docusaurus-plugin-content-docs/current/changelog.md');
+  const file = locale !== 'en' && existsSync(translated) ? translated : join(context.siteDir, 'docs/changelog.md');
+  const codePath = join(context.siteDir, 'i18n', locale, 'code.json');
+  const code = (existsSync(codePath) ? JSON.parse(readFileSync(codePath, 'utf8')) : {}) as Record<
+    string,
+    { message: string }
+  >;
+  const say = (id: string, english: string) => code[id]?.message ?? english;
   let changelog: FeedItem[] = [];
   let data: FeedData | null = null;
   return {
     name: 'changelog-feed',
     getPathsToWatch: () => [file],
     async loadContent() {
-      changelog = parseChangelog(readFileSync(file, 'utf8'));
+      changelog = parseChangelog(readFileSync(file, 'utf8')).map((item) => ({ ...item, path: `${prefix}${item.path}` }));
       if (!changelog.length) throw new Error('changelog-feed: docs/changelog.md has no "## " sections.');
     },
     // After every plugin has loaded, so the blog's posts are known.
@@ -179,12 +190,17 @@ export default function changelogFeed(context: LoadContext): Plugin {
       const posts = postsOf(allContent);
       data = posts.length
         ? {
-            title: FEED_TITLE_WITH_POSTS,
-            description: FEED_DESCRIPTION_WITH_POSTS,
+            title: say('feed.title.withPosts', FEED_TITLE_WITH_POSTS),
+            description: say('feed.description.withPosts', FEED_DESCRIPTION_WITH_POSTS),
             items: newestFirst(changelog, posts),
             posts,
           }
-        : { title: FEED_TITLE, description: FEED_DESCRIPTION, items: changelog, posts };
+        : {
+            title: say('feed.title', FEED_TITLE),
+            description: say('feed.description', FEED_DESCRIPTION),
+            items: changelog,
+            posts,
+          };
       actions.setGlobalData(data);
     },
     async postBuild({ outDir }) {

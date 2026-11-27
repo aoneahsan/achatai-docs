@@ -24,6 +24,23 @@ const HANDLE = owner.person.alternateName.find((name) => /^[a-z0-9]+$/.test(name
 // ---------------------------------------------------------------------------
 
 const SITE_URL = 'https://achat-docs.aoneahsan.com';
+/** The language this build renders: Docusaurus evaluates the config once per locale and names it here. */
+const LOCALE = process.env.DOCUSAURUS_CURRENT_LOCALE ?? 'en';
+/** An app page in the docs' language (the app prefixes every language but English, like this site). */
+const appPage = (path: string) => `${APP_URL}${LOCALE === 'en' ? '' : `/${LOCALE}`}${path}`;
+const OG_LOCALE: Record<string, string> = {
+  en: 'en_US',
+  'zh-Hans': 'zh_CN',
+  hi: 'hi_IN',
+  es: 'es_ES',
+  ar: 'ar_AR',
+  fr: 'fr_FR',
+  'pt-BR': 'pt_BR',
+  ru: 'ru_RU',
+  ja: 'ja_JP',
+  ur: 'ur_PK',
+  de: 'de_DE',
+};
 const APP_URL = platformHref('web');
 const PLAY_URL = platformHref('android');
 const DOCS_REPO = 'https://github.com/aoneahsan/achatai-docs';
@@ -113,7 +130,7 @@ const config: Config = {
         name: 'AChat Documentation',
         url: SITE_URL,
         description: DOCS_DESCRIPTION,
-        inLanguage: 'en',
+        inLanguage: LOCALE,
         publisher: { '@type': 'Organization', name: 'AChat', url: APP_URL },
       }),
     },
@@ -187,7 +204,25 @@ const config: Config = {
     },
   ],
 
-  i18n: { defaultLocale: 'en', locales: ['en'] },
+  // The fleet's ten languages in the standard's order, then German (OD-30): the same eleven as the app
+  // (../achat/src/lib/i18n/locales.ts). English owns the plain paths; every other language lives under its own prefix.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur', 'de'],
+    localeConfigs: {
+      en: { label: 'English', htmlLang: 'en' },
+      'zh-Hans': { label: '简体中文', htmlLang: 'zh-Hans' },
+      hi: { label: 'हिन्दी', htmlLang: 'hi' },
+      es: { label: 'Español', htmlLang: 'es' },
+      ar: { label: 'العربية', htmlLang: 'ar', direction: 'rtl' },
+      fr: { label: 'Français', htmlLang: 'fr' },
+      'pt-BR': { label: 'Português (Brasil)', htmlLang: 'pt-BR' },
+      ru: { label: 'Русский', htmlLang: 'ru' },
+      ja: { label: '日本語', htmlLang: 'ja' },
+      ur: { label: 'اردو', htmlLang: 'ur', direction: 'rtl' },
+      de: { label: 'Deutsch', htmlLang: 'de' },
+    },
+  },
 
   trailingSlash: false,
 
@@ -304,7 +339,7 @@ const config: Config = {
       { name: 'twitter:card', content: 'summary_large_image' },
       { property: 'og:type', content: 'website' },
       { property: 'og:site_name', content: 'AChat Docs' },
-      { property: 'og:locale', content: 'en_US' },
+      { property: 'og:locale', content: OG_LOCALE[LOCALE] ?? 'en_US' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
       { property: 'og:image:type', content: 'image/png' },
@@ -350,6 +385,7 @@ const config: Config = {
             { label: 'All apps', to: '/apps' },
           ],
         },
+        { type: 'localeDropdown', position: 'right' },
         { href: DOCS_REPO, label: 'GitHub', position: 'right' },
       ],
     },
@@ -382,10 +418,10 @@ const config: Config = {
           items: [
             { label: 'About the developer', to: '/about-developer' },
             { label: 'More from Zaions', to: '/ecosystem' },
-            { label: 'Contact', href: `${APP_URL}/contact` },
-            { label: 'Plans and pricing', href: `${APP_URL}/pricing` },
-            { label: 'Privacy policy', href: `${APP_URL}/privacy` },
-            { label: 'Terms', href: `${APP_URL}/terms` },
+            { label: 'Contact', href: appPage('/contact') },
+            { label: 'Plans and pricing', href: appPage('/pricing') },
+            { label: 'Privacy policy', href: appPage('/privacy') },
+            { label: 'Terms', href: appPage('/terms') },
           ],
         },
       ],

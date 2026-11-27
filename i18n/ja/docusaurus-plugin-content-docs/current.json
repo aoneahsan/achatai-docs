@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.mainSidebar.category.Getting Started": {
+    "message": "はじめに",
+    "description": "The label for category 'Getting Started' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Moving to AChat": {
+    "message": "AChat への移行",
+    "description": "The label for category 'Moving to AChat' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Features": {
+    "message": "機能",
+    "description": "The label for category 'Features' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Concepts": {
+    "message": "コンセプト",
+    "description": "The label for category 'Concepts' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.Developers": {
+    "message": "開発者向け",
+    "description": "The label for category 'Developers' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.category.White-label & licensing": {
+    "message": "ホワイトラベルとライセンス",
+    "description": "The label for category 'White-label & licensing' in sidebar 'mainSidebar'"
+  },
+  "sidebar.mainSidebar.link.About the developer": {
+    "message": "開発者について",
+    "description": "The label for link 'About the developer' in sidebar 'mainSidebar', linking to '/about-developer'"
+  }
+}

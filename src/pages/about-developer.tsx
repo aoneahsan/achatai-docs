@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import owner from '../data/owner-profile.json';
 import { relFor } from '../data/link-policy';
-import { APP, w } from '../components/Ecosystem/data';
+import { APP, useW } from '../components/Ecosystem/data';
 import styles from './ecosystem.module.css';
 
 /*
@@ -32,6 +32,7 @@ function Out({ href, children, className }: { href: string; children: React.Reac
 }
 
 export default function AboutDeveloper(): React.ReactElement {
+  const w = useW();
   return (
     <Layout title={w('dev.meta.title')} description={w('dev.meta.description')}>
       <main className={styles.main}>

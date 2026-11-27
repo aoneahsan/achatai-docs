@@ -75,3 +75,32 @@
 .navbar__logo {
   margin-right: 0.5rem;
 }
+
+/* Urdu reads in Nastaliq, never in the Arabic UI face (ten-locale standard, lang-ur): self-hosted, fetched only when
+   Urdu text renders (unicode-range), with the tall leading its ascenders and descenders need. SIL OFL 1.1. */
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400 700;
+  src: url('/fonts/noto-nastaliq-urdu-arabic-wght-normal.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+html[lang='ur'] {
+  --ifm-font-family-base: 'Noto Nastaliq Urdu', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-heading-font-family: 'Noto Nastaliq Urdu', system-ui, sans-serif;
+  --ifm-line-height-base: 2;
+  --ifm-heading-line-height: 1.75;
+}
+html[lang='ur'] *,
+html[lang='hi'] *,
+html[lang='ar'] *,
+html[lang='zh-Hans'] *,
+html[lang='ja'] * {
+  letter-spacing: normal !important;
+}
+html[lang='hi'] {
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-line-height: 1.35;
+}

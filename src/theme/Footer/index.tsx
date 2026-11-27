@@ -15,7 +15,7 @@ export default function FooterWrapper(props: Props): React.ReactElement {
   const { pathname } = useLocation();
   return (
     <>
-      {pathname.replace(/\/$/, '') === '/ecosystem' ? null : <EcosystemBand />}
+      {/^(\/[a-zA-Z-]+)?\/ecosystem\/?$/.test(pathname) ? null : <EcosystemBand />}
       <Footer {...props} />
     </>
   );

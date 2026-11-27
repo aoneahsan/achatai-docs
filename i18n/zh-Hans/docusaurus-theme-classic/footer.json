@@ -1,0 +1,82 @@
+{
+  "link.title.Get AChat": {
+    "message": "获取 AChat",
+    "description": "The title of the footer links column with title=Get AChat in the footer"
+  },
+  "link.title.Documentation": {
+    "message": "文档",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.AChat": {
+    "message": "AChat",
+    "description": "The title of the footer links column with title=AChat in the footer"
+  },
+  "link.item.label.AChat web app": {
+    "message": "AChat 网页版",
+    "description": "The label of footer link with label=AChat web app linking to https://achat.aoneahsan.com"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.aoneahsan.achat"
+  },
+  "link.item.label.All apps": {
+    "message": "所有应用",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Introduction": {
+    "message": "简介",
+    "description": "The label of footer link with label=Introduction linking to /intro"
+  },
+  "link.item.label.Quick Start": {
+    "message": "快速开始",
+    "description": "The label of footer link with label=Quick Start linking to /getting-started/quick-start"
+  },
+  "link.item.label.Security & encryption": {
+    "message": "安全与加密",
+    "description": "The label of footer link with label=Security & encryption linking to /concepts/security-and-encryption"
+  },
+  "link.item.label.Developers": {
+    "message": "开发者",
+    "description": "The label of footer link with label=Developers linking to /developers"
+  },
+  "link.item.label.FAQ": {
+    "message": "常见问题",
+    "description": "The label of footer link with label=FAQ linking to /faq"
+  },
+  "link.item.label.Sitemap": {
+    "message": "网站地图",
+    "description": "The label of footer link with label=Sitemap linking to /sitemap"
+  },
+  "link.item.label.Changelog feed": {
+    "message": "更新日志订阅",
+    "description": "The label of footer link with label=Changelog feed linking to /feed"
+  },
+  "link.item.label.RSS (feed.xml)": {
+    "message": "RSS (feed.xml)",
+    "description": "The label of footer link with label=RSS (feed.xml) linking to pathname:///feed.xml"
+  },
+  "link.item.label.About the developer": {
+    "message": "关于开发者",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.More from Zaions": {
+    "message": "更多 Zaions 产品",
+    "description": "The label of footer link with label=More from Zaions linking to /ecosystem"
+  },
+  "link.item.label.Contact": {
+    "message": "联系",
+    "description": "The label of footer link with label=Contact linking to https://achat.aoneahsan.com/contact"
+  },
+  "link.item.label.Plans and pricing": {
+    "message": "套餐与价格",
+    "description": "The label of footer link with label=Plans and pricing linking to https://achat.aoneahsan.com/pricing"
+  },
+  "link.item.label.Privacy policy": {
+    "message": "隐私政策",
+    "description": "The label of footer link with label=Privacy policy linking to https://achat.aoneahsan.com/privacy"
+  },
+  "link.item.label.Terms": {
+    "message": "条款",
+    "description": "The label of footer link with label=Terms linking to https://achat.aoneahsan.com/terms"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "AChat",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Логотип AChat",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Документация",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Quick Start": {
+    "message": "Быстрый старт",
+    "description": "Navbar item with label Quick Start"
+  },
+  "item.label.About the developer": {
+    "message": "О разработчике",
+    "description": "Navbar item with label About the developer"
+  },
+  "item.label.Get AChat": {
+    "message": "Скачать AChat",
+    "description": "Navbar item with label Get AChat"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.AChat web app": {
+    "message": "Веб-приложение AChat",
+    "description": "Navbar item with label AChat web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "Все приложения",
+    "description": "Navbar item with label All apps"
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "apps.here": {
+    "message": "Tu la lis"
+  },
+  "feed.heading.withPosts": {
+    "message": "Articles et journal des modifications"
+  },
+  "feed.heading": {
+    "message": "Flux du journal des modifications"
+  },
+  "feed.follow": {
+    "message": "Pour le suivre dans un lecteur de flux, ajoute {file} (RSS 2.0)."
+  },
+  "feed.kind.post": {
+    "message": "Article du blog"
+  },
+  "feed.kind.changelog": {
+    "message": "Journal des modifications"
+  },
+  "home.feature.chats.title": {
+    "message": "Des discussions avec les gens que tu connais"
+  },
+  "home.feature.chats.body": {
+    "message": "Tes amis te trouvent par nom d'utilisateur, lien d'invitation ou QR code, jamais par numéro de téléphone. Les discussions personnelles, les groupes privés et leurs fichiers sont chiffrés de bout en bout : chaque message ne se lit que sur les appareils de ces personnes."
+  },
+  "home.feature.rooms.title": {
+    "message": "Salons anonymes"
+  },
+  "home.feature.rooms.body": {
+    "message": "Sans compte : choisis un pseudo et partage le lien du salon. Chaque message est gardé un nombre de jours fixé, et quelqu'un qui a un compte peut garder le salon plus longtemps. Anonyme ne veut pas dire introuvable."
+  },
+  "home.feature.groups.title": {
+    "message": "Groupes et communautés"
+  },
+  "home.feature.groups.body": {
+    "message": "Les groupes, c'est pour les gens qui se connaissent déjà. Les communautés ont des canaux et des fils, et chacune indique s'il faut un compte ou si on peut rejoindre anonymement. Les communautés ne sont pas chiffrées de bout en bout."
+  },
+  "home.feature.devices.title": {
+    "message": "Ton historique sur chaque appareil"
+  },
+  "home.feature.devices.body": {
+    "message": "Associe les appareils que tu approuves et garde une clé de récupération. Si tu perds tous tes appareils, la clé ramène ton historique. La connexion Google seule ne le peut pas, et AChat ne garde aucune copie de tes clés."
+  },
+  "home.feature.offline.title": {
+    "message": "Quand la connexion tombe"
+  },
+  "home.feature.offline.body": {
+    "message": "Les discussions déjà ouvertes restent lisibles, et les nouveaux messages attendent avec « En attente d'envoi » jusqu'à ton retour. Un message n'indique « Envoyé » qu'une fois arrivé."
+  },
+  "home.feature.plans.title": {
+    "message": "Offres"
+  },
+  "home.feature.plans.body": {
+    "message": "Free n'a pas de date de fin et couvre les discussions personnelles, les groupes, les communautés et les salons anonymes. Pro et Équipe / Famille augmentent les quotas de fichiers et de salons gardés."
+  },
+  "home.cta.quickStart": {
+    "message": "Démarrage rapide"
+  },
+  "home.cta.intro": {
+    "message": "Qu'est-ce qu'AChat ?"
+  },
+  "home.cta.app": {
+    "message": "Ouvrir l'app"
+  },
+  "home.alsoOn": {
+    "message": "Aussi sur"
+  },
+  "home.allApps": {
+    "message": "Toutes les apps →"
+  },
+  "home.meta.title": {
+    "message": "{title} : discussions personnelles, groupes, communautés et salons anonymes"
+  },
+  "home.meta.description": {
+    "message": "Documentation d'AChat, une app de messagerie pour les discussions personnelles, les groupes, les communautés et les salons anonymes, sur le web et Android. Ce qu'elle fait, chaque limite à côté."
+  },
+  "sitemap.group.blog": {
+    "message": "Blog"
+  },
+  "sitemap.title": {
+    "message": "Plan du site"
+  },
+  "sitemap.description": {
+    "message": "Toutes les pages de la documentation AChat, groupées par section, avec une recherche."
+  },
+  "sitemap.lead.feedLink": {
+    "message": "flux"
+  },
+  "sitemap.lead.changelogLink": {
+    "message": "flux du journal"
+  },
+  "sitemap.search.label": {
+    "message": "Rechercher dans les pages de la documentation"
+  },
+  "sitemap.search.placeholder": {
+    "message": "chiffrement, salons anonymes, offres"
+  },
+  "sitemap.search.none": {
+    "message": "Aucune page ne correspond à « {query} ». Essaie moins de mots ou des mots plus courts."
+  },
+  "sitemap.app.heading": {
+    "message": "L'app AChat"
+  },
+  "sitemap.app.open.title": {
+    "message": "Ouvrir AChat"
+  },
+  "sitemap.app.open.description": {
+    "message": "L'app elle-même, dans ton navigateur."
+  },
+  "sitemap.app.sitemap.title": {
+    "message": "Plan du site de l'app"
+  },
+  "sitemap.app.sitemap.description": {
+    "message": "Toutes les pages publiques de l'app AChat : fonctionnalités, offres, confidentialité et plus."
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Cette page a planté.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Retour au début de la page",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Pagination de la liste des articles du blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nouvelles entrées",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Anciennes entrées",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Pagination des articles du blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Article plus récent",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Article plus ancien",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Voir tous les tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "mode clair",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mode sombre",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Basculer entre le mode sombre et clair (actuellement {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Fil d'Ariane",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Pages de documentation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Précédent",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Suivant",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Un document tagué|{count} documents tagués",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} avec \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ceci est la documentation de la prochaine version {versionLabel} de {siteTitle}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ceci est la documentation de {siteTitle} {versionLabel}, qui n'est plus activement maintenue.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Pour une documentation à jour, consultez la {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "dernière version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Éditer cette page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Lien direct vers {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " le {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " par {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Dernière mise à jour{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Page introuvable",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags :",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "attention",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "remarque",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "astuce",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "attention",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Fermer",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation article de blog récent",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Développer la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Réduire la catégorie '{label}' de la barre latérale",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Langues",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nous n'avons pas trouvé ce que vous recherchez.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Veuillez contacter le propriétaire du site qui vous a lié à l'URL d'origine et leur faire savoir que leur lien est cassé.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Sur cette page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Lire plus",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "En savoir plus sur {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Une minute de lecture|{readingTime} minutes de lecture",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copié",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copier le code",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Activer/désactiver le retour à la ligne",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Page d'accueil",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Réduire le menu latéral",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Fermer la barre de navigation",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Retour au menu principal",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Ouvrir/fermer la barre de navigation",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Déplier le menu latéral",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Un article|{count} articles",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagués avec « {tagName} »",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Page non répertoriée",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Cette page n'est pas répertoriée. Les moteurs de recherche ne l'indexeront pas, et seuls les utilisateurs ayant un lien direct peuvent y accéder.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 élément|{count} éléments",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Réessayer",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Aller au contenu principal",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "apps.title": {
+    "message": "Obtenir AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.description": {
+    "message": "Tous les endroits où AChat est publié : l'app web, l'app Android sur Google Play et cette documentation.",
+    "description": "AChat docs site string"
+  },
+  "apps.lead": {
+    "message": "Tes discussions sur le web et sur ton téléphone, avec ces guides à un onglet.",
+    "description": "AChat docs site string"
+  },
+  "apps.web.name": {
+    "message": "App web AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.web.title": {
+    "message": "Dans ton navigateur",
+    "description": "AChat docs site string"
+  },
+  "apps.web.text": {
+    "message": "Discute avec les gens que tu connais, rejoins des groupes et des salons anonymes, et publie un statut depuis n'importe quel ordinateur.",
+    "description": "AChat docs site string"
+  },
+  "apps.web.cta": {
+    "message": "Ouvrir AChat",
+    "description": "AChat docs site string"
+  },
+  "apps.android.name": {
+    "message": "Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.android.title": {
+    "message": "Sur ton téléphone Android",
+    "description": "AChat docs site string"
+  },
+  "apps.android.text": {
+    "message": "Tes discussions dans ta poche, avec une notification quand quelqu'un répond.",
+    "description": "AChat docs site string"
+  },
+  "apps.android.cta": {
+    "message": "Disponible sur Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.name": {
+    "message": "Documentation",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.title": {
+    "message": "Cette documentation",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.text": {
+    "message": "Comment fonctionnent les discussions, les salons, les statuts et le chiffrement, et les questions qu'on pose en premier.",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.cta": {
+    "message": "Lire la documentation",
+    "description": "AChat docs site string"
+  },
+  "feed.title": {
+    "message": "Journal des modifications de la documentation AChat",
+    "description": "AChat docs site string"
+  },
+  "feed.title.withPosts": {
+    "message": "Documentation AChat : articles et journal des modifications",
+    "description": "AChat docs site string"
+  },
+  "feed.description": {
+    "message": "L'historique des versions d'AChat, tiré du journal des modifications de cette documentation. La référence, ce sont les notes de version dans l'app sur achat.aoneahsan.com/feed, avec la date de chaque changement.",
+    "description": "AChat docs site string"
+  },
+  "feed.description.withPosts": {
+    "message": "Les articles du blog de l'équipe AChat et l'historique des versions d'AChat, tiré du journal des modifications de cette documentation. La référence, ce sont les notes de version dans l'app sur achat.aoneahsan.com/feed, avec la date de chaque changement.",
+    "description": "AChat docs site string"
+  },
+  "site.tagline": {
+    "message": "Discussions personnelles, groupes, communautés, et salons anonymes quand tu préfères ne pas utiliser de compte.",
+    "description": "AChat docs site string"
+  },
+  "sitemap.group.overview": {
+    "message": "Vue d'ensemble",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead": {
+    "message": "Toutes les pages de la documentation AChat, groupées comme dans la barre latérale. Pour les moteurs de recherche, les lecteurs de flux et les assistants IA, {sitemap} liste chaque page et {feedXml} diffuse le journal des modifications en RSS ; la page {feedPage} montre les mêmes entrées.",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead.withPosts": {
+    "message": "Toutes les pages de la documentation AChat, groupées comme dans la barre latérale. Pour les moteurs de recherche, les lecteurs de flux et les assistants IA, {sitemap} liste chaque page et {feedXml} diffuse les articles du blog et le journal des modifications en RSS ; la page {feedPage} montre les mêmes entrées.",
+    "description": "AChat docs site string"
+  }
+}

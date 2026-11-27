@@ -1,0 +1,535 @@
+{
+  "apps.here": {
+    "message": "آپ اسے پڑھ رہے ہیں"
+  },
+  "feed.heading.withPosts": {
+    "message": "پوسٹس اور تبدیلیوں کا ریکارڈ"
+  },
+  "feed.heading": {
+    "message": "تبدیلیوں کی فیڈ"
+  },
+  "feed.follow": {
+    "message": "فیڈ ریڈر میں فالو کرنے کے لیے {file} (RSS 2.0) شامل کریں۔"
+  },
+  "feed.kind.post": {
+    "message": "بلاگ پوسٹ"
+  },
+  "feed.kind.changelog": {
+    "message": "تبدیلیوں کا ریکارڈ"
+  },
+  "home.feature.chats.title": {
+    "message": "جاننے والوں سے چیٹ"
+  },
+  "home.feature.chats.body": {
+    "message": "دوست آپ کو یوزر نیم، دعوتی لنک یا QR کوڈ سے ڈھونڈتے ہیں، فون نمبر سے کبھی نہیں۔ ذاتی چیٹس، پرائیویٹ گروپس اور ان کی فائلیں اینڈ ٹو اینڈ انکرپٹڈ ہیں، اس لیے ہر پیغام صرف ان لوگوں کے ڈیوائسز پر پڑھا جا سکتا ہے۔"
+  },
+  "home.feature.rooms.title": {
+    "message": "گمنام رومز"
+  },
+  "home.feature.rooms.body": {
+    "message": "کوئی اکاؤنٹ نہیں: ڈسپلے نیم چنیں اور روم کا لنک شیئر کریں۔ ہر پیغام مقررہ دنوں تک رکھا جاتا ہے، اور اکاؤنٹ والا کوئی شخص روم کو زیادہ دیر رکھ سکتا ہے۔ گمنام کا مطلب یہ نہیں کہ سراغ نہیں لگایا جا سکتا۔"
+  },
+  "home.feature.groups.title": {
+    "message": "گروپس اور کمیونٹیز"
+  },
+  "home.feature.groups.body": {
+    "message": "گروپس ان لوگوں کے لیے ہیں جو ایک دوسرے کو پہلے سے جانتے ہیں۔ کمیونٹیز میں چینلز اور تھریڈز ہوتے ہیں، اور ہر ایک بتاتی ہے کہ اکاؤنٹ چاہیے یا گمنام شامل ہو سکتے ہیں۔ کمیونٹیز اینڈ ٹو اینڈ انکرپٹڈ نہیں ہیں۔"
+  },
+  "home.feature.devices.title": {
+    "message": "ہر ڈیوائس پر آپ کی ہسٹری"
+  },
+  "home.feature.devices.body": {
+    "message": "جن ڈیوائسز کو آپ منظور کریں انہیں جوڑیں، اور ریکوری کی سنبھال کر رکھیں۔ اگر سارے ڈیوائس کھو جائیں، تو کی آپ کی ہسٹری واپس لاتی ہے۔ صرف Google سائن ان سے یہ نہیں ہوتا، اور AChat آپ کی کیز کی کوئی کاپی نہیں رکھتا۔"
+  },
+  "home.feature.offline.title": {
+    "message": "جب کنکشن چلا جائے"
+  },
+  "home.feature.offline.body": {
+    "message": "جو چیٹس آپ کھول چکے ہیں وہ پڑھی جا سکتی ہیں، اور نئے پیغامات آپ کے واپس آنے تک \"بھیجنے کے لیے رکا ہے\" کے ساتھ رکے رہتے ہیں۔ پیغام پر \"بھیج دیا گیا\" تب ہی آتا ہے جب وہ پہنچ جائے۔"
+  },
+  "home.feature.plans.title": {
+    "message": "پلانز"
+  },
+  "home.feature.plans.body": {
+    "message": "Free کی کوئی آخری تاریخ نہیں، اور اس میں ذاتی چیٹس، گروپس، کمیونٹیز اور گمنام رومز ہیں۔ Pro اور ٹیم / فیملی فائلوں اور رکھے گئے رومز کی حد بڑھاتے ہیں۔"
+  },
+  "home.cta.quickStart": {
+    "message": "فوری آغاز"
+  },
+  "home.cta.intro": {
+    "message": "AChat کیا ہے؟"
+  },
+  "home.cta.app": {
+    "message": "ایپ کھولیں"
+  },
+  "home.alsoOn": {
+    "message": "یہاں بھی"
+  },
+  "home.allApps": {
+    "message": "تمام ایپس ←"
+  },
+  "home.meta.title": {
+    "message": "{title}: ذاتی چیٹس، گروپس، کمیونٹیز اور گمنام رومز"
+  },
+  "home.meta.description": {
+    "message": "AChat کی دستاویزات۔ AChat ذاتی چیٹس، گروپس، کمیونٹیز اور گمنام رومز کے لیے ایک میسجنگ ایپ ہے، ویب اور Android پر۔ یہ کیا کرتی ہے، ہر حد اس کے ساتھ لکھی ہے۔"
+  },
+  "sitemap.group.blog": {
+    "message": "بلاگ"
+  },
+  "sitemap.title": {
+    "message": "سائٹ میپ"
+  },
+  "sitemap.description": {
+    "message": "AChat دستاویزات کا ہر صفحہ، حصوں کے مطابق، تلاش کے ساتھ۔"
+  },
+  "sitemap.lead.feedLink": {
+    "message": "فیڈ"
+  },
+  "sitemap.lead.changelogLink": {
+    "message": "تبدیلیوں کی فیڈ"
+  },
+  "sitemap.search.label": {
+    "message": "دستاویزات کے صفحات تلاش کریں"
+  },
+  "sitemap.search.placeholder": {
+    "message": "انکرپشن، گمنام رومز، پلانز"
+  },
+  "sitemap.search.none": {
+    "message": "\"{query}\" سے کوئی صفحہ نہیں ملا۔ کم یا چھوٹے الفاظ آزمائیں۔"
+  },
+  "sitemap.app.heading": {
+    "message": "AChat ایپ"
+  },
+  "sitemap.app.open.title": {
+    "message": "AChat کھولیں"
+  },
+  "sitemap.app.open.description": {
+    "message": "خود ایپ، آپ کے براؤزر میں۔"
+  },
+  "sitemap.app.sitemap.title": {
+    "message": "ایپ کا سائٹ میپ"
+  },
+  "sitemap.app.sitemap.description": {
+    "message": "AChat ایپ کا ہر عوامی صفحہ: خصوصیات، پلانز، پرائیویسی اور مزید۔"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "یہ صفحہ کریش ہو گیا ہے۔",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "واپس اوپر جائیں",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "آرکائیو",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "آرکائیو",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "بلاگ لسٹ پیج نیویگیشن",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "نئی تحریریں",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "پرانی تحریریں",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "بلاگ پوسٹ پیج نیویگیشن",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "نئی پوسٹ",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "پرانی پوسٹ",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "تمام ٹیگز دیکھیں",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "سسٹم موڈ",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "لائٹ موڈ",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ڈارک موڈ",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ڈارک اور لائٹ موڈ کے درمیان تبدیل کریں (فی الحال {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "بریڈ کرمبز",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ڈاکس کے صفحات",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "پچھلا",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "اگلا",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "ایک ڈاک ٹیگ کردہ|{count} ڈاکس ٹیگ کردہ",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "\"{tagName}\" کے ساتھ {nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "ورژن: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "یہ {siteTitle} {versionLabel} ورژن کی غیر جاری شدہ دستاویزات ہیں۔",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "یہ {siteTitle} {versionLabel} کی دستاویزات ہیں، جن کی اب فعال طور پر دیکھ بھال نہیں کی جاتی۔",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "تازہ ترین دستاویزات کے لیے، {latestVersionLink} ({versionLabel}) دیکھیں۔",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "تازہ ترین ورژن",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "اس صفحے کی تدوین کریں",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} کا براہ راست لنک",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " بتاریخ {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " از {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخری بار اپ ڈیٹ کیا گیا {atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "ورژنز",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "صفحہ نہیں ملا",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "ٹیگز:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "احتیاط",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطرہ",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "نوٹ",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ٹپ",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "انتباہ",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "بند کریں",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "بلاگ کی حالیہ پوسٹس کی نیویگیشن",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "سائڈبار کیٹیگری '{label}' کو پھیلائیں",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "سائڈبار کیٹیگری '{label}' کو سمیٹیں",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(نئی ٹیب میں کھلتا ہے)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "مین",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "زبانیں",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "ہم وہ تلاش نہیں کر سکے جو آپ ڈھونڈ رہے تھے۔",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "براہ کرم اس سائٹ کے مالک سے رابطہ کریں جس نے آپ کو اصل URL کا لنک دیا تھا اور انہیں بتائیں کہ ان کا لنک کام نہیں کر رہا۔",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "اس صفحے پر",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "مزید پڑھیں",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title} کے بارے میں مزید پڑھیں",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "ایک منٹ کا مطالعہ|{readingTime} منٹ کا مطالعہ",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "کاپی کریں",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "کاپی کر لیا گیا",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "کوڈ کلپ بورڈ پر کاپی کریں",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "ورڈ ریپ تبدیل کریں",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ہوم پیج",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "سائڈبار سمیٹیں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "سائڈبار سمیٹیں",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ڈاکس سائڈبار",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "نیویگیشن بار بند کریں",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← مین مینو پر واپس جائیں",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "نیویگیشن بار تبدیل کریں",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "ڈراپ ڈاؤن پھیلائیں",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "ڈراپ ڈاؤن سمیٹیں",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "سائڈبار پھیلائیں",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "سائڈبار پھیلائیں",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "ایک پوسٹ|{count} پوسٹس",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "\"{tagName}\" کے ساتھ ٹیگ کردہ {nPosts}",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "مصنفین",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "تمام مصنفین دیکھیں",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "اس مصنف نے ابھی تک کوئی پوسٹ نہیں لکھی۔",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "غیر فہرست شدہ صفحہ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "یہ صفحہ غیر فہرست شدہ ہے۔ سرچ انجن اسے انڈیکس نہیں کریں گے، اور صرف وہ صارفین جن کے پاس براہ راست لنک ہے وہ اسے دیکھ سکتے ہیں۔",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "ڈرافٹ صفحہ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "یہ صفحہ ایک ڈرافٹ ہے۔ یہ صرف ڈیولپمنٹ میں نظر آئے گا اور پروڈکشن بلڈ سے خارج کر دیا جائے گا۔",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 آئٹم|{count} آئٹمز",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "دوبارہ کوشش کریں",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "مین مواد پر جائیں",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "ٹیگز",
+    "description": "The title of the tag list page"
+  },
+  "apps.title": {
+    "message": "AChat حاصل کریں",
+    "description": "AChat docs site string"
+  },
+  "apps.description": {
+    "message": "وہ تمام جگہیں جہاں AChat دستیاب ہے: ویب ایپ، Google Play پر Android ایپ، اور یہ دستاویزات۔",
+    "description": "AChat docs site string"
+  },
+  "apps.lead": {
+    "message": "ویب پر اور فون پر آپ کی چیٹس، اور یہ گائیڈز بس ایک ٹیب دور۔",
+    "description": "AChat docs site string"
+  },
+  "apps.web.name": {
+    "message": "AChat ویب ایپ",
+    "description": "AChat docs site string"
+  },
+  "apps.web.title": {
+    "message": "آپ کے براؤزر میں",
+    "description": "AChat docs site string"
+  },
+  "apps.web.text": {
+    "message": "کسی بھی کمپیوٹر سے جاننے والوں سے چیٹ کریں، گروپس اور گمنام رومز میں شامل ہوں، اور اسٹیٹس لگائیں۔",
+    "description": "AChat docs site string"
+  },
+  "apps.web.cta": {
+    "message": "AChat کھولیں",
+    "description": "AChat docs site string"
+  },
+  "apps.android.name": {
+    "message": "Google Play",
+    "description": "AChat docs site string"
+  },
+  "apps.android.title": {
+    "message": "آپ کے Android فون پر",
+    "description": "AChat docs site string"
+  },
+  "apps.android.text": {
+    "message": "آپ کی چیٹس آپ کی جیب میں، اور کوئی جواب دے تو اطلاع۔",
+    "description": "AChat docs site string"
+  },
+  "apps.android.cta": {
+    "message": "Google Play سے حاصل کریں",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.name": {
+    "message": "دستاویزات",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.title": {
+    "message": "یہ دستاویزات",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.text": {
+    "message": "چیٹس، رومز، اسٹیٹس اور انکرپشن کیسے کام کرتے ہیں، اور وہ سوالات جو لوگ سب سے پہلے پوچھتے ہیں۔",
+    "description": "AChat docs site string"
+  },
+  "apps.docs.cta": {
+    "message": "دستاویزات پڑھیں",
+    "description": "AChat docs site string"
+  },
+  "feed.title": {
+    "message": "AChat دستاویزات: تبدیلیوں کا ریکارڈ",
+    "description": "AChat docs site string"
+  },
+  "feed.title.withPosts": {
+    "message": "AChat دستاویزات: پوسٹس اور تبدیلیوں کا ریکارڈ",
+    "description": "AChat docs site string"
+  },
+  "feed.description": {
+    "message": "AChat کی ریلیزز کی تاریخ، ان دستاویزات کے تبدیلیوں کے ریکارڈ سے۔ مستند ریکارڈ achat.aoneahsan.com/feed پر ایپ کے ریلیز نوٹس ہیں، جن میں ہر تبدیلی کی تاریخ درج ہے۔",
+    "description": "AChat docs site string"
+  },
+  "feed.description.withPosts": {
+    "message": "AChat ٹیم کی بلاگ پوسٹس، اور ان دستاویزات کے تبدیلیوں کے ریکارڈ سے AChat کی ریلیزز کی تاریخ۔ مستند ریکارڈ achat.aoneahsan.com/feed پر ایپ کے ریلیز نوٹس ہیں، جن میں ہر تبدیلی کی تاریخ درج ہے۔",
+    "description": "AChat docs site string"
+  },
+  "site.tagline": {
+    "message": "ذاتی چیٹس، گروپس، کمیونٹیز، اور گمنام رومز جب آپ اکاؤنٹ استعمال نہ کرنا چاہیں۔",
+    "description": "AChat docs site string"
+  },
+  "sitemap.group.overview": {
+    "message": "جائزہ",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead": {
+    "message": "AChat دستاویزات کا ہر صفحہ، اسی طرح تقسیم جیسے سائیڈ بار میں۔ سرچ انجنز، فیڈ ریڈرز اور AI اسسٹنٹس کے لیے، {sitemap} ہر صفحے کی فہرست دیتا ہے اور {feedXml} تبدیلیوں کا ریکارڈ RSS کے طور پر دیتا ہے؛ {feedPage} صفحے پر بھی یہی اندراجات ہیں۔",
+    "description": "AChat docs site string"
+  },
+  "sitemap.lead.withPosts": {
+    "message": "AChat دستاویزات کا ہر صفحہ، اسی طرح تقسیم جیسے سائیڈ بار میں۔ سرچ انجنز، فیڈ ریڈرز اور AI اسسٹنٹس کے لیے، {sitemap} ہر صفحے کی فہرست دیتا ہے اور {feedXml} بلاگ پوسٹس اور تبدیلیوں کا ریکارڈ RSS کے طور پر دیتا ہے؛ {feedPage} صفحے پر بھی یہی اندراجات ہیں۔",
+    "description": "AChat docs site string"
+  }
+}
