@@ -1,7 +1,7 @@
 ---
 sidebar_position: 15
 title: Appearance, language & shortcuts
-description: One Appearance panel for theme, colour, text size and motion; five interface languages including Arabic; keyboard shortcuts and focus mode in AChat.
+description: One Appearance panel for theme, colour, text size and motion; eleven interface languages including Arabic and Urdu; keyboard shortcuts and focus mode in AChat.
 keywords: [dark mode chat, text size, reduce motion, keyboard shortcuts, Arabic RTL chat, AChat accessibility]
 last_update:
   date: 2026-11-27

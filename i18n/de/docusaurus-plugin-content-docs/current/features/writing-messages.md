@@ -57,7 +57,7 @@ Sieben Sticker gehören zu AChat, also wird nichts heruntergeladen. Ein Sticker,
 
 **Übersetze** eine Nachricht auf deinem Gerät. Für manche Sprachen lädt dein Browser zuerst ein Sprachpaket herunter, das auf dem Gerät bleibt. Wo Übersetzung nicht verfügbar ist, wird die Nachricht nirgendwohin gesendet.
 
-## Vorlesen
+## Vorlesen {#read-aloud}
 
 **Vorlesen** spielt eine Nachricht mit einer Stimme auf deinem Gerät ab. Ein Browser ohne Stimme auf dem Gerät bietet das nicht an. Es spielt auch in einem stummgeschalteten Chat.
 

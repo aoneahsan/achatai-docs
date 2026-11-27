@@ -57,7 +57,7 @@ Sete figurinhas vêm com o AChat, então nada é baixado. Uma figurinha que a su
 
 **Traduza** uma mensagem no seu aparelho. Para alguns idiomas, o navegador baixa antes um pacote de idioma, que fica no aparelho. Onde a tradução não está disponível, a mensagem não é enviada a lugar nenhum.
 
-## Ler em voz alta
+## Ler em voz alta {#read-aloud}
 
 **Ler em voz alta** toca uma mensagem com uma voz do seu aparelho. Um navegador sem voz no aparelho não oferece isso. Toca até numa conversa silenciada.
 

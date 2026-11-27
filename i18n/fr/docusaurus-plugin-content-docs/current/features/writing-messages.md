@@ -57,7 +57,7 @@ Sept stickers sont fournis avec AChat, donc rien n'est téléchargé. Un sticker
 
 **Traduis** un message sur ton appareil. Pour certaines langues, ton navigateur télécharge d'abord un pack de langue, qui reste sur l'appareil. Là où la traduction n'est pas disponible, le message n'est envoyé nulle part.
 
-## Lecture à voix haute
+## Lecture à voix haute {#read-aloud}
 
 **Lire à voix haute** fait entendre un message avec une voix de ton appareil. Un navigateur sans voix sur l'appareil ne le propose pas. La lecture fonctionne même dans une discussion coupée.
 

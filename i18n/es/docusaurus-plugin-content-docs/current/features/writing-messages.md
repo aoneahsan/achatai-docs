@@ -57,7 +57,7 @@ AChat incluye siete stickers, así que no se descarga nada. Un sticker que tu ve
 
 **Traduce** un mensaje en tu dispositivo. Para algunos idiomas, tu navegador descarga antes un paquete de idioma, que se queda en el dispositivo. Donde la traducción no está disponible, el mensaje no se envía a ningún sitio.
 
-## Leer en voz alta
+## Leer en voz alta {#read-aloud}
 
 **Leer en voz alta** reproduce un mensaje con una voz de tu dispositivo. Un navegador sin voz en el dispositivo no lo ofrece. Se reproduce incluso en un chat silenciado.
 
