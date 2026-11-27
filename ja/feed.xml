@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AChat ドキュメントの変更履歴</title>
+    <link>https://achat-docs.aoneahsan.com/feed</link>
+    <description>このドキュメントの変更履歴から作った AChat のリリース履歴です。正式な記録は achat.aoneahsan.com/feed のアプリ内リリースノートで、各変更の公開日が載っています。</description>
+    <language>en</language>
+    <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>11 の言語（2026-11-27）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#11-の言語2026-11-27</link>
+      <guid isPermaLink="false">achat-docs-changelog-11-の言語2026-11-27</guid>
+      <category>Changelog</category>
+      <description>6 つの言語を追加： 中国語、ヒンディー語、ポルトガル語（ブラジル）、ロシア語、日本語、ウルドゥー語が、英語、スペイン語、フランス語、ドイツ語、アラビア語に加わりました。アプリ、公開ページ、メール、このドキュメントが対象です。ウルドゥー語はナスタアリーク体で右から左に読みます。 公開ページはどれも言語ごとに自分のアドレスを持ちます（例：/ja/about）。選んだ言語は次に来たときも引き継がれます。 下書きサポート の 翻訳 は 11 の言語すべてに対応します。</description>
+    </item>
+    <item>
+      <title>ほかのアプリ、アシスタント、2 段階ログイン（2026-11-21）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#ほかのアプリアシスタント2-段階ログイン2026-11-21</link>
+      <guid isPermaLink="false">achat-docs-changelog-ほかのアプリアシスタント2-段階ログイン2026-11-21</guid>
+      <category>Changelog</category>
+      <description>AChat の外から自分のアカウントにアクセス： アクセスキー付きの API、Claude、ChatGPT、Claude Code、Cursor 向けの接続、署名付きの Webhook。すべて アカウント › ほかのアプリ にあります。プロフィール、設定、ステータス、ブロックリストは変更でき、連絡先、チャット、コミュニティは読み取りのみです。開発者向けの AChatをご覧ください。 エンドツーエンド暗号化されたチャットは対象外： 外部のアプリに見えるのはチャットの名前とメンバーだけで、メッセージは見えません。アシスタントによる削除は、AChat であなたが承認するまで待ちます。 2 段階ログイン： Google のあとに認証アプリのコード、10 個のリカバリーコード、任意の 7 日間のブラウザ記憶。2 段階ログインをご覧ください。</description>
+    </item>
+    <item>
+      <title>ホワイトラベルの支払いと買い取りのロイヤリティ（2026-11-14）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#ホワイトラベルの支払いと買い取りのロイヤリティ2026-11-14</link>
+      <guid isPermaLink="false">achat-docs-changelog-ホワイトラベルの支払いと買い取りのロイヤリティ2026-11-14</guid>
+      <category>Changelog</category>
+      <description>ライセンス、買い取り、更新は Wise での銀行振込で支払います。 AChat チームが振込を確認すると、ライセンスキーがメールで届きます。 買い取りにロイヤリティが付きました： AChat の総収益の 7% を、収益があるかぎり四半期ごとに収益報告とともに支払います。ホワイトラベルのよくある質問をご覧ください。</description>
+    </item>
+    <item>
+      <title>ホワイトラベルライセンスとソースの買い取り（2026-11-13）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#ホワイトラベルライセンスとソースの買い取り2026-11-13</link>
+      <guid isPermaLink="false">achat-docs-changelog-ホワイトラベルライセンスとソースの買い取り2026-11-13</guid>
+      <category>Changelog</category>
+      <description>AChat をあなたの名前で： AChat チームがあなたのドメインに、あなたの名前、ロゴ、色でホストします。ウェブと Android に対応し、iOS はご要望に応じて。ホワイトラベルとライセンスをご覧ください。 まるごと買い取ることも： ウェブアプリと Android アプリを作るすべてのリポジトリのソースコード。そのあと AChat は販売終了になります。 どのコピーのライセンスも キーかドメインで、ライセンスを確認から確かめられます。</description>
+    </item>
+    <item>
+      <title>メッセージと返信のアーカイブ（2026-10-30）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#メッセージと返信のアーカイブ2026-10-30</link>
+      <guid isPermaLink="false">achat-docs-changelog-メッセージと返信のアーカイブ2026-10-30</guid>
+      <category>Changelog</category>
+      <description>メニューから メッセージや返信をアーカイブ できます。自分のものはアーカイブを解除するまで全員から隠れ、ほかの人のものは自分にだけ隠れます。メインのメッセージはスレッドごとアーカイブされますが、あなたのメッセージへのほかの人の返信は「アーカイブされたメッセージ」の下に残ります。 複数のメッセージ、返信、チャットを 選択 して、まとめてアーカイブしたり解除したりできます。「アーカイブ」を押す前に、誰に見えなくなるかをバーが示します。 アーカイブしたチャット、アーカイブしたメッセージ、アーカイブした返信 にはそれぞれ専用の画面があります。アーカイブ自体に期限はなく、アーカイブを解除できるのはアーカイブした本人だけです。メッセージの管理をご覧ください。</description>
+    </item>
+    <item>
+      <title>作り直し（2026-10-03）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#作り直し2026-10-03</link>
+      <guid isPermaLink="false">achat-docs-changelog-作り直し2026-10-03</guid>
+      <category>Changelog</category>
+      <description>AChat はゼロから作り直され、2026-10-03 に achat.aoneahsan.com で公開されました。 個人チャットと連絡先： ユーザー名、招待リンク、QR コードで追加でき、メッセージリクエスト、ブロック、オンライン表示、既読があります。個人チャットとプライベートグループはエンドツーエンド暗号化されています。 リンクした端末と復元キー で、承認した各端末に履歴が届き、すべてなくしても取り戻せます。リンクを承認すると履歴も引き継がれます。 役割と招待リンクのある グループ（退出後も読み取りのみで読めます）、チャンネル、スレッド、成人向けの表示、通報、追放、モデレーション履歴のある コミュニティ。 連絡先に向けた ステータス、24 時間で消えます。 匿名ルーム は古いリンクも含めてそのまま使え、パスワード、保管ルーム、プライベートアーカイブがあります。パスワード付きのルームの以前のメッセージとファイルも読めます。 メッセージ： 編集、転送、ピン留め、締め切れる投票、チャットごとの消えるメッセージ、1 回だけ表示、自分だけ消去 / 全員から消去、チャットごとのゴミ箱。 書く： 下書き、ネタバレ隠し、数式、メンション、スタンプ、画像の貼り付け、ボイスメモ、音声入力、端末上での翻訳と読み上げ。 この端末でのプライバシー： プライバシー画面、目立たないタブ名、クリップボードの消去、このデバイスから消す。 端末と位置の記録、チャットごとに任意で、入る前に同意を求めます。 プラン： Free、Pro、Team / Family。AChat 自身の決済画面で支払い、紹介特典もあります。 カード払い（利用できる場合）：Polar のページで月額か年額のサブスクリプションを申し込み、アカウント の サブスクリプション で管理します。銀行振込も引き続き使えます。 5 つの言語： 英語、スペイン語、フランス語、ドイツ語、アラビア語。 管理パネル はチャットの詳細を表示しますがメッセージは決して表示せず、誰にも編集できない操作記録、ずっと保管の付与、管理者が決める検索の上限があります。 オフライン： 戻ったときに順番どおり送る送信トレイ。 検索 は端末上で、決まった数のチャットとメッセージを対象に行います。 含まれないもの：音声通話とビデオ通話。</description>
+    </item>
+    <item>
+      <title>スレッド削除の修正（2026-08-05）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#スレッド削除の修正2026-08-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-スレッド削除の修正2026-08-05</guid>
+      <category>Changelog</category>
+      <description>スレッドの返信を 1 つだけ削除するか、スレッドの始まりのメッセージを削除して、それとすべての返信をまとめてゴミ箱に移せます。</description>
+    </item>
+    <item>
+      <title>0.4.0：初の Google Play リリース（2026-07-24）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#040初の-google-play-リリース2026-07-24</link>
+      <guid isPermaLink="false">achat-docs-changelog-040初の-google-play-リリース2026-07-24</guid>
+      <category>Changelog</category>
+      <description>登録不要の匿名チャットを Android アプリとして。 長いチャットは新しいメッセージから読み込み、以前のメッセージを読み込む で遡れます。 分析とエラー報告は、チャット ID、メッセージ、パスワード、ファイルを一切受け取りません。 任意のアカウントメール、お問い合わせページ、オプトインのプッシュ通知。</description>
+    </item>
+    <item>
+      <title>0.3.0：管理、検索、ロック（2026-06）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#030管理検索ロック2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-030管理検索ロック2026-06</guid>
+      <category>Changelog</category>
+      <description>開いたことのあるチャットを端末上で検索。 チャットごとのゴミ箱、ログインした人向けのプライベートアーカイブ、転送。 開いているチャットにあとからパスワードを追加。以前のメッセージは送ったときのまま。 操作記録のある管理者の役割。</description>
+    </item>
+    <item>
+      <title>0.2.0：Play ストアの準備（2026-06）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#020play-ストアの準備2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-020play-ストアの準備2026-06</guid>
+      <category>Changelog</category>
+      <description>アプリ内でのアカウント削除と、プライバシー、利用規約、ストアの申告。</description>
+    </item>
+    <item>
+      <title>それ以前（2026-05）</title>
+      <link>https://achat-docs.aoneahsan.com/ja/changelog#それ以前2026-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-それ以前2026-05</guid>
+      <category>Changelog</category>
+      <description>スペース： スレッド、プライベートなグループチャット、公開コミュニティ、埋め込みウィジェット。 チャットを残す： 任意の Google ログインで、チャットを 10 日を過ぎても残せます。 入力欄とテーマ： リアクション、投票、ピン留め、コマンドパレット、メッセージの編集、メンション、書き出し、テーマのカスタマイズ。 最初のリリース： ID で入る匿名チャット、任意のパスワード暗号化、ファイルのアップロード、10 日後の自動削除。</description>
+    </item>
+  </channel>
+</rss>

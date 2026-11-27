@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AChat 文档更新日志</title>
+    <link>https://achat-docs.aoneahsan.com/feed</link>
+    <description>AChat 的版本历史，来自这份文档里的更新日志。以 achat.aoneahsan.com/feed 的应用内发布说明为准，那里写着每项改动上线的日期。</description>
+    <language>en</language>
+    <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>十一种语言（2026-11-27）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#十一种语言2026-11-27</link>
+      <guid isPermaLink="false">achat-docs-changelog-十一种语言2026-11-27</guid>
+      <category>Changelog</category>
+      <description>新增六种语言： 中文、印地语、葡萄牙语（巴西）、俄语、日语和乌尔都语，加入英语、西班牙语、法语、德语和阿拉伯语的行列，覆盖应用、公开页面、邮件和这份文档。乌尔都语以纳斯塔利克体从右往左排版。 每个公开页面在每种语言下都有自己的地址，比如 /ja/about，你选的语言下次访问时依然保留。 草稿助手 里的 翻译 支持全部十一种语言。</description>
+    </item>
+    <item>
+      <title>其他应用、助手和两步登录（2026-11-21）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#其他应用助手和两步登录2026-11-21</link>
+      <guid isPermaLink="false">achat-docs-changelog-其他应用助手和两步登录2026-11-21</guid>
+      <category>Changelog</category>
+      <description>从 AChat 之外访问你自己的账户： 带访问密钥的 API、供 Claude、ChatGPT、Claude Code 和 Cursor 使用的连接，以及签名的 Webhook，都在 账户 › 其他应用 下。你的资料、设置、动态和屏蔽名单可以更改；联系人、聊天和社区只读。见面向开发者的 AChat。 端到端加密的聊天不在其中： 外部应用只能看到聊天的名称和成员，看不到消息。助手的删除要等你在 AChat 上同意。 两步登录： Google 之后再输入身份验证器应用的验证码，十个恢复码，以及可选的 7 天记住浏览器。见两步登录。</description>
+    </item>
+    <item>
+      <title>白标付款和买断分成（2026-11-14）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#白标付款和买断分成2026-11-14</link>
+      <guid isPermaLink="false">achat-docs-changelog-白标付款和买断分成2026-11-14</guid>
+      <category>Changelog</category>
+      <description>许可、买断和续期通过 Wise 银行转账付款。 AChat 团队确认转账后，许可密钥会通过邮件发出。 买断现在附带分成： AChat 总收入的 7%，每季度附收入报表支付，只要它有收入就一直支付。见白标常见问题。</description>
+    </item>
+    <item>
+      <title>白标许可和源代码买断（2026-11-13）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#白标许可和源代码买断2026-11-13</link>
+      <guid isPermaLink="false">achat-docs-changelog-白标许可和源代码买断2026-11-13</guid>
+      <category>Changelog</category>
+      <description>以你自己的名义运行 AChat： AChat 团队把它托管在你的域名上，带上你的名称、标志和配色，覆盖网页和 Android，iOS 按需提供。见白标与授权。 或者直接买下来： 构建网页和 Android 应用的每个代码仓库的源代码，之后 AChat 停止出售。 在验证许可上，按密钥或域名检查任何副本的许可。</description>
+    </item>
+    <item>
+      <title>归档消息和回复（2026-10-30）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#归档消息和回复2026-10-30</link>
+      <guid isPermaLink="false">achat-docs-changelog-归档消息和回复2026-10-30</guid>
+      <category>Changelog</category>
+      <description>在菜单里 归档一条消息或回复。你自己的会对所有人隐藏，直到你取消归档；别人的只对你隐藏。主消息会带着它的话题一起归档，但别人对你消息的回复会留下，显示为“消息已归档”。 选择 多条消息、回复或聊天，然后一起归档或取消归档。在你按下“归档”之前，操作栏会说明谁将看不到它们。 已归档的聊天、已归档的消息 和 已归档的回复 各有自己的视图。归档本身不设到期时间，只有你能取消你归档的内容。见管理消息。</description>
+    </item>
+    <item>
+      <title>重建（2026-10-03）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#重建2026-10-03</link>
+      <guid isPermaLink="false">achat-docs-changelog-重建2026-10-03</guid>
+      <category>Changelog</category>
+      <description>AChat 从零开始重建，于 2026-10-03 在 achat.aoneahsan.com 上线。 私人聊天和联系人： 通过用户名、邀请链接或二维码添加联系人，带有消息请求、屏蔽、在线状态和已读回执。私人聊天和私密群组是端到端加密的。 已关联的设备和恢复密钥 会把你的历史带到你批准的每台设备上，设备全丢了也能找回。批准一次关联就会把历史带过去。 群组 有角色和邀请链接，离开后可以只读查看；社区 有频道、话题、成人标记、举报、封禁和管理记录。 给联系人看的 动态，24 小时后消失。 匿名房间 照常工作，旧链接也能打开，支持密码、保留房间和私密归档。带密码房间里较早的消息和文件仍然可读。 消息： 编辑、转发、置顶、可以关闭的投票、按聊天设置的阅后消失、阅后即焚、仅为我清空 / 为所有人清空，以及每个聊天的回收站。 写作： 草稿、剧透、数学公式、提及、贴纸、粘贴图片、语音消息、听写、设备上的翻译和朗读。 这台设备上的隐私： 隐私屏幕、中性的标签页标题、清空剪贴板，以及从这台设备清除。 设备和位置记录，按聊天选择开启，进入前先征得同意。 套餐： Free、Pro 和 Team / Family，在 AChat 自己的结账页面付款，另有推荐奖励。 银行卡付款（在可用时）：在 Polar 页面上按月或按年订阅，在 账户 的 你的订阅 里管理。银行转账依然可用。 五种语言： 英语、西班牙语、法语、德语和阿拉伯语。 管理面板 能显示聊天详情但从不显示消息，带有任何人都改不了的操作记录、永久保留授权，以及由管理员设定的搜索上限。 离线： 发件箱会在你回来后按顺序发送。 搜索 在你的设备上进行，覆盖一定数量的聊天和消息。 不包含：语音和视频通话。</description>
+    </item>
+    <item>
+      <title>话题删除修复（2026-08-05）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#话题删除修复2026-08-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-话题删除修复2026-08-05</guid>
+      <category>Changelog</category>
+      <description>可以单独删除话题里的一条回复，或删除话题开始的那条消息，把它和所有回复一起移到回收站。</description>
+    </item>
+    <item>
+      <title>0.4.0：首次在 Google Play 发布（2026-07-24）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#040首次在-google-play-发布2026-07-24</link>
+      <guid isPermaLink="false">achat-docs-changelog-040首次在-google-play-发布2026-07-24</guid>
+      <category>Changelog</category>
+      <description>免注册的匿名聊天，作为 Android 应用推出。 长聊天先加载最新的消息，可以 加载更早的消息。 分析和错误报告从不接收聊天 ID、消息、密码或文件。 可选的账户邮件、联系页面和按需开启的推送通知。</description>
+    </item>
+    <item>
+      <title>0.3.0：管理、搜索和加锁（2026-06）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#030管理搜索和加锁2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-030管理搜索和加锁2026-06</guid>
+      <category>Changelog</category>
+      <description>在设备上搜索你打开过的聊天。 每个聊天的回收站、给登录用户的私密归档，以及转发。 之后可以给开放聊天加密码；之前的消息保持发送时的样子。 带操作记录的管理员角色。</description>
+    </item>
+    <item>
+      <title>0.2.0：Play 商店准备（2026-06）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#020play-商店准备2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-020play-商店准备2026-06</guid>
+      <category>Changelog</category>
+      <description>应用内删除账户，以及隐私政策、条款和商店声明。</description>
+    </item>
+    <item>
+      <title>更早（2026-05）</title>
+      <link>https://achat-docs.aoneahsan.com/zh-Hans/changelog#更早2026-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-更早2026-05</guid>
+      <category>Changelog</category>
+      <description>空间： 话题、私密群聊、公开社区和可嵌入的小组件。 保留聊天： 可选的 Google 登录，让聊天保留超过 10 天。 输入框和主题： 表情回应、投票、置顶、命令面板、编辑消息、提及、导出和主题定制。 首次发布： 按 ID 进入的匿名聊天、可选的密码加密、文件上传和 10 天自动删除。</description>
+    </item>
+  </channel>
+</rss>

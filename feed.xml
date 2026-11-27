@@ -5,8 +5,16 @@
     <link>https://achat-docs.aoneahsan.com/feed</link>
     <description>AChat&apos;s release history, from the changelog in these docs. The in-app release notes at achat.aoneahsan.com/feed are the authority, with the date each change shipped.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 GMT</lastBuildDate>
     <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Eleven languages</title>
+      <link>https://achat-docs.aoneahsan.com/changelog#eleven-languages-2026-11-27</link>
+      <guid isPermaLink="false">achat-docs-changelog-eleven-languages-2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Six more languages: Chinese, Hindi, Portuguese (Brazil), Russian, Japanese and Urdu join English, Spanish, French, German and Arabic, in the app, its public pages, its emails and these docs. Urdu reads right to left in Nastaliq. Every public page has its own address in each language, such as /ja/about, and a choice of language carries over to the next visit. Translate in Draft help offers all eleven.</description>
+    </item>
     <item>
       <title>Other apps, assistants and two-step sign-in</title>
       <link>https://achat-docs.aoneahsan.com/changelog#other-apps-assistants-and-two-step-sign-in-2026-11-21</link>

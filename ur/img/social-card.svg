@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="t d">
+  <!-- Docs social preview card (themeConfig.image, docusaurus.config.ts). The editable master; social-card.png is its
+       1200x630 export: rsvg-convert -w 1200 -h 630 static/img/social-card.svg -o static/img/social-card.png
+       Same card as the app (achat/public/og-image.svg); the sentence is the app's approved about.meta.description. -->
+  <title id="t">AChat Docs</title>
+  <desc id="d">The AChat mark, two overlapping chat bubbles, beside the AChat Docs wordmark and the line: a messaging app for personal chats, groups, communities and anonymous rooms, on the web and Android.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0b1f"/>
+      <stop offset="1" stop-color="#1b1442"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b4ef0"/>
+      <stop offset="1" stop-color="#8b7bff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#5b4ef0" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#5b4ef0" stop-opacity="0"/>
+    </radialGradient>
+    <!-- The mark (public/achat-mark.svg), redrawn at 64-unit scale. -->
+    <linearGradient id="mark-bg" x1="6" y1="2" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b4ef0"/>
+      <stop offset="1" stop-color="#6c3fe0"/>
+    </linearGradient>
+    <radialGradient id="mark-hi" cx="16" cy="4" r="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="mark-gap" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#ffffff"/>
+      <g transform="rotate(-24 37 31)" fill="#000000" stroke="#000000" stroke-width="4.5" stroke-linejoin="round">
+        <ellipse cx="37" cy="31" rx="10.5" ry="14"/>
+        <path d="M42 40 43 51 33 43.5z"/>
+      </g>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <g transform="translate(842 150) scale(5)">
+    <path d="M32 2C7.7 2 2 7.7 2 32s5.7 30 30 30 30-5.7 30-30S56.3 2 32 2z" fill="url(#mark-bg)"/>
+    <path d="M32 2C7.7 2 2 7.7 2 32s5.7 30 30 30 30-5.7 30-30S56.3 2 32 2z" fill="url(#mark-hi)"/>
+    <g fill="#ffffff">
+      <g mask="url(#mark-gap)">
+        <g transform="rotate(24 27 31)">
+          <ellipse cx="27" cy="31" rx="10.5" ry="14"/>
+          <path d="M22 40 21 51 31 43.5z"/>
+        </g>
+      </g>
+      <g transform="rotate(-24 37 31)" opacity="0.84">
+        <ellipse cx="37" cy="31" rx="10.5" ry="14"/>
+        <path d="M42 40 43 51 33 43.5z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(80 250)" font-family="'Geist','DejaVu Sans','Segoe UI',Helvetica,Arial,sans-serif">
+    <text x="0" y="0" font-weight="800" font-size="168" fill="#ffffff" letter-spacing="-5">AChat<tspan font-weight="500" font-size="72" fill="#cdc6ff" dx="24">Docs</tspan></text>
+    <rect x="0" y="40" width="260" height="6" rx="3" fill="url(#accent)"/>
+    <g font-weight="500" font-size="36" fill="#cdc6ff">
+      <text x="0" y="118">A messaging app for personal chats,</text>
+      <text x="0" y="170">groups, communities and anonymous</text>
+      <text x="0" y="222">rooms, on the web and Android.</text>
+    </g>
+  </g>
+
+  <text x="80" y="566" font-family="'DejaVu Sans Mono',ui-monospace,Menlo,monospace" font-weight="500" font-size="22" fill="#8f88c4" letter-spacing="3">ACHAT-DOCS.AONEAHSAN.COM</text>
+</svg>

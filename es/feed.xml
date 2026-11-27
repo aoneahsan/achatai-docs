@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Registro de cambios de la documentación de AChat</title>
+    <link>https://achat-docs.aoneahsan.com/feed</link>
+    <description>El historial de versiones de AChat, a partir del registro de cambios de esta documentación. La referencia son las notas de versión dentro de la app en achat.aoneahsan.com/feed, con la fecha en que llegó cada cambio.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Once idiomas</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#once-idiomas-2026-11-27</link>
+      <guid isPermaLink="false">achat-docs-changelog-once-idiomas-2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Seis idiomas más: chino, hindi, portugués (Brasil), ruso, japonés y urdu se suman al inglés, español, francés, alemán y árabe, en la app, sus páginas públicas, sus correos y esta documentación. El urdu se lee de derecha a izquierda, en nastaliq. Cada página pública tiene su propia dirección en cada idioma, como /ja/about, y el idioma elegido se mantiene en la siguiente visita. Traducir en Ayuda con el borrador ofrece los once.</description>
+    </item>
+    <item>
+      <title>Otras apps, asistentes e inicio de sesión en dos pasos</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#otras-apps-asistentes-e-inicio-de-sesión-en-dos-pasos-2026-11-21</link>
+      <guid isPermaLink="false">achat-docs-changelog-otras-apps-asistentes-e-inicio-de-sesión-en-dos-pasos-2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Accede a tu propia cuenta desde fuera de AChat: una API con claves de acceso, una conexión para Claude, ChatGPT, Claude Code y Cursor, y webhooks firmados, todo en Cuenta › Otras apps. Tu perfil, tus ajustes, tus estados y tu lista de bloqueados se pueden cambiar; los contactos, los chats y las comunidades son de solo lectura. Consulta AChat para desarrolladores. Los chats con cifrado de extremo a extremo quedan fuera: las apps externas ven el nombre y los miembros de un chat, nunca sus mensajes. Un borrado hecho por un asistente espera tu sí en AChat. Inicio de sesión en dos pasos: un código de una app de autenticación después de Google, diez códigos de recuperación y la opción de recordar el navegador 7 días. Consulta Inicio de sesión en dos pasos.</description>
+    </item>
+    <item>
+      <title>Pagos de marca blanca y la regalía de la compra</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#pagos-de-marca-blanca-y-la-regalía-de-la-compra-2026-11-14</link>
+      <guid isPermaLink="false">achat-docs-changelog-pagos-de-marca-blanca-y-la-regalía-de-la-compra-2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Las licencias, compras y renovaciones se pagan por transferencia bancaria de Wise. El equipo de AChat confirma la transferencia y luego la clave de licencia llega por correo. La compra ahora lleva una regalía: el 7% de los ingresos brutos de AChat, pagado cada trimestre con un informe de ingresos, mientras genere ingresos. Consulta Preguntas sobre la marca blanca.</description>
+    </item>
+    <item>
+      <title>Licencias de marca blanca y compra del código</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#licencias-de-marca-blanca-y-compra-del-código-2026-11-13</link>
+      <guid isPermaLink="false">achat-docs-changelog-licencias-de-marca-blanca-y-compra-del-código-2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Usa AChat con tu propio nombre: el equipo de AChat lo aloja en tu dominio con tu nombre, logotipo y colores, en la web y en Android, con iOS bajo pedido. Consulta Marca blanca y licencias. O cómpralo de una vez: el código fuente de todos los repositorios que generan la app web y la de Android, tras lo cual AChat deja de venderse. Comprueba la licencia de cualquier copia por clave o por dominio en Verificar una licencia.</description>
+    </item>
+    <item>
+      <title>Archivar mensajes y respuestas</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#archivar-mensajes-y-respuestas-2026-10-30</link>
+      <guid isPermaLink="false">achat-docs-changelog-archivar-mensajes-y-respuestas-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Archiva un mensaje o una respuesta desde su menú. El tuyo queda oculto para todos hasta que lo desarchives; el de otra persona, solo para ti. Un mensaje principal se lleva su hilo, salvo las respuestas de otras personas a tu mensaje, que se quedan bajo «Mensaje archivado». Selecciona varios mensajes, respuestas o chats y archívalos o desarchívalos a la vez. La barra dice quién deja de verlos antes de que pulses «Archivar». Chats archivados, Mensajes archivados y Respuestas archivadas tienen cada uno su vista. Archivar no fija una caducidad propia, y solo tú puedes desarchivar lo que archivaste. Consulta Gestionar mensajes.</description>
+    </item>
+    <item>
+      <title>Reconstrucción</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#reconstrucción-2026-10-03</link>
+      <guid isPermaLink="false">achat-docs-changelog-reconstrucción-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>AChat se reconstruyó desde cero. Se puso en marcha en achat.aoneahsan.com el 2026-10-03. Chats personales y contactos: añade a gente por nombre de usuario, enlace de invitación o código QR, con solicitudes de mensaje, bloqueos, estado en línea y confirmaciones de lectura. Los chats personales y los grupos privados tienen cifrado de extremo a extremo. Dispositivos vinculados y una clave de recuperación llevan tu historial a cada dispositivo que apruebas, y te lo devuelven si los pierdes todos. Aprobar un vínculo trae el historial consigo. Grupos con roles y enlaces de invitación, que se pueden leer (solo lectura) después de salir; comunidades con canales, hilos, marca para adultos, denuncias, expulsiones y un historial de moderación. Estados para tus contactos, que desaparecen a las 24 horas. Las salas anónimas siguen funcionando, enlaces antiguos incluidos, con contraseñas, salas conservadas y un archivo privado. Los mensajes y archivos anteriores de las salas con contraseña siguen siendo legibles. Mensajes: editar, reenviar, fijar, encuestas que puedes cerrar, mensajes temporales por chat, ver una vez, Vaciar para mí / Vaciar para todos y una Papelera por chat. Escritura: borradores, spoilers, matemáticas, menciones, stickers, imágenes pegadas, notas de voz, dictado, traducción en el dispositivo y lectura en voz alta. Privacidad en este dispositivo: pantalla de privacidad, título de pestaña neutro, limpieza del portapapeles y Borrar de este dispositivo. Historial de dispositivo y ubicación, opcional por chat, con consentimiento antes de entrar. Planes: Free, Pro y Team / Family, pagados en el propio pago de AChat, más invitaciones. Pago con tarjeta, cuando está disponible: una suscripción mensual o anual hecha en la página de Polar, gestionada en Tu suscripción, dentro de Cuenta. La transferencia bancaria sigue disponible. Cinco idiomas: inglés, español, francés, alemán y árabe. Panel de admin que muestra los detalles de los chats pero nunca los mensajes, con un registro de acciones que nadie puede editar, concesiones de Conservar para siempre y límites de búsqueda fijados por el admin. Sin conexión: una bandeja de salida que envía en orden cuando vuelves. Búsqueda en tu dispositivo, sobre un número fijo de chats y mensajes. No incluido: llamadas de voz y vídeo.</description>
+    </item>
+    <item>
+      <title>Corrección del borrado en hilos</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#corrección-del-borrado-en-hilos-2026-08-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-corrección-del-borrado-en-hilos-2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Borra una respuesta de un hilo por sí sola, o borra el mensaje donde empieza un hilo para mandarlo a la Papelera junto con todas sus respuestas.</description>
+    </item>
+    <item>
+      <title>0.4.0: primera versión en Google Play</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#040-primera-versión-en-google-play-2026-07-24</link>
+      <guid isPermaLink="false">achat-docs-changelog-040-primera-versión-en-google-play-2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>El chat anónimo sin registro como app de Android. Los chats largos cargan primero los mensajes más nuevos, con Cargar anteriores. Analíticas e informes de errores que nunca reciben IDs de chat, mensajes, contraseñas ni archivos. Correos de cuenta opcionales, una página de contacto y notificaciones push si las activas.</description>
+    </item>
+    <item>
+      <title>0.3.0: gestionar, buscar y bloquear (2026-06)</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#030-gestionar-buscar-y-bloquear-2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-030-gestionar-buscar-y-bloquear-2026-06</guid>
+      <category>Changelog</category>
+      <description>Búsqueda en el dispositivo en los chats que habías abierto. Una Papelera por chat, un archivo privado para quienes iniciaban sesión y reenvío. Añadir más tarde una contraseña a un chat abierto; los mensajes anteriores se quedaban como se enviaron. Un rol de administrador con registro de acciones.</description>
+    </item>
+    <item>
+      <title>0.2.0: preparación para Play Store (2026-06)</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#020-preparación-para-play-store-2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-020-preparación-para-play-store-2026-06</guid>
+      <category>Changelog</category>
+      <description>Eliminación de la cuenta en la app, además de privacidad, términos y declaraciones de la tienda.</description>
+    </item>
+    <item>
+      <title>Antes (2026-05)</title>
+      <link>https://achat-docs.aoneahsan.com/es/changelog#antes-2026-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-antes-2026-05</guid>
+      <category>Changelog</category>
+      <description>Espacios: hilos, chats de grupo privados, comunidades públicas y el widget para insertar. Conservar chats: inicio de sesión opcional con Google para conservar un chat más allá de sus 10 días. Editor y temas: reacciones, encuestas, fijados, paleta de comandos, edición de mensajes, menciones, exportación y el personalizador de tema. Primera versión: chats anónimos por ID, cifrado opcional con contraseña, subida de archivos y borrado automático a los 10 días.</description>
+    </item>
+  </channel>
+</rss>

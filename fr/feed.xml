@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal des modifications de la documentation AChat</title>
+    <link>https://achat-docs.aoneahsan.com/feed</link>
+    <description>L&apos;historique des versions d&apos;AChat, tiré du journal des modifications de cette documentation. La référence, ce sont les notes de version dans l&apos;app sur achat.aoneahsan.com/feed, avec la date de chaque changement.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 27 Nov 2026 12:00:00 GMT</lastBuildDate>
+    <atom:link href="https://achat-docs.aoneahsan.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Onze langues</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#onze-langues-2026-11-27</link>
+      <guid isPermaLink="false">achat-docs-changelog-onze-langues-2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Six langues de plus : le chinois, l&apos;hindi, le portugais (Brésil), le russe, le japonais et l&apos;ourdou rejoignent l&apos;anglais, l&apos;espagnol, le français, l&apos;allemand et l&apos;arabe, dans l&apos;app, ses pages publiques, ses e-mails et cette documentation. L&apos;ourdou se lit de droite à gauche, en nastaliq. Chaque page publique a sa propre adresse dans chaque langue, comme /ja/about, et la langue choisie est gardée pour la visite suivante. Traduire dans l&apos;Aide à la rédaction propose les onze.</description>
+    </item>
+    <item>
+      <title>Autres apps, assistants et connexion en deux étapes</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#autres-apps-assistants-et-connexion-en-deux-étapes-2026-11-21</link>
+      <guid isPermaLink="false">achat-docs-changelog-autres-apps-assistants-et-connexion-en-deux-étapes-2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Accède à ton propre compte depuis l&apos;extérieur d&apos;AChat : une API avec des clés d&apos;accès, une connexion pour Claude, ChatGPT, Claude Code et Cursor, et des webhooks signés, le tout dans Compte › Autres apps. Ton profil, tes réglages, tes statuts et ta liste de blocage peuvent être modifiés ; les contacts, les discussions et les communautés sont en lecture seule. Voir AChat pour les développeurs. Les discussions chiffrées de bout en bout restent à l&apos;écart : les apps extérieures voient le nom et les membres d&apos;une discussion, jamais ses messages. Une suppression demandée par un assistant attend ton accord sur AChat. Connexion en deux étapes : un code d&apos;une app d&apos;authentification après Google, dix codes de secours et la possibilité de mémoriser le navigateur 7 jours. Voir Connexion en deux étapes.</description>
+    </item>
+    <item>
+      <title>Paiements en marque blanche et redevance du rachat</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#paiements-en-marque-blanche-et-redevance-du-rachat-2026-11-14</link>
+      <guid isPermaLink="false">achat-docs-changelog-paiements-en-marque-blanche-et-redevance-du-rachat-2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Les licences, rachats et renouvellements se paient par virement bancaire Wise. L&apos;équipe AChat confirme le virement, puis la clé de licence arrive par e-mail. Un rachat comporte désormais une redevance : 7 % du chiffre d&apos;affaires brut d&apos;AChat, payée chaque trimestre avec un relevé, tant qu&apos;il génère des revenus. Voir Questions sur la marque blanche.</description>
+    </item>
+    <item>
+      <title>Licences en marque blanche et rachat du code</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#licences-en-marque-blanche-et-rachat-du-code-2026-11-13</link>
+      <guid isPermaLink="false">achat-docs-changelog-licences-en-marque-blanche-et-rachat-du-code-2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Fais tourner AChat sous ton propre nom : l&apos;équipe AChat l&apos;héberge sur ton domaine avec ton nom, ton logo et tes couleurs, sur le web et Android, avec iOS sur demande. Voir Marque blanche et licences. Ou rachète-le : le code source de tous les dépôts qui produisent l&apos;app web et l&apos;app Android, après quoi AChat est retiré de la vente. Vérifie la licence de n&apos;importe quelle copie par clé ou par domaine sur Vérifier une licence.</description>
+    </item>
+    <item>
+      <title>Archiver des messages et des réponses</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#archiver-des-messages-et-des-réponses-2026-10-30</link>
+      <guid isPermaLink="false">achat-docs-changelog-archiver-des-messages-et-des-réponses-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Archive un message ou une réponse depuis son menu. Le tien est masqué pour tout le monde jusqu&apos;à ce que tu le désarchives ; celui de quelqu&apos;un d&apos;autre n&apos;est masqué que pour toi. Un message principal emporte son fil, sauf les réponses des autres à ton message, qui restent sous « Message archivé ». Sélectionne plusieurs messages, réponses ou discussions, puis archive-les ou désarchive-les ensemble. La barre indique qui cesse de les voir avant que tu n&apos;appuies sur « Archiver ». Discussions archivées, Messages archivés et Réponses archivées ont chacun leur vue. L&apos;archivage n&apos;impose aucune échéance, et toi seul peux désarchiver ce que tu as archivé. Voir Gérer les messages.</description>
+    </item>
+    <item>
+      <title>Refonte</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#refonte-2026-10-03</link>
+      <guid isPermaLink="false">achat-docs-changelog-refonte-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>AChat a été reconstruit de zéro. Il est en ligne sur achat.aoneahsan.com depuis le 2026-10-03. Discussions personnelles et contacts : ajoute des gens par nom d&apos;utilisateur, lien d&apos;invitation ou QR code, avec demandes de message, blocages, statut en ligne et accusés de lecture. Les discussions personnelles et les groupes privés sont chiffrés de bout en bout. Appareils associés et clé de récupération apportent ton historique sur chaque appareil que tu approuves, et le ramènent si tu les perds tous. Approuver une association transfère l&apos;historique. Groupes avec rôles et liens d&apos;invitation, lisibles (en lecture seule) après ton départ ; communautés avec canaux, fils, marquage pour adultes, signalements, bannissements et historique de modération. Statuts pour tes contacts, effacés au bout de 24 heures. Les salons anonymes fonctionnent toujours, anciens liens compris, avec mots de passe, salons conservés et archive privée. Les messages et fichiers antérieurs des salons avec mot de passe restent lisibles. Messages : modifier, transférer, épingler, sondages qu&apos;on peut clôturer, messages éphémères par discussion, vue unique, Effacer pour moi / Effacer pour tous, et une Corbeille par discussion. Écriture : brouillons, spoilers, maths, mentions, stickers, images collées, notes vocales, dictée, traduction sur l&apos;appareil et lecture à voix haute. Confidentialité sur cet appareil : écran de confidentialité, titre d&apos;onglet neutre, effacement du presse-papiers et Effacer de cet appareil. Historique d&apos;appareil et de position, au choix par discussion, avec consentement avant d&apos;entrer. Forfaits : Free, Pro et Team / Family, payés dans le propre paiement d&apos;AChat, plus le parrainage. Paiement par carte, quand il est disponible : un abonnement mensuel ou annuel souscrit sur la page de Polar, géré dans Ton abonnement, dans Compte. Le virement bancaire reste possible. Cinq langues : anglais, espagnol, français, allemand et arabe. Panneau d&apos;admin qui montre les détails des discussions mais jamais les messages, avec un journal d&apos;actions que personne ne peut modifier, des autorisations Conserver pour toujours et des limites de recherche fixées par l&apos;admin. Hors ligne : une boîte d&apos;envoi qui expédie dans l&apos;ordre à ton retour. Recherche sur ton appareil, sur un nombre défini de discussions et de messages. Non inclus : appels vocaux et vidéo.</description>
+    </item>
+    <item>
+      <title>Correction de la suppression dans les fils</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#correction-de-la-suppression-dans-les-fils-2026-08-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-correction-de-la-suppression-dans-les-fils-2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>Supprime une seule réponse d&apos;un fil, ou supprime le message d&apos;où part un fil pour l&apos;envoyer à la Corbeille avec toutes ses réponses.</description>
+    </item>
+    <item>
+      <title>0.4.0 : première version sur Google Play</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#040--première-version-sur-google-play-2026-07-24</link>
+      <guid isPermaLink="false">achat-docs-changelog-040--première-version-sur-google-play-2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 12:00:00 GMT</pubDate>
+      <category>Changelog</category>
+      <description>La discussion anonyme sans inscription, en app Android. Les longues discussions chargent d&apos;abord les messages les plus récents, avec Charger les précédents. Des statistiques et des rapports d&apos;erreur qui ne reçoivent jamais d&apos;identifiants de discussion, de messages, de mots de passe ni de fichiers. Des e-mails de compte facultatifs, une page de contact et des notifications push à activer soi-même.</description>
+    </item>
+    <item>
+      <title>0.3.0 : gérer, chercher et verrouiller (2026-06)</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#030--gérer-chercher-et-verrouiller-2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-030--gérer-chercher-et-verrouiller-2026-06</guid>
+      <category>Changelog</category>
+      <description>Recherche sur l&apos;appareil dans les discussions que tu avais ouvertes. Une Corbeille par discussion, une archive privée pour les personnes connectées et le transfert. Ajout ultérieur d&apos;un mot de passe à une discussion ouverte ; les messages antérieurs restaient tels qu&apos;envoyés. Un rôle d&apos;administrateur avec journal d&apos;actions.</description>
+    </item>
+    <item>
+      <title>0.2.0 : préparation pour le Play Store (2026-06)</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#020--préparation-pour-le-play-store-2026-06</link>
+      <guid isPermaLink="false">achat-docs-changelog-020--préparation-pour-le-play-store-2026-06</guid>
+      <category>Changelog</category>
+      <description>Suppression du compte dans l&apos;app, plus confidentialité, conditions et déclarations pour la boutique.</description>
+    </item>
+    <item>
+      <title>Avant (2026-05)</title>
+      <link>https://achat-docs.aoneahsan.com/fr/changelog#avant-2026-05</link>
+      <guid isPermaLink="false">achat-docs-changelog-avant-2026-05</guid>
+      <category>Changelog</category>
+      <description>Espaces : fils, discussions de groupe privées, communautés publiques et widget intégrable. Garder ses discussions : connexion Google facultative pour garder une discussion au-delà de ses 10 jours. Zone de saisie et thèmes : réactions, sondages, épingles, palette de commandes, modification des messages, mentions, export et personnalisation du thème. Première version : discussions anonymes par identifiant, chiffrement facultatif par mot de passe, envoi de fichiers et suppression automatique au bout de 10 jours.</description>
+    </item>
+  </channel>
+</rss>
